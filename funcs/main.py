@@ -204,7 +204,7 @@ ax3.bar(elapsed_dt_vec_minutes,
         width=1,
         color='black')
 
-ax2.set_yticks([0, 1, 2])
+ax2.set_yticks([0, 0.5, 1, 1.5])
 ax2.set_ylim([0,4])
 ax3.set_ylim([0,350])
 ax3.set_yticks([0, 50, 100, 150])

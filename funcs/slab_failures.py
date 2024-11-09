@@ -703,7 +703,7 @@ class SlabFailures(Component):
         landslide_depo_bedrock[deposition_indices] += dzdt_bedrock_sediment[deposition_indices]
 
         # Update topography (bedrock and soil depth)
-        bed[erosion_bedrock_indices] += dzdt_bedrock_sediment[erosion_bedrock_indices] * (1-self._phi)
+        bed[erosion_bedrock_indices] += dzdt_bedrock_sediment[erosion_bedrock_indices] 
         soil +=  dzdt_soil_sediment
         soil[deposition_indices] +=  dzdt_bedrock_sediment[deposition_indices]
         soil[soil<=0]=0
