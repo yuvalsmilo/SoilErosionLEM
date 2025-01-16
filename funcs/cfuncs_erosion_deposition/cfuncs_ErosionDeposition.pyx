@@ -180,7 +180,7 @@ def calc_CQ(
 
 def calc_flux_at_link_per_size(
         cnp.ndarray[DTYPE_FLOAT_t, ndim=1] q_water_at_link,
-        cnp.ndarray[DTYPE_FLOAT_t, ndim=2] suspended__sediments_concentration_at_link,
+        cnp.ndarray[DTYPE_FLOAT_t, ndim=2] sediment_load_concentration_at_link,
         cnp.ndarray[DTYPE_INT_t, ndim=1] active_links,
         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] weight_flux_at_link,
         shape
@@ -194,7 +194,7 @@ def calc_flux_at_link_per_size(
             link = active_links[index]
 
             for gs in range(n_gs):
-                weight_flux_at_link[link, gs] = q_water_at_link[link] * suspended__sediments_concentration_at_link[link, gs]
+                weight_flux_at_link[link, gs] = q_water_at_link[link] * sediment_load_concentration_at_link[link, gs]
 
         return weight_flux_at_link
 
@@ -269,10 +269,10 @@ def calc_detached_deposited(
     cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] grain_fractions_at_node,
     cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] deatched_soil_weight,
     cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] deatched_bedrock_weight,
-    cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] suspended_fraction_at_node,
+    cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] sediment_load_fraction_at_node,
     cnp.ndarray[DTYPE_FLOAT_t, ndim = 1] bedrock_grain_fractions,
-    cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] temp_suspended_sediment_weight_at_node_per_size,
-    cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] deposited_suspended_sediments_weights_at_node,
+    cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] temp_sediment_load_weight_at_node_per_size,
+    cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] deposited_sediment_load_weights_at_node,
     cnp.ndarray[DTYPE_FLOAT_t, ndim = 1] total_deposited_sediments_dz_at_node,
     cnp.ndarray[DTYPE_FLOAT_t, ndim = 1] entrainment_soil_rate_dz,
     cnp.ndarray[DTYPE_FLOAT_t, ndim = 1] entrainment_bedrock_rate_dz,
@@ -323,17 +323,17 @@ def calc_detached_deposited(
                 deatched_bedrock_weight[node, gs] = deatched_bedrock_weight_at_node * bedrock_grain_fractions[gs]
                 summed_detached_bedrock_weight_at_node = summed_detached_bedrock_weight_at_node + deatched_bedrock_weight_at_node
 
-                ## add to suspended
-                temp_suspended_sediment_weight_at_node_per_size[node, gs] += detached_soil_weight_at_node + deatched_bedrock_weight_at_node
+                ## add to load
+                temp_sediment_load_weight_at_node_per_size[node, gs] += detached_soil_weight_at_node + deatched_bedrock_weight_at_node
 
             if dr_node_per_gs < 0:
                 dr_node_per_gs = DR_abs[node, gs]
-                deposited_weight = dr_node_per_gs * dx * dx * suspended_fraction_at_node[node, gs]
+                deposited_weight = dr_node_per_gs * dx * dx * sediment_load_fraction_at_node[node, gs]
 
-                if deposited_weight > temp_suspended_sediment_weight_at_node_per_size[node, gs]:
-                    deposited_weight = temp_suspended_sediment_weight_at_node_per_size[node, gs]
+                if deposited_weight > temp_sediment_load_weight_at_node_per_size[node, gs]:
+                    deposited_weight = temp_sediment_load_weight_at_node_per_size[node, gs]
 
-                deposited_suspended_sediments_weights_at_node[node, gs] = deposited_weight
+                deposited_sediment_load_weights_at_node[node, gs] = deposited_weight
                 summed_deposited_at_node  = summed_deposited_at_node + deposited_weight
 
         entrainment_soil_rate_dz[node] = summed_detached_soil_weight_at_node / factor_convert_weight_to_dz
@@ -346,7 +346,7 @@ def calc_detached_deposited(
             deatched_bedrock_weight,
             entrainment_soil_rate_dz,
             entrainment_bedrock_rate_dz,
-            deposited_suspended_sediments_weights_at_node,
+            deposited_sediment_load_weights_at_node,
             total_deposited_sediments_dz_at_node)
 
 

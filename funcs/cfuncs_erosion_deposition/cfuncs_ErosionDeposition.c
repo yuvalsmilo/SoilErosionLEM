@@ -3849,7 +3849,6 @@ static const char __pyx_k_summed_deposited_at_node[] = "summed_deposited_at_node
 static const char __pyx_k_Dimension_d_is_not_direct[] = "Dimension %d is not direct";
 static const char __pyx_k_Index_out_of_bounds_axis_d[] = "Index out of bounds (axis %d)";
 static const char __pyx_k_calc_flux_at_link_per_size[] = "calc_flux_at_link_per_size";
-static const char __pyx_k_suspended_fraction_at_node[] = "suspended_fraction_at_node";
 static const char __pyx_k_water_surface_grad_at_link[] = "water_surface_grad_at_link";
 static const char __pyx_k_No_matching_signature_found[] = "No matching signature found";
 static const char __pyx_k_Step_may_not_be_zero_axis_d[] = "Step may not be zero (axis %d)";
@@ -3860,8 +3859,10 @@ static const char __pyx_k_cfuncs_ErosionDeposition_pyx[] = "cfuncs_ErosionDeposi
 static const char __pyx_k_detached_soil_weight_at_node[] = "detached_soil_weight_at_node";
 static const char __pyx_k_factor_convert_weight_to_dz_c[] = "factor_convert_weight_to_dz_c";
 static const char __pyx_k_unable_to_allocate_array_data[] = "unable to allocate array data.";
+static const char __pyx_k_sediment_load_fraction_at_node[] = "sediment_load_fraction_at_node";
 static const char __pyx_k_strided_and_direct_or_indirect[] = "<strided and direct or indirect>";
 static const char __pyx_k_deatched_bedrock_weight_at_node[] = "deatched_bedrock_weight_at_node";
+static const char __pyx_k_deposited_sediment_load_weights[] = "deposited_sediment_load_weights_at_node";
 static const char __pyx_k_numpy_core_multiarray_failed_to[] = "numpy.core.multiarray failed to import";
 static const char __pyx_k_total_deposited_sediments_dz_at[] = "total_deposited_sediments_dz_at_node";
 static const char __pyx_k_All_dimensions_preceding_dimensi[] = "All dimensions preceding dimension %d must be indexed and not sliced";
@@ -3878,15 +3879,14 @@ static const char __pyx_k_Indirect_dimensions_not_supporte[] = "Indirect dimensi
 static const char __pyx_k_Invalid_mode_expected_c_or_fortr[] = "Invalid mode, expected 'c' or 'fortran', got ";
 static const char __pyx_k_Out_of_bounds_on_buffer_access_a[] = "Out of bounds on buffer access (axis ";
 static const char __pyx_k_Unable_to_convert_item_to_object[] = "Unable to convert item to object";
-static const char __pyx_k_deposited_suspended_sediments_we[] = "deposited_suspended_sediments_weights_at_node";
 static const char __pyx_k_factor_convert_weight_to_dz_bedr[] = "factor_convert_weight_to_dz_bedrock_c";
 static const char __pyx_k_got_differing_extents_in_dimensi[] = "got differing extents in dimension ";
 static const char __pyx_k_no_default___reduce___due_to_non[] = "no default __reduce__ due to non-trivial __cinit__";
 static const char __pyx_k_numpy_core_umath_failed_to_impor[] = "numpy.core.umath failed to import";
+static const char __pyx_k_sediment_load_concentration_at_l[] = "sediment_load_concentration_at_link";
 static const char __pyx_k_summed_detached_bedrock_weight_a[] = "summed_detached_bedrock_weight_at_node";
 static const char __pyx_k_summed_detached_soil_weight_at_n[] = "summed_detached_soil_weight_at_node";
-static const char __pyx_k_suspended__sediments_concentrati[] = "suspended__sediments_concentration_at_link";
-static const char __pyx_k_temp_suspended_sediment_weight_a[] = "temp_suspended_sediment_weight_at_node_per_size";
+static const char __pyx_k_temp_sediment_load_weight_at_nod[] = "temp_sediment_load_weight_at_node_per_size";
 static const char __pyx_k_unable_to_allocate_shape_and_str[] = "unable to allocate shape and strides.";
 static const char __pyx_k_factor_convert_weight_to_dz_bedr_2[] = "factor_convert_weight_to_dz_bedrock";
 /* #### Code section: decls ### */
@@ -3943,10 +3943,10 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_36calc_flux_at_link(CYTHON_
 static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_38calc_flux_at_link(CYTHON_UNUSED PyObject *__pyx_self, double __pyx_v_dx, double __pyx_v_sigma, double __pyx_v_phi, __Pyx_memviewslice __pyx_v_weight_flux_at_link, __Pyx_memviewslice __pyx_v_water_surface_grad_at_link, __Pyx_memviewslice __pyx_v_sediments_flux_at_link, PyObject *__pyx_v_shape); /* proto */
 static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_8get_outin_fluxes(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_upwind_node_at_link, PyArrayObject *__pyx_v_downwind_node_at_link, PyArrayObject *__pyx_v_weight_flux_at_link, PyArrayObject *__pyx_v_link_list, PyArrayObject *__pyx_v_outlinks_fluxes_at_node, PyArrayObject *__pyx_v_inlinks_fluxes_at_node, PyArrayObject *__pyx_v_total_outflux_at_node, PyArrayObject *__pyx_v_total_influx_at_node, PyObject *__pyx_v_shape); /* proto */
 static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_10calc_CQ(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_c_kg, PyArrayObject *__pyx_v_CQ, PyArrayObject *__pyx_v_q, PyArrayObject *__pyx_v_core_nodes, PyObject *__pyx_v_shape, PyObject *__pyx_v_grid_dx); /* proto */
-static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_size(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_q_water_at_link, PyArrayObject *__pyx_v_suspended__sediments_concentration_at_link, PyArrayObject *__pyx_v_active_links, PyArrayObject *__pyx_v_weight_flux_at_link, PyObject *__pyx_v_shape); /* proto */
+static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_size(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_q_water_at_link, PyArrayObject *__pyx_v_sediment_load_concentration_at_link, PyArrayObject *__pyx_v_active_links, PyArrayObject *__pyx_v_weight_flux_at_link, PyObject *__pyx_v_shape); /* proto */
 static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_14calc_DR(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_flow_width, PyArrayObject *__pyx_v_CQ, PyArrayObject *__pyx_v_TC, PyArrayObject *__pyx_v_Dc, PyArrayObject *__pyx_v_vs, PyArrayObject *__pyx_v_active_nodes, PyArrayObject *__pyx_v_q_at_node, PyArrayObject *__pyx_v_out, PyObject *__pyx_v_dx_c, PyObject *__pyx_v_shape); /* proto */
 static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_16calc_Dc(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_tau_s, PyArrayObject *__pyx_v_tau_c, PyArrayObject *__pyx_v_core_nodes, PyArrayObject *__pyx_v_out, PyObject *__pyx_v_kr_c, PyObject *__pyx_v_shape); /* proto */
-static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_DR, PyArrayObject *__pyx_v_DR_abs, PyArrayObject *__pyx_v_grain_weight_at_node, PyArrayObject *__pyx_v_grain_fractions_at_node, PyArrayObject *__pyx_v_deatched_soil_weight, PyArrayObject *__pyx_v_deatched_bedrock_weight, PyArrayObject *__pyx_v_suspended_fraction_at_node, PyArrayObject *__pyx_v_bedrock_grain_fractions, PyArrayObject *__pyx_v_temp_suspended_sediment_weight_at_node_per_size, PyArrayObject *__pyx_v_deposited_suspended_sediments_weights_at_node, PyArrayObject *__pyx_v_total_deposited_sediments_dz_at_node, PyArrayObject *__pyx_v_entrainment_soil_rate_dz, PyArrayObject *__pyx_v_entrainment_bedrock_rate_dz, PyArrayObject *__pyx_v_soil_e_expo, PyArrayObject *__pyx_v_core_nodes, PyObject *__pyx_v_factor_convert_weight_to_dz_c, PyObject *__pyx_v_factor_convert_weight_to_dz_bedrock_c, PyObject *__pyx_v_shape, PyObject *__pyx_v_dx_c); /* proto */
+static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_DR, PyArrayObject *__pyx_v_DR_abs, PyArrayObject *__pyx_v_grain_weight_at_node, PyArrayObject *__pyx_v_grain_fractions_at_node, PyArrayObject *__pyx_v_deatched_soil_weight, PyArrayObject *__pyx_v_deatched_bedrock_weight, PyArrayObject *__pyx_v_sediment_load_fraction_at_node, PyArrayObject *__pyx_v_bedrock_grain_fractions, PyArrayObject *__pyx_v_temp_sediment_load_weight_at_node_per_size, PyArrayObject *__pyx_v_deposited_sediment_load_weights_at_node, PyArrayObject *__pyx_v_total_deposited_sediments_dz_at_node, PyArrayObject *__pyx_v_entrainment_soil_rate_dz, PyArrayObject *__pyx_v_entrainment_bedrock_rate_dz, PyArrayObject *__pyx_v_soil_e_expo, PyArrayObject *__pyx_v_core_nodes, PyObject *__pyx_v_factor_convert_weight_to_dz_c, PyObject *__pyx_v_factor_convert_weight_to_dz_bedrock_c, PyObject *__pyx_v_shape, PyObject *__pyx_v_dx_c); /* proto */
 static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_TC(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults, PyObject *__pyx_v__fused_sigindex); /* proto */
 static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_42calc_TC(CYTHON_UNUSED PyObject *__pyx_self, double __pyx_v_alpha, double __pyx_v_beta, __Pyx_memviewslice __pyx_v_median_sizes, __Pyx_memviewslice __pyx_v_fraction_sizes, __Pyx_memviewslice __pyx_v_tau_s, __Pyx_memviewslice __pyx_v_TC, PyObject *__pyx_v_sg_c, PyObject *__pyx_v_rho_c, PyArrayObject *__pyx_v_core_nodes, PyObject *__pyx_v_const_sg_g_rho, PyObject *__pyx_v_shape); /* proto */
 static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_44calc_TC(CYTHON_UNUSED PyObject *__pyx_self, double __pyx_v_alpha, double __pyx_v_beta, __Pyx_memviewslice __pyx_v_median_sizes, __Pyx_memviewslice __pyx_v_fraction_sizes, __Pyx_memviewslice __pyx_v_tau_s, __Pyx_memviewslice __pyx_v_TC, PyObject *__pyx_v_sg_c, PyObject *__pyx_v_rho_c, PyArrayObject *__pyx_v_core_nodes, PyObject *__pyx_v_const_sg_g_rho, PyObject *__pyx_v_shape); /* proto */
@@ -4215,7 +4215,7 @@ typedef struct {
   PyObject *__pyx_n_s_deatched_bedrock_weight_at_node;
   PyObject *__pyx_n_s_deatched_soil_weight;
   PyObject *__pyx_n_s_defaults;
-  PyObject *__pyx_n_s_deposited_suspended_sediments_we;
+  PyObject *__pyx_n_s_deposited_sediment_load_weights;
   PyObject *__pyx_n_s_deposited_weight;
   PyObject *__pyx_n_s_detached_soil_weight_at_node;
   PyObject *__pyx_n_s_dict;
@@ -4331,6 +4331,8 @@ typedef struct {
   PyObject *__pyx_n_s_rho_c;
   PyObject *__pyx_n_s_row;
   PyObject *__pyx_n_s_s;
+  PyObject *__pyx_n_s_sediment_load_concentration_at_l;
+  PyObject *__pyx_n_s_sediment_load_fraction_at_node;
   PyObject *__pyx_n_s_sediments_flux_at_link;
   PyObject *__pyx_n_s_setstate;
   PyObject *__pyx_n_s_setstate_cython;
@@ -4357,12 +4359,10 @@ typedef struct {
   PyObject *__pyx_n_s_summed_deposited_at_node;
   PyObject *__pyx_n_s_summed_detached_bedrock_weight_a;
   PyObject *__pyx_n_s_summed_detached_soil_weight_at_n;
-  PyObject *__pyx_n_s_suspended__sediments_concentrati;
-  PyObject *__pyx_n_s_suspended_fraction_at_node;
   PyObject *__pyx_n_s_sys;
   PyObject *__pyx_n_s_tau_c;
   PyObject *__pyx_n_s_tau_s;
-  PyObject *__pyx_n_s_temp_suspended_sediment_weight_a;
+  PyObject *__pyx_n_s_temp_sediment_load_weight_at_nod;
   PyObject *__pyx_n_s_test;
   PyObject *__pyx_n_s_total_deposited_sediments_dz_at;
   PyObject *__pyx_n_s_total_influx_at_node;
@@ -4602,7 +4602,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_deatched_bedrock_weight_at_node);
   Py_CLEAR(clear_module_state->__pyx_n_s_deatched_soil_weight);
   Py_CLEAR(clear_module_state->__pyx_n_s_defaults);
-  Py_CLEAR(clear_module_state->__pyx_n_s_deposited_suspended_sediments_we);
+  Py_CLEAR(clear_module_state->__pyx_n_s_deposited_sediment_load_weights);
   Py_CLEAR(clear_module_state->__pyx_n_s_deposited_weight);
   Py_CLEAR(clear_module_state->__pyx_n_s_detached_soil_weight_at_node);
   Py_CLEAR(clear_module_state->__pyx_n_s_dict);
@@ -4718,6 +4718,8 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_rho_c);
   Py_CLEAR(clear_module_state->__pyx_n_s_row);
   Py_CLEAR(clear_module_state->__pyx_n_s_s);
+  Py_CLEAR(clear_module_state->__pyx_n_s_sediment_load_concentration_at_l);
+  Py_CLEAR(clear_module_state->__pyx_n_s_sediment_load_fraction_at_node);
   Py_CLEAR(clear_module_state->__pyx_n_s_sediments_flux_at_link);
   Py_CLEAR(clear_module_state->__pyx_n_s_setstate);
   Py_CLEAR(clear_module_state->__pyx_n_s_setstate_cython);
@@ -4744,12 +4746,10 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_summed_deposited_at_node);
   Py_CLEAR(clear_module_state->__pyx_n_s_summed_detached_bedrock_weight_a);
   Py_CLEAR(clear_module_state->__pyx_n_s_summed_detached_soil_weight_at_n);
-  Py_CLEAR(clear_module_state->__pyx_n_s_suspended__sediments_concentrati);
-  Py_CLEAR(clear_module_state->__pyx_n_s_suspended_fraction_at_node);
   Py_CLEAR(clear_module_state->__pyx_n_s_sys);
   Py_CLEAR(clear_module_state->__pyx_n_s_tau_c);
   Py_CLEAR(clear_module_state->__pyx_n_s_tau_s);
-  Py_CLEAR(clear_module_state->__pyx_n_s_temp_suspended_sediment_weight_a);
+  Py_CLEAR(clear_module_state->__pyx_n_s_temp_sediment_load_weight_at_nod);
   Py_CLEAR(clear_module_state->__pyx_n_s_test);
   Py_CLEAR(clear_module_state->__pyx_n_s_total_deposited_sediments_dz_at);
   Py_CLEAR(clear_module_state->__pyx_n_s_total_influx_at_node);
@@ -4967,7 +4967,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_deatched_bedrock_weight_at_node);
   Py_VISIT(traverse_module_state->__pyx_n_s_deatched_soil_weight);
   Py_VISIT(traverse_module_state->__pyx_n_s_defaults);
-  Py_VISIT(traverse_module_state->__pyx_n_s_deposited_suspended_sediments_we);
+  Py_VISIT(traverse_module_state->__pyx_n_s_deposited_sediment_load_weights);
   Py_VISIT(traverse_module_state->__pyx_n_s_deposited_weight);
   Py_VISIT(traverse_module_state->__pyx_n_s_detached_soil_weight_at_node);
   Py_VISIT(traverse_module_state->__pyx_n_s_dict);
@@ -5083,6 +5083,8 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_rho_c);
   Py_VISIT(traverse_module_state->__pyx_n_s_row);
   Py_VISIT(traverse_module_state->__pyx_n_s_s);
+  Py_VISIT(traverse_module_state->__pyx_n_s_sediment_load_concentration_at_l);
+  Py_VISIT(traverse_module_state->__pyx_n_s_sediment_load_fraction_at_node);
   Py_VISIT(traverse_module_state->__pyx_n_s_sediments_flux_at_link);
   Py_VISIT(traverse_module_state->__pyx_n_s_setstate);
   Py_VISIT(traverse_module_state->__pyx_n_s_setstate_cython);
@@ -5109,12 +5111,10 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_summed_deposited_at_node);
   Py_VISIT(traverse_module_state->__pyx_n_s_summed_detached_bedrock_weight_a);
   Py_VISIT(traverse_module_state->__pyx_n_s_summed_detached_soil_weight_at_n);
-  Py_VISIT(traverse_module_state->__pyx_n_s_suspended__sediments_concentrati);
-  Py_VISIT(traverse_module_state->__pyx_n_s_suspended_fraction_at_node);
   Py_VISIT(traverse_module_state->__pyx_n_s_sys);
   Py_VISIT(traverse_module_state->__pyx_n_s_tau_c);
   Py_VISIT(traverse_module_state->__pyx_n_s_tau_s);
-  Py_VISIT(traverse_module_state->__pyx_n_s_temp_suspended_sediment_weight_a);
+  Py_VISIT(traverse_module_state->__pyx_n_s_temp_sediment_load_weight_at_nod);
   Py_VISIT(traverse_module_state->__pyx_n_s_test);
   Py_VISIT(traverse_module_state->__pyx_n_s_total_deposited_sediments_dz_at);
   Py_VISIT(traverse_module_state->__pyx_n_s_total_influx_at_node);
@@ -5442,7 +5442,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_deatched_bedrock_weight_at_node __pyx_mstate_global->__pyx_n_s_deatched_bedrock_weight_at_node
 #define __pyx_n_s_deatched_soil_weight __pyx_mstate_global->__pyx_n_s_deatched_soil_weight
 #define __pyx_n_s_defaults __pyx_mstate_global->__pyx_n_s_defaults
-#define __pyx_n_s_deposited_suspended_sediments_we __pyx_mstate_global->__pyx_n_s_deposited_suspended_sediments_we
+#define __pyx_n_s_deposited_sediment_load_weights __pyx_mstate_global->__pyx_n_s_deposited_sediment_load_weights
 #define __pyx_n_s_deposited_weight __pyx_mstate_global->__pyx_n_s_deposited_weight
 #define __pyx_n_s_detached_soil_weight_at_node __pyx_mstate_global->__pyx_n_s_detached_soil_weight_at_node
 #define __pyx_n_s_dict __pyx_mstate_global->__pyx_n_s_dict
@@ -5558,6 +5558,8 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_rho_c __pyx_mstate_global->__pyx_n_s_rho_c
 #define __pyx_n_s_row __pyx_mstate_global->__pyx_n_s_row
 #define __pyx_n_s_s __pyx_mstate_global->__pyx_n_s_s
+#define __pyx_n_s_sediment_load_concentration_at_l __pyx_mstate_global->__pyx_n_s_sediment_load_concentration_at_l
+#define __pyx_n_s_sediment_load_fraction_at_node __pyx_mstate_global->__pyx_n_s_sediment_load_fraction_at_node
 #define __pyx_n_s_sediments_flux_at_link __pyx_mstate_global->__pyx_n_s_sediments_flux_at_link
 #define __pyx_n_s_setstate __pyx_mstate_global->__pyx_n_s_setstate
 #define __pyx_n_s_setstate_cython __pyx_mstate_global->__pyx_n_s_setstate_cython
@@ -5584,12 +5586,10 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_summed_deposited_at_node __pyx_mstate_global->__pyx_n_s_summed_deposited_at_node
 #define __pyx_n_s_summed_detached_bedrock_weight_a __pyx_mstate_global->__pyx_n_s_summed_detached_bedrock_weight_a
 #define __pyx_n_s_summed_detached_soil_weight_at_n __pyx_mstate_global->__pyx_n_s_summed_detached_soil_weight_at_n
-#define __pyx_n_s_suspended__sediments_concentrati __pyx_mstate_global->__pyx_n_s_suspended__sediments_concentrati
-#define __pyx_n_s_suspended_fraction_at_node __pyx_mstate_global->__pyx_n_s_suspended_fraction_at_node
 #define __pyx_n_s_sys __pyx_mstate_global->__pyx_n_s_sys
 #define __pyx_n_s_tau_c __pyx_mstate_global->__pyx_n_s_tau_c
 #define __pyx_n_s_tau_s __pyx_mstate_global->__pyx_n_s_tau_s
-#define __pyx_n_s_temp_suspended_sediment_weight_a __pyx_mstate_global->__pyx_n_s_temp_suspended_sediment_weight_a
+#define __pyx_n_s_temp_sediment_load_weight_at_nod __pyx_mstate_global->__pyx_n_s_temp_sediment_load_weight_at_nod
 #define __pyx_n_s_test __pyx_mstate_global->__pyx_n_s_test
 #define __pyx_n_s_total_deposited_sediments_dz_at __pyx_mstate_global->__pyx_n_s_total_deposited_sediments_dz_at
 #define __pyx_n_s_total_influx_at_node __pyx_mstate_global->__pyx_n_s_total_influx_at_node
@@ -28047,7 +28047,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_10calc_CQ(CYTHON_UNUSED PyO
  * 
  * def calc_flux_at_link_per_size(             # <<<<<<<<<<<<<<
  *         cnp.ndarray[DTYPE_FLOAT_t, ndim=1] q_water_at_link,
- *         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] suspended__sediments_concentration_at_link,
+ *         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] sediment_load_concentration_at_link,
  */
 
 /* Python wrapper */
@@ -28067,7 +28067,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ) {
   PyArrayObject *__pyx_v_q_water_at_link = 0;
-  PyArrayObject *__pyx_v_suspended__sediments_concentration_at_link = 0;
+  PyArrayObject *__pyx_v_sediment_load_concentration_at_link = 0;
   PyArrayObject *__pyx_v_active_links = 0;
   PyArrayObject *__pyx_v_weight_flux_at_link = 0;
   PyObject *__pyx_v_shape = 0;
@@ -28091,7 +28091,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   #endif
   __pyx_kwvalues = __Pyx_KwValues_FASTCALL(__pyx_args, __pyx_nargs);
   {
-    PyObject **__pyx_pyargnames[] = {&__pyx_n_s_q_water_at_link,&__pyx_n_s_suspended__sediments_concentrati,&__pyx_n_s_active_links,&__pyx_n_s_weight_flux_at_link,&__pyx_n_s_shape,0};
+    PyObject **__pyx_pyargnames[] = {&__pyx_n_s_q_water_at_link,&__pyx_n_s_sediment_load_concentration_at_l,&__pyx_n_s_active_links,&__pyx_n_s_weight_flux_at_link,&__pyx_n_s_shape,0};
     if (__pyx_kwds) {
       Py_ssize_t kw_args;
       switch (__pyx_nargs) {
@@ -28119,7 +28119,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
         else goto __pyx_L5_argtuple_error;
         CYTHON_FALLTHROUGH;
         case  1:
-        if (likely((values[1] = __Pyx_GetKwValue_FASTCALL(__pyx_kwds, __pyx_kwvalues, __pyx_n_s_suspended__sediments_concentrati)) != 0)) {
+        if (likely((values[1] = __Pyx_GetKwValue_FASTCALL(__pyx_kwds, __pyx_kwvalues, __pyx_n_s_sediment_load_concentration_at_l)) != 0)) {
           (void)__Pyx_Arg_NewRef_FASTCALL(values[1]);
           kw_args--;
         }
@@ -28172,7 +28172,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       values[4] = __Pyx_Arg_FASTCALL(__pyx_args, 4);
     }
     __pyx_v_q_water_at_link = ((PyArrayObject *)values[0]);
-    __pyx_v_suspended__sediments_concentration_at_link = ((PyArrayObject *)values[1]);
+    __pyx_v_sediment_load_concentration_at_link = ((PyArrayObject *)values[1]);
     __pyx_v_active_links = ((PyArrayObject *)values[2]);
     __pyx_v_weight_flux_at_link = ((PyArrayObject *)values[3]);
     __pyx_v_shape = values[4];
@@ -28194,10 +28194,10 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_q_water_at_link), __pyx_ptype_5numpy_ndarray, 1, "q_water_at_link", 0))) __PYX_ERR(0, 182, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_suspended__sediments_concentration_at_link), __pyx_ptype_5numpy_ndarray, 1, "suspended__sediments_concentration_at_link", 0))) __PYX_ERR(0, 183, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_sediment_load_concentration_at_link), __pyx_ptype_5numpy_ndarray, 1, "sediment_load_concentration_at_link", 0))) __PYX_ERR(0, 183, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_active_links), __pyx_ptype_5numpy_ndarray, 1, "active_links", 0))) __PYX_ERR(0, 184, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_weight_flux_at_link), __pyx_ptype_5numpy_ndarray, 1, "weight_flux_at_link", 0))) __PYX_ERR(0, 185, __pyx_L1_error)
-  __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_size(__pyx_self, __pyx_v_q_water_at_link, __pyx_v_suspended__sediments_concentration_at_link, __pyx_v_active_links, __pyx_v_weight_flux_at_link, __pyx_v_shape);
+  __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_size(__pyx_self, __pyx_v_q_water_at_link, __pyx_v_sediment_load_concentration_at_link, __pyx_v_active_links, __pyx_v_weight_flux_at_link, __pyx_v_shape);
 
   /* function exit code */
   goto __pyx_L0;
@@ -28214,7 +28214,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_size(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_q_water_at_link, PyArrayObject *__pyx_v_suspended__sediments_concentration_at_link, PyArrayObject *__pyx_v_active_links, PyArrayObject *__pyx_v_weight_flux_at_link, PyObject *__pyx_v_shape) {
+static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_size(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_q_water_at_link, PyArrayObject *__pyx_v_sediment_load_concentration_at_link, PyArrayObject *__pyx_v_active_links, PyArrayObject *__pyx_v_weight_flux_at_link, PyObject *__pyx_v_shape) {
   int __pyx_v_link;
   int __pyx_v_index;
   int __pyx_v_gs;
@@ -28224,8 +28224,8 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_siz
   __Pyx_Buffer __pyx_pybuffer_active_links;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_q_water_at_link;
   __Pyx_Buffer __pyx_pybuffer_q_water_at_link;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_suspended__sediments_concentration_at_link;
-  __Pyx_Buffer __pyx_pybuffer_suspended__sediments_concentration_at_link;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_sediment_load_concentration_at_link;
+  __Pyx_Buffer __pyx_pybuffer_sediment_load_concentration_at_link;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_weight_flux_at_link;
   __Pyx_Buffer __pyx_pybuffer_weight_flux_at_link;
   PyObject *__pyx_r = NULL;
@@ -28251,10 +28251,10 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_siz
   __pyx_pybuffer_q_water_at_link.refcount = 0;
   __pyx_pybuffernd_q_water_at_link.data = NULL;
   __pyx_pybuffernd_q_water_at_link.rcbuffer = &__pyx_pybuffer_q_water_at_link;
-  __pyx_pybuffer_suspended__sediments_concentration_at_link.pybuffer.buf = NULL;
-  __pyx_pybuffer_suspended__sediments_concentration_at_link.refcount = 0;
-  __pyx_pybuffernd_suspended__sediments_concentration_at_link.data = NULL;
-  __pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer = &__pyx_pybuffer_suspended__sediments_concentration_at_link;
+  __pyx_pybuffer_sediment_load_concentration_at_link.pybuffer.buf = NULL;
+  __pyx_pybuffer_sediment_load_concentration_at_link.refcount = 0;
+  __pyx_pybuffernd_sediment_load_concentration_at_link.data = NULL;
+  __pyx_pybuffernd_sediment_load_concentration_at_link.rcbuffer = &__pyx_pybuffer_sediment_load_concentration_at_link;
   __pyx_pybuffer_active_links.pybuffer.buf = NULL;
   __pyx_pybuffer_active_links.refcount = 0;
   __pyx_pybuffernd_active_links.data = NULL;
@@ -28270,9 +28270,9 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_siz
   __pyx_pybuffernd_q_water_at_link.diminfo[0].strides = __pyx_pybuffernd_q_water_at_link.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_q_water_at_link.diminfo[0].shape = __pyx_pybuffernd_q_water_at_link.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer->pybuffer, (PyObject*)__pyx_v_suspended__sediments_concentration_at_link, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 181, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_sediment_load_concentration_at_link.rcbuffer->pybuffer, (PyObject*)__pyx_v_sediment_load_concentration_at_link, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 181, __pyx_L1_error)
   }
-  __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[0].strides = __pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[0].shape = __pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[1].strides = __pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[1].shape = __pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer->pybuffer.shape[1];
+  __pyx_pybuffernd_sediment_load_concentration_at_link.diminfo[0].strides = __pyx_pybuffernd_sediment_load_concentration_at_link.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_sediment_load_concentration_at_link.diminfo[0].shape = __pyx_pybuffernd_sediment_load_concentration_at_link.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_sediment_load_concentration_at_link.diminfo[1].strides = __pyx_pybuffernd_sediment_load_concentration_at_link.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_sediment_load_concentration_at_link.diminfo[1].shape = __pyx_pybuffernd_sediment_load_concentration_at_link.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_active_links.rcbuffer->pybuffer, (PyObject*)__pyx_v_active_links, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 181, __pyx_L1_error)
@@ -28387,7 +28387,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_siz
  *             link = active_links[index]
  * 
  *             for gs in range(n_gs):             # <<<<<<<<<<<<<<
- *                 weight_flux_at_link[link, gs] = q_water_at_link[link] * suspended__sediments_concentration_at_link[link, gs]
+ *                 weight_flux_at_link[link, gs] = q_water_at_link[link] * sediment_load_concentration_at_link[link, gs]
  * 
  */
                             __pyx_t_6 = __pyx_v_n_gs;
@@ -28398,7 +28398,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_siz
                               /* "cfuncs_ErosionDeposition.pyx":197
  * 
  *             for gs in range(n_gs):
- *                 weight_flux_at_link[link, gs] = q_water_at_link[link] * suspended__sediments_concentration_at_link[link, gs]             # <<<<<<<<<<<<<<
+ *                 weight_flux_at_link[link, gs] = q_water_at_link[link] * sediment_load_concentration_at_link[link, gs]             # <<<<<<<<<<<<<<
  * 
  *         return weight_flux_at_link
  */
@@ -28416,13 +28416,13 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_siz
                               __pyx_t_11 = __pyx_v_gs;
                               __pyx_t_9 = -1;
                               if (__pyx_t_10 < 0) {
-                                __pyx_t_10 += __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[0].shape;
+                                __pyx_t_10 += __pyx_pybuffernd_sediment_load_concentration_at_link.diminfo[0].shape;
                                 if (unlikely(__pyx_t_10 < 0)) __pyx_t_9 = 0;
-                              } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[0].shape)) __pyx_t_9 = 0;
+                              } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_sediment_load_concentration_at_link.diminfo[0].shape)) __pyx_t_9 = 0;
                               if (__pyx_t_11 < 0) {
-                                __pyx_t_11 += __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[1].shape;
+                                __pyx_t_11 += __pyx_pybuffernd_sediment_load_concentration_at_link.diminfo[1].shape;
                                 if (unlikely(__pyx_t_11 < 0)) __pyx_t_9 = 1;
-                              } else if (unlikely(__pyx_t_11 >= __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[1].shape)) __pyx_t_9 = 1;
+                              } else if (unlikely(__pyx_t_11 >= __pyx_pybuffernd_sediment_load_concentration_at_link.diminfo[1].shape)) __pyx_t_9 = 1;
                               if (unlikely(__pyx_t_9 != -1)) {
                                 __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_9);
                                 __PYX_ERR(0, 197, __pyx_L8_error)
@@ -28442,7 +28442,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_siz
                                 __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_9);
                                 __PYX_ERR(0, 197, __pyx_L8_error)
                               }
-                              *__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_weight_flux_at_link.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_weight_flux_at_link.diminfo[1].strides) = ((*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_q_water_at_link.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_q_water_at_link.diminfo[0].strides)) * (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[1].strides)));
+                              *__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_weight_flux_at_link.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_weight_flux_at_link.diminfo[1].strides) = ((*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_q_water_at_link.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_q_water_at_link.diminfo[0].strides)) * (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_sediment_load_concentration_at_link.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_sediment_load_concentration_at_link.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_sediment_load_concentration_at_link.diminfo[1].strides)));
                             }
                             goto __pyx_L13;
                             __pyx_L8_error:;
@@ -28556,7 +28556,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_siz
   }
 
   /* "cfuncs_ErosionDeposition.pyx":199
- *                 weight_flux_at_link[link, gs] = q_water_at_link[link] * suspended__sediments_concentration_at_link[link, gs]
+ *                 weight_flux_at_link[link, gs] = q_water_at_link[link] * sediment_load_concentration_at_link[link, gs]
  * 
  *         return weight_flux_at_link             # <<<<<<<<<<<<<<
  * 
@@ -28572,7 +28572,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_siz
  * 
  * def calc_flux_at_link_per_size(             # <<<<<<<<<<<<<<
  *         cnp.ndarray[DTYPE_FLOAT_t, ndim=1] q_water_at_link,
- *         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] suspended__sediments_concentration_at_link,
+ *         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] sediment_load_concentration_at_link,
  */
 
   /* function exit code */
@@ -28584,7 +28584,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_siz
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_active_links.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_q_water_at_link.rcbuffer->pybuffer);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_sediment_load_concentration_at_link.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
   __Pyx_AddTraceback("cfuncs_ErosionDeposition.calc_flux_at_link_per_size", __pyx_clineno, __pyx_lineno, __pyx_filename);
@@ -28593,7 +28593,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_siz
   __pyx_L0:;
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_active_links.rcbuffer->pybuffer);
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_q_water_at_link.rcbuffer->pybuffer);
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_sediment_load_concentration_at_link.rcbuffer->pybuffer);
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer);
   __pyx_L2:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -30184,10 +30184,10 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   PyArrayObject *__pyx_v_grain_fractions_at_node = 0;
   PyArrayObject *__pyx_v_deatched_soil_weight = 0;
   PyArrayObject *__pyx_v_deatched_bedrock_weight = 0;
-  PyArrayObject *__pyx_v_suspended_fraction_at_node = 0;
+  PyArrayObject *__pyx_v_sediment_load_fraction_at_node = 0;
   PyArrayObject *__pyx_v_bedrock_grain_fractions = 0;
-  PyArrayObject *__pyx_v_temp_suspended_sediment_weight_at_node_per_size = 0;
-  PyArrayObject *__pyx_v_deposited_suspended_sediments_weights_at_node = 0;
+  PyArrayObject *__pyx_v_temp_sediment_load_weight_at_node_per_size = 0;
+  PyArrayObject *__pyx_v_deposited_sediment_load_weights_at_node = 0;
   PyArrayObject *__pyx_v_total_deposited_sediments_dz_at_node = 0;
   PyArrayObject *__pyx_v_entrainment_soil_rate_dz = 0;
   PyArrayObject *__pyx_v_entrainment_bedrock_rate_dz = 0;
@@ -30217,7 +30217,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   #endif
   __pyx_kwvalues = __Pyx_KwValues_FASTCALL(__pyx_args, __pyx_nargs);
   {
-    PyObject **__pyx_pyargnames[] = {&__pyx_n_s_DR,&__pyx_n_s_DR_abs,&__pyx_n_s_grain_weight_at_node,&__pyx_n_s_grain_fractions_at_node,&__pyx_n_s_deatched_soil_weight,&__pyx_n_s_deatched_bedrock_weight,&__pyx_n_s_suspended_fraction_at_node,&__pyx_n_s_bedrock_grain_fractions,&__pyx_n_s_temp_suspended_sediment_weight_a,&__pyx_n_s_deposited_suspended_sediments_we,&__pyx_n_s_total_deposited_sediments_dz_at,&__pyx_n_s_entrainment_soil_rate_dz,&__pyx_n_s_entrainment_bedrock_rate_dz,&__pyx_n_s_soil_e_expo,&__pyx_n_s_core_nodes,&__pyx_n_s_factor_convert_weight_to_dz_c,&__pyx_n_s_factor_convert_weight_to_dz_bedr,&__pyx_n_s_shape,&__pyx_n_s_dx_c,0};
+    PyObject **__pyx_pyargnames[] = {&__pyx_n_s_DR,&__pyx_n_s_DR_abs,&__pyx_n_s_grain_weight_at_node,&__pyx_n_s_grain_fractions_at_node,&__pyx_n_s_deatched_soil_weight,&__pyx_n_s_deatched_bedrock_weight,&__pyx_n_s_sediment_load_fraction_at_node,&__pyx_n_s_bedrock_grain_fractions,&__pyx_n_s_temp_sediment_load_weight_at_nod,&__pyx_n_s_deposited_sediment_load_weights,&__pyx_n_s_total_deposited_sediments_dz_at,&__pyx_n_s_entrainment_soil_rate_dz,&__pyx_n_s_entrainment_bedrock_rate_dz,&__pyx_n_s_soil_e_expo,&__pyx_n_s_core_nodes,&__pyx_n_s_factor_convert_weight_to_dz_c,&__pyx_n_s_factor_convert_weight_to_dz_bedr,&__pyx_n_s_shape,&__pyx_n_s_dx_c,0};
     if (__pyx_kwds) {
       Py_ssize_t kw_args;
       switch (__pyx_nargs) {
@@ -30323,7 +30323,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
         }
         CYTHON_FALLTHROUGH;
         case  6:
-        if (likely((values[6] = __Pyx_GetKwValue_FASTCALL(__pyx_kwds, __pyx_kwvalues, __pyx_n_s_suspended_fraction_at_node)) != 0)) {
+        if (likely((values[6] = __Pyx_GetKwValue_FASTCALL(__pyx_kwds, __pyx_kwvalues, __pyx_n_s_sediment_load_fraction_at_node)) != 0)) {
           (void)__Pyx_Arg_NewRef_FASTCALL(values[6]);
           kw_args--;
         }
@@ -30343,7 +30343,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
         }
         CYTHON_FALLTHROUGH;
         case  8:
-        if (likely((values[8] = __Pyx_GetKwValue_FASTCALL(__pyx_kwds, __pyx_kwvalues, __pyx_n_s_temp_suspended_sediment_weight_a)) != 0)) {
+        if (likely((values[8] = __Pyx_GetKwValue_FASTCALL(__pyx_kwds, __pyx_kwvalues, __pyx_n_s_temp_sediment_load_weight_at_nod)) != 0)) {
           (void)__Pyx_Arg_NewRef_FASTCALL(values[8]);
           kw_args--;
         }
@@ -30353,7 +30353,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
         }
         CYTHON_FALLTHROUGH;
         case  9:
-        if (likely((values[9] = __Pyx_GetKwValue_FASTCALL(__pyx_kwds, __pyx_kwvalues, __pyx_n_s_deposited_suspended_sediments_we)) != 0)) {
+        if (likely((values[9] = __Pyx_GetKwValue_FASTCALL(__pyx_kwds, __pyx_kwvalues, __pyx_n_s_deposited_sediment_load_weights)) != 0)) {
           (void)__Pyx_Arg_NewRef_FASTCALL(values[9]);
           kw_args--;
         }
@@ -30485,10 +30485,10 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
     __pyx_v_grain_fractions_at_node = ((PyArrayObject *)values[3]);
     __pyx_v_deatched_soil_weight = ((PyArrayObject *)values[4]);
     __pyx_v_deatched_bedrock_weight = ((PyArrayObject *)values[5]);
-    __pyx_v_suspended_fraction_at_node = ((PyArrayObject *)values[6]);
+    __pyx_v_sediment_load_fraction_at_node = ((PyArrayObject *)values[6]);
     __pyx_v_bedrock_grain_fractions = ((PyArrayObject *)values[7]);
-    __pyx_v_temp_suspended_sediment_weight_at_node_per_size = ((PyArrayObject *)values[8]);
-    __pyx_v_deposited_suspended_sediments_weights_at_node = ((PyArrayObject *)values[9]);
+    __pyx_v_temp_sediment_load_weight_at_node_per_size = ((PyArrayObject *)values[8]);
+    __pyx_v_deposited_sediment_load_weights_at_node = ((PyArrayObject *)values[9]);
     __pyx_v_total_deposited_sediments_dz_at_node = ((PyArrayObject *)values[10]);
     __pyx_v_entrainment_soil_rate_dz = ((PyArrayObject *)values[11]);
     __pyx_v_entrainment_bedrock_rate_dz = ((PyArrayObject *)values[12]);
@@ -30521,16 +30521,16 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_grain_fractions_at_node), __pyx_ptype_5numpy_ndarray, 1, "grain_fractions_at_node", 0))) __PYX_ERR(0, 269, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_deatched_soil_weight), __pyx_ptype_5numpy_ndarray, 1, "deatched_soil_weight", 0))) __PYX_ERR(0, 270, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_deatched_bedrock_weight), __pyx_ptype_5numpy_ndarray, 1, "deatched_bedrock_weight", 0))) __PYX_ERR(0, 271, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_suspended_fraction_at_node), __pyx_ptype_5numpy_ndarray, 1, "suspended_fraction_at_node", 0))) __PYX_ERR(0, 272, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_sediment_load_fraction_at_node), __pyx_ptype_5numpy_ndarray, 1, "sediment_load_fraction_at_node", 0))) __PYX_ERR(0, 272, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_bedrock_grain_fractions), __pyx_ptype_5numpy_ndarray, 1, "bedrock_grain_fractions", 0))) __PYX_ERR(0, 273, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_temp_suspended_sediment_weight_at_node_per_size), __pyx_ptype_5numpy_ndarray, 1, "temp_suspended_sediment_weight_at_node_per_size", 0))) __PYX_ERR(0, 274, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_deposited_suspended_sediments_weights_at_node), __pyx_ptype_5numpy_ndarray, 1, "deposited_suspended_sediments_weights_at_node", 0))) __PYX_ERR(0, 275, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_temp_sediment_load_weight_at_node_per_size), __pyx_ptype_5numpy_ndarray, 1, "temp_sediment_load_weight_at_node_per_size", 0))) __PYX_ERR(0, 274, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_deposited_sediment_load_weights_at_node), __pyx_ptype_5numpy_ndarray, 1, "deposited_sediment_load_weights_at_node", 0))) __PYX_ERR(0, 275, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_total_deposited_sediments_dz_at_node), __pyx_ptype_5numpy_ndarray, 1, "total_deposited_sediments_dz_at_node", 0))) __PYX_ERR(0, 276, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_entrainment_soil_rate_dz), __pyx_ptype_5numpy_ndarray, 1, "entrainment_soil_rate_dz", 0))) __PYX_ERR(0, 277, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_entrainment_bedrock_rate_dz), __pyx_ptype_5numpy_ndarray, 1, "entrainment_bedrock_rate_dz", 0))) __PYX_ERR(0, 278, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_soil_e_expo), __pyx_ptype_5numpy_ndarray, 1, "soil_e_expo", 0))) __PYX_ERR(0, 279, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_core_nodes), __pyx_ptype_5numpy_ndarray, 1, "core_nodes", 0))) __PYX_ERR(0, 280, __pyx_L1_error)
-  __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(__pyx_self, __pyx_v_DR, __pyx_v_DR_abs, __pyx_v_grain_weight_at_node, __pyx_v_grain_fractions_at_node, __pyx_v_deatched_soil_weight, __pyx_v_deatched_bedrock_weight, __pyx_v_suspended_fraction_at_node, __pyx_v_bedrock_grain_fractions, __pyx_v_temp_suspended_sediment_weight_at_node_per_size, __pyx_v_deposited_suspended_sediments_weights_at_node, __pyx_v_total_deposited_sediments_dz_at_node, __pyx_v_entrainment_soil_rate_dz, __pyx_v_entrainment_bedrock_rate_dz, __pyx_v_soil_e_expo, __pyx_v_core_nodes, __pyx_v_factor_convert_weight_to_dz_c, __pyx_v_factor_convert_weight_to_dz_bedrock_c, __pyx_v_shape, __pyx_v_dx_c);
+  __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(__pyx_self, __pyx_v_DR, __pyx_v_DR_abs, __pyx_v_grain_weight_at_node, __pyx_v_grain_fractions_at_node, __pyx_v_deatched_soil_weight, __pyx_v_deatched_bedrock_weight, __pyx_v_sediment_load_fraction_at_node, __pyx_v_bedrock_grain_fractions, __pyx_v_temp_sediment_load_weight_at_node_per_size, __pyx_v_deposited_sediment_load_weights_at_node, __pyx_v_total_deposited_sediments_dz_at_node, __pyx_v_entrainment_soil_rate_dz, __pyx_v_entrainment_bedrock_rate_dz, __pyx_v_soil_e_expo, __pyx_v_core_nodes, __pyx_v_factor_convert_weight_to_dz_c, __pyx_v_factor_convert_weight_to_dz_bedrock_c, __pyx_v_shape, __pyx_v_dx_c);
 
   /* function exit code */
   goto __pyx_L0;
@@ -30547,7 +30547,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_DR, PyArrayObject *__pyx_v_DR_abs, PyArrayObject *__pyx_v_grain_weight_at_node, PyArrayObject *__pyx_v_grain_fractions_at_node, PyArrayObject *__pyx_v_deatched_soil_weight, PyArrayObject *__pyx_v_deatched_bedrock_weight, PyArrayObject *__pyx_v_suspended_fraction_at_node, PyArrayObject *__pyx_v_bedrock_grain_fractions, PyArrayObject *__pyx_v_temp_suspended_sediment_weight_at_node_per_size, PyArrayObject *__pyx_v_deposited_suspended_sediments_weights_at_node, PyArrayObject *__pyx_v_total_deposited_sediments_dz_at_node, PyArrayObject *__pyx_v_entrainment_soil_rate_dz, PyArrayObject *__pyx_v_entrainment_bedrock_rate_dz, PyArrayObject *__pyx_v_soil_e_expo, PyArrayObject *__pyx_v_core_nodes, PyObject *__pyx_v_factor_convert_weight_to_dz_c, PyObject *__pyx_v_factor_convert_weight_to_dz_bedrock_c, PyObject *__pyx_v_shape, PyObject *__pyx_v_dx_c) {
+static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_DR, PyArrayObject *__pyx_v_DR_abs, PyArrayObject *__pyx_v_grain_weight_at_node, PyArrayObject *__pyx_v_grain_fractions_at_node, PyArrayObject *__pyx_v_deatched_soil_weight, PyArrayObject *__pyx_v_deatched_bedrock_weight, PyArrayObject *__pyx_v_sediment_load_fraction_at_node, PyArrayObject *__pyx_v_bedrock_grain_fractions, PyArrayObject *__pyx_v_temp_sediment_load_weight_at_node_per_size, PyArrayObject *__pyx_v_deposited_sediment_load_weights_at_node, PyArrayObject *__pyx_v_total_deposited_sediments_dz_at_node, PyArrayObject *__pyx_v_entrainment_soil_rate_dz, PyArrayObject *__pyx_v_entrainment_bedrock_rate_dz, PyArrayObject *__pyx_v_soil_e_expo, PyArrayObject *__pyx_v_core_nodes, PyObject *__pyx_v_factor_convert_weight_to_dz_c, PyObject *__pyx_v_factor_convert_weight_to_dz_bedrock_c, PyObject *__pyx_v_shape, PyObject *__pyx_v_dx_c) {
   CYTHON_UNUSED int __pyx_v_n_nodes;
   int __pyx_v_n_gs;
   int __pyx_v_node;
@@ -30575,8 +30575,8 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(C
   __Pyx_Buffer __pyx_pybuffer_deatched_bedrock_weight;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_deatched_soil_weight;
   __Pyx_Buffer __pyx_pybuffer_deatched_soil_weight;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node;
-  __Pyx_Buffer __pyx_pybuffer_deposited_suspended_sediments_weights_at_node;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_deposited_sediment_load_weights_at_node;
+  __Pyx_Buffer __pyx_pybuffer_deposited_sediment_load_weights_at_node;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_entrainment_bedrock_rate_dz;
   __Pyx_Buffer __pyx_pybuffer_entrainment_bedrock_rate_dz;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_entrainment_soil_rate_dz;
@@ -30585,12 +30585,12 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(C
   __Pyx_Buffer __pyx_pybuffer_grain_fractions_at_node;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_grain_weight_at_node;
   __Pyx_Buffer __pyx_pybuffer_grain_weight_at_node;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_sediment_load_fraction_at_node;
+  __Pyx_Buffer __pyx_pybuffer_sediment_load_fraction_at_node;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_soil_e_expo;
   __Pyx_Buffer __pyx_pybuffer_soil_e_expo;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_suspended_fraction_at_node;
-  __Pyx_Buffer __pyx_pybuffer_suspended_fraction_at_node;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size;
-  __Pyx_Buffer __pyx_pybuffer_temp_suspended_sediment_weight_at_node_per_size;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size;
+  __Pyx_Buffer __pyx_pybuffer_temp_sediment_load_weight_at_node_per_size;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_total_deposited_sediments_dz_at_node;
   __Pyx_Buffer __pyx_pybuffer_total_deposited_sediments_dz_at_node;
   PyObject *__pyx_r = NULL;
@@ -30636,22 +30636,22 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(C
   __pyx_pybuffer_deatched_bedrock_weight.refcount = 0;
   __pyx_pybuffernd_deatched_bedrock_weight.data = NULL;
   __pyx_pybuffernd_deatched_bedrock_weight.rcbuffer = &__pyx_pybuffer_deatched_bedrock_weight;
-  __pyx_pybuffer_suspended_fraction_at_node.pybuffer.buf = NULL;
-  __pyx_pybuffer_suspended_fraction_at_node.refcount = 0;
-  __pyx_pybuffernd_suspended_fraction_at_node.data = NULL;
-  __pyx_pybuffernd_suspended_fraction_at_node.rcbuffer = &__pyx_pybuffer_suspended_fraction_at_node;
+  __pyx_pybuffer_sediment_load_fraction_at_node.pybuffer.buf = NULL;
+  __pyx_pybuffer_sediment_load_fraction_at_node.refcount = 0;
+  __pyx_pybuffernd_sediment_load_fraction_at_node.data = NULL;
+  __pyx_pybuffernd_sediment_load_fraction_at_node.rcbuffer = &__pyx_pybuffer_sediment_load_fraction_at_node;
   __pyx_pybuffer_bedrock_grain_fractions.pybuffer.buf = NULL;
   __pyx_pybuffer_bedrock_grain_fractions.refcount = 0;
   __pyx_pybuffernd_bedrock_grain_fractions.data = NULL;
   __pyx_pybuffernd_bedrock_grain_fractions.rcbuffer = &__pyx_pybuffer_bedrock_grain_fractions;
-  __pyx_pybuffer_temp_suspended_sediment_weight_at_node_per_size.pybuffer.buf = NULL;
-  __pyx_pybuffer_temp_suspended_sediment_weight_at_node_per_size.refcount = 0;
-  __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.data = NULL;
-  __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.rcbuffer = &__pyx_pybuffer_temp_suspended_sediment_weight_at_node_per_size;
-  __pyx_pybuffer_deposited_suspended_sediments_weights_at_node.pybuffer.buf = NULL;
-  __pyx_pybuffer_deposited_suspended_sediments_weights_at_node.refcount = 0;
-  __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.data = NULL;
-  __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.rcbuffer = &__pyx_pybuffer_deposited_suspended_sediments_weights_at_node;
+  __pyx_pybuffer_temp_sediment_load_weight_at_node_per_size.pybuffer.buf = NULL;
+  __pyx_pybuffer_temp_sediment_load_weight_at_node_per_size.refcount = 0;
+  __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.data = NULL;
+  __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.rcbuffer = &__pyx_pybuffer_temp_sediment_load_weight_at_node_per_size;
+  __pyx_pybuffer_deposited_sediment_load_weights_at_node.pybuffer.buf = NULL;
+  __pyx_pybuffer_deposited_sediment_load_weights_at_node.refcount = 0;
+  __pyx_pybuffernd_deposited_sediment_load_weights_at_node.data = NULL;
+  __pyx_pybuffernd_deposited_sediment_load_weights_at_node.rcbuffer = &__pyx_pybuffer_deposited_sediment_load_weights_at_node;
   __pyx_pybuffer_total_deposited_sediments_dz_at_node.pybuffer.buf = NULL;
   __pyx_pybuffer_total_deposited_sediments_dz_at_node.refcount = 0;
   __pyx_pybuffernd_total_deposited_sediments_dz_at_node.data = NULL;
@@ -30704,9 +30704,9 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(C
   __pyx_pybuffernd_deatched_bedrock_weight.diminfo[0].strides = __pyx_pybuffernd_deatched_bedrock_weight.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_deatched_bedrock_weight.diminfo[0].shape = __pyx_pybuffernd_deatched_bedrock_weight.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_deatched_bedrock_weight.diminfo[1].strides = __pyx_pybuffernd_deatched_bedrock_weight.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_deatched_bedrock_weight.diminfo[1].shape = __pyx_pybuffernd_deatched_bedrock_weight.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_suspended_fraction_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_suspended_fraction_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 265, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_sediment_load_fraction_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_sediment_load_fraction_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 265, __pyx_L1_error)
   }
-  __pyx_pybuffernd_suspended_fraction_at_node.diminfo[0].strides = __pyx_pybuffernd_suspended_fraction_at_node.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_suspended_fraction_at_node.diminfo[0].shape = __pyx_pybuffernd_suspended_fraction_at_node.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_suspended_fraction_at_node.diminfo[1].strides = __pyx_pybuffernd_suspended_fraction_at_node.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_suspended_fraction_at_node.diminfo[1].shape = __pyx_pybuffernd_suspended_fraction_at_node.rcbuffer->pybuffer.shape[1];
+  __pyx_pybuffernd_sediment_load_fraction_at_node.diminfo[0].strides = __pyx_pybuffernd_sediment_load_fraction_at_node.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_sediment_load_fraction_at_node.diminfo[0].shape = __pyx_pybuffernd_sediment_load_fraction_at_node.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_sediment_load_fraction_at_node.diminfo[1].strides = __pyx_pybuffernd_sediment_load_fraction_at_node.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_sediment_load_fraction_at_node.diminfo[1].shape = __pyx_pybuffernd_sediment_load_fraction_at_node.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_bedrock_grain_fractions.rcbuffer->pybuffer, (PyObject*)__pyx_v_bedrock_grain_fractions, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 265, __pyx_L1_error)
@@ -30714,14 +30714,14 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(C
   __pyx_pybuffernd_bedrock_grain_fractions.diminfo[0].strides = __pyx_pybuffernd_bedrock_grain_fractions.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_bedrock_grain_fractions.diminfo[0].shape = __pyx_pybuffernd_bedrock_grain_fractions.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.rcbuffer->pybuffer, (PyObject*)__pyx_v_temp_suspended_sediment_weight_at_node_per_size, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 265, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.rcbuffer->pybuffer, (PyObject*)__pyx_v_temp_sediment_load_weight_at_node_per_size, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 265, __pyx_L1_error)
   }
-  __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[0].strides = __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[0].shape = __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[1].strides = __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[1].shape = __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.rcbuffer->pybuffer.shape[1];
+  __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[0].strides = __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[0].shape = __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[1].strides = __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[1].shape = __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_deposited_suspended_sediments_weights_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 265, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_deposited_sediment_load_weights_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_deposited_sediment_load_weights_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 265, __pyx_L1_error)
   }
-  __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.diminfo[0].strides = __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.diminfo[0].shape = __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.diminfo[1].strides = __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.diminfo[1].shape = __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.rcbuffer->pybuffer.shape[1];
+  __pyx_pybuffernd_deposited_sediment_load_weights_at_node.diminfo[0].strides = __pyx_pybuffernd_deposited_sediment_load_weights_at_node.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_deposited_sediment_load_weights_at_node.diminfo[0].shape = __pyx_pybuffernd_deposited_sediment_load_weights_at_node.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_deposited_sediment_load_weights_at_node.diminfo[1].strides = __pyx_pybuffernd_deposited_sediment_load_weights_at_node.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_deposited_sediment_load_weights_at_node.diminfo[1].shape = __pyx_pybuffernd_deposited_sediment_load_weights_at_node.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_total_deposited_sediments_dz_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_total_deposited_sediments_dz_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 265, __pyx_L1_error)
@@ -31156,14 +31156,14 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(C
  *                 deatched_bedrock_weight[node, gs] = deatched_bedrock_weight_at_node * bedrock_grain_fractions[gs]
  *                 summed_detached_bedrock_weight_at_node = summed_detached_bedrock_weight_at_node + deatched_bedrock_weight_at_node             # <<<<<<<<<<<<<<
  * 
- *                 ## add to suspended
+ *                 ## add to load
  */
                                 __pyx_v_summed_detached_bedrock_weight_at_node = (__pyx_v_summed_detached_bedrock_weight_at_node + __pyx_v_deatched_bedrock_weight_at_node);
 
                                 /* "cfuncs_ErosionDeposition.pyx":327
  * 
- *                 ## add to suspended
- *                 temp_suspended_sediment_weight_at_node_per_size[node, gs] += detached_soil_weight_at_node + deatched_bedrock_weight_at_node             # <<<<<<<<<<<<<<
+ *                 ## add to load
+ *                 temp_sediment_load_weight_at_node_per_size[node, gs] += detached_soil_weight_at_node + deatched_bedrock_weight_at_node             # <<<<<<<<<<<<<<
  * 
  *             if dr_node_per_gs < 0:
  */
@@ -31171,18 +31171,18 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(C
                                 __pyx_t_13 = __pyx_v_gs;
                                 __pyx_t_11 = -1;
                                 if (__pyx_t_10 < 0) {
-                                  __pyx_t_10 += __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[0].shape;
+                                  __pyx_t_10 += __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[0].shape;
                                   if (unlikely(__pyx_t_10 < 0)) __pyx_t_11 = 0;
-                                } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[0].shape)) __pyx_t_11 = 0;
+                                } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[0].shape)) __pyx_t_11 = 0;
                                 if (__pyx_t_13 < 0) {
-                                  __pyx_t_13 += __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[1].shape;
+                                  __pyx_t_13 += __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[1].shape;
                                   if (unlikely(__pyx_t_13 < 0)) __pyx_t_11 = 1;
-                                } else if (unlikely(__pyx_t_13 >= __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[1].shape)) __pyx_t_11 = 1;
+                                } else if (unlikely(__pyx_t_13 >= __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[1].shape)) __pyx_t_11 = 1;
                                 if (unlikely(__pyx_t_11 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
                                   __PYX_ERR(0, 327, __pyx_L8_error)
                                 }
-                                *__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[1].strides) += (__pyx_v_detached_soil_weight_at_node + __pyx_v_deatched_bedrock_weight_at_node);
+                                *__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[1].strides) += (__pyx_v_detached_soil_weight_at_node + __pyx_v_deatched_bedrock_weight_at_node);
 
                                 /* "cfuncs_ErosionDeposition.pyx":308
  *             dr_node_per_gs = DR[node, gs]
@@ -31194,11 +31194,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(C
                               }
 
                               /* "cfuncs_ErosionDeposition.pyx":329
- *                 temp_suspended_sediment_weight_at_node_per_size[node, gs] += detached_soil_weight_at_node + deatched_bedrock_weight_at_node
+ *                 temp_sediment_load_weight_at_node_per_size[node, gs] += detached_soil_weight_at_node + deatched_bedrock_weight_at_node
  * 
  *             if dr_node_per_gs < 0:             # <<<<<<<<<<<<<<
  *                 dr_node_per_gs = DR_abs[node, gs]
- *                 deposited_weight = dr_node_per_gs * dx * dx * suspended_fraction_at_node[node, gs]
+ *                 deposited_weight = dr_node_per_gs * dx * dx * sediment_load_fraction_at_node[node, gs]
  */
                               __pyx_t_12 = (__pyx_v_dr_node_per_gs < 0.0);
                               if (__pyx_t_12) {
@@ -31207,7 +31207,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(C
  * 
  *             if dr_node_per_gs < 0:
  *                 dr_node_per_gs = DR_abs[node, gs]             # <<<<<<<<<<<<<<
- *                 deposited_weight = dr_node_per_gs * dx * dx * suspended_fraction_at_node[node, gs]
+ *                 deposited_weight = dr_node_per_gs * dx * dx * sediment_load_fraction_at_node[node, gs]
  * 
  */
                                 __pyx_t_13 = __pyx_v_node;
@@ -31230,89 +31230,89 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(C
                                 /* "cfuncs_ErosionDeposition.pyx":331
  *             if dr_node_per_gs < 0:
  *                 dr_node_per_gs = DR_abs[node, gs]
- *                 deposited_weight = dr_node_per_gs * dx * dx * suspended_fraction_at_node[node, gs]             # <<<<<<<<<<<<<<
+ *                 deposited_weight = dr_node_per_gs * dx * dx * sediment_load_fraction_at_node[node, gs]             # <<<<<<<<<<<<<<
  * 
- *                 if deposited_weight > temp_suspended_sediment_weight_at_node_per_size[node, gs]:
+ *                 if deposited_weight > temp_sediment_load_weight_at_node_per_size[node, gs]:
  */
                                 __pyx_t_10 = __pyx_v_node;
                                 __pyx_t_13 = __pyx_v_gs;
                                 __pyx_t_11 = -1;
                                 if (__pyx_t_10 < 0) {
-                                  __pyx_t_10 += __pyx_pybuffernd_suspended_fraction_at_node.diminfo[0].shape;
+                                  __pyx_t_10 += __pyx_pybuffernd_sediment_load_fraction_at_node.diminfo[0].shape;
                                   if (unlikely(__pyx_t_10 < 0)) __pyx_t_11 = 0;
-                                } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_suspended_fraction_at_node.diminfo[0].shape)) __pyx_t_11 = 0;
+                                } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_sediment_load_fraction_at_node.diminfo[0].shape)) __pyx_t_11 = 0;
                                 if (__pyx_t_13 < 0) {
-                                  __pyx_t_13 += __pyx_pybuffernd_suspended_fraction_at_node.diminfo[1].shape;
+                                  __pyx_t_13 += __pyx_pybuffernd_sediment_load_fraction_at_node.diminfo[1].shape;
                                   if (unlikely(__pyx_t_13 < 0)) __pyx_t_11 = 1;
-                                } else if (unlikely(__pyx_t_13 >= __pyx_pybuffernd_suspended_fraction_at_node.diminfo[1].shape)) __pyx_t_11 = 1;
+                                } else if (unlikely(__pyx_t_13 >= __pyx_pybuffernd_sediment_load_fraction_at_node.diminfo[1].shape)) __pyx_t_11 = 1;
                                 if (unlikely(__pyx_t_11 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
                                   __PYX_ERR(0, 331, __pyx_L8_error)
                                 }
-                                __pyx_v_deposited_weight = (((__pyx_v_dr_node_per_gs * __pyx_v_dx) * __pyx_v_dx) * (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_suspended_fraction_at_node.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_suspended_fraction_at_node.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_suspended_fraction_at_node.diminfo[1].strides)));
+                                __pyx_v_deposited_weight = (((__pyx_v_dr_node_per_gs * __pyx_v_dx) * __pyx_v_dx) * (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_sediment_load_fraction_at_node.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_sediment_load_fraction_at_node.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_sediment_load_fraction_at_node.diminfo[1].strides)));
 
                                 /* "cfuncs_ErosionDeposition.pyx":333
- *                 deposited_weight = dr_node_per_gs * dx * dx * suspended_fraction_at_node[node, gs]
+ *                 deposited_weight = dr_node_per_gs * dx * dx * sediment_load_fraction_at_node[node, gs]
  * 
- *                 if deposited_weight > temp_suspended_sediment_weight_at_node_per_size[node, gs]:             # <<<<<<<<<<<<<<
- *                     deposited_weight = temp_suspended_sediment_weight_at_node_per_size[node, gs]
+ *                 if deposited_weight > temp_sediment_load_weight_at_node_per_size[node, gs]:             # <<<<<<<<<<<<<<
+ *                     deposited_weight = temp_sediment_load_weight_at_node_per_size[node, gs]
  * 
  */
                                 __pyx_t_13 = __pyx_v_node;
                                 __pyx_t_10 = __pyx_v_gs;
                                 __pyx_t_11 = -1;
                                 if (__pyx_t_13 < 0) {
-                                  __pyx_t_13 += __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[0].shape;
+                                  __pyx_t_13 += __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[0].shape;
                                   if (unlikely(__pyx_t_13 < 0)) __pyx_t_11 = 0;
-                                } else if (unlikely(__pyx_t_13 >= __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[0].shape)) __pyx_t_11 = 0;
+                                } else if (unlikely(__pyx_t_13 >= __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[0].shape)) __pyx_t_11 = 0;
                                 if (__pyx_t_10 < 0) {
-                                  __pyx_t_10 += __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[1].shape;
+                                  __pyx_t_10 += __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[1].shape;
                                   if (unlikely(__pyx_t_10 < 0)) __pyx_t_11 = 1;
-                                } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[1].shape)) __pyx_t_11 = 1;
+                                } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[1].shape)) __pyx_t_11 = 1;
                                 if (unlikely(__pyx_t_11 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
                                   __PYX_ERR(0, 333, __pyx_L8_error)
                                 }
-                                __pyx_t_12 = (__pyx_v_deposited_weight > (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[0].strides, __pyx_t_10, __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[1].strides)));
+                                __pyx_t_12 = (__pyx_v_deposited_weight > (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[0].strides, __pyx_t_10, __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[1].strides)));
                                 if (__pyx_t_12) {
 
                                   /* "cfuncs_ErosionDeposition.pyx":334
  * 
- *                 if deposited_weight > temp_suspended_sediment_weight_at_node_per_size[node, gs]:
- *                     deposited_weight = temp_suspended_sediment_weight_at_node_per_size[node, gs]             # <<<<<<<<<<<<<<
+ *                 if deposited_weight > temp_sediment_load_weight_at_node_per_size[node, gs]:
+ *                     deposited_weight = temp_sediment_load_weight_at_node_per_size[node, gs]             # <<<<<<<<<<<<<<
  * 
- *                 deposited_suspended_sediments_weights_at_node[node, gs] = deposited_weight
+ *                 deposited_sediment_load_weights_at_node[node, gs] = deposited_weight
  */
                                   __pyx_t_10 = __pyx_v_node;
                                   __pyx_t_13 = __pyx_v_gs;
                                   __pyx_t_11 = -1;
                                   if (__pyx_t_10 < 0) {
-                                    __pyx_t_10 += __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[0].shape;
+                                    __pyx_t_10 += __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[0].shape;
                                     if (unlikely(__pyx_t_10 < 0)) __pyx_t_11 = 0;
-                                  } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[0].shape)) __pyx_t_11 = 0;
+                                  } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[0].shape)) __pyx_t_11 = 0;
                                   if (__pyx_t_13 < 0) {
-                                    __pyx_t_13 += __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[1].shape;
+                                    __pyx_t_13 += __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[1].shape;
                                     if (unlikely(__pyx_t_13 < 0)) __pyx_t_11 = 1;
-                                  } else if (unlikely(__pyx_t_13 >= __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[1].shape)) __pyx_t_11 = 1;
+                                  } else if (unlikely(__pyx_t_13 >= __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[1].shape)) __pyx_t_11 = 1;
                                   if (unlikely(__pyx_t_11 != -1)) {
                                     __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
                                     __PYX_ERR(0, 334, __pyx_L8_error)
                                   }
-                                  __pyx_v_deposited_weight = (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[1].strides));
+                                  __pyx_v_deposited_weight = (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.diminfo[1].strides));
 
                                   /* "cfuncs_ErosionDeposition.pyx":333
- *                 deposited_weight = dr_node_per_gs * dx * dx * suspended_fraction_at_node[node, gs]
+ *                 deposited_weight = dr_node_per_gs * dx * dx * sediment_load_fraction_at_node[node, gs]
  * 
- *                 if deposited_weight > temp_suspended_sediment_weight_at_node_per_size[node, gs]:             # <<<<<<<<<<<<<<
- *                     deposited_weight = temp_suspended_sediment_weight_at_node_per_size[node, gs]
+ *                 if deposited_weight > temp_sediment_load_weight_at_node_per_size[node, gs]:             # <<<<<<<<<<<<<<
+ *                     deposited_weight = temp_sediment_load_weight_at_node_per_size[node, gs]
  * 
  */
                                 }
 
                                 /* "cfuncs_ErosionDeposition.pyx":336
- *                     deposited_weight = temp_suspended_sediment_weight_at_node_per_size[node, gs]
+ *                     deposited_weight = temp_sediment_load_weight_at_node_per_size[node, gs]
  * 
- *                 deposited_suspended_sediments_weights_at_node[node, gs] = deposited_weight             # <<<<<<<<<<<<<<
+ *                 deposited_sediment_load_weights_at_node[node, gs] = deposited_weight             # <<<<<<<<<<<<<<
  *                 summed_deposited_at_node  = summed_deposited_at_node + deposited_weight
  * 
  */
@@ -31320,22 +31320,22 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(C
                                 __pyx_t_10 = __pyx_v_gs;
                                 __pyx_t_11 = -1;
                                 if (__pyx_t_13 < 0) {
-                                  __pyx_t_13 += __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.diminfo[0].shape;
+                                  __pyx_t_13 += __pyx_pybuffernd_deposited_sediment_load_weights_at_node.diminfo[0].shape;
                                   if (unlikely(__pyx_t_13 < 0)) __pyx_t_11 = 0;
-                                } else if (unlikely(__pyx_t_13 >= __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.diminfo[0].shape)) __pyx_t_11 = 0;
+                                } else if (unlikely(__pyx_t_13 >= __pyx_pybuffernd_deposited_sediment_load_weights_at_node.diminfo[0].shape)) __pyx_t_11 = 0;
                                 if (__pyx_t_10 < 0) {
-                                  __pyx_t_10 += __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.diminfo[1].shape;
+                                  __pyx_t_10 += __pyx_pybuffernd_deposited_sediment_load_weights_at_node.diminfo[1].shape;
                                   if (unlikely(__pyx_t_10 < 0)) __pyx_t_11 = 1;
-                                } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.diminfo[1].shape)) __pyx_t_11 = 1;
+                                } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_deposited_sediment_load_weights_at_node.diminfo[1].shape)) __pyx_t_11 = 1;
                                 if (unlikely(__pyx_t_11 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
                                   __PYX_ERR(0, 336, __pyx_L8_error)
                                 }
-                                *__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.diminfo[0].strides, __pyx_t_10, __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.diminfo[1].strides) = __pyx_v_deposited_weight;
+                                *__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_deposited_sediment_load_weights_at_node.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_deposited_sediment_load_weights_at_node.diminfo[0].strides, __pyx_t_10, __pyx_pybuffernd_deposited_sediment_load_weights_at_node.diminfo[1].strides) = __pyx_v_deposited_weight;
 
                                 /* "cfuncs_ErosionDeposition.pyx":337
  * 
- *                 deposited_suspended_sediments_weights_at_node[node, gs] = deposited_weight
+ *                 deposited_sediment_load_weights_at_node[node, gs] = deposited_weight
  *                 summed_deposited_at_node  = summed_deposited_at_node + deposited_weight             # <<<<<<<<<<<<<<
  * 
  *         entrainment_soil_rate_dz[node] = summed_detached_soil_weight_at_node / factor_convert_weight_to_dz
@@ -31343,11 +31343,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(C
                                 __pyx_v_summed_deposited_at_node = (__pyx_v_summed_deposited_at_node + __pyx_v_deposited_weight);
 
                                 /* "cfuncs_ErosionDeposition.pyx":329
- *                 temp_suspended_sediment_weight_at_node_per_size[node, gs] += detached_soil_weight_at_node + deatched_bedrock_weight_at_node
+ *                 temp_sediment_load_weight_at_node_per_size[node, gs] += detached_soil_weight_at_node + deatched_bedrock_weight_at_node
  * 
  *             if dr_node_per_gs < 0:             # <<<<<<<<<<<<<<
  *                 dr_node_per_gs = DR_abs[node, gs]
- *                 deposited_weight = dr_node_per_gs * dx * dx * suspended_fraction_at_node[node, gs]
+ *                 deposited_weight = dr_node_per_gs * dx * dx * sediment_load_fraction_at_node[node, gs]
  */
                               }
                             }
@@ -31574,7 +31574,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(C
 
   /* "cfuncs_ErosionDeposition.pyx":350
  *             entrainment_bedrock_rate_dz,
- *             deposited_suspended_sediments_weights_at_node,
+ *             deposited_sediment_load_weights_at_node,
  *             total_deposited_sediments_dz_at_node)             # <<<<<<<<<<<<<<
  * 
  * 
@@ -31593,9 +31593,9 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(C
   __Pyx_INCREF((PyObject *)__pyx_v_entrainment_bedrock_rate_dz);
   __Pyx_GIVEREF((PyObject *)__pyx_v_entrainment_bedrock_rate_dz);
   if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 3, ((PyObject *)__pyx_v_entrainment_bedrock_rate_dz))) __PYX_ERR(0, 345, __pyx_L1_error);
-  __Pyx_INCREF((PyObject *)__pyx_v_deposited_suspended_sediments_weights_at_node);
-  __Pyx_GIVEREF((PyObject *)__pyx_v_deposited_suspended_sediments_weights_at_node);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 4, ((PyObject *)__pyx_v_deposited_suspended_sediments_weights_at_node))) __PYX_ERR(0, 345, __pyx_L1_error);
+  __Pyx_INCREF((PyObject *)__pyx_v_deposited_sediment_load_weights_at_node);
+  __Pyx_GIVEREF((PyObject *)__pyx_v_deposited_sediment_load_weights_at_node);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 4, ((PyObject *)__pyx_v_deposited_sediment_load_weights_at_node))) __PYX_ERR(0, 345, __pyx_L1_error);
   __Pyx_INCREF((PyObject *)__pyx_v_total_deposited_sediments_dz_at_node);
   __Pyx_GIVEREF((PyObject *)__pyx_v_total_deposited_sediments_dz_at_node);
   if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 5, ((PyObject *)__pyx_v_total_deposited_sediments_dz_at_node))) __PYX_ERR(0, 345, __pyx_L1_error);
@@ -31624,14 +31624,14 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(C
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_deatched_bedrock_weight.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_deatched_soil_weight.rcbuffer->pybuffer);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_deposited_sediment_load_weights_at_node.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_entrainment_bedrock_rate_dz.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_entrainment_soil_rate_dz.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_grain_fractions_at_node.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_grain_weight_at_node.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_sediment_load_fraction_at_node.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_soil_e_expo.rcbuffer->pybuffer);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_suspended_fraction_at_node.rcbuffer->pybuffer);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_total_deposited_sediments_dz_at_node.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
   __Pyx_AddTraceback("cfuncs_ErosionDeposition.calc_detached_deposited", __pyx_clineno, __pyx_lineno, __pyx_filename);
@@ -31644,14 +31644,14 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_detached_deposited(C
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer);
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_deatched_bedrock_weight.rcbuffer->pybuffer);
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_deatched_soil_weight.rcbuffer->pybuffer);
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_deposited_sediment_load_weights_at_node.rcbuffer->pybuffer);
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_entrainment_bedrock_rate_dz.rcbuffer->pybuffer);
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_entrainment_soil_rate_dz.rcbuffer->pybuffer);
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_grain_fractions_at_node.rcbuffer->pybuffer);
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_grain_weight_at_node.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_sediment_load_fraction_at_node.rcbuffer->pybuffer);
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_soil_e_expo.rcbuffer->pybuffer);
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_suspended_fraction_at_node.rcbuffer->pybuffer);
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_temp_sediment_load_weight_at_node_per_size.rcbuffer->pybuffer);
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_total_deposited_sediments_dz_at_node.rcbuffer->pybuffer);
   __pyx_L2:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -38465,7 +38465,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_deatched_bedrock_weight_at_node, __pyx_k_deatched_bedrock_weight_at_node, sizeof(__pyx_k_deatched_bedrock_weight_at_node), 0, 0, 1, 1},
     {&__pyx_n_s_deatched_soil_weight, __pyx_k_deatched_soil_weight, sizeof(__pyx_k_deatched_soil_weight), 0, 0, 1, 1},
     {&__pyx_n_s_defaults, __pyx_k_defaults, sizeof(__pyx_k_defaults), 0, 0, 1, 1},
-    {&__pyx_n_s_deposited_suspended_sediments_we, __pyx_k_deposited_suspended_sediments_we, sizeof(__pyx_k_deposited_suspended_sediments_we), 0, 0, 1, 1},
+    {&__pyx_n_s_deposited_sediment_load_weights, __pyx_k_deposited_sediment_load_weights, sizeof(__pyx_k_deposited_sediment_load_weights), 0, 0, 1, 1},
     {&__pyx_n_s_deposited_weight, __pyx_k_deposited_weight, sizeof(__pyx_k_deposited_weight), 0, 0, 1, 1},
     {&__pyx_n_s_detached_soil_weight_at_node, __pyx_k_detached_soil_weight_at_node, sizeof(__pyx_k_detached_soil_weight_at_node), 0, 0, 1, 1},
     {&__pyx_n_s_dict, __pyx_k_dict, sizeof(__pyx_k_dict), 0, 0, 1, 1},
@@ -38581,6 +38581,8 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_rho_c, __pyx_k_rho_c, sizeof(__pyx_k_rho_c), 0, 0, 1, 1},
     {&__pyx_n_s_row, __pyx_k_row, sizeof(__pyx_k_row), 0, 0, 1, 1},
     {&__pyx_n_s_s, __pyx_k_s, sizeof(__pyx_k_s), 0, 0, 1, 1},
+    {&__pyx_n_s_sediment_load_concentration_at_l, __pyx_k_sediment_load_concentration_at_l, sizeof(__pyx_k_sediment_load_concentration_at_l), 0, 0, 1, 1},
+    {&__pyx_n_s_sediment_load_fraction_at_node, __pyx_k_sediment_load_fraction_at_node, sizeof(__pyx_k_sediment_load_fraction_at_node), 0, 0, 1, 1},
     {&__pyx_n_s_sediments_flux_at_link, __pyx_k_sediments_flux_at_link, sizeof(__pyx_k_sediments_flux_at_link), 0, 0, 1, 1},
     {&__pyx_n_s_setstate, __pyx_k_setstate, sizeof(__pyx_k_setstate), 0, 0, 1, 1},
     {&__pyx_n_s_setstate_cython, __pyx_k_setstate_cython, sizeof(__pyx_k_setstate_cython), 0, 0, 1, 1},
@@ -38607,12 +38609,10 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_summed_deposited_at_node, __pyx_k_summed_deposited_at_node, sizeof(__pyx_k_summed_deposited_at_node), 0, 0, 1, 1},
     {&__pyx_n_s_summed_detached_bedrock_weight_a, __pyx_k_summed_detached_bedrock_weight_a, sizeof(__pyx_k_summed_detached_bedrock_weight_a), 0, 0, 1, 1},
     {&__pyx_n_s_summed_detached_soil_weight_at_n, __pyx_k_summed_detached_soil_weight_at_n, sizeof(__pyx_k_summed_detached_soil_weight_at_n), 0, 0, 1, 1},
-    {&__pyx_n_s_suspended__sediments_concentrati, __pyx_k_suspended__sediments_concentrati, sizeof(__pyx_k_suspended__sediments_concentrati), 0, 0, 1, 1},
-    {&__pyx_n_s_suspended_fraction_at_node, __pyx_k_suspended_fraction_at_node, sizeof(__pyx_k_suspended_fraction_at_node), 0, 0, 1, 1},
     {&__pyx_n_s_sys, __pyx_k_sys, sizeof(__pyx_k_sys), 0, 0, 1, 1},
     {&__pyx_n_s_tau_c, __pyx_k_tau_c, sizeof(__pyx_k_tau_c), 0, 0, 1, 1},
     {&__pyx_n_s_tau_s, __pyx_k_tau_s, sizeof(__pyx_k_tau_s), 0, 0, 1, 1},
-    {&__pyx_n_s_temp_suspended_sediment_weight_a, __pyx_k_temp_suspended_sediment_weight_a, sizeof(__pyx_k_temp_suspended_sediment_weight_a), 0, 0, 1, 1},
+    {&__pyx_n_s_temp_sediment_load_weight_at_nod, __pyx_k_temp_sediment_load_weight_at_nod, sizeof(__pyx_k_temp_sediment_load_weight_at_nod), 0, 0, 1, 1},
     {&__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
     {&__pyx_n_s_total_deposited_sediments_dz_at, __pyx_k_total_deposited_sediments_dz_at, sizeof(__pyx_k_total_deposited_sediments_dz_at), 0, 0, 1, 1},
     {&__pyx_n_s_total_influx_at_node, __pyx_k_total_influx_at_node, sizeof(__pyx_k_total_influx_at_node), 0, 0, 1, 1},
@@ -38911,9 +38911,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * def calc_flux_at_link_per_size(             # <<<<<<<<<<<<<<
  *         cnp.ndarray[DTYPE_FLOAT_t, ndim=1] q_water_at_link,
- *         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] suspended__sediments_concentration_at_link,
+ *         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] sediment_load_concentration_at_link,
  */
-  __pyx_tuple__38 = PyTuple_Pack(10, __pyx_n_s_q_water_at_link, __pyx_n_s_suspended__sediments_concentrati, __pyx_n_s_active_links, __pyx_n_s_weight_flux_at_link, __pyx_n_s_shape, __pyx_n_s_link, __pyx_n_s_index, __pyx_n_s_gs, __pyx_n_s_n_links, __pyx_n_s_n_gs); if (unlikely(!__pyx_tuple__38)) __PYX_ERR(0, 181, __pyx_L1_error)
+  __pyx_tuple__38 = PyTuple_Pack(10, __pyx_n_s_q_water_at_link, __pyx_n_s_sediment_load_concentration_at_l, __pyx_n_s_active_links, __pyx_n_s_weight_flux_at_link, __pyx_n_s_shape, __pyx_n_s_link, __pyx_n_s_index, __pyx_n_s_gs, __pyx_n_s_n_links, __pyx_n_s_n_gs); if (unlikely(!__pyx_tuple__38)) __PYX_ERR(0, 181, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__38);
   __Pyx_GIVEREF(__pyx_tuple__38);
   __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(5, 0, 0, 10, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_cfuncs_ErosionDeposition_pyx, __pyx_n_s_calc_flux_at_link_per_size, 181, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) __PYX_ERR(0, 181, __pyx_L1_error)
@@ -38949,7 +38949,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *     cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] DR,
  *     cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] DR_abs,
  */
-  __pyx_tuple__44 = PyTuple_Pack(34, __pyx_n_s_DR, __pyx_n_s_DR_abs, __pyx_n_s_grain_weight_at_node, __pyx_n_s_grain_fractions_at_node, __pyx_n_s_deatched_soil_weight, __pyx_n_s_deatched_bedrock_weight, __pyx_n_s_suspended_fraction_at_node, __pyx_n_s_bedrock_grain_fractions, __pyx_n_s_temp_suspended_sediment_weight_a, __pyx_n_s_deposited_suspended_sediments_we, __pyx_n_s_total_deposited_sediments_dz_at, __pyx_n_s_entrainment_soil_rate_dz, __pyx_n_s_entrainment_bedrock_rate_dz, __pyx_n_s_soil_e_expo, __pyx_n_s_core_nodes, __pyx_n_s_factor_convert_weight_to_dz_c, __pyx_n_s_factor_convert_weight_to_dz_bedr, __pyx_n_s_shape, __pyx_n_s_dx_c, __pyx_n_s_n_nodes, __pyx_n_s_n_gs, __pyx_n_s_node, __pyx_n_s_index, __pyx_n_s_gs, __pyx_n_s_dr_node_per_gs, __pyx_n_s_detached_soil_weight_at_node, __pyx_n_s_deatched_bedrock_weight_at_node, __pyx_n_s_deposited_weight, __pyx_n_s_summed_deposited_at_node, __pyx_n_s_summed_detached_soil_weight_at_n, __pyx_n_s_summed_detached_bedrock_weight_a, __pyx_n_s_factor_convert_weight_to_dz, __pyx_n_s_factor_convert_weight_to_dz_bedr_2, __pyx_n_s_dx); if (unlikely(!__pyx_tuple__44)) __PYX_ERR(0, 265, __pyx_L1_error)
+  __pyx_tuple__44 = PyTuple_Pack(34, __pyx_n_s_DR, __pyx_n_s_DR_abs, __pyx_n_s_grain_weight_at_node, __pyx_n_s_grain_fractions_at_node, __pyx_n_s_deatched_soil_weight, __pyx_n_s_deatched_bedrock_weight, __pyx_n_s_sediment_load_fraction_at_node, __pyx_n_s_bedrock_grain_fractions, __pyx_n_s_temp_sediment_load_weight_at_nod, __pyx_n_s_deposited_sediment_load_weights, __pyx_n_s_total_deposited_sediments_dz_at, __pyx_n_s_entrainment_soil_rate_dz, __pyx_n_s_entrainment_bedrock_rate_dz, __pyx_n_s_soil_e_expo, __pyx_n_s_core_nodes, __pyx_n_s_factor_convert_weight_to_dz_c, __pyx_n_s_factor_convert_weight_to_dz_bedr, __pyx_n_s_shape, __pyx_n_s_dx_c, __pyx_n_s_n_nodes, __pyx_n_s_n_gs, __pyx_n_s_node, __pyx_n_s_index, __pyx_n_s_gs, __pyx_n_s_dr_node_per_gs, __pyx_n_s_detached_soil_weight_at_node, __pyx_n_s_deatched_bedrock_weight_at_node, __pyx_n_s_deposited_weight, __pyx_n_s_summed_deposited_at_node, __pyx_n_s_summed_detached_soil_weight_at_n, __pyx_n_s_summed_detached_bedrock_weight_a, __pyx_n_s_factor_convert_weight_to_dz, __pyx_n_s_factor_convert_weight_to_dz_bedr_2, __pyx_n_s_dx); if (unlikely(!__pyx_tuple__44)) __PYX_ERR(0, 265, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__44);
   __Pyx_GIVEREF(__pyx_tuple__44);
   __pyx_codeobj__45 = (PyObject*)__Pyx_PyCode_New(19, 0, 0, 34, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__44, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_cfuncs_ErosionDeposition_pyx, __pyx_n_s_calc_detached_deposited, 265, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__45)) __PYX_ERR(0, 265, __pyx_L1_error)
@@ -40379,7 +40379,7 @@ if (!__Pyx_RefNanny) {
  * 
  * def calc_flux_at_link_per_size(             # <<<<<<<<<<<<<<
  *         cnp.ndarray[DTYPE_FLOAT_t, ndim=1] q_water_at_link,
- *         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] suspended__sediments_concentration_at_link,
+ *         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] sediment_load_concentration_at_link,
  */
   __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_13calc_flux_at_link_per_size, 0, __pyx_n_s_calc_flux_at_link_per_size, NULL, __pyx_n_s_cfuncs_ErosionDeposition, __pyx_d, ((PyObject *)__pyx_codeobj__39)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 181, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
