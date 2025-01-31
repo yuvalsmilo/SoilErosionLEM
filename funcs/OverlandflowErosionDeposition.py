@@ -4,7 +4,7 @@
 import numpy as np
 import scipy.constants
 from landlab import Component
-from cfuncs_erosion_deposition import cfuncs_ErosionDeposition
+from .cfuncs_erosion_deposition import cfuncs_ErosionDeposition
 
 
 class OverlandflowErosionDeposition(Component):
@@ -110,7 +110,8 @@ class OverlandflowErosionDeposition(Component):
             change_topo_flag=True,              # A flag the allow to run simulation without changing the topography
             kr=0.0002,                          # Erodibility coefficient [s/m]
             max_flipped_deposition_dz=0.01,     # Allow inverse of topography up to certain dz [m]
-            depression_depth=0.0055             # Characteristic depression depth for calculating flow width [m]
+            depression_depth=0.0055,            # Characteristic depression depth for calculating flow width [m]
+            roughness_correction = 1,           # Roughness correction for shear stress [-]
     ):
 
         super().__init__(grid)
@@ -126,6 +127,7 @@ class OverlandflowErosionDeposition(Component):
         self._sigma = sigma
         self._phi = phi
         self._cover_depth_star = cover_depth_star
+        self._roughness_correction = roughness_correction
 
         self._R = R
         self._C1 = C1
@@ -159,8 +161,8 @@ class OverlandflowErosionDeposition(Component):
         self._DR = np.zeros((self._nodes, np.shape(self._grid.at_node['grains__weight'])[1]))
         self._tau_crit = np.zeros((self._nodes, np.shape(self._grid.at_node['grains__weight'])[1]))
         self._tau_crit[:] = tau_crit
-        self._outlinks_fluxes_at_node = np.zeros((self._nodes, 4, np.shape(self._grid.at_node['grains__weight'])[1]))
-        self._inlinks_fluxes_at_node = np.zeros((self._nodes, 4, np.shape(self._grid.at_node['grains__weight'])[1]))
+        self._outlinks_fluxes_at_node = np.zeros((self._nodes, np.shape(self._grid.at_node['grains__weight'])[1]))
+        self._inlinks_fluxes_at_node = np.zeros((self._nodes,  np.shape(self._grid.at_node['grains__weight'])[1]))
         self._c_si = np.zeros((self._nodes, np.shape(self._grid.at_node['grains__weight'])[1]))
         self._c_kg = np.zeros((self._nodes, np.shape(self._grid.at_node['grains__weight'])[1]))
         self._grain_fractions_at_node = np.zeros((self._nodes, np.shape(self._grid.at_node['grains__weight'])[1]))
@@ -256,38 +258,71 @@ class OverlandflowErosionDeposition(Component):
             total_influx_at_node,
             shape)
 
+        #Limit time step to 1 sec if run time is very slow
         indices_to_correct_flux = np.where(outlinks_fluxes_at_node > sediment_load_weight_at_node_per_size)
         if np.any(indices_to_correct_flux):
-            ratios = np.divide(sediment_load_weight_at_node_per_size[indices_to_correct_flux],
-                               outlinks_fluxes_at_node[indices_to_correct_flux])
-
-            for i, (n, gs) in enumerate(zip(indices_to_correct_flux[0], indices_to_correct_flux[1])):
-                out_links = self._grid.links_at_node[n, :][outlinks_at_node[n, :]]
-                weight_flux_at_link[out_links, gs] *= ratios[i, np.newaxis]  # Update the weight flux at link.
-
-            outlinks_fluxes_at_node = np.zeros_like(self._zeros_at_node_for_fractions)
-            inlinks_fluxes_at_node = np.zeros_like(self._zeros_at_node_for_fractions)
-            total_outflux_at_node = np.zeros_like(self._zeros_at_node)
-            total_influx_at_node = np.zeros_like(self._zeros_at_node)
-
-            (outlinks_fluxes_at_node,
+            (weight_flux_at_link,
+             outlinks_fluxes_at_node,
              inlinks_fluxes_at_node,
              total_outflux_at_node,
-             total_influx_at_node) = cfuncs_ErosionDeposition.get_outin_fluxes(
-                upwind_node_ids_at_link,
-                downwind_node_ids_at_link,
-                weight_flux_at_link,
-                self._active_links_ids,
-                outlinks_fluxes_at_node,
-                inlinks_fluxes_at_node,
-                total_outflux_at_node,
-                total_influx_at_node,
-                shape)
+             total_influx_at_node
+             ) = self._fix_outfluxes(indices_to_correct_flux,
+                                     outlinks_fluxes_at_node,
+                                     sediment_load_weight_at_node_per_size,
+                                     outlinks_at_node,
+                                     upwind_node_ids_at_link,
+                                     downwind_node_ids_at_link,
+                                     weight_flux_at_link,
+                                     shape)
 
         self._grid.at_node['sediment__influx'][:] = total_influx_at_node
         self._grid.at_node['sediment__outflux'][:] = total_outflux_at_node
 
         return weight_flux_at_link, outlinks_fluxes_at_node, inlinks_fluxes_at_node
+
+
+    def _fix_outfluxes(self, indices_to_correct_flux,
+                       outlinks_fluxes_at_node,
+                       sediment_load_weight_at_node_per_size,
+                       outlinks_at_node,
+                       upwind_node_ids_at_link,
+                       downwind_node_ids_at_link,
+                       weight_flux_at_link,
+                       shape):
+
+        ratios = np.divide(sediment_load_weight_at_node_per_size[indices_to_correct_flux],
+                           outlinks_fluxes_at_node[indices_to_correct_flux])
+
+        for i, (n, gs) in enumerate(zip(indices_to_correct_flux[0], indices_to_correct_flux[1])):
+            out_links = self._grid.links_at_node[n, :][outlinks_at_node[n, :]]
+            weight_flux_at_link[out_links, gs] *= ratios[i, np.newaxis]  # Update the weight flux at link.
+
+        outlinks_fluxes_at_node = np.zeros_like(self._zeros_at_node_for_fractions)
+        inlinks_fluxes_at_node = np.zeros_like(self._zeros_at_node_for_fractions)
+        total_outflux_at_node = np.zeros_like(self._zeros_at_node)
+        total_influx_at_node = np.zeros_like(self._zeros_at_node)
+
+        (outlinks_fluxes_at_node,
+         inlinks_fluxes_at_node,
+         total_outflux_at_node,
+         total_influx_at_node) = cfuncs_ErosionDeposition.get_outin_fluxes(
+            upwind_node_ids_at_link,
+            downwind_node_ids_at_link,
+            weight_flux_at_link,
+            self._active_links_ids,
+            outlinks_fluxes_at_node,
+            inlinks_fluxes_at_node,
+            total_outflux_at_node,
+            total_influx_at_node,
+            shape)
+
+
+
+        return (weight_flux_at_link,
+                outlinks_fluxes_at_node,
+                inlinks_fluxes_at_node,
+                total_outflux_at_node,
+                total_influx_at_node)
 
     def _calc_dzdt(self, size_class, dt=1):
 
@@ -324,13 +359,12 @@ class OverlandflowErosionDeposition(Component):
 
         # Pointers
         c_si_kg = self._c_kg
-        self._roughness_correction = 1
         surface_water__depth_at_node = self.grid.at_node['surface_water__depth']
         S = self._grid.at_node[self._slope]
         median_sizes = np.copy(self._grid.at_node['median_size__weight'])
         median_sizes[median_sizes == 0] = self._bedrock_median_size
 
-        # Get outflux water dischrage
+        # Get outflux water discharge
         shape = (np.size(self._active_links_ids))
         q_at_node = cfuncs_ErosionDeposition.sum_out_discharge(self._upwind_node_ids_at_link,
                                                                np.abs(self._grid.at_link['surface_water__discharge']),
@@ -347,8 +381,8 @@ class OverlandflowErosionDeposition(Component):
         flow_width = np.divide(surface_water__depth_at_node,
                                self._depression_depth)  # depression depth in meters
         flow_width[
-            flow_width > self._grid.dx] = self._grid.dx  # greater than 1 means water depth is over the depression depth so flow 
-        # width is set to the grid node width
+            flow_width > self._grid.dx] = self._grid.dx  # greater than 1 means water depth is over the depression 
+        # depth so flow width is set to the grid node width
 
         # Calculation of transport capacity at node
         TC = np.zeros_like(self._zeros_at_node_for_fractions)
@@ -411,7 +445,7 @@ class OverlandflowErosionDeposition(Component):
         surface_water__depth_at_node[surface_water__depth_at_node < 10 ** -8] = 10 ** -8
         surface_water__depth_at_node_expand = np.expand_dims(surface_water__depth_at_node, -1)
         q_water_at_link = self.grid.at_link[
-            'surface_water__discharge']  # surface water discharge units are m**3/s -> From OverlandFlow component
+            'surface_water__discharge']
         q_water_at_link[self._inactive_links] = 0
 
         # Weight concentration at link
@@ -440,6 +474,9 @@ class OverlandflowErosionDeposition(Component):
             sediment_load_weight_at_node_per_size,
             outlinks_at_node)
 
+        self._outlinks_fluxes_at_node[:] = outlinks_fluxes_at_node
+        self._inlinks_fluxes_at_node[:] = inlinks_fluxes_at_node
+
         # Get the sediment load weight flux at LINK
         shape = np.shape(self._sediment_load_weight_flux_at_link)
         self._sediment_load_weight_flux_at_link[:] = cfuncs_ErosionDeposition.calc_flux_at_link(self._grid.dx,
@@ -458,13 +495,10 @@ class OverlandflowErosionDeposition(Component):
     def _map_upwind_downwind_nodes_to_links(self):
 
         # Map upwind/downwind node id to links
-        upwind_node_ids_at_link = self._grid.map_value_at_max_node_to_link('water_surface__elevation',
+        self._upwind_node_ids_at_link = self._grid.map_value_at_max_node_to_link('water_surface__elevation',
                                                                            self._nodes_flatten).astype('int')
-        self._upwind_node_ids_at_link = upwind_node_ids_at_link
-
-        downwind_node_ids_at_link = self._grid.map_value_at_min_node_to_link('water_surface__elevation',
+        self._downwind_node_ids_at_link = self._grid.map_value_at_min_node_to_link('water_surface__elevation',
                                                                              self._nodes_flatten).astype('int')
-        self._downwind_node_ids_at_link = downwind_node_ids_at_link
 
     def _calc_erosion_deposition(self, ):
 
@@ -523,13 +557,13 @@ class OverlandflowErosionDeposition(Component):
             np.shape(temp_sediment_load_weight_at_node_per_size)
         )
 
-        # If the concentration is greater than 1, all the sediments in the load needs to be deposited
         sum_c_si = cfuncs_ErosionDeposition.grain_size_sum_at_node(c_si,
                                                                    np.zeros_like(self._zeros_at_node),
                                                                    np.shape(c_si))
 
         # Calculation of erosion/deposition at node
         self._calc_DR()
+        # If the concentration is greater than 1, all the sediments in the load needs to be deposited
         self._DR[sum_c_si >= 1, :] = -np.inf  # DR returns in units of kg/(m^2*s)
 
         # Calc net change for both layer
@@ -587,7 +621,7 @@ class OverlandflowErosionDeposition(Component):
         outlinks_fluxes_at_node = self._outlinks_fluxes_at_node
 
         # Condition 1:
-        # Stable incision dz in each node will be half of the maximal DOWNWIND gradient
+        # Stable dz in each node will be half of the maximal DOWNWIND gradient
         # A minimal elevation difference threshold for incision is set. Below this value,
         # incision assumed to be zero (slope is VERY low).
         stable_incision_dz = (max_downwind_gradient * self._grid.dx) / 2  # topographic slope
@@ -607,10 +641,9 @@ class OverlandflowErosionDeposition(Component):
 
         # Condition 2.
         # Make sure deposition weight is not greater than what exist in the flow
-        # The minimum dt based on this criteria will be 1 sec.
         if np.any(
                 deposited_sediment_weights_at_node > 10 ** -10):  # some error that I allow for not get into small 
-            # time steps all the time.
+            # time steps.
             self._stable_deposition_rate = \
                 np.max([np.min(
                     np.divide(temp_sediment_load_weight_at_node_per_size,
@@ -630,8 +663,8 @@ class OverlandflowErosionDeposition(Component):
             ] = self._max_flipped_deposition_dz * self._grid.dx
 
         net_deposition_dz = deposited_sediments_dz_at_node - (
-                detached_bedrock_rate_dz + detached_soil_rate_dz)  # bedrock erosion is not lowering the surface
-                                                                   # because its just convert 'bedrock' to 'soil'
+                detached_bedrock_rate_dz + detached_soil_rate_dz)
+
         deposition_indices = np.where(
             (net_deposition_dz > self._max_flipped_deposition_dz))  # allow "small" piles of sediment to form
         if np.any(deposition_indices):
@@ -645,8 +678,7 @@ class OverlandflowErosionDeposition(Component):
         else:
             self._stable_dt_deposition = np.inf
 
-        # Condition 4.
-        # Avoid delivering more sediment than what existed in the upwind node
+        # Condition 4: Avoid delivering more sediment than what existed in the upwind node
         sediment_load_weight_flux_at_node_per_size = (self._sediment_load_flux_dzdt_at_node_per_size * 
                                                       self._grid.dx ** 2 * self._sigma * (1 - self._phi))
         sum_sediment_load_weight_flux_at_node = cfuncs_ErosionDeposition.grain_size_sum_at_node(
@@ -711,7 +743,7 @@ class OverlandflowErosionDeposition(Component):
         detached_soil_weight = self._detached_soil_weight
         detached_bedrock_weight = self._detached_bedrock_weight
 
-        # Load fluxes per time step
+        # Load fluxes
         sediment_load_weight_flux_from_srrnds = (self._sediment_load_flux_dzdt_at_node_per_size *
                                                  self._grid.dx**2 * 
                                                  self._sigma * dt *
@@ -724,14 +756,17 @@ class OverlandflowErosionDeposition(Component):
             sediment_load_weight_at_node_per_size[
                 deposited_sediment_weights_at_node > sediment_load_weight_at_node_per_size]
 
-        # Update weight fluxes (detached/deposited) at node
+        # Update detached weights at node
         local_sediment_weight_flux_at_node_per_size = (detached_soil_weight + detached_bedrock_weight) * dt  # 
 
-        # Update load
+        # Update net sediment load according to local detachment
         sediment_load_weight_at_node_per_size[:] = sediment_load_weight_at_node_per_size + (
                     local_sediment_weight_flux_at_node_per_size + sediment_load_weight_flux_from_srrnds)
+
+        # Update net sediment load according to deposition
         sediment_load_weight_at_node_per_size[
         :] = sediment_load_weight_at_node_per_size - deposited_sediment_weights_at_node
+
         sediment_load_weight_at_node_per_size[sediment_load_weight_at_node_per_size < 0] = 0
         sediment_load_weight_at_node[:] = np.sum(sediment_load_weight_at_node_per_size, axis=1)
 
