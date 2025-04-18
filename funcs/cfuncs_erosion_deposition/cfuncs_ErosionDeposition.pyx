@@ -28,8 +28,8 @@ ctypedef fused float_or_int:
 
 
 DTYPE_INT = np.intc
-ctypedef cnp.int_t DTYPE_INT_t
-
+#ctypedef cnp.int_t DTYPE_INT_t
+ctypedef cnp.intp_t DTYPE_INT_t
 DTYPE_FLOAT = np.double
 DTYPE_complex = np.complexfloating
 ctypedef cnp.double_t DTYPE_FLOAT_t
