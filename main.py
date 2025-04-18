@@ -20,8 +20,6 @@ soil_type = 'sandy loam'
 grid_path = './Inputs/LuckyHills103_1m.asc'
 outlet_node = int(14504)
 
-#grid_path = '../Inputs/LuckyHills103_10m.asc'
-
 grid, data = read_esri_ascii(grid_path)
 grid.set_watershed_boundary_condition(node_data=data, nodata_value=-9999.0)
 #outlet_node = int(np.where(grid._node_status==1)[0])
