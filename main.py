@@ -14,7 +14,8 @@ roughness = 0.07
 Ks = 5.5*10**-6
 kr = 0.0005
 soil_type = 'sandy loam'
-
+phi = 0.4
+soil_density = 2650
 
 ## Load DEM
 grid_path = './Inputs/LuckyHills103_1m.asc'
@@ -25,17 +26,21 @@ grid.set_watershed_boundary_condition(node_data=data, nodata_value=-9999.0)
 #outlet_node = int(np.where(grid._node_status==1)[0])
 
 ## Update elevation field
-topo = grid.add_zeros('topographic__elevation', at='node')
-bedrock = grid.add_zeros('bedrock__elevation', at='node')
+grid.add_zeros('topographic__elevation', at='node')
+grid.add_zeros('bedrock__elevation', at='node')
+
+topo = grid.at_node['topographic__elevation']
 topo[:] = data
-bedrock[:] = topo[:]
+bedrock = grid.at_node['bedrock__elevation']
+bedrock[:] = np.copy(topo)
 
 ## Load components
 ## SoilGrading (track multiple grain size classes)
 meansizes = [0.001, 0.01, 0.1]
 sg = SoilGrading(grid,
             meansizes=meansizes,
-            grains_weight=[1000, 1000, 1000])
+            grains_weight=[1000, 1000, 1000],
+                 phi = phi, soil_density = soil_density)
 
 
 ## Overlandflow
@@ -66,7 +71,9 @@ dspe = OverlandflowErosionDeposition(
             grid,
     slope='water_surface__slope',
     kr= kr,
-    change_topo_flag=True) 
+    change_topo_flag=True,
+    phi=phi,
+    sigma = soil_density)
 
 
 ## PriorityRouter
@@ -108,6 +115,10 @@ ms_to_mmh = 60*60*1000  # Convert m/s to mm/h
 
 ## Main loop
 n_repeats = 1
+
+# Update pointers
+topo = grid.at_node['topographic__elevation']
+bedrock = grid.at_node['bedrock__elevation']
 
 for _ in range(n_repeats):
     fr.run_one_step()

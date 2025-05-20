@@ -772,6 +772,7 @@ class OverlandflowErosionDeposition(Component):
         sediment_load_weight_at_node_per_size = self._sediment_load_weight_at_node_per_size
         detached_soil_weight = self._detached_soil_weight
         detached_bedrock_weight = self._detached_bedrock_weight
+        core_nodes = self._grid.core_nodes
 
         # Convert load flux from dz to weight
         sediment_load_weight_flux_from_srrnds = (self._sediment_load_flux_dzdt_at_node_per_size *
@@ -808,6 +809,6 @@ class OverlandflowErosionDeposition(Component):
             grain_weights[:] += deposited_sediment_weights_at_node[:] - detached_soil_weight[:]
             grain_weights[grain_weights < 0] = 0
 
-            soil_depth[:] = (np.sum(grain_weights, axis=1) / (self._sigma * self.grid.dx ** 2)) / (1 - self._phi)
-            bedrock[:] -= detached_bedrock_rate_dz[:]
-            topo[:] = soil_depth[:] + bedrock[:]
+            soil_depth[core_nodes] = (np.sum(grain_weights[core_nodes,:], axis=1) / (self._sigma * self.grid.dx ** 2)) / (1 - self._phi)
+            bedrock[core_nodes] -= detached_bedrock_rate_dz[core_nodes]
+            topo[core_nodes] = soil_depth[core_nodes] + bedrock[core_nodes]
