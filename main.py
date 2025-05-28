@@ -8,6 +8,7 @@ from landlab.components import OverlandFlow
 from landlab.components import PriorityFloodFlowRouter
 from landlab.io import read_esri_ascii
 from funcs.GradMapper import GradMapper
+from landlab import imshow_grid
 
 ## Model parameters
 roughness = 0.07
@@ -113,13 +114,14 @@ sediment_weight_flux_kg_s = []
 rainfall_vec = []
 ms_to_mmh = 60*60*1000  # Convert m/s to mm/h
 
-## Main loop
-n_repeats = 1
-
 # Update pointers
 topo = grid.at_node['topographic__elevation']
 bedrock = grid.at_node['bedrock__elevation']
+# Lets save the topography before the storm
+topo_init = np.copy(topo)
 
+# Main loop
+n_repeats = 1
 for _ in range(n_repeats):
     fr.run_one_step()
     slab_failures.run_one_step()
@@ -197,10 +199,13 @@ for _ in range(n_repeats):
         elapse_dts += dt
         print(elapse_dts)
 
-
-
-
 ## Plot the results
+# First, lets plot differencing map
+imshow_grid(grid, topo_init-topo,
+            vmax=0.05, vmin=0.)
+plt.show()
+
+# Now, lets plot hydrograph/sedigraph at the outlet
 fig, ax = plt.subplots(figsize=(14,11))
 rainfall_vec_mmh = np.array(rainfall_vec)*ms_to_mmh
 elapsed_dt_vec_minutes = np.array(elapsed_dt_vec)/60
