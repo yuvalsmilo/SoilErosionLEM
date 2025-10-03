@@ -9,6 +9,8 @@ from funcs.cfuncs_erosion_deposition import cfuncs_ErosionDeposition
 #import funcs.cfuncs_erosion_deposition
 neg_WH = 10**-8
 neg_GW = 10**-8
+neg_VG = 10**-3
+neg_NUM = 10**-10
 class OverlandflowErosionDeposition(Component):
     """Landlab component that simulates overland flow-driven erosion/deposition based on
     the approach presented by Foster and Meyer (1975) and Foster (1982).
@@ -125,8 +127,14 @@ class OverlandflowErosionDeposition(Component):
             max_flipped_deposition_dz=0.01,     # Allow inverse of topography up to certain dz [m]
             depression_depth=0.0055,            # Characteristic depression depth for calculating flow width [m]
             roughness_correction = 1,           # Roughness correction for shear stress [-]
-            change_topo_flag=True,  # A flag the allow to run simulation without changing the topography
-
+            change_topo_flag=True,              # A flag the allow to run simulation without changing the topography
+            veg_cover_reference=0.8,            # Reference vegetation cover [-]
+            soil_roughness=0.025,               # Manning's roughness for bare soil
+            veg_roughness_reference=0.6,        # Manning's roughness for vegetated soil
+            omega_veg=0.5,                      # Empirical coefficient from Istanbulluoglu and Bras (2005)
+            root_depth=0.3,                     # Vegetation root depth [m]
+            veg_flag = 0                        # Flag to handle vegetation: 0 = not considering vegetation cover,
+                                                # 1 = Excess stress approach,  2 = Reference depth approach
     ):
 
         super().__init__(grid)
@@ -218,7 +226,13 @@ class OverlandflowErosionDeposition(Component):
         # Calc settling velocity for all grain size classes
         self._calc_settling_velocity_per_size()
 
-
+        ## Vegetation-erosion parameters
+        self._veg_flag = veg_flag
+        self._omega_veg = omega_veg
+        self._veg_roughness_reference = veg_roughness_reference
+        self._veg_cover_reference = veg_cover_reference
+        self._soil_roughness = soil_roughness
+        self._root_depth = root_depth
 
     @property
     def settling_velocities(self):
@@ -404,6 +418,13 @@ class OverlandflowErosionDeposition(Component):
 
         # Calc shear stress at node.
         self._tau_s = self._rho * self._g * S * surface_water__depth_at_node * self._roughness_correction
+
+        if self._veg_flag > 0:
+            veg_cover_at_node = self._grid.at_node['vegetation__cover_fraction']
+            self._veg_roughness = (self._veg_roughness_reference *
+                                   (veg_cover_at_node / self._veg_cover_reference) ** self._omega_veg)
+            ft = (self._soil_roughness / (self._veg_roughness + self._soil_roughness)) ** (3 / 2)
+            self._tau_s *= ft
 
         # Flow width is calculated according to the fraction of the cell covered by water which is approximated by the
         # relationship between surface runoff height and maximum depression capacity (5.5 mm for shrub) (Nunes et 
@@ -812,3 +833,84 @@ class OverlandflowErosionDeposition(Component):
             soil_depth[core_nodes] = (np.sum(grain_weights[core_nodes,:], axis=1) / (self._sigma * self.grid.dx ** 2)) / (1 - self._phi)
             bedrock[core_nodes] -= detached_bedrock_rate_dz[core_nodes]
             topo[core_nodes] = soil_depth[core_nodes] + bedrock[core_nodes]
+
+
+        if self._veg_flag>0:
+
+            # Reduce vegetation cover by overlandflow action
+            veg_cover_fraction_at_cell = self._grid.at_cell['vegetation__cover_fraction']
+
+            if self._veg_flag==1:
+
+                # Option 1: vegetation loss based on excess stress:
+                # Collins, D. B. G., Bras, R. L., & Tucker, G. E. (2004).
+                # Modeling the effects of vegetation‐erosion coupling on landscape evolution.
+                # Journal of Geophysical Research: Earth Surface, 109(F3).
+                median_size_index = np.where(
+                    self._grid.at_node['grains_classes__size'][self._grid.core_nodes,:] ==
+                    self._grid.at_node['median_size__weight'][self._grid.core_nodes, np.newaxis])[1]
+
+                self._grid.at_node['excess___stress'][self._grid.core_nodes] = (self._tau_s[self._grid.core_nodes] -
+                                                                                self._tau_crit[self._grid.core_nodes,
+                                                                                median_size_index])
+
+                excess_stress_at_cell = self._grid.map_node_to_cell('excess___stress')
+                above_tau_c = np.where(excess_stress_at_cell>0)
+                dv_dt = np.zeros_like(veg_cover_fraction_at_cell)
+                dv_dt[above_tau_c] = (self._Kv *
+                                      veg_cover_fraction_at_cell[above_tau_c] *
+                                      (excess_stress_at_cell[above_tau_c]))
+                dv = dv_dt*dt
+                dv[dv >= veg_cover_fraction_at_cell] = veg_cover_fraction_at_cell[dv >= veg_cover_fraction_at_cell] - (
+                            neg_VG)
+                dv_change_ratio = np.divide(dv,
+                                            veg_cover_fraction_at_cell[:],
+                                            where=veg_cover_fraction_at_cell > neg_VG,
+                                            out=np.zeros_like(dv))
+                dv_change_ratio_inverse = 1 - dv_change_ratio
+                dv_change_ratio_inverse[dv_change_ratio_inverse < neg_VG] = neg_VG
+
+            else:
+                # Option 2: based on erosion and reference length (root depth)
+                dweight = deposited_suspended_sediments_weights_at_node[:] - (
+                            detached_soil_weight[:] + detached_bedrock_weight[:])
+
+                sum_dweight = np.sum(dweight, 1)
+
+                dz_abs = np.abs(sum_dweight) / (self._sigma * self.grid.dx ** 2) / (1 - self._phi)
+                dz_net_at_cell = self._grid.map_node_to_cell(dz_abs)
+                dv = (dz_net_at_cell / self._root_depth) * veg_cover_fraction_at_cell
+                dv[dv>=veg_cover_fraction_at_cell] = veg_cover_fraction_at_cell[dv>=veg_cover_fraction_at_cell]-_NEG_NUM
+                dv_change_ratio =  np.divide(dv,
+                                             veg_cover_fraction_at_cell[:],
+                                             where=veg_cover_fraction_at_cell>10**-3,
+                                             out=np.zeros_like(dv))
+                dv_change_ratio_inverse = 1-dv_change_ratio
+
+            if np.any(dv_change_ratio_inverse):
+
+                self._grid.at_cell['vegetation__live_biomass'][:] *= dv_change_ratio_inverse
+                self._grid.at_cell['vegetation__dead_biomass'][:] *= dv_change_ratio_inverse
+                self._grid.at_cell['vegetation__live_leaf_area_index'][:] *= dv_change_ratio_inverse
+                self._grid.at_cell['vegetation__dead_leaf_area_index'][:] *= dv_change_ratio_inverse
+
+                veg_cover_fraction_at_cell[:] *= dv_change_ratio_inverse
+                veg_cover_fraction_at_cell[veg_cover_fraction_at_cell<=0] = _NEG_NUM
+
+
+
+            ## Map veg cover from cell back to the node
+            veg_cover_at_node = self._grid.at_node['vegetation__cover_fraction']
+            veg_cover_at_node[self._nodes_at_cell] = veg_cover_fraction_at_cell[:]
+
+
+            ## Update roughness by cover
+            # Calc roughness at node, taking into account vegetation cover roughness
+            self._veg_roughness = self._veg_roughness_reference*(veg_cover_at_node/
+                                                                 self._veg_cover_reference)**self._omega_veg
+            bare_soil_fraction = 1-veg_cover_at_node
+            self._grid.at_node['mannings_n'][:]= ((bare_soil_fraction*self._soil_roughness)
+                                                  + veg_cover_at_node*self._veg_roughness)
+
+            ## Map the roughness from node to link
+            self._grid.at_link['mannings_n'][:] =self._grid.at_node['mannings_n'][self._upwind_node_ids_at_link]
