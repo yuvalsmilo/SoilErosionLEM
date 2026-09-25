@@ -6,21 +6,30 @@ import numpy as np
 
 
 
+#
+# ##
+# ext_modules = [
+#     Extension(
+#         "cfuncs_ErosionDeposition",
+#         ["cfuncs_ErosionDeposition.pyx"],
+#         extra_compile_args=['-fopenmp'],
+#         extra_link_args=['-fopenmp'],
+#     )
+# ]
+#
+#
+#
+# setup(
+#     ext_modules=cythonize(ext_modules),
+#     include_dirs=[np.get_include()]
+# )
 
-##
-ext_modules = [
-    Extension(
-        "cfuncs_ErosionDeposition",
-        ["cfuncs_ErosionDeposition.pyx"],
-        extra_compile_args=['-fopenmp'],
-        extra_link_args=['-fopenmp'],
-    )
-]
 
 
-
+## Previous version
 setup(
-    ext_modules=cythonize(ext_modules),
-    include_dirs=[np.get_include()]
+    name='cfuncs_ErosionDeposition',
+    ext_modules=cythonize("cfuncs_ErosionDeposition.pyx"),
+    include_dirs=[np.get_include()],
+    zip_safe=False,
 )
-

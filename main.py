@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from funcs.slab_failures import SlabFailures
 from funcs.OverlandflowErosionDeposition import OverlandflowErosionDeposition
 from funcs.SoilInfiltrationGreenAmpt_YS import SoilInfiltrationGreenAmpt
 from funcs.soil_grading import SoilGrading
@@ -13,7 +12,7 @@ from landlab import imshow_grid
 ## Model parameters
 roughness = 0.07
 Ks = 5.5*10**-6
-kr = 0.0005
+kr = 0.0002
 soil_type = 'sandy loam'
 phi = 0.4
 soil_density = 2650
@@ -40,7 +39,7 @@ bedrock[:] = np.copy(topo)
 meansizes = [0.001, 0.01, 0.1]
 sg = SoilGrading(grid,
             meansizes=meansizes,
-            grains_weight=[1000, 1000, 1000],
+            grains_mass=[1000, 1000, 1000],
                  phi = phi, soil_density = soil_density)
 
 
@@ -87,10 +86,6 @@ fr = PriorityFloodFlowRouter(
 )
 fr.run_one_step()
 
-
-## Failures
-slab_failures = SlabFailures(grid)
-
 ## Mapper
 gradmap = GradMapper(grid=grid)
 
@@ -123,8 +118,8 @@ topo_init = np.copy(topo)
 # Main loop
 n_repeats = 1
 for _ in range(n_repeats):
-    fr.run_one_step()
-    slab_failures.run_one_step()
+    # fr.run_one_step()
+    # slab_failures.run_one_step()
     while elapse_dts < rainfall_duration[-1]:
         if elapse_dts ==0:
             int_index = 0

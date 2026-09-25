@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="openmp" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="SoilErosion_env" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="/opt/anaconda3/envs/clash_dev_env" project-jdk-type="Python SDK" />
 </project>
