@@ -5,14 +5,16 @@ from funcs.SoilInfiltrationGreenAmpt_YS import SoilInfiltrationGreenAmpt
 from funcs.soil_grading import SoilGrading
 from landlab.components import OverlandFlow
 from landlab.io import read_esri_ascii
-from funcs.GradMapper import GradMapper
+# from funcs.GradMapper import GradMapper
+from funcs.GradMapper_cfuncs import GradMapper_cfuncs as GradMapper
 from landlab import imshow_grid
 
 ## Model parameters
 roughness = 0.07
 Ks = 5.5*10**-6
-kr = 0.0002
-soil_type = 'sandy loam'
+kr = 0.001
+soil_type = 'sandy loam' # This if for automatically setting soil infiltration
+                         #  parameters in the example
 phi = 0.4
 soil_density = 2650
 
@@ -35,12 +37,19 @@ bedrock[:] = np.copy(topo)
 
 ## Load components
 ## SoilGrading (track multiple grain size classes)
-meansizes = [0.001, 0.01, 0.1]
-sg = SoilGrading(grid,
-            meansizes=meansizes,
-            grains_mass=[1000, 1000, 1000],
-                 phi = phi, soil_density = soil_density)
+grains_mass=[1000]
+meansizes = [0.002]
+sg = SoilGrading(
+    grid,
+    meansizes=meansizes,
+    grains_mass=grains_mass,
+    phi = phi,
+    soil_density = soil_density
+)
 
+initial_soil_depth = sum(grains_mass) / (soil_density * (1 - phi))
+bedrock[outlet_node] += initial_soil_depth
+topo[outlet_node] = bedrock[outlet_node] + grid.at_node['soil__depth'][outlet_node]
 
 ## Overlandflow
 grid.add_zeros('water_surface__slope',
@@ -53,26 +62,33 @@ grid.add_zeros('water_surface__elevation',
                at="node")
 grid.at_link['surface_water__depth_at_link'][:]  = 10**-8
 grid.at_node['surface_water__depth'][:]  = 10**-8
-of = OverlandFlow(grid, mannings_n=roughness,
-                  steep_slopes=True,
-                  alpha = 0.7)
+of = OverlandFlow(
+    grid,
+    mannings_n=roughness,
+    steep_slopes=True,
+    alpha = 0.7
+)
 
 
 ## Infiltration
 infilitration_depth = grid.add_ones("soil_water_infiltration__depth", at="node", dtype=float)
 infilitration_depth *= 0.001  ## meter
-SI = SoilInfiltrationGreenAmpt(grid, hydraulic_conductivity=Ks,
-                                     soil_type=soil_type)
+SI = SoilInfiltrationGreenAmpt(
+    grid,
+    hydraulic_conductivity=Ks,
+    soil_type=soil_type
+)
 
 
 ## Overlandflow erosion/deposition
 dspe = OverlandflowErosionDeposition(
-            grid,
+    grid,
     slope='water_surface__slope',
     kr= kr,
     change_topo_flag=True,
     phi=phi,
-    sigma = soil_density)
+    sigma = soil_density
+)
 
 ## Mapper
 gradmap = GradMapper(grid=grid)
@@ -86,7 +102,6 @@ rainfall_rate = rainfall_data['rates']          # Rainfall intensity [m/s]
 
 ## Simulation parameters
 epsilon = 10**-10       # Small value because water depth cannot be zero
-elapse_dts = 0          # Counter of simulation time [sec]
 saving_resolution = 30  # Sec
 min_dt = 30             # Maximal dt [sec] to ensure stability
 
@@ -105,15 +120,15 @@ topo_init = np.copy(topo)
 
 # Main loop
 n_repeats = 1
+int_index = 0
+of.rainfall_intensity = rainfall_rate[int_index]
+current_rainfall_rate = rainfall_rate[0]
+current_rainfall_duration = rainfall_duration[0]
+cnt_saving = 0
+elapse_dts = 0  # Counter [sec]
+
 for _ in range(n_repeats):
     while elapse_dts < rainfall_duration[-1]:
-        if elapse_dts ==0:
-            int_index = 0
-            of.rainfall_intensity = rainfall_rate[int_index]
-            current_rainfall_rate = rainfall_rate[0]
-            current_rainfall_duration = rainfall_duration[0]
-            cnt_saving = 0
-
         if elapse_dts >= current_rainfall_duration:  # sec
 
             int_index += 1
@@ -186,6 +201,7 @@ imshow_grid(grid, topo_init-topo,
             vmax=0.05, vmin=0.)
 plt.show()
 
+print('net erosion  = ',np.sum(topo_init)-np.sum(topo))
 # Now, lets plot hydrograph/sedigraph at the outlet
 fig, ax = plt.subplots(figsize=(14,11))
 rainfall_vec_mmh = np.array(rainfall_vec)*ms_to_mmh

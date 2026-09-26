@@ -61,11 +61,14 @@ def grain_size_sum_at_node(
     cdef int n_nodes = shape[0]
     cdef int n_cols = shape[1]
     cdef int col, node
+    cdef double total
 
 
     for node in prange(n_nodes, nogil=True, schedule="static",num_threads=N_THREADS):
+        total = out[node]
         for col in range(n_cols):
-            out[node]  = out[node] + value_at_node_per_size[node, col]
+            total = total + value_at_node_per_size[node, col]
+        out[node] = total
 
     return out.base
 
@@ -84,10 +87,12 @@ def calc_concentration(
 
     cdef int index, col, gs, node
     cdef int link
+    cdef double inv_value
 
     for node in prange(n_nodes, nogil=True, schedule="static",num_threads=N_THREADS):
+        inv_value = 1.0 / value_at_node[node]
         for col in range(n_cols):
-            out[node, col] = value_at_node_per_size[node, col] / value_at_node[node]
+            out[node, col] = value_at_node_per_size[node, col] * inv_value
 
     return out.base
 
@@ -118,7 +123,7 @@ def calc_flux_at_link(
         const double dx,
         const double sigma,
         const double phi,
-        cython.floating[:, : ] weight_flux_at_link,
+        cython.floating[:, : ] mass_flux_at_link,
         cython.floating[:] water_surface_grad_at_link,
         cython.floating[:, :] sediments_flux_at_link,
         shape,
@@ -126,11 +131,12 @@ def calc_flux_at_link(
     cdef int n_links = shape[0]
     cdef int n_cols = shape[1]
     cdef int col, link, index
+    cdef double inv_denom = 1.0 / (dx * sigma * (1.0 - phi))  # call-constant - hoisted out of the per-link/per-col loop
 
 
     for link in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):
         for col in range(n_cols):
-            sediments_flux_at_link[link, col]  = water_surface_grad_at_link[link] * (weight_flux_at_link[link, col] / (dx * sigma * (1 - phi)))
+            sediments_flux_at_link[link, col]  = water_surface_grad_at_link[link] * mass_flux_at_link[link, col] * inv_denom
 
     return sediments_flux_at_link.base
 
@@ -140,7 +146,7 @@ def calc_flux_at_link(
 def get_outin_fluxes(
         cnp.ndarray[DTYPE_INT_t, ndim=1] upwind_node_at_link,
         cnp.ndarray[DTYPE_INT_t, ndim=1] downwind_node_at_link,
-        cnp.ndarray[DTYPE_FLOAT_t, ndim=2] weight_flux_at_link,
+        cnp.ndarray[DTYPE_FLOAT_t, ndim=2] mass_flux_at_link,
         cnp.ndarray[DTYPE_INT_t, ndim=1] link_list,
         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] outlinks_fluxes_at_node,
         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] inlinks_fluxes_at_node,
@@ -161,10 +167,10 @@ def get_outin_fluxes(
             downwind_node = downwind_node_at_link[link]
 
             for gs in range(n_gs):
-                inlinks_fluxes_at_node[downwind_node, gs] += weight_flux_at_link[link, gs]
-                outlinks_fluxes_at_node[upwind_node, gs] += weight_flux_at_link[link, gs]
-                total_outflux_at_node[upwind_node] += weight_flux_at_link[link, gs]
-                total_influx_at_node[downwind_node] += weight_flux_at_link[link, gs]
+                inlinks_fluxes_at_node[downwind_node, gs] += mass_flux_at_link[link, gs]
+                outlinks_fluxes_at_node[upwind_node, gs] += mass_flux_at_link[link, gs]
+                total_outflux_at_node[upwind_node] += mass_flux_at_link[link, gs]
+                total_influx_at_node[downwind_node] += mass_flux_at_link[link, gs]
 
         return outlinks_fluxes_at_node, inlinks_fluxes_at_node, total_outflux_at_node, total_influx_at_node
 
@@ -198,7 +204,7 @@ def calc_flux_at_link_per_size(
         cnp.ndarray[DTYPE_FLOAT_t, ndim=1] q_water_at_link,
         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] suspended__sediments_concentration_at_link,
         cnp.ndarray[DTYPE_INT_t, ndim=1] active_links,
-        cnp.ndarray[DTYPE_FLOAT_t, ndim=2] weight_flux_at_link,
+        cnp.ndarray[DTYPE_FLOAT_t, ndim=2] mass_flux_at_link,
         shape
         ):
 
@@ -210,9 +216,9 @@ def calc_flux_at_link_per_size(
             link = active_links[index]
 
             for gs in range(n_gs):
-                weight_flux_at_link[link, gs] = q_water_at_link[link] * suspended__sediments_concentration_at_link[link, gs]
+                mass_flux_at_link[link, gs] = q_water_at_link[link] * suspended__sediments_concentration_at_link[link, gs]
 
-        return weight_flux_at_link
+        return mass_flux_at_link
 
 
 
@@ -262,8 +268,6 @@ def calc_Dc(
         shape,
         ):
         # Dc = kr * (tau_s - tau_c)  ->  units kg/(m^2 s)
-        # kr expected in [s/m] (standard WEPP rill erodibility convention),
-        # tau in [Pa] = kg/(m s^2). Kept as the reference/default detachment model.
 
         cdef int n_nodes = shape[0]
         cdef int n_gs = shape[1]
@@ -293,14 +297,6 @@ def calc_Dc_stream_power(
         ):
         # RHEM V2.3 concentrated-flow detachment (Al-Hamdan et al., 2012b):
         #   Dc = K_omega * omega,  omega = rho * g * S * q  (stream power, kg/s^3)
-        # No critical-shear threshold: detachment starts as soon as
-        # concentrated flow starts. `stream_power` (= rho*g*S*q per node) is
-        # precomputed by the caller and passed in directly.
-        #
-        # Units, matched to calc_Dc's kg/(m^2 s) output:
-        #   q (unit-width discharge) in [m^2/s]  ->  omega in [kg/s^3]
-        #   k_omega in [s^2/m^2]  (same convention as RHEM's K_omega)
-        #   -> Dc = k_omega * omega  has units kg/(m^2 s), matching calc_Dc.
 
         cdef int n_nodes = shape[0]
         cdef int n_gs = shape[1]
@@ -324,21 +320,21 @@ def calc_Dc_stream_power(
 def calc_detached_deposited(
     cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] DR,
     cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] DR_abs,
-    cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] grain_weight_at_node,
+    cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] grain_mass_at_node,
     cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] grain_fractions_at_node,
-    cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] deatched_soil_weight,
-    cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] deatched_bedrock_weight,
+    cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] deatched_soil_mass,
+    cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] deatched_bedrock_mass,
     cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] suspended_fraction_at_node,
     cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] bedrock_grain_fractions,
-    cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] temp_suspended_sediment_weight_at_node_per_size,
-    cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] deposited_suspended_sediments_weights_at_node,
+    cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] temp_suspended_sediment_mass_at_node_per_size,
+    cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] deposited_suspended_sediments_masss_at_node,
     cnp.ndarray[DTYPE_FLOAT_t, ndim = 1] total_deposited_sediments_dz_at_node,
     cnp.ndarray[DTYPE_FLOAT_t, ndim = 1] entrainment_soil_rate_dz,
     cnp.ndarray[DTYPE_FLOAT_t, ndim = 1] entrainment_bedrock_rate_dz,
     cnp.ndarray[DTYPE_FLOAT_t, ndim = 1] soil_e_expo,
     cnp.ndarray[DTYPE_INT_t, ndim = 1] core_nodes,
-    factor_convert_weight_to_dz_c,
-    factor_convert_weight_to_dz_bedrock_c,
+    factor_convert_mass_to_dz_c,
+    factor_convert_mass_to_dz_bedrock_c,
     shape,
     dx_c
     ):
@@ -346,11 +342,11 @@ def calc_detached_deposited(
     cdef int n_nodes = shape[0]
     cdef int n_gs = shape[1]
     cdef int node, index, gs
-    cdef double dr_node_per_gs, detached_soil_weight_at_node,\
-        deatched_bedrock_weight_at_node, deposited_weight, summed_deposited_at_node,\
-        summed_detached_soil_weight_at_node, summed_detached_bedrock_weight_at_node
-    cdef double factor_convert_weight_to_dz = factor_convert_weight_to_dz_c
-    cdef double factor_convert_weight_to_dz_bedrock = factor_convert_weight_to_dz_bedrock_c
+    cdef double dr_node_per_gs, detached_soil_mass_at_node,\
+        deatched_bedrock_mass_at_node, deposited_mass, summed_deposited_at_node,\
+        summed_detached_soil_mass_at_node, summed_detached_bedrock_mass_at_node
+    cdef double factor_convert_mass_to_dz = factor_convert_mass_to_dz_c
+    cdef double factor_convert_mass_to_dz_bedrock = factor_convert_mass_to_dz_bedrock_c
 
     cdef double dx = dx_c
 
@@ -358,54 +354,54 @@ def calc_detached_deposited(
     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):
         node = core_nodes[index]
         summed_deposited_at_node = 0
-        summed_detached_soil_weight_at_node = 0
-        summed_detached_bedrock_weight_at_node = 0
+        summed_detached_soil_mass_at_node = 0
+        summed_detached_bedrock_mass_at_node = 0
 
         for gs in range(n_gs):
             dr_node_per_gs = DR[node, gs]
 
             if dr_node_per_gs > 0:
 
-                ## Detached soil weight
-                detached_soil_weight_at_node =  dr_node_per_gs  * soil_e_expo[node]
-                detached_soil_weight_at_node = detached_soil_weight_at_node * grain_fractions_at_node[node, gs]
+                ## Detached soil mass
+                detached_soil_mass_at_node =  dr_node_per_gs  * soil_e_expo[node]
+                detached_soil_mass_at_node = detached_soil_mass_at_node * grain_fractions_at_node[node, gs]
 
-                if detached_soil_weight_at_node > grain_weight_at_node[node,gs]:
-                    detached_soil_weight_at_node = grain_weight_at_node[node,gs]
-                deatched_soil_weight[node, gs] = detached_soil_weight_at_node
+                if detached_soil_mass_at_node > grain_mass_at_node[node,gs]:
+                    detached_soil_mass_at_node = grain_mass_at_node[node,gs]
+                deatched_soil_mass[node, gs] = detached_soil_mass_at_node
 
-                summed_detached_soil_weight_at_node = summed_detached_soil_weight_at_node + detached_soil_weight_at_node
+                summed_detached_soil_mass_at_node = summed_detached_soil_mass_at_node + detached_soil_mass_at_node
 
 
-                ## Detached bedrock weight
-                deatched_bedrock_weight_at_node = dr_node_per_gs  * (1 - soil_e_expo[node])
-                deatched_bedrock_weight[node, gs] = deatched_bedrock_weight_at_node * bedrock_grain_fractions[node,gs]
-                summed_detached_bedrock_weight_at_node = summed_detached_bedrock_weight_at_node + deatched_bedrock_weight[node, gs] #deatched_bedrock_weight_at_node
+                ## Detached bedrock mass
+                deatched_bedrock_mass_at_node = dr_node_per_gs  * (1 - soil_e_expo[node])
+                deatched_bedrock_mass[node, gs] = deatched_bedrock_mass_at_node * bedrock_grain_fractions[node,gs]
+                summed_detached_bedrock_mass_at_node = summed_detached_bedrock_mass_at_node + deatched_bedrock_mass[node, gs] #deatched_bedrock_mass_at_node
 
                 ## add to suspended
-                temp_suspended_sediment_weight_at_node_per_size[node, gs] += detached_soil_weight_at_node + deatched_bedrock_weight_at_node
+                temp_suspended_sediment_mass_at_node_per_size[node, gs] += detached_soil_mass_at_node + deatched_bedrock_mass_at_node
 
             if dr_node_per_gs < 0:
                 dr_node_per_gs = DR_abs[node, gs]
-                deposited_weight = dr_node_per_gs * dx * dx * suspended_fraction_at_node[node, gs]
+                deposited_mass = dr_node_per_gs * dx * dx * suspended_fraction_at_node[node, gs]
 
-                if not (deposited_weight <= temp_suspended_sediment_weight_at_node_per_size[node, gs]):
-                     deposited_weight = temp_suspended_sediment_weight_at_node_per_size[node, gs] #*50
+                if not (deposited_mass <= temp_suspended_sediment_mass_at_node_per_size[node, gs]):
+                     deposited_mass = temp_suspended_sediment_mass_at_node_per_size[node, gs] #*50
 
-                deposited_suspended_sediments_weights_at_node[node, gs] = deposited_weight
-                summed_deposited_at_node  = summed_deposited_at_node + deposited_weight
+                deposited_suspended_sediments_masss_at_node[node, gs] = deposited_mass
+                summed_deposited_at_node  = summed_deposited_at_node + deposited_mass
 
-        entrainment_soil_rate_dz[node] = summed_detached_soil_weight_at_node / factor_convert_weight_to_dz
-        entrainment_bedrock_rate_dz[node] = summed_detached_bedrock_weight_at_node / factor_convert_weight_to_dz_bedrock
+        entrainment_soil_rate_dz[node] = summed_detached_soil_mass_at_node / factor_convert_mass_to_dz
+        entrainment_bedrock_rate_dz[node] = summed_detached_bedrock_mass_at_node / factor_convert_mass_to_dz_bedrock
 
-        total_deposited_sediments_dz_at_node[node] = summed_deposited_at_node / factor_convert_weight_to_dz
+        total_deposited_sediments_dz_at_node[node] = summed_deposited_at_node / factor_convert_mass_to_dz
 
 
-    return (deatched_soil_weight,
-            deatched_bedrock_weight,
+    return (deatched_soil_mass,
+            deatched_bedrock_mass,
             entrainment_soil_rate_dz,
             entrainment_bedrock_rate_dz,
-            deposited_suspended_sediments_weights_at_node,
+            deposited_suspended_sediments_masss_at_node,
             total_deposited_sediments_dz_at_node)
 
 
@@ -435,6 +431,7 @@ def calc_TC(
     cdef double sg = sg_c
     cdef double rho = rho_c
     cdef double const_c = const_sg_g_rho
+    cdef double sg_pow_neg04 = sg**(-0.4)  # invariant across the whole call - hoisted out of the per-node/per-col loop
 
 
     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):
@@ -446,7 +443,7 @@ def calc_TC(
 
             if y > yc:
                 l = (y / yc) - 1
-                c = const * sg**(-0.4) * yc**(0.5) * l
+                c = const * sg_pow_neg04 * yc**(0.5) * l
                 loged_beta_plus_one  = log(c + 1)
                 TC[node, col] = const_b * sg * fraction_sizes[node, col] * ((rho * tau_s[node]) ** 0.5) * l * (
                         1 -
@@ -550,10 +547,10 @@ def calc_stable_dt(
     cnp.ndarray[DTYPE_FLOAT_t, ndim=1] detached_bedrock_dz,
     cnp.ndarray[DTYPE_FLOAT_t, ndim=1] detached_soil_dz,
     cnp.ndarray[DTYPE_FLOAT_t, ndim=1] deposited_dz,
-    cnp.ndarray[DTYPE_FLOAT_t, ndim=2] suspended_weight_at_node,
-    cnp.ndarray[DTYPE_FLOAT_t, ndim=2] deposited_weight,
+    cnp.ndarray[DTYPE_FLOAT_t, ndim=2] suspended_mass_at_node,
+    cnp.ndarray[DTYPE_FLOAT_t, ndim=2] deposited_mass,
     cnp.ndarray[DTYPE_FLOAT_t, ndim=2] suspended_dzdt_at_node,
-    cnp.ndarray[DTYPE_FLOAT_t, ndim=2] outflux_weights_at_node,
+    cnp.ndarray[DTYPE_FLOAT_t, ndim=2] outflux_masss_at_node,
     dx_c,
     dx_squared_c,
     sediment_density_c,
@@ -585,7 +582,7 @@ def calc_stable_dt(
     cdef double dt_erosion_mass = INFINITY
     cdef double stable_erosion_depth, net_erosion, cand
     cdef double stable_deposition_depth, net_deposition
-    cdef double total_weight_flux, swp_clamped, swp_raw, dep, outflux, det
+    cdef double total_mass_flux, swp_clamped, swp_raw, dep, outflux, det
     cdef bint nodes_losing_mass
     cdef bint found_deposition_mass = False
     cdef bint found_mass_loss = False
@@ -613,22 +610,22 @@ def calc_stable_dt(
                     dt_deposition_topo = cand
 
             # Condition 4 pre-check: total suspended-mass flux change at this node
-            total_weight_flux = 0.0
+            total_mass_flux = 0.0
             for gs in range(n_gs):
-                total_weight_flux += (
+                total_mass_flux += (
                     suspended_dzdt_at_node[node, gs] * dx_squared *
                     sediment_density * (1.0 - porosity)
                 )
-            nodes_losing_mass = total_weight_flux < -min_suspended_mass
+            nodes_losing_mass = total_mass_flux < -min_suspended_mass
             if nodes_losing_mass:
                 found_mass_loss = True
 
             # Conditions 2 & 4: per grain-size class
             for gs in range(n_gs):
-                swp_raw = suspended_weight_at_node[node, gs]
+                swp_raw = suspended_mass_at_node[node, gs]
                 swp_clamped = swp_raw if swp_raw > 0 else 0.0
 
-                dep = deposited_weight[node, gs]
+                dep = deposited_mass[node, gs]
                 if dep > 1e-10:
                     cand = swp_clamped / dep
                     if cand < dt_deposition_mass:
@@ -636,7 +633,7 @@ def calc_stable_dt(
                     found_deposition_mass = True
 
                 if nodes_losing_mass:
-                    outflux = outflux_weights_at_node[node, gs]
+                    outflux = outflux_masss_at_node[node, gs]
                     if outflux < 0:
                         outflux = -outflux
                     if outflux > min_suspended_mass:
@@ -645,16 +642,12 @@ def calc_stable_dt(
                             dt_mass = cand
 
                 # Condition 5: don't erode more soil mass, for this grain
-                # size, than the bin actually holds.
+                # size, than the node actually holds.
                 det = detached_soil_mass_at_node[node, gs]
                 if det > 1e-10:
                     cand = (grain_mass_at_node[node, gs] * dx_squared) / det
                     if cand < dt_erosion_mass:
                         dt_erosion_mass = cand
-
-    if found_deposition_mass:
-        if dt_deposition_mass < 1.0:
-            dt_deposition_mass = 1.0
 
     if found_mass_loss:
         if dt_mass == 0.0:
@@ -663,3 +656,41 @@ def calc_stable_dt(
     return dt_erosion, dt_deposition_mass, dt_deposition_topo, dt_mass, dt_erosion_mass
 
     return out
+
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def calc_row_max_min_4(
+        cnp.ndarray[DTYPE_FLOAT_t, ndim=2] values_at_links,
+        cnp.ndarray[DTYPE_FLOAT_t, ndim=1] out_max,
+        cnp.ndarray[DTYPE_FLOAT_t, ndim=1] out_min,
+        shape,
+):
+    """Row-wise max and min over a fixed-width-4 axis (links_at_node on a
+    raster grid), in one fused pass. Replaces np.amax(values, axis=1) /
+    np.amin(values, axis=1).
+    """
+    cdef int n = shape[0]
+    cdef int i
+    cdef double v0, v1, v2, v3, rmax, rmin
+
+    for i in prange(n, nogil=True, schedule="static", num_threads=N_THREADS):
+        v0 = values_at_links[i, 0]
+        v1 = values_at_links[i, 1]
+        v2 = values_at_links[i, 2]
+        v3 = values_at_links[i, 3]
+
+        rmax = v0
+        if v1 > rmax: rmax = v1
+        if v2 > rmax: rmax = v2
+        if v3 > rmax: rmax = v3
+
+        rmin = v0
+        if v1 < rmin: rmin = v1
+        if v2 < rmin: rmin = v2
+        if v3 < rmin: rmin = v3
+
+        out_max[i] = rmax
+        out_min[i] = rmin
+
+    return out_max, out_min

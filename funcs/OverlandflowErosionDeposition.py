@@ -3,8 +3,6 @@ Author: Yuval Shmilovitz
 September 2026
 """
 
-import warnings
-
 import numpy as np
 from landlab import Component
 import cfuncs_ErosionDeposition
@@ -157,7 +155,7 @@ class OverlandflowErosionDeposition(Component):
         # Model options
         slope='water_surface__slope',
         change_topo_flag=True,
-        max_stable_dt=60
+        max_stable_dt=60,
     ):
         """Initialize the OverlandflowErosionDeposition component.
 
@@ -344,8 +342,6 @@ class OverlandflowErosionDeposition(Component):
         # Stability parameters
         self._min_total_load_mass = _NEGLIG
         self._max_dt = max_stable_dt
-        # Initialized so stable_dt / run_one_step are well-defined even if
-        # queried before the first calc_rates() call.
         self._stable_dt = max_stable_dt
 
         self._total_load_sediment_mass_at_node_per_size = self._total_load_mass_at_node
@@ -457,13 +453,16 @@ class OverlandflowErosionDeposition(Component):
         elev_field : str, optional
             Name of elevation field to use for mapping. Default: 'water_surface__elevation'
         """
-        self._upwind_node_ids_at_link = self._grid.map_value_at_max_node_to_link(
-            elev_field, self._nodes_flatten
-        ).astype('int')
+        elev = self._grid.at_node[elev_field]
+        node_at_link_head = self._grid.node_at_link_head
+        node_at_link_tail = self._grid.node_at_link_tail
+        elev_head = elev[node_at_link_head]
+        elev_tail = elev[node_at_link_tail]
 
-        self._downwind_node_ids_at_link = self._grid.map_value_at_min_node_to_link(
-            elev_field, self._nodes_flatten
-        ).astype('int')
+        self._upwind_node_ids_at_link = np.where(
+            elev_tail > elev_head, node_at_link_tail, node_at_link_head)
+        self._downwind_node_ids_at_link = np.where(
+            elev_tail < elev_head, node_at_link_tail, node_at_link_head)
 
     def _calculate_shear_stress(self):
         """Calculate shear stress at each node
@@ -925,7 +924,7 @@ class OverlandflowErosionDeposition(Component):
         return -dzdt
 
     def _partition_erosion_deposition(self):
-        """Partition net erosion/deposition between soil, bedrock, and total_load load."""
+        """Partition net erosion/deposition between soil, bedrock, and load."""
         # Get soil and grain mass information
         soil_depth = self._grid.at_node['soil__depth']
         grain_masss = self._ensure_2d(self.grid.at_node['grains__mass'])
@@ -1100,7 +1099,7 @@ class OverlandflowErosionDeposition(Component):
         # Total (summed across grain sizes) volumetric concentration per node
         np.sum(self._concentration_volume, axis=1, out=self._sum_concentration_volume)
 
-    def run_one_step(self, dt=1.0):
+    def run_one_step(self, dt=None):
         """Advance topography and sediment distribution by a total time dt.
 
         Parameters
@@ -1113,8 +1112,9 @@ class OverlandflowErosionDeposition(Component):
         n_substeps = 0
 
         while elapsed < dt:
-            # Rates (and stable_dt) depend on the current state:
-            self.calc_rates()
+            if dt is None or elapsed>0 :
+                # Rates (and stable_dt) depend on the current state:
+                self.calc_rates()
 
             remaining = dt - elapsed
             sub_dt = self._stable_dt
@@ -1128,13 +1128,8 @@ class OverlandflowErosionDeposition(Component):
             elapsed += sub_dt
             n_substeps += 1
 
-
     def _apply_step(self, dt):
         """Apply one stable sub-step using the rates from calc_rates().
-
-        Advances the sediment and topography fields by dt using the
-        detachment/deposition/flux rates most recently computed by
-        calc_rates()
 
         Parameters
         ----------
