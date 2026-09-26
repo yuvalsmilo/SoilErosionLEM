@@ -7,6 +7,40 @@ class GradMapper(Component):
     _name = "GradMapper"
     _unit_agnostic = True
     _info = {
+        'topographic__elevation': {
+            "dtype": float,
+            "intent": "in",
+            "optional": False,
+            "units": "m",
+            "mapping": "node",
+            "doc": "Land surface elevation",
+        },
+        'surface_water__depth': {
+            "dtype": float,
+            "intent": "in",
+            "optional": False,
+            "units": "m",
+            "mapping": "node",
+            "doc": "Depth of water on the land surface",
+        },
+        'water_surface__elevation': {
+            "dtype": float,
+            "intent": "inout",
+            "optional": False,
+            "units": "m",
+            "mapping": "node",
+            "doc": ("Elevation of the water surface (topographic__elevation "
+                    "+ surface_water__depth)")
+        },
+        'water_surface__slope': {
+            "dtype": float,
+            "intent": "out",
+            "optional": False,
+            "units": "m/m",
+            "mapping": "node",
+            "doc": ("Steepest outward (downwind) water-surface gradient "
+                    "magnitude at each node."),
+        },
         'topographic__gradient': {
             "dtype": float,
             "intent": "out",
@@ -43,6 +77,14 @@ class GradMapper(Component):
         grid.add_zeros('topographic__gradient', at="link")
         grid.add_zeros('downwind__link_gradient', at="node")
         grid.add_zeros('upwind__link_gradient', at="node")
+
+        for field_name in (
+            'water_surface__elevation',
+            'water_surface__slope',
+        ):
+            if field_name not in grid.at_node:
+                grid.add_zeros(field_name, at="node")
+
         self._minslope = minslope
         self._inactive_links = self._grid.status_at_link == self._grid.BC_LINK_IS_INACTIVE
         self._outlet_links = self._grid.links_at_node[self.grid.nodes.flatten()[self.grid._node_status == 1]]
@@ -95,8 +137,3 @@ class GradMapper(Component):
         watergradient_of_downwind_link_at_node[watergradient_of_downwind_link_at_node <= self._minslope] = 0
         gradients_vals[self.grid.core_nodes] = watergradient_of_downwind_link_at_node[self.grid.core_nodes]
 
-    def flux_mapper(self):
-        "get sediment load fluxes [kg/s]"
-        total_sediment_incoming_flux = np.copy(self._grid.at_node['sediment__influx'])
-
-        return total_sediment_incoming_flux

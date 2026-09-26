@@ -101,20 +101,6 @@ def sum_out_discharge(
         shape,
         ):
         """Scatter-accumulate link discharge onto each link's upwind node.
-
-        Deliberately SERIAL, not prange. Multiple links routinely share the
-        same upwind node (any interior node has several links touching it),
-        so this is a scatter-add into a node-indexed array from a
-        link-indexed loop: `out_discharge_at_node[upwind_node] += ...`. Under
-        prange, two threads can race to read-modify-write the same
-        out_discharge_at_node[upwind_node] slot at once with no
-        synchronization, silently dropping one thread's contribution. This
-        was verified empirically (a 30-trial randomized test against a
-        serial reference reproduced wrong, non-deterministic results in
-        about half the trials on just 2 threads) - it's the kind of bug that
-        surfaces as spatially patchy, run-to-run-inconsistent discharge/
-        erosion output, which is worse than the parallel speedup is worth
-        for a loop this cheap (one add per link).
         """
 
         cdef int index, link, upwind_node
@@ -167,12 +153,7 @@ def get_outin_fluxes(
         cdef int n_links = shape[0]
         cdef int n_gs  = shape[1]
 
-        # Deliberately SERIAL, not prange - same reasoning as sum_out_discharge
-        # above. This scatter-accumulates per-link flux onto each link's
-        # upwind/downwind node (`inlinks_fluxes_at_node[downwind_node, gs] +=
-        # ...` etc.); since multiple links commonly share a node, running this
-        # over prange races multiple threads on the same node's accumulator
-        # with no synchronization, silently losing updates.
+
         for index in range(n_links):
             link = link_list[index]
 
@@ -408,10 +389,6 @@ def calc_detached_deposited(
                 dr_node_per_gs = DR_abs[node, gs]
                 deposited_weight = dr_node_per_gs * dx * dx * suspended_fraction_at_node[node, gs]
 
-                # Clamp to what's actually available. Written as `not (<=)`
-                # rather than `>` so it also catches NaN/inf (e.g. 0*inf):
-                # NaN fails both `<=` and `>`, so a plain `>` check would
-                # silently let NaN through uncapped.
                 if not (deposited_weight <= temp_suspended_sediment_weight_at_node_per_size[node, gs]):
                      deposited_weight = temp_suspended_sediment_weight_at_node_per_size[node, gs] #*50
 
@@ -584,21 +561,11 @@ def calc_stable_dt(
     max_deposition_slope_c,
     min_suspended_mass_c,
     shape,
+    cnp.ndarray[DTYPE_FLOAT_t, ndim=2] grain_mass_at_node,
+    cnp.ndarray[DTYPE_FLOAT_t, ndim=2] detached_soil_mass_at_node,
 ):
-    """Serial (deliberately NOT prange) reduction over the four CFL-like
-    stability conditions used by `_calculate_stable_timestep` in
-    OverlandflowErosionDeposition_clean.py.
-
-    This replaces ~9 separate NumPy calls (each allocating a full-size
-    temporary array) with a single pass over the nodes/grain-size classes
-    that keeps everything in scalar registers. Unlike the other loops in
-    this file, this one is intentionally left serial: it's a running-minimum
-    reduction with a shared accumulator on every iteration, which is a poor
-    fit for prange (would need a reduction clause per output, and the loop
-    body is cheap/branchy rather than arithmetic-heavy) - so parallelizing it
-    would likely reproduce the same overhead problem the N_THREADS note above
-    describes, for little benefit since this runs once per substep rather
-    than being itself a hot inner loop.
+    """Five CFL-like stability conditions used by `_calculate_stable_timestep` in
+    OverlandflowErosionDeposition.
     """
     cdef int n_nodes = shape[0]
     cdef int n_gs = shape[1]
@@ -615,9 +582,10 @@ def calc_stable_dt(
     cdef double dt_deposition_mass = INFINITY
     cdef double dt_deposition_topo = INFINITY
     cdef double dt_mass = INFINITY
+    cdef double dt_erosion_mass = INFINITY
     cdef double stable_erosion_depth, net_erosion, cand
     cdef double stable_deposition_depth, net_deposition
-    cdef double total_weight_flux, swp_clamped, swp_raw, dep, outflux
+    cdef double total_weight_flux, swp_clamped, swp_raw, dep, outflux, det
     cdef bint nodes_losing_mass
     cdef bint found_deposition_mass = False
     cdef bint found_mass_loss = False
@@ -676,6 +644,14 @@ def calc_stable_dt(
                         if cand < dt_mass:
                             dt_mass = cand
 
+                # Condition 5: don't erode more soil mass, for this grain
+                # size, than the bin actually holds.
+                det = detached_soil_mass_at_node[node, gs]
+                if det > 1e-10:
+                    cand = (grain_mass_at_node[node, gs] * dx_squared) / det
+                    if cand < dt_erosion_mass:
+                        dt_erosion_mass = cand
+
     if found_deposition_mass:
         if dt_deposition_mass < 1.0:
             dt_deposition_mass = 1.0
@@ -683,9 +659,7 @@ def calc_stable_dt(
     if found_mass_loss:
         if dt_mass == 0.0:
             dt_mass = INFINITY
-    # If found_mass_loss is False, dt_mass stays INFINITY, matching the
-    # `else: dt_mass = np.inf` branch of the original NumPy implementation.
 
-    return dt_erosion, dt_deposition_mass, dt_deposition_topo, dt_mass
+    return dt_erosion, dt_deposition_mass, dt_deposition_topo, dt_mass, dt_erosion_mass
 
     return out

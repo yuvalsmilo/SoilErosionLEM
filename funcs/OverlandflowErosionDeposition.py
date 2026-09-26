@@ -3,12 +3,15 @@ Author: Yuval Shmilovitz
 September 2026
 """
 
+import warnings
+
 import numpy as np
 from landlab import Component
 import cfuncs_ErosionDeposition
 
-_TEN_MINUS_THREE=1e-3
+_TEN_MINUS_THREE = 1e-3
 _NEGLIG = 10**-8
+
 class OverlandflowErosionDeposition(Component):
     """Simulate erosion and deposition by overland flow.
 
@@ -58,7 +61,7 @@ class OverlandflowErosionDeposition(Component):
             "optional": False,
             "units": "m",
             "mapping": "node",
-            "doc": "Depth of water on the surface",
+            "doc": "Surface water depth",
         },
         "topographic__elevation": {
             "dtype": float,
@@ -68,7 +71,7 @@ class OverlandflowErosionDeposition(Component):
             "mapping": "node",
             "doc": "Land surface topographic elevation",
         },
-        "total_load__sediments_masss": {
+        "total_load__sediments_mass": {
             "dtype": float,
             "intent": "out",
             "optional": False,
@@ -154,6 +157,7 @@ class OverlandflowErosionDeposition(Component):
         # Model options
         slope='water_surface__slope',
         change_topo_flag=True,
+        max_stable_dt=60
     ):
         """Initialize the OverlandflowErosionDeposition component.
 
@@ -191,7 +195,7 @@ class OverlandflowErosionDeposition(Component):
         dr_relaxation : float, optional
             Under-relaxation factor on the net erosion/deposition rate, in
             (0, 1]. 1 = no damping (raw rate used every step), lower = more
-            damping of the detachment/deposition bang-bang oscillation
+            damping of the detachment/deposition oscillation
             (TC/CQ flipping which branch is active every step). Default: 0.5
         cv_max : float, optional
             Sediment/water volume ratio at which transport capacity is fully
@@ -216,8 +220,8 @@ class OverlandflowErosionDeposition(Component):
         max_deposition_slope : float, optional
             Maximum inverse slope for deposition [m/m]. Default: 0.01
         veg_flag : int, optional
-            Vegetation-erosion dynamics flag (0=off, 1=stress-based, 2=erosion-based).
-            Default: 0
+            Vegetation-erosion dynamics flag (0=off, >0=erosion-depth-based
+            removal via _update_vegetation_by_erosion). Default: 0
         vegetation_coefficient : float, optional
             Vegetation removal coefficient. Default: 3e-8
         vegetation_exponent : float, optional
@@ -228,10 +232,14 @@ class OverlandflowErosionDeposition(Component):
             Reference vegetation cover fraction. Default: 0.8
         soil_roughness : float, optional
             Manning's n for bare soil. Default: 0.025
+        root_depth : float, optional
+            Root depth [m]. Default: 0.1
         slope : str, optional
             Name of slope field in grid. Default: "water_surface__slope"
         change_topo_flag : bool, optional
             Whether to update topography based on erosion/deposition. Default: True
+        max_stable_dt : float, optional
+            Maximum stable time step. Default: 60
         """
         super().__init__(grid)
 
@@ -335,11 +343,12 @@ class OverlandflowErosionDeposition(Component):
 
         # Stability parameters
         self._min_total_load_mass = _NEGLIG
-        self._stable_dt = np.inf
+        self._max_dt = max_stable_dt
+        # Initialized so stable_dt / run_one_step are well-defined even if
+        # queried before the first calc_rates() call.
+        self._stable_dt = max_stable_dt
 
-        # Legacy attribute aliases for backward compatibility
         self._total_load_sediment_mass_at_node_per_size = self._total_load_mass_at_node
-        # Create dummy arrays for legacy compatibility (these were used for diagnostics)
         shape_node_grains = (self._num_nodes, self._num_grain_sizes)
         self._TC = np.zeros(shape_node_grains)  # Transport capacity
         self._DR = np.zeros(shape_node_grains)  # Detachment rate
@@ -364,7 +373,7 @@ class OverlandflowErosionDeposition(Component):
 
         self._net_erosion_deposition_rate_raw = np.zeros(shape_node_grains)
 
-        self._net_erosion_deposition_rate_effective = np.zeros(shape_node_grains)
+        self._net_erosion_deposition_rate = np.zeros(shape_node_grains)
 
         self._water_gradient_at_link_buffer = np.zeros_like(self._zeros_at_link)
 
@@ -448,12 +457,10 @@ class OverlandflowErosionDeposition(Component):
         elev_field : str, optional
             Name of elevation field to use for mapping. Default: 'water_surface__elevation'
         """
-        # Upwind nodes have higher elevation
         self._upwind_node_ids_at_link = self._grid.map_value_at_max_node_to_link(
             elev_field, self._nodes_flatten
         ).astype('int')
 
-        # Downwind nodes have lower elevation
         self._downwind_node_ids_at_link = self._grid.map_value_at_min_node_to_link(
             elev_field, self._nodes_flatten
         ).astype('int')
@@ -515,7 +522,7 @@ class OverlandflowErosionDeposition(Component):
                                self._vegetation_exponent)
 
         # Partition of shear stress to soil surface
-        # Based on roughness partitioning approach
+        # based on roughness partitioning approach
         fraction_to_soil = (self._soil_roughness /
                            (vegetation_roughness + self._soil_roughness)) ** 1.5
 
@@ -677,6 +684,8 @@ class OverlandflowErosionDeposition(Component):
         ndarray
             Net erosion or deposition rate for each grain size [kg/(m²·s)]
         """
+        water_depth = self.grid.at_node['surface_water__depth']
+
         # Calculate shear stress
         shear_stress = self._calculate_shear_stress()
         self._shear_stress = shear_stress
@@ -717,7 +726,6 @@ class OverlandflowErosionDeposition(Component):
             int(self._dx)
         )
 
-        water_depth = self.grid.at_node['surface_water__depth']
 
         # Calculate effective flow width
         flow_width = self._calculate_flow_width(water_depth)
@@ -749,8 +757,8 @@ class OverlandflowErosionDeposition(Component):
         )
         sum_concentration = np.sum(self._concentration_volume, axis=1)
         oversaturated = sum_concentration >= 1
-        self._net_erosion_deposition_rate_effective[:] = self._net_erosion_deposition_rate
-        self._net_erosion_deposition_rate_effective[oversaturated, :] = -np.inf
+        self._net_erosion_deposition_rate[:] = self._net_erosion_deposition_rate
+        self._net_erosion_deposition_rate[oversaturated, :] = -np.inf
 
     def _calculate_sediment_flux_at_links(self):
         """Calculate sediment flux through links and resulting changes at nodes."""
@@ -961,8 +969,8 @@ class OverlandflowErosionDeposition(Component):
          self._detached_bedrock_dz[:],
          self._deposited_mass[:],
          self._deposited_dz[:]) = cfuncs_ErosionDeposition.calc_detached_deposited(
-            self._net_erosion_deposition_rate_effective,
-            np.abs(self._net_erosion_deposition_rate_effective),
+            self._net_erosion_deposition_rate,
+            np.abs(self._net_erosion_deposition_rate),
             grain_masss,
             self._grain_fractions_at_node,
             self._detached_soil_mass,
@@ -985,11 +993,13 @@ class OverlandflowErosionDeposition(Component):
     def _calculate_stable_timestep(self):
         """Calculate stable timestep based on CFL-like conditions.
 
-        Considers four stability conditions:
+        Considers five stability conditions:
         1. Erosion should not exceed half the downwind gradient
         2. Deposition flux should not exceed available total_load sediment
         3. Deposition should not create excessive topographic inversions
         4. Outgoing flux should not exceed available sediment mass
+        5. Soil detachment should not exceed available soil mass per grain
+           size (grains__mass)
 
         Returns
         -------
@@ -998,8 +1008,10 @@ class OverlandflowErosionDeposition(Component):
         """
         max_downwind_gradient = self._grid.at_node['downwind__link_gradient']
         max_upwind_gradient = self._grid.at_node['upwind__link_gradient']
+        grain_masss = self._ensure_2d(self.grid.at_node['grains__mass'])
 
-        (dt_erosion, dt_deposition_mass, dt_deposition_topo, dt_mass) = cfuncs_ErosionDeposition.calc_stable_dt(
+        (dt_erosion, dt_deposition_mass, dt_deposition_topo, dt_mass,
+         dt_erosion_mass) = cfuncs_ErosionDeposition.calc_stable_dt(
             max_downwind_gradient,
             max_upwind_gradient,
             self._detached_bedrock_dz,
@@ -1016,27 +1028,32 @@ class OverlandflowErosionDeposition(Component):
             self._max_deposition_slope,
             self._min_total_load_mass,
             self._total_load_mass_at_node.shape,
+            grain_masss,
+            self._detached_soil_mass,
         )
 
         # Take minimum of all stability conditions
         self._stable_dt = min(dt_erosion, dt_deposition_mass,
-                             dt_deposition_topo, dt_mass)
+                             dt_deposition_topo, dt_mass, dt_erosion_mass,
+                             self._max_dt)
 
         # Store individual components for diagnostics
         self._dt_erosion = dt_erosion
         self._dt_deposition_mass = dt_deposition_mass
         self._dt_deposition_topo = dt_deposition_topo
         self._dt_mass = dt_mass
+        self._dt_erosion_mass = dt_erosion_mass
 
     def calc_rates(self):
         """Calculate erosion and deposition rates."""
         # Reset variables
         self._reset_variables()
 
-        # Early exit if no water depth (no flow, no erosion)
+        # Early exit if no water depth (no flow)
         max_water_depth = np.max(self.grid.at_node['surface_water__depth'])
         if max_water_depth < _NEGLIG:
-            self._stable_dt = np.inf
+            # No flow. Bound the stable timestep by max_stable_dt
+            self._stable_dt = self._max_dt
             return
 
         # Map flow directions
@@ -1059,7 +1076,7 @@ class OverlandflowErosionDeposition(Component):
 
         # Update legacy diagnostic arrays for backward compatibility
         self._TC[:] = self._transport_capacity
-        self._DR[:] = self._net_erosion_deposition_rate_effective
+        self._DR[:] = self._net_erosion_deposition_rate
         self._c_kg[:] = self._concentration_mass
 
     def _update_sediment_concentrations(self):
@@ -1067,7 +1084,6 @@ class OverlandflowErosionDeposition(Component):
 
         water_depth = self.grid.at_node['surface_water__depth']
 
-        # Clip in-place for better performance
         water_depth_safe = np.maximum(water_depth, _NEGLIG)
         water_depth_expanded = np.expand_dims(water_depth_safe, -1)
 
@@ -1085,19 +1101,52 @@ class OverlandflowErosionDeposition(Component):
         np.sum(self._concentration_volume, axis=1, out=self._sum_concentration_volume)
 
     def run_one_step(self, dt=1.0):
-        """Update topography and sediment distribution for one timestep.
+        """Advance topography and sediment distribution by a total time dt.
 
         Parameters
         ----------
         dt : float, optional
-            Timestep duration [s]. Default: 1.0
+            Total timestep duration to advance by [s]. Default: 1.0
+
+        """
+        elapsed = 0.0
+        n_substeps = 0
+
+        while elapsed < dt:
+            # Rates (and stable_dt) depend on the current state:
+            self.calc_rates()
+
+            remaining = dt - elapsed
+            sub_dt = self._stable_dt
+            if not np.isfinite(sub_dt) or sub_dt <= 0:
+                # Shouldn't normally happen
+                sub_dt = remaining
+            sub_dt = min(sub_dt, remaining)
+
+            self._apply_step(sub_dt)
+
+            elapsed += sub_dt
+            n_substeps += 1
+
+
+    def _apply_step(self, dt):
+        """Apply one stable sub-step using the rates from calc_rates().
+
+        Advances the sediment and topography fields by dt using the
+        detachment/deposition/flux rates most recently computed by
+        calc_rates()
+
+        Parameters
+        ----------
+        dt : float
+            Sub-step duration [s].
         """
         # Get references to grid fields
         grain_masss = self._ensure_2d(self.grid.at_node['grains__mass'])
         soil_depth = self._grid.at_node['soil__depth']
         bedrock_elevation = self._grid.at_node['bedrock__elevation']
         topographic_elevation = self._grid.at_node['topographic__elevation']
-        total_load_mass_total = self.grid.at_node['total_load__sediments_masss']
+        total_load_mass_total = self.grid.at_node['total_load__sediments_mass']
 
         # Calculate net flux of total_load sediment from adjacent nodes
         net_total_load_flux = (self._total_load_dzdt_at_node *
@@ -1150,10 +1199,6 @@ class OverlandflowErosionDeposition(Component):
         if self._vegetation_flag > 0:
             self._update_vegetation(dt, deposition_mass, detachment_mass)
 
-    def run_one_step_basic(self, dt=1.0):
-        """Legacy alias for run_one_step for backward compatibility."""
-        return self.run_one_step(dt=dt)
-
     def _update_vegetation(self,
                            dt,
                            deposition_mass,
@@ -1171,67 +1216,13 @@ class OverlandflowErosionDeposition(Component):
         """
         vegetation_cover = self._grid.at_cell['vegetation__cover_fraction']
 
-        if self._vegetation_flag == 1:
-            # Option 1: Stress-based vegetation removal
-            self._update_vegetation_by_stress(dt, vegetation_cover)
-        else:
-            # Option 2: Erosion-depth-based vegetation removal
-            self._update_vegetation_by_erosion(
-                dt, vegetation_cover, deposition_mass, detachment_mass
-            )
+        # Erosion-depth-based vegetation removal
+        self._update_vegetation_by_erosion(
+            dt, vegetation_cover, deposition_mass, detachment_mass
+        )
 
         # Update roughness based on new vegetation cover
         self._update_roughness_from_vegetation()
-
-    def _update_vegetation_by_stress(self, dt, vegetation_cover):
-        """Update vegetation based on excess shear stress.
-
-        Parameters
-        ----------
-        dt : float
-            Timestep [s]
-        vegetation_cover : ndarray
-            Vegetation cover fraction at cells [-]
-        """
-        # Calculate excess stress at nodes
-        median_grain_indices = self._get_median_grain_indices()
-        excess_stress = (self._shear_stress[self._grid.core_nodes] -
-                        self._critical_shear_stress[self._grid.core_nodes,
-                                                   median_grain_indices])
-
-        self._grid.at_node['excess___stress'][self._grid.core_nodes] = excess_stress
-
-        # Map to cells
-        excess_stress_at_cell = self._grid.map_node_to_cell('excess___stress')
-        above_critical = excess_stress_at_cell > 0
-
-        # Calculate vegetation removal
-        vegetation_removal_rate = np.zeros_like(vegetation_cover)
-        vegetation_removal_rate[above_critical] = (
-            self._vegetation_coefficient *
-            vegetation_cover[above_critical] *
-            excess_stress_at_cell[above_critical]
-        )
-
-        vegetation_removal = vegetation_removal_rate * dt
-        vegetation_removal = np.minimum(
-            vegetation_removal,
-            vegetation_cover - _TEN_MINUS_THREE
-        )
-
-        # Calculate removal fraction
-        removal_fraction = np.divide(
-            vegetation_removal,
-            vegetation_cover,
-            where=vegetation_cover > _TEN_MINUS_THREE,
-            out=np.zeros_like(vegetation_removal)
-        )
-
-        retention_fraction = 1 - removal_fraction
-        retention_fraction = np.maximum(retention_fraction, _TEN_MINUS_THREE)
-
-        # Apply to all vegetation fields
-        self._apply_vegetation_reduction(retention_fraction)
 
     def _update_vegetation_by_erosion(self, dt, vegetation_cover,
                                      deposition_mass, detachment_mass):
@@ -1375,7 +1366,7 @@ class OverlandflowErosionDeposition(Component):
         self._ft = (self._soil_roughness / (vegetation_roughness + self._soil_roughness)) ** 1.5
 
     def _get_median_grain_indices(self):
-        """Get indices of median grain size at eachnode.
+        """Get indices of median grain size at each node.
 
         Returns
         -------

@@ -4,7 +4,6 @@ from funcs.OverlandflowErosionDeposition import OverlandflowErosionDeposition
 from funcs.SoilInfiltrationGreenAmpt_YS import SoilInfiltrationGreenAmpt
 from funcs.soil_grading import SoilGrading
 from landlab.components import OverlandFlow
-from landlab.components import PriorityFloodFlowRouter
 from landlab.io import read_esri_ascii
 from funcs.GradMapper import GradMapper
 from landlab import imshow_grid
@@ -75,17 +74,6 @@ dspe = OverlandflowErosionDeposition(
     phi=phi,
     sigma = soil_density)
 
-
-## PriorityRouter
-fr = PriorityFloodFlowRouter(
-    grid,
-    flow_metric="D8",
-    separate_hill_flow=True,
-    hill_flow_metric="Quinn",
-    update_hill_flow_instantaneous=True, depression_handler='fill'
-)
-fr.run_one_step()
-
 ## Mapper
 gradmap = GradMapper(grid=grid)
 
@@ -118,8 +106,6 @@ topo_init = np.copy(topo)
 # Main loop
 n_repeats = 1
 for _ in range(n_repeats):
-    # fr.run_one_step()
-    # slab_failures.run_one_step()
     while elapse_dts < rainfall_duration[-1]:
         if elapse_dts ==0:
             int_index = 0
@@ -148,11 +134,11 @@ for _ in range(n_repeats):
 
         SI.run_one_step(dt=dt)
         of.run_one_step(dt=dt)
-        dspe.run_one_step_basic(dt=dt)
+        dspe.run_one_step(dt=dt)
 
         if elapse_dts > cnt_saving:
             discharge_at_node = of.discharge_mapper(grid.at_link['surface_water__discharge'])
-            total_sediment_incoming_flux = gradmap.flux_mapper()
+            total_sediment_incoming_flux = np.copy(grid.at_node['sediment__influx'])
 
             Q_at_node.append(discharge_at_node[outlet_node ])
             sediment_weight_flux_kg_s.append(total_sediment_incoming_flux[outlet_node ])  # kg/s
@@ -177,11 +163,11 @@ for _ in range(n_repeats):
 
         SI.run_one_step(dt=dt)
         of.run_one_step(dt=dt)
-        dspe.run_one_step_basic(dt=dt)
+        dspe.run_one_step(dt=dt)
 
         if elapse_dts > cnt_saving:
             discharge_at_node = of.discharge_mapper(grid.at_link['surface_water__discharge'])
-            total_sediment_incoming_flux = gradmap.flux_mapper()
+            total_sediment_incoming_flux = np.copy(grid.at_node['sediment__influx'])
 
             Q_at_node.append(discharge_at_node[outlet_node ])
             sediment_weight_flux_kg_s.append(total_sediment_incoming_flux[outlet_node ])  # kg/s

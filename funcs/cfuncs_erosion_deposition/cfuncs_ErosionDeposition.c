@@ -1513,7 +1513,7 @@ static const char *__pyx_filename;
 static const char* const __pyx_f[] = {
   "cfuncs_ErosionDeposition.pyx",
   "<stringsource>",
-  "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd",
+  "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd",
   "cpython/contextvars.pxd",
   "cpython/type.pxd",
   "cpython/bool.pxd",
@@ -1769,7 +1769,7 @@ typedef struct {
 
 /* #### Code section: numeric_typedefs ### */
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":730
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":730
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -1778,7 +1778,7 @@ typedef struct {
 */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":731
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":731
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -1787,7 +1787,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
 */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":732
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":732
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -1796,7 +1796,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
 */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":733
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":733
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1805,7 +1805,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
 */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":737
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":737
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1814,7 +1814,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
 */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":738
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":738
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1823,7 +1823,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":739
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":739
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1832,7 +1832,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":740
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":740
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1841,7 +1841,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":744
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":744
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1850,7 +1850,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":745
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":745
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1859,7 +1859,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
 */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":754
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":754
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -1868,7 +1868,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
 */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":755
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":755
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -1877,7 +1877,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
 */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":757
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":757
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -1886,7 +1886,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
 */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":758
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":758
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -1895,7 +1895,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
 */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":760
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":760
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1904,7 +1904,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":761
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":761
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1913,7 +1913,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
 */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":763
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":763
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1922,7 +1922,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
 */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":764
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":764
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1931,7 +1931,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
 */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":765
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":765
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -2026,7 +2026,7 @@ struct __pyx_opt_args_7cpython_11contextvars_get_value_no_default {
   PyObject *default_value;
 };
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":767
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":767
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -2035,7 +2035,7 @@ struct __pyx_opt_args_7cpython_11contextvars_get_value_no_default {
 */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":768
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":768
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -2044,7 +2044,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":769
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":769
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -2053,7 +2053,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":771
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":771
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -2982,13 +2982,13 @@ static CYTHON_INLINE void __Pyx_SafeReleaseBuffer(Py_buffer* info);
 static Py_ssize_t __Pyx_minusones[] = { -1, -1, -1, -1, -1, -1, -1, -1 };
 static Py_ssize_t __Pyx_zeros[] = { 0, 0, 0, 0, 0, 0, 0, 0 };
 
-/* BufferIndexError.proto (used by BufferIndexErrorNogil) */
+/* BufferIndexError.proto */
 static void __Pyx_RaiseBufferIndexError(int axis);
 
+#define __Pyx_BufPtrStrided1d(type, buf, i0, s0) (type)((char*)buf + i0 * s0)
 /* BufferIndexErrorNogil.proto */
 static void __Pyx_RaiseBufferIndexErrorNogil(int axis);
 
-#define __Pyx_BufPtrStrided1d(type, buf, i0, s0) (type)((char*)buf + i0 * s0)
 #define __Pyx_BufPtrStrided2d(type, buf, i0, s0, i1, s1) (type)((char*)buf + i0 * s0 + i1 * s1)
 /* RealImag.proto (used by SoftComplexToDouble) */
 #if CYTHON_CCOMPLEX
@@ -3843,7 +3843,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_62calc_flux_div_at_node(CYT
 static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_64calc_flux_div_at_node(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_shape, PyObject *__pyx_v_xy_spacing, __Pyx_memviewslice __pyx_v_value_at_link, PyArrayObject *__pyx_v_out); /* proto */
 static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_66calc_flux_div_at_node(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_shape, PyObject *__pyx_v_xy_spacing, __Pyx_memviewslice __pyx_v_value_at_link, PyArrayObject *__pyx_v_out); /* proto */
 static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_68calc_flux_div_at_node(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_shape, PyObject *__pyx_v_xy_spacing, __Pyx_memviewslice __pyx_v_value_at_link, PyArrayObject *__pyx_v_out); /* proto */
-static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_max_downwind_gradient, PyArrayObject *__pyx_v_max_upwind_gradient, PyArrayObject *__pyx_v_detached_bedrock_dz, PyArrayObject *__pyx_v_detached_soil_dz, PyArrayObject *__pyx_v_deposited_dz, PyArrayObject *__pyx_v_suspended_weight_at_node, PyArrayObject *__pyx_v_deposited_weight, PyArrayObject *__pyx_v_suspended_dzdt_at_node, PyArrayObject *__pyx_v_outflux_weights_at_node, PyObject *__pyx_v_dx_c, PyObject *__pyx_v_dx_squared_c, PyObject *__pyx_v_sediment_density_c, PyObject *__pyx_v_porosity_c, PyObject *__pyx_v_max_deposition_slope_c, PyObject *__pyx_v_min_suspended_mass_c, PyObject *__pyx_v_shape); /* proto */
+static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_max_downwind_gradient, PyArrayObject *__pyx_v_max_upwind_gradient, PyArrayObject *__pyx_v_detached_bedrock_dz, PyArrayObject *__pyx_v_detached_soil_dz, PyArrayObject *__pyx_v_deposited_dz, PyArrayObject *__pyx_v_suspended_weight_at_node, PyArrayObject *__pyx_v_deposited_weight, PyArrayObject *__pyx_v_suspended_dzdt_at_node, PyArrayObject *__pyx_v_outflux_weights_at_node, PyObject *__pyx_v_dx_c, PyObject *__pyx_v_dx_squared_c, PyObject *__pyx_v_sediment_density_c, PyObject *__pyx_v_porosity_c, PyObject *__pyx_v_max_deposition_slope_c, PyObject *__pyx_v_min_suspended_mass_c, PyObject *__pyx_v_shape, PyArrayObject *__pyx_v_grain_mass_at_node, PyArrayObject *__pyx_v_detached_soil_mass_at_node); /* proto */
 static PyObject *__pyx_tp_new_24cfuncs_ErosionDeposition___pyx_defaults(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_array(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_Enum(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
@@ -3904,7 +3904,7 @@ typedef struct {
   PyObject *__pyx_slice[1];
   PyObject *__pyx_tuple[1];
   PyObject *__pyx_codeobj_tab[30];
-  PyObject *__pyx_string_tab[337];
+  PyObject *__pyx_string_tab[341];
   PyObject *__pyx_number_tab[4];
 /* #### Code section: module_state_contents ### */
 /* CommonTypesMetaclass.module_state_decls */
@@ -4084,215 +4084,219 @@ static __pyx_mstatetype * const __pyx_mstate_global = &__pyx_mstate_global_stati
 #define __pyx_n_u_deposited_suspended_sediments_we __pyx_string_tab[125]
 #define __pyx_n_u_deposited_weight __pyx_string_tab[126]
 #define __pyx_n_u_depth __pyx_string_tab[127]
-#define __pyx_n_u_detached_bedrock_dz __pyx_string_tab[128]
-#define __pyx_n_u_detached_soil_dz __pyx_string_tab[129]
-#define __pyx_n_u_detached_soil_weight_at_node __pyx_string_tab[130]
-#define __pyx_n_u_dict __pyx_string_tab[131]
-#define __pyx_n_u_double __pyx_string_tab[132]
-#define __pyx_n_u_downwind_node __pyx_string_tab[133]
-#define __pyx_n_u_downwind_node_at_link __pyx_string_tab[134]
-#define __pyx_n_u_dr_node_per_gs __pyx_string_tab[135]
-#define __pyx_n_u_dt_deposition_mass __pyx_string_tab[136]
-#define __pyx_n_u_dt_deposition_topo __pyx_string_tab[137]
-#define __pyx_n_u_dt_erosion __pyx_string_tab[138]
-#define __pyx_n_u_dt_mass __pyx_string_tab[139]
-#define __pyx_n_u_dtype __pyx_string_tab[140]
-#define __pyx_n_u_dtype_is_object __pyx_string_tab[141]
-#define __pyx_n_u_dx __pyx_string_tab[142]
-#define __pyx_n_u_dx_c __pyx_string_tab[143]
-#define __pyx_n_u_dx_half __pyx_string_tab[144]
-#define __pyx_n_u_dx_squared __pyx_string_tab[145]
-#define __pyx_n_u_dx_squared_c __pyx_string_tab[146]
-#define __pyx_n_u_dy __pyx_string_tab[147]
-#define __pyx_n_u_encode __pyx_string_tab[148]
-#define __pyx_n_u_entrainment_bedrock_rate_dz __pyx_string_tab[149]
-#define __pyx_n_u_entrainment_soil_rate_dz __pyx_string_tab[150]
-#define __pyx_n_u_enumerate __pyx_string_tab[151]
-#define __pyx_n_u_error __pyx_string_tab[152]
-#define __pyx_n_u_excess_stress __pyx_string_tab[153]
-#define __pyx_n_u_factor_convert_weight_to_dz __pyx_string_tab[154]
-#define __pyx_n_u_factor_convert_weight_to_dz_bedr __pyx_string_tab[155]
-#define __pyx_n_u_factor_convert_weight_to_dz_bedr_2 __pyx_string_tab[156]
-#define __pyx_n_u_factor_convert_weight_to_dz_c __pyx_string_tab[157]
-#define __pyx_n_u_flags __pyx_string_tab[158]
-#define __pyx_n_u_float __pyx_string_tab[159]
-#define __pyx_n_u_flow_width __pyx_string_tab[160]
-#define __pyx_n_u_format __pyx_string_tab[161]
-#define __pyx_n_u_fortran __pyx_string_tab[162]
-#define __pyx_n_u_found_deposition_mass __pyx_string_tab[163]
-#define __pyx_n_u_found_mass_loss __pyx_string_tab[164]
-#define __pyx_n_u_fraction_sizes __pyx_string_tab[165]
-#define __pyx_n_u_func __pyx_string_tab[166]
-#define __pyx_n_u_fused_sigindex __pyx_string_tab[167]
-#define __pyx_n_u_g __pyx_string_tab[168]
-#define __pyx_n_u_get __pyx_string_tab[169]
-#define __pyx_n_u_get_outin_fluxes __pyx_string_tab[170]
-#define __pyx_n_u_getstate __pyx_string_tab[171]
-#define __pyx_n_u_grain_fractions_at_node __pyx_string_tab[172]
-#define __pyx_n_u_grain_size_sum_at_node __pyx_string_tab[173]
-#define __pyx_n_u_grain_size_sum_at_node_double_do __pyx_string_tab[174]
-#define __pyx_n_u_grain_size_sum_at_node_float_flo __pyx_string_tab[175]
-#define __pyx_n_u_grain_weight_at_node __pyx_string_tab[176]
-#define __pyx_n_u_grid_dx __pyx_string_tab[177]
-#define __pyx_n_u_gs __pyx_string_tab[178]
-#define __pyx_n_u_id __pyx_string_tab[179]
-#define __pyx_n_u_import __pyx_string_tab[180]
-#define __pyx_n_u_index __pyx_string_tab[181]
-#define __pyx_n_u_index_inlink __pyx_string_tab[182]
-#define __pyx_n_u_index_outlink __pyx_string_tab[183]
-#define __pyx_n_u_inlinks_fluxes_at_node __pyx_string_tab[184]
-#define __pyx_n_u_int __pyx_string_tab[185]
-#define __pyx_n_u_intc __pyx_string_tab[186]
-#define __pyx_n_u_inv_area_of_cell __pyx_string_tab[187]
-#define __pyx_n_u_is_coroutine __pyx_string_tab[188]
-#define __pyx_n_u_items __pyx_string_tab[189]
-#define __pyx_n_u_itemsize __pyx_string_tab[190]
-#define __pyx_n_u_k_omega __pyx_string_tab[191]
-#define __pyx_n_u_k_omega_c __pyx_string_tab[192]
-#define __pyx_n_u_kind __pyx_string_tab[193]
-#define __pyx_n_u_kr __pyx_string_tab[194]
-#define __pyx_n_u_kr_c __pyx_string_tab[195]
-#define __pyx_n_u_kwargs __pyx_string_tab[196]
-#define __pyx_n_u_l __pyx_string_tab[197]
-#define __pyx_n_u_l_inlink __pyx_string_tab[198]
-#define __pyx_n_u_l_outlink __pyx_string_tab[199]
-#define __pyx_n_u_link __pyx_string_tab[200]
-#define __pyx_n_u_link_list __pyx_string_tab[201]
-#define __pyx_n_u_links_per_row __pyx_string_tab[202]
-#define __pyx_n_u_loged_beta_plus_one __pyx_string_tab[203]
-#define __pyx_n_u_long __pyx_string_tab[204]
-#define __pyx_n_u_main __pyx_string_tab[205]
-#define __pyx_n_u_max_dep_slope_dx __pyx_string_tab[206]
-#define __pyx_n_u_max_deposition_slope __pyx_string_tab[207]
-#define __pyx_n_u_max_deposition_slope_c __pyx_string_tab[208]
-#define __pyx_n_u_max_downwind_gradient __pyx_string_tab[209]
-#define __pyx_n_u_max_upwind_gradient __pyx_string_tab[210]
-#define __pyx_n_u_median_sizes __pyx_string_tab[211]
-#define __pyx_n_u_memview __pyx_string_tab[212]
-#define __pyx_n_u_min_suspended_mass __pyx_string_tab[213]
-#define __pyx_n_u_min_suspended_mass_c __pyx_string_tab[214]
-#define __pyx_n_u_mode __pyx_string_tab[215]
-#define __pyx_n_u_module __pyx_string_tab[216]
-#define __pyx_n_u_n_cols __pyx_string_tab[217]
-#define __pyx_n_u_n_gs __pyx_string_tab[218]
-#define __pyx_n_u_n_links __pyx_string_tab[219]
-#define __pyx_n_u_n_nodes __pyx_string_tab[220]
-#define __pyx_n_u_n_rows __pyx_string_tab[221]
-#define __pyx_n_u_name __pyx_string_tab[222]
-#define __pyx_n_u_name_2 __pyx_string_tab[223]
-#define __pyx_n_u_ndim __pyx_string_tab[224]
-#define __pyx_n_u_net_deposition __pyx_string_tab[225]
-#define __pyx_n_u_net_erosion __pyx_string_tab[226]
-#define __pyx_n_u_new __pyx_string_tab[227]
-#define __pyx_n_u_node __pyx_string_tab[228]
-#define __pyx_n_u_nodes_losing_mass __pyx_string_tab[229]
-#define __pyx_n_u_np __pyx_string_tab[230]
-#define __pyx_n_u_numerator_shared __pyx_string_tab[231]
-#define __pyx_n_u_numpy __pyx_string_tab[232]
-#define __pyx_n_u_obj __pyx_string_tab[233]
-#define __pyx_n_u_os __pyx_string_tab[234]
-#define __pyx_n_u_os_2 __pyx_string_tab[235]
-#define __pyx_n_u_out __pyx_string_tab[236]
-#define __pyx_n_u_out_discharge_at_node __pyx_string_tab[237]
-#define __pyx_n_u_out_solv __pyx_string_tab[238]
-#define __pyx_n_u_outflux __pyx_string_tab[239]
-#define __pyx_n_u_outflux_weights_at_node __pyx_string_tab[240]
-#define __pyx_n_u_outlinks_fluxes_at_node __pyx_string_tab[241]
-#define __pyx_n_u_pack __pyx_string_tab[242]
-#define __pyx_n_u_phi __pyx_string_tab[243]
-#define __pyx_n_u_pop __pyx_string_tab[244]
-#define __pyx_n_u_porosity __pyx_string_tab[245]
-#define __pyx_n_u_porosity_c __pyx_string_tab[246]
-#define __pyx_n_u_pyx_checksum __pyx_string_tab[247]
-#define __pyx_n_u_pyx_state __pyx_string_tab[248]
-#define __pyx_n_u_pyx_type __pyx_string_tab[249]
-#define __pyx_n_u_pyx_unpickle_Enum __pyx_string_tab[250]
-#define __pyx_n_u_pyx_vtable __pyx_string_tab[251]
-#define __pyx_n_u_q __pyx_string_tab[252]
-#define __pyx_n_u_q_at_node __pyx_string_tab[253]
-#define __pyx_n_u_q_unit __pyx_string_tab[254]
-#define __pyx_n_u_q_water_at_link __pyx_string_tab[255]
-#define __pyx_n_u_qualname __pyx_string_tab[256]
-#define __pyx_n_u_reduce __pyx_string_tab[257]
-#define __pyx_n_u_reduce_cython __pyx_string_tab[258]
-#define __pyx_n_u_reduce_ex __pyx_string_tab[259]
-#define __pyx_n_u_register __pyx_string_tab[260]
-#define __pyx_n_u_rho __pyx_string_tab[261]
-#define __pyx_n_u_rho_c __pyx_string_tab[262]
-#define __pyx_n_u_rho_s __pyx_string_tab[263]
-#define __pyx_n_u_row __pyx_string_tab[264]
-#define __pyx_n_u_sediment_density __pyx_string_tab[265]
-#define __pyx_n_u_sediment_density_c __pyx_string_tab[266]
-#define __pyx_n_u_sediments_flux_at_link __pyx_string_tab[267]
-#define __pyx_n_u_set_name __pyx_string_tab[268]
-#define __pyx_n_u_setdefault __pyx_string_tab[269]
-#define __pyx_n_u_setstate __pyx_string_tab[270]
-#define __pyx_n_u_setstate_cython __pyx_string_tab[271]
-#define __pyx_n_u_sg __pyx_string_tab[272]
-#define __pyx_n_u_sg_c __pyx_string_tab[273]
-#define __pyx_n_u_shape __pyx_string_tab[274]
-#define __pyx_n_u_short __pyx_string_tab[275]
-#define __pyx_n_u_sigma __pyx_string_tab[276]
-#define __pyx_n_u_signatures __pyx_string_tab[277]
-#define __pyx_n_u_size __pyx_string_tab[278]
-#define __pyx_n_u_soil_e_expo __pyx_string_tab[279]
-#define __pyx_n_u_stable_deposition_depth __pyx_string_tab[280]
-#define __pyx_n_u_stable_erosion_depth __pyx_string_tab[281]
-#define __pyx_n_u_start __pyx_string_tab[282]
-#define __pyx_n_u_step __pyx_string_tab[283]
-#define __pyx_n_u_stop __pyx_string_tab[284]
-#define __pyx_n_u_stream_power __pyx_string_tab[285]
-#define __pyx_n_u_struct __pyx_string_tab[286]
-#define __pyx_n_u_sum_out_discharge __pyx_string_tab[287]
-#define __pyx_n_u_summed_deposited_at_node __pyx_string_tab[288]
-#define __pyx_n_u_summed_detached_bedrock_weight_a __pyx_string_tab[289]
-#define __pyx_n_u_summed_detached_soil_weight_at_n __pyx_string_tab[290]
-#define __pyx_n_u_suspended__sediments_concentrati __pyx_string_tab[291]
-#define __pyx_n_u_suspended_dzdt_at_node __pyx_string_tab[292]
-#define __pyx_n_u_suspended_fraction_at_node __pyx_string_tab[293]
-#define __pyx_n_u_suspended_weight_at_node __pyx_string_tab[294]
-#define __pyx_n_u_swp_clamped __pyx_string_tab[295]
-#define __pyx_n_u_swp_raw __pyx_string_tab[296]
-#define __pyx_n_u_tau_c __pyx_string_tab[297]
-#define __pyx_n_u_tau_s __pyx_string_tab[298]
-#define __pyx_n_u_temp_suspended_sediment_weight_a __pyx_string_tab[299]
-#define __pyx_n_u_test __pyx_string_tab[300]
-#define __pyx_n_u_total_deposited_sediments_dz_at __pyx_string_tab[301]
-#define __pyx_n_u_total_influx_at_node __pyx_string_tab[302]
-#define __pyx_n_u_total_outflux_at_node __pyx_string_tab[303]
-#define __pyx_n_u_total_weight_flux __pyx_string_tab[304]
-#define __pyx_n_u_unpack __pyx_string_tab[305]
-#define __pyx_n_u_update __pyx_string_tab[306]
-#define __pyx_n_u_upwind_node __pyx_string_tab[307]
-#define __pyx_n_u_upwind_node_at_link __pyx_string_tab[308]
-#define __pyx_n_u_value_at_link __pyx_string_tab[309]
-#define __pyx_n_u_value_at_node __pyx_string_tab[310]
-#define __pyx_n_u_value_at_node_per_size __pyx_string_tab[311]
-#define __pyx_n_u_values __pyx_string_tab[312]
-#define __pyx_n_u_velocity __pyx_string_tab[313]
-#define __pyx_n_u_vs __pyx_string_tab[314]
-#define __pyx_n_u_water_surface_grad_at_link __pyx_string_tab[315]
-#define __pyx_n_u_weight_flux_at_link __pyx_string_tab[316]
-#define __pyx_n_u_x __pyx_string_tab[317]
-#define __pyx_n_u_xy_spacing __pyx_string_tab[318]
-#define __pyx_n_u_y __pyx_string_tab[319]
-#define __pyx_n_u_yc __pyx_string_tab[320]
-#define __pyx_kp_b_iso88591_1_1_PPQ_9AQ_Qa_2_q_q __pyx_string_tab[321]
-#define __pyx_kp_b_iso88591_5_Qa_1_PPQ_Qa_e1A_QfBe1F_q_fN_A __pyx_string_tab[322]
-#define __pyx_kp_b_iso88591_5_Qa_1_PPQ_q_e1A_1F_q_bHrrssyyz __pyx_string_tab[323]
-#define __pyx_kp_b_iso88591_5_Qa_a_1_PPQ_Qa_hb_AQ_xr_e1A_1F __pyx_string_tab[324]
-#define __pyx_kp_b_iso88591_5_aq_1_PPQ_9AQ_Qa_1_e1A_a_g_PPQ __pyx_string_tab[325]
-#define __pyx_kp_b_iso88591_F_uAQ_E_Q_Q_1_1_q_Q_Rq_8_Q_Q_Q __pyx_string_tab[326]
-#define __pyx_kp_b_iso88591_a_5_Qa_1_PPQ_Qa_e1A_6_t1F_b_q __pyx_string_tab[327]
-#define __pyx_kp_b_iso88591_e1A_e1A_Zq_Zq_Rr_4s_Rq_Qc_t2Q_t __pyx_string_tab[328]
-#define __pyx_kp_b_iso88591_uAQ_E_a_6a_Q_q_LA_z_1_a_1_F_q_R __pyx_string_tab[329]
-#define __pyx_kp_b_iso88591_uAQ_e1A_Q_a_2Q_A_Cr_1_1_3auE_3a __pyx_string_tab[330]
-#define __pyx_kp_b_iso88591_uAQ_e1A_Q_a_q_LA_z_G5_QfCxr_q_Q __pyx_string_tab[331]
-#define __pyx_kp_b_iso88591_uAQ_e1A_a_J_G5_q_AV2_1F_3a __pyx_string_tab[332]
-#define __pyx_kp_b_iso88591_uAQ_e1A_a_J_G5_q_g_31F_r_aq_3a __pyx_string_tab[333]
-#define __pyx_kp_b_iso88591_uAQ_e1A_a_K1_G5_6_1K1FRUUhhiioo __pyx_string_tab[334]
-#define __pyx_kp_b_iso88591_uAQ_e1A_q_LA_1A_G5_6_b_1_r_Rq_1 __pyx_string_tab[335]
-#define __pyx_n_b_O __pyx_string_tab[336]
+#define __pyx_n_u_det __pyx_string_tab[128]
+#define __pyx_n_u_detached_bedrock_dz __pyx_string_tab[129]
+#define __pyx_n_u_detached_soil_dz __pyx_string_tab[130]
+#define __pyx_n_u_detached_soil_mass_at_node __pyx_string_tab[131]
+#define __pyx_n_u_detached_soil_weight_at_node __pyx_string_tab[132]
+#define __pyx_n_u_dict __pyx_string_tab[133]
+#define __pyx_n_u_double __pyx_string_tab[134]
+#define __pyx_n_u_downwind_node __pyx_string_tab[135]
+#define __pyx_n_u_downwind_node_at_link __pyx_string_tab[136]
+#define __pyx_n_u_dr_node_per_gs __pyx_string_tab[137]
+#define __pyx_n_u_dt_deposition_mass __pyx_string_tab[138]
+#define __pyx_n_u_dt_deposition_topo __pyx_string_tab[139]
+#define __pyx_n_u_dt_erosion __pyx_string_tab[140]
+#define __pyx_n_u_dt_erosion_mass __pyx_string_tab[141]
+#define __pyx_n_u_dt_mass __pyx_string_tab[142]
+#define __pyx_n_u_dtype __pyx_string_tab[143]
+#define __pyx_n_u_dtype_is_object __pyx_string_tab[144]
+#define __pyx_n_u_dx __pyx_string_tab[145]
+#define __pyx_n_u_dx_c __pyx_string_tab[146]
+#define __pyx_n_u_dx_half __pyx_string_tab[147]
+#define __pyx_n_u_dx_squared __pyx_string_tab[148]
+#define __pyx_n_u_dx_squared_c __pyx_string_tab[149]
+#define __pyx_n_u_dy __pyx_string_tab[150]
+#define __pyx_n_u_encode __pyx_string_tab[151]
+#define __pyx_n_u_entrainment_bedrock_rate_dz __pyx_string_tab[152]
+#define __pyx_n_u_entrainment_soil_rate_dz __pyx_string_tab[153]
+#define __pyx_n_u_enumerate __pyx_string_tab[154]
+#define __pyx_n_u_error __pyx_string_tab[155]
+#define __pyx_n_u_excess_stress __pyx_string_tab[156]
+#define __pyx_n_u_factor_convert_weight_to_dz __pyx_string_tab[157]
+#define __pyx_n_u_factor_convert_weight_to_dz_bedr __pyx_string_tab[158]
+#define __pyx_n_u_factor_convert_weight_to_dz_bedr_2 __pyx_string_tab[159]
+#define __pyx_n_u_factor_convert_weight_to_dz_c __pyx_string_tab[160]
+#define __pyx_n_u_flags __pyx_string_tab[161]
+#define __pyx_n_u_float __pyx_string_tab[162]
+#define __pyx_n_u_flow_width __pyx_string_tab[163]
+#define __pyx_n_u_format __pyx_string_tab[164]
+#define __pyx_n_u_fortran __pyx_string_tab[165]
+#define __pyx_n_u_found_deposition_mass __pyx_string_tab[166]
+#define __pyx_n_u_found_mass_loss __pyx_string_tab[167]
+#define __pyx_n_u_fraction_sizes __pyx_string_tab[168]
+#define __pyx_n_u_func __pyx_string_tab[169]
+#define __pyx_n_u_fused_sigindex __pyx_string_tab[170]
+#define __pyx_n_u_g __pyx_string_tab[171]
+#define __pyx_n_u_get __pyx_string_tab[172]
+#define __pyx_n_u_get_outin_fluxes __pyx_string_tab[173]
+#define __pyx_n_u_getstate __pyx_string_tab[174]
+#define __pyx_n_u_grain_fractions_at_node __pyx_string_tab[175]
+#define __pyx_n_u_grain_mass_at_node __pyx_string_tab[176]
+#define __pyx_n_u_grain_size_sum_at_node __pyx_string_tab[177]
+#define __pyx_n_u_grain_size_sum_at_node_double_do __pyx_string_tab[178]
+#define __pyx_n_u_grain_size_sum_at_node_float_flo __pyx_string_tab[179]
+#define __pyx_n_u_grain_weight_at_node __pyx_string_tab[180]
+#define __pyx_n_u_grid_dx __pyx_string_tab[181]
+#define __pyx_n_u_gs __pyx_string_tab[182]
+#define __pyx_n_u_id __pyx_string_tab[183]
+#define __pyx_n_u_import __pyx_string_tab[184]
+#define __pyx_n_u_index __pyx_string_tab[185]
+#define __pyx_n_u_index_inlink __pyx_string_tab[186]
+#define __pyx_n_u_index_outlink __pyx_string_tab[187]
+#define __pyx_n_u_inlinks_fluxes_at_node __pyx_string_tab[188]
+#define __pyx_n_u_int __pyx_string_tab[189]
+#define __pyx_n_u_intc __pyx_string_tab[190]
+#define __pyx_n_u_inv_area_of_cell __pyx_string_tab[191]
+#define __pyx_n_u_is_coroutine __pyx_string_tab[192]
+#define __pyx_n_u_items __pyx_string_tab[193]
+#define __pyx_n_u_itemsize __pyx_string_tab[194]
+#define __pyx_n_u_k_omega __pyx_string_tab[195]
+#define __pyx_n_u_k_omega_c __pyx_string_tab[196]
+#define __pyx_n_u_kind __pyx_string_tab[197]
+#define __pyx_n_u_kr __pyx_string_tab[198]
+#define __pyx_n_u_kr_c __pyx_string_tab[199]
+#define __pyx_n_u_kwargs __pyx_string_tab[200]
+#define __pyx_n_u_l __pyx_string_tab[201]
+#define __pyx_n_u_l_inlink __pyx_string_tab[202]
+#define __pyx_n_u_l_outlink __pyx_string_tab[203]
+#define __pyx_n_u_link __pyx_string_tab[204]
+#define __pyx_n_u_link_list __pyx_string_tab[205]
+#define __pyx_n_u_links_per_row __pyx_string_tab[206]
+#define __pyx_n_u_loged_beta_plus_one __pyx_string_tab[207]
+#define __pyx_n_u_long __pyx_string_tab[208]
+#define __pyx_n_u_main __pyx_string_tab[209]
+#define __pyx_n_u_max_dep_slope_dx __pyx_string_tab[210]
+#define __pyx_n_u_max_deposition_slope __pyx_string_tab[211]
+#define __pyx_n_u_max_deposition_slope_c __pyx_string_tab[212]
+#define __pyx_n_u_max_downwind_gradient __pyx_string_tab[213]
+#define __pyx_n_u_max_upwind_gradient __pyx_string_tab[214]
+#define __pyx_n_u_median_sizes __pyx_string_tab[215]
+#define __pyx_n_u_memview __pyx_string_tab[216]
+#define __pyx_n_u_min_suspended_mass __pyx_string_tab[217]
+#define __pyx_n_u_min_suspended_mass_c __pyx_string_tab[218]
+#define __pyx_n_u_mode __pyx_string_tab[219]
+#define __pyx_n_u_module __pyx_string_tab[220]
+#define __pyx_n_u_n_cols __pyx_string_tab[221]
+#define __pyx_n_u_n_gs __pyx_string_tab[222]
+#define __pyx_n_u_n_links __pyx_string_tab[223]
+#define __pyx_n_u_n_nodes __pyx_string_tab[224]
+#define __pyx_n_u_n_rows __pyx_string_tab[225]
+#define __pyx_n_u_name __pyx_string_tab[226]
+#define __pyx_n_u_name_2 __pyx_string_tab[227]
+#define __pyx_n_u_ndim __pyx_string_tab[228]
+#define __pyx_n_u_net_deposition __pyx_string_tab[229]
+#define __pyx_n_u_net_erosion __pyx_string_tab[230]
+#define __pyx_n_u_new __pyx_string_tab[231]
+#define __pyx_n_u_node __pyx_string_tab[232]
+#define __pyx_n_u_nodes_losing_mass __pyx_string_tab[233]
+#define __pyx_n_u_np __pyx_string_tab[234]
+#define __pyx_n_u_numerator_shared __pyx_string_tab[235]
+#define __pyx_n_u_numpy __pyx_string_tab[236]
+#define __pyx_n_u_obj __pyx_string_tab[237]
+#define __pyx_n_u_os __pyx_string_tab[238]
+#define __pyx_n_u_os_2 __pyx_string_tab[239]
+#define __pyx_n_u_out __pyx_string_tab[240]
+#define __pyx_n_u_out_discharge_at_node __pyx_string_tab[241]
+#define __pyx_n_u_out_solv __pyx_string_tab[242]
+#define __pyx_n_u_outflux __pyx_string_tab[243]
+#define __pyx_n_u_outflux_weights_at_node __pyx_string_tab[244]
+#define __pyx_n_u_outlinks_fluxes_at_node __pyx_string_tab[245]
+#define __pyx_n_u_pack __pyx_string_tab[246]
+#define __pyx_n_u_phi __pyx_string_tab[247]
+#define __pyx_n_u_pop __pyx_string_tab[248]
+#define __pyx_n_u_porosity __pyx_string_tab[249]
+#define __pyx_n_u_porosity_c __pyx_string_tab[250]
+#define __pyx_n_u_pyx_checksum __pyx_string_tab[251]
+#define __pyx_n_u_pyx_state __pyx_string_tab[252]
+#define __pyx_n_u_pyx_type __pyx_string_tab[253]
+#define __pyx_n_u_pyx_unpickle_Enum __pyx_string_tab[254]
+#define __pyx_n_u_pyx_vtable __pyx_string_tab[255]
+#define __pyx_n_u_q __pyx_string_tab[256]
+#define __pyx_n_u_q_at_node __pyx_string_tab[257]
+#define __pyx_n_u_q_unit __pyx_string_tab[258]
+#define __pyx_n_u_q_water_at_link __pyx_string_tab[259]
+#define __pyx_n_u_qualname __pyx_string_tab[260]
+#define __pyx_n_u_reduce __pyx_string_tab[261]
+#define __pyx_n_u_reduce_cython __pyx_string_tab[262]
+#define __pyx_n_u_reduce_ex __pyx_string_tab[263]
+#define __pyx_n_u_register __pyx_string_tab[264]
+#define __pyx_n_u_rho __pyx_string_tab[265]
+#define __pyx_n_u_rho_c __pyx_string_tab[266]
+#define __pyx_n_u_rho_s __pyx_string_tab[267]
+#define __pyx_n_u_row __pyx_string_tab[268]
+#define __pyx_n_u_sediment_density __pyx_string_tab[269]
+#define __pyx_n_u_sediment_density_c __pyx_string_tab[270]
+#define __pyx_n_u_sediments_flux_at_link __pyx_string_tab[271]
+#define __pyx_n_u_set_name __pyx_string_tab[272]
+#define __pyx_n_u_setdefault __pyx_string_tab[273]
+#define __pyx_n_u_setstate __pyx_string_tab[274]
+#define __pyx_n_u_setstate_cython __pyx_string_tab[275]
+#define __pyx_n_u_sg __pyx_string_tab[276]
+#define __pyx_n_u_sg_c __pyx_string_tab[277]
+#define __pyx_n_u_shape __pyx_string_tab[278]
+#define __pyx_n_u_short __pyx_string_tab[279]
+#define __pyx_n_u_sigma __pyx_string_tab[280]
+#define __pyx_n_u_signatures __pyx_string_tab[281]
+#define __pyx_n_u_size __pyx_string_tab[282]
+#define __pyx_n_u_soil_e_expo __pyx_string_tab[283]
+#define __pyx_n_u_stable_deposition_depth __pyx_string_tab[284]
+#define __pyx_n_u_stable_erosion_depth __pyx_string_tab[285]
+#define __pyx_n_u_start __pyx_string_tab[286]
+#define __pyx_n_u_step __pyx_string_tab[287]
+#define __pyx_n_u_stop __pyx_string_tab[288]
+#define __pyx_n_u_stream_power __pyx_string_tab[289]
+#define __pyx_n_u_struct __pyx_string_tab[290]
+#define __pyx_n_u_sum_out_discharge __pyx_string_tab[291]
+#define __pyx_n_u_summed_deposited_at_node __pyx_string_tab[292]
+#define __pyx_n_u_summed_detached_bedrock_weight_a __pyx_string_tab[293]
+#define __pyx_n_u_summed_detached_soil_weight_at_n __pyx_string_tab[294]
+#define __pyx_n_u_suspended__sediments_concentrati __pyx_string_tab[295]
+#define __pyx_n_u_suspended_dzdt_at_node __pyx_string_tab[296]
+#define __pyx_n_u_suspended_fraction_at_node __pyx_string_tab[297]
+#define __pyx_n_u_suspended_weight_at_node __pyx_string_tab[298]
+#define __pyx_n_u_swp_clamped __pyx_string_tab[299]
+#define __pyx_n_u_swp_raw __pyx_string_tab[300]
+#define __pyx_n_u_tau_c __pyx_string_tab[301]
+#define __pyx_n_u_tau_s __pyx_string_tab[302]
+#define __pyx_n_u_temp_suspended_sediment_weight_a __pyx_string_tab[303]
+#define __pyx_n_u_test __pyx_string_tab[304]
+#define __pyx_n_u_total_deposited_sediments_dz_at __pyx_string_tab[305]
+#define __pyx_n_u_total_influx_at_node __pyx_string_tab[306]
+#define __pyx_n_u_total_outflux_at_node __pyx_string_tab[307]
+#define __pyx_n_u_total_weight_flux __pyx_string_tab[308]
+#define __pyx_n_u_unpack __pyx_string_tab[309]
+#define __pyx_n_u_update __pyx_string_tab[310]
+#define __pyx_n_u_upwind_node __pyx_string_tab[311]
+#define __pyx_n_u_upwind_node_at_link __pyx_string_tab[312]
+#define __pyx_n_u_value_at_link __pyx_string_tab[313]
+#define __pyx_n_u_value_at_node __pyx_string_tab[314]
+#define __pyx_n_u_value_at_node_per_size __pyx_string_tab[315]
+#define __pyx_n_u_values __pyx_string_tab[316]
+#define __pyx_n_u_velocity __pyx_string_tab[317]
+#define __pyx_n_u_vs __pyx_string_tab[318]
+#define __pyx_n_u_water_surface_grad_at_link __pyx_string_tab[319]
+#define __pyx_n_u_weight_flux_at_link __pyx_string_tab[320]
+#define __pyx_n_u_x __pyx_string_tab[321]
+#define __pyx_n_u_xy_spacing __pyx_string_tab[322]
+#define __pyx_n_u_y __pyx_string_tab[323]
+#define __pyx_n_u_yc __pyx_string_tab[324]
+#define __pyx_kp_b_iso88591_2_1_IU_1_9AQ_Qa_2_q_q __pyx_string_tab[325]
+#define __pyx_kp_b_iso88591_5_Qa_1_PPQ_Qa_e1A_QfBe1F_q_fN_A __pyx_string_tab[326]
+#define __pyx_kp_b_iso88591_5_Qa_1_PPQ_q_e1A_1F_q_bHrrssyyz __pyx_string_tab[327]
+#define __pyx_kp_b_iso88591_5_Qa_a_1_PPQ_Qa_hb_AQ_xr_e1A_1F __pyx_string_tab[328]
+#define __pyx_kp_b_iso88591_5_aq_IU_1_9AQ_Qa_1_e1A_a_g_PPQQ __pyx_string_tab[329]
+#define __pyx_kp_b_iso88591_J_uAQ_E_Q_Q_1_1_q_Q_Rq_8_Q_Q_Q __pyx_string_tab[330]
+#define __pyx_kp_b_iso88591_a_5_Qa_1_PPQ_Qa_e1A_6_t1F_b_q __pyx_string_tab[331]
+#define __pyx_kp_b_iso88591_e1A_e1A_Zq_Zq_Rr_4s_Rq_Qc_t2Q_t __pyx_string_tab[332]
+#define __pyx_kp_b_iso88591_uAQ_E_a_6a_Q_q_LA_z_1_a_1_F_q_R __pyx_string_tab[333]
+#define __pyx_kp_b_iso88591_uAQ_e1A_Q_a_2Q_A_Cr_1_1_3auE_3a __pyx_string_tab[334]
+#define __pyx_kp_b_iso88591_uAQ_e1A_Q_a_q_LA_z_G5_QfCxr_q_Q __pyx_string_tab[335]
+#define __pyx_kp_b_iso88591_uAQ_e1A_a_J_G5_q_AV2_1F_3a __pyx_string_tab[336]
+#define __pyx_kp_b_iso88591_uAQ_e1A_a_J_G5_q_g_31F_r_aq_3a __pyx_string_tab[337]
+#define __pyx_kp_b_iso88591_uAQ_e1A_a_K1_G5_6_1K1FRUUhhiioo __pyx_string_tab[338]
+#define __pyx_kp_b_iso88591_uAQ_e1A_q_LA_1A_G5_6_b_1_r_Rq_1 __pyx_string_tab[339]
+#define __pyx_n_b_O __pyx_string_tab[340]
 #define __pyx_int_0 __pyx_number_tab[0]
 #define __pyx_int_neg_1 __pyx_number_tab[1]
 #define __pyx_int_1 __pyx_number_tab[2]
@@ -4342,7 +4346,7 @@ static CYTHON_SMALL_CODE int __pyx_m_clear(PyObject *m) {
   for (int i=0; i<1; ++i) { Py_CLEAR(clear_module_state->__pyx_slice[i]); }
   for (int i=0; i<1; ++i) { Py_CLEAR(clear_module_state->__pyx_tuple[i]); }
   for (int i=0; i<30; ++i) { Py_CLEAR(clear_module_state->__pyx_codeobj_tab[i]); }
-  for (int i=0; i<337; ++i) { Py_CLEAR(clear_module_state->__pyx_string_tab[i]); }
+  for (int i=0; i<341; ++i) { Py_CLEAR(clear_module_state->__pyx_string_tab[i]); }
   for (int i=0; i<4; ++i) { Py_CLEAR(clear_module_state->__pyx_number_tab[i]); }
 /* #### Code section: module_state_clear_contents ### */
 /* CommonTypesMetaclass.module_state_clear */
@@ -4400,7 +4404,7 @@ static CYTHON_SMALL_CODE int __pyx_m_traverse(PyObject *m, visitproc visit, void
   for (int i=0; i<1; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_slice[i]); }
   for (int i=0; i<1; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_tuple[i]); }
   for (int i=0; i<30; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_codeobj_tab[i]); }
-  for (int i=0; i<337; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_string_tab[i]); }
+  for (int i=0; i<341; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_string_tab[i]); }
   for (int i=0; i<4; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_number_tab[i]); }
 /* #### Code section: module_state_traverse_contents ### */
 /* CommonTypesMetaclass.module_state_traverse */
@@ -19903,7 +19907,7 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":244
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":244
  *         # Instead, we use properties that map to the corresponding C-API functions.
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -19914,7 +19918,7 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *__
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject *__pyx_v_self) {
   PyObject *__pyx_r;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":248
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":248
  *             """Returns a borrowed reference to the object owning the data/memory.
  *             """
  *             return PyArray_BASE(self)             # <<<<<<<<<<<<<<
@@ -19924,7 +19928,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
   __pyx_r = PyArray_BASE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":244
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":244
  *         # Instead, we use properties that map to the corresponding C-API functions.
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -19937,7 +19941,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":250
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":250
  *             return PyArray_BASE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -19951,7 +19955,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   PyArray_Descr *__pyx_t_1;
   __Pyx_RefNannySetupContext("descr", 0);
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":254
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":254
  *             """Returns an owned reference to the dtype of the array.
  *             """
  *             return <dtype>PyArray_DESCR(self)             # <<<<<<<<<<<<<<
@@ -19964,7 +19968,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   __pyx_r = ((PyArray_Descr *)__pyx_t_1);
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":250
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":250
  *             return PyArray_BASE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -19979,7 +19983,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":256
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":256
  *             return <dtype>PyArray_DESCR(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -19990,7 +19994,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
 static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":260
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":260
  *             """Returns the number of dimensions in the array.
  *             """
  *             return PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -20000,7 +20004,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
   __pyx_r = PyArray_NDIM(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":256
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":256
  *             return <dtype>PyArray_DESCR(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -20013,7 +20017,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":262
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":262
  *             return PyArray_NDIM(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -20024,7 +20028,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":268
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":268
  *             Can return NULL for 0-dimensional arrays.
  *             """
  *             return PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -20034,7 +20038,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
   __pyx_r = PyArray_DIMS(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":262
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":262
  *             return PyArray_NDIM(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -20047,7 +20051,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":270
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":270
  *             return PyArray_DIMS(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -20058,7 +20062,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":275
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":275
  *             The number of elements matches the number of dimensions of the array (ndim).
  *             """
  *             return PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -20068,7 +20072,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
   __pyx_r = PyArray_STRIDES(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":270
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":270
  *             return PyArray_DIMS(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -20081,7 +20085,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":277
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":277
  *             return PyArray_STRIDES(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -20092,7 +20096,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":281
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":281
  *             """Returns the total size (in number of elements) of the array.
  *             """
  *             return PyArray_SIZE(self)             # <<<<<<<<<<<<<<
@@ -20102,7 +20106,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
   __pyx_r = PyArray_SIZE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":277
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":277
  *             return PyArray_STRIDES(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -20115,7 +20119,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":283
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":283
  *             return PyArray_SIZE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -20126,7 +20130,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
 static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__pyx_v_self) {
   char *__pyx_r;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":290
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":290
  *             of `PyArray_DATA()` instead, which returns a 'void*'.
  *             """
  *             return PyArray_BYTES(self)             # <<<<<<<<<<<<<<
@@ -20136,7 +20140,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
   __pyx_r = PyArray_BYTES(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":283
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":283
  *             return PyArray_SIZE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -20149,7 +20153,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":773
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":773
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -20166,7 +20170,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":774
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":774
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -20180,7 +20184,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":773
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":773
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -20199,7 +20203,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":776
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":776
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -20216,7 +20220,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":777
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":777
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -20230,7 +20234,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":776
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":776
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -20249,7 +20253,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":779
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":779
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -20266,7 +20270,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":780
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":780
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -20280,7 +20284,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":779
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":779
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -20299,7 +20303,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":782
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":782
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -20316,7 +20320,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":783
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":783
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -20330,7 +20334,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":782
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":782
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -20349,7 +20353,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":785
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":785
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -20366,7 +20370,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":786
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":786
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -20380,7 +20384,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":785
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":785
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -20399,7 +20403,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":788
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":788
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -20413,7 +20417,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":789
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":789
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -20423,7 +20427,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = PyDataType_HASSUBARRAY(__pyx_v_d);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":790
+    /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":790
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -20435,7 +20439,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":789
+    /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":789
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -20444,7 +20448,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
 */
   }
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":792
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":792
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -20458,7 +20462,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":788
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":788
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -20473,7 +20477,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":968
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":968
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -20487,7 +20491,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":969
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":969
  * 
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -20496,7 +20500,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
 */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":970
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":970
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
@@ -20505,7 +20509,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
 */
   __pyx_t_1 = PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base); if (unlikely(__pyx_t_1 == ((int)-1))) __PYX_ERR(2, 970, __pyx_L1_error)
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":968
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":968
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -20520,7 +20524,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __pyx_L0:;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":972
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":972
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -20535,7 +20539,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":973
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":973
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -20544,7 +20548,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
 */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":974
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":974
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -20554,7 +20558,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = (__pyx_v_base == NULL);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":975
+    /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":975
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -20565,7 +20569,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":974
+    /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":974
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -20574,7 +20578,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
 */
   }
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":976
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":976
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -20586,7 +20590,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":972
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":972
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -20601,7 +20605,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":980
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":980
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -20627,7 +20631,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_array", 0);
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":981
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20643,7 +20647,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":982
+      /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":982
  * cdef inline int import_array() except -1:
  *     try:
  *         __pyx_import_array()             # <<<<<<<<<<<<<<
@@ -20652,7 +20656,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
 */
       __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 982, __pyx_L3_error)
 
-      /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":981
+      /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20666,7 +20670,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":983
+    /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":983
  *     try:
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -20681,7 +20685,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":984
+      /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":984
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -20703,7 +20707,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":981
+    /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20719,7 +20723,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":980
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":980
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -20743,7 +20747,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":986
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":986
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -20769,7 +20773,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_umath", 0);
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":987
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20785,7 +20789,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":988
+      /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":988
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -20794,7 +20798,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
 */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 988, __pyx_L3_error)
 
-      /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":987
+      /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20808,7 +20812,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":989
+    /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":989
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -20823,7 +20827,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":990
+      /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":990
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -20845,7 +20849,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":987
+    /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20861,7 +20865,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":986
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":986
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -20885,7 +20889,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":992
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":992
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -20911,7 +20915,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":993
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20927,7 +20931,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":994
+      /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":994
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -20936,7 +20940,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
 */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 994, __pyx_L3_error)
 
-      /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":993
+      /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20950,7 +20954,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":995
+    /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":995
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -20965,7 +20969,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":996
+      /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":996
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -20987,7 +20991,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":993
+    /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -21003,7 +21007,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":992
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":992
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -21027,7 +21031,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":999
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":999
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -21038,7 +21042,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
 static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1011
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1011
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyTimedeltaArrType_Type)             # <<<<<<<<<<<<<<
@@ -21048,7 +21052,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyTimedeltaArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":999
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":999
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -21061,7 +21065,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1014
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1014
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -21072,7 +21076,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
 static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1026
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1026
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyDatetimeArrType_Type)             # <<<<<<<<<<<<<<
@@ -21082,7 +21086,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyDatetimeArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1014
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1014
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -21095,7 +21099,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1029
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1029
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -21106,7 +21110,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
 static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *__pyx_v_obj) {
   npy_datetime __pyx_r;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1036
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1036
  *     also needed.  That can be found using `get_datetime64_unit`.
  *     """
  *     return (<PyDatetimeScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -21116,7 +21120,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   __pyx_r = ((PyDatetimeScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1029
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1029
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -21129,7 +21133,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1039
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1039
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -21140,7 +21144,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
 static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject *__pyx_v_obj) {
   npy_timedelta __pyx_r;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1043
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1043
  *     returns the int64 value underlying scalar numpy timedelta64 object
  *     """
  *     return (<PyTimedeltaScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -21150,7 +21154,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   __pyx_r = ((PyTimedeltaScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1039
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1039
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -21163,7 +21167,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1046
+/* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1046
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -21174,7 +21178,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
 static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObject *__pyx_v_obj) {
   NPY_DATETIMEUNIT __pyx_r;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1050
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1050
  *     returns the unit part of the dtype for a numpy datetime64 object.
  *     """
  *     return <NPY_DATETIMEUNIT>(<PyDatetimeScalarObject*>obj).obmeta.base             # <<<<<<<<<<<<<<
@@ -21182,7 +21186,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   __pyx_r = ((NPY_DATETIMEUNIT)((PyDatetimeScalarObject *)__pyx_v_obj)->obmeta.base);
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1046
+  /* "../../../../../../../../../opt/anaconda3/envs/clash_dev_env/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1046
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -23304,7 +23308,8 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_24cfuncs_ErosionDeposition_5sum_out_discharge = {"sum_out_discharge", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_24cfuncs_ErosionDeposition_5sum_out_discharge, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+PyDoc_STRVAR(__pyx_doc_24cfuncs_ErosionDeposition_4sum_out_discharge, "Scatter-accumulate link discharge onto each link's upwind node.\n\n        Deliberately SERIAL, not prange. Multiple links routinely share the\n        same upwind node (any interior node has several links touching it),\n        so this is a scatter-add into a node-indexed array from a\n        link-indexed loop: `out_discharge_at_node[upwind_node] += ...`. Under\n        prange, two threads can race to read-modify-write the same\n        out_discharge_at_node[upwind_node] slot at once with no\n        synchronization, silently dropping one thread's contribution. This\n        was verified empirically (a 30-trial randomized test against a\n        serial reference reproduced wrong, non-deterministic results in\n        about half the trials on just 2 threads) - it's the kind of bug that\n        surfaces as spatially patchy, run-to-run-inconsistent discharge/\n        erosion output, which is worse than the parallel speedup is worth\n        for a loop this cheap (one add per link).\n        ");
+static PyMethodDef __pyx_mdef_24cfuncs_ErosionDeposition_5sum_out_discharge = {"sum_out_discharge", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_24cfuncs_ErosionDeposition_5sum_out_discharge, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_24cfuncs_ErosionDeposition_4sum_out_discharge};
 static PyObject *__pyx_pw_24cfuncs_ErosionDeposition_5sum_out_discharge(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
@@ -23488,224 +23493,97 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_4sum_out_discharge(CYTHON_U
   }
   __pyx_pybuffernd_out_discharge_at_node.diminfo[0].strides = __pyx_pybuffernd_out_discharge_at_node.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_out_discharge_at_node.diminfo[0].shape = __pyx_pybuffernd_out_discharge_at_node.rcbuffer->pybuffer.shape[0];
 
-  /* "cfuncs_ErosionDeposition.pyx":105
+  /* "cfuncs_ErosionDeposition.pyx":121
  * 
  *         cdef int index, link, upwind_node
  *         cdef int n_links = shape             # <<<<<<<<<<<<<<
  * 
- *         for index in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):
+ *         for index in range(n_links):
 */
-  __pyx_t_1 = __Pyx_PyLong_As_int(__pyx_v_shape); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 105, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyLong_As_int(__pyx_v_shape); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 121, __pyx_L1_error)
   __pyx_v_n_links = __pyx_t_1;
 
-  /* "cfuncs_ErosionDeposition.pyx":107
+  /* "cfuncs_ErosionDeposition.pyx":123
  *         cdef int n_links = shape
  * 
- *         for index in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
+ *         for index in range(n_links):             # <<<<<<<<<<<<<<
  *             link = link_list[index]
  *             upwind_node = upwind_node_at_link[link]
 */
-  {
-      PyThreadState * _save;
-      _save = PyEval_SaveThread();
-      __Pyx_FastGIL_Remember();
-      /*try:*/ {
-        __pyx_t_1 = __pyx_v_n_links;
-        {
-            const char *__pyx_parallel_filename = NULL; int __pyx_parallel_lineno = 0, __pyx_parallel_clineno = 0;
-            PyObject *__pyx_parallel_exc_type = NULL, *__pyx_parallel_exc_value = NULL, *__pyx_parallel_exc_tb = NULL;
-            #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-            PyMutex __pyx_parallel_freethreading_mutex = {0};
-            #endif
-            int __pyx_parallel_why;
-            __pyx_parallel_why = 0;
-            #if ((defined(__APPLE__) || defined(__OSX__)) && (defined(__GNUC__) && (__GNUC__ > 2 || (__GNUC__ == 2 && (__GNUC_MINOR__ > 95)))))
-                #undef likely
-                #undef unlikely
-                #define likely(x)   (x)
-                #define unlikely(x) (x)
-            #endif
-            __pyx_t_3 = (__pyx_t_1 - 0 + 1 - 1/abs(1)) / 1;
-            if (__pyx_t_3 > 0)
-            {
-                #ifdef _OPENMP
-                #pragma omp parallel num_threads(__pyx_v_24cfuncs_ErosionDeposition_N_THREADS) private(__pyx_t_4, __pyx_t_5, __pyx_t_6) __Pyx_shared_in_cpython_freethreading(__pyx_parallel_freethreading_mutex) private(__pyx_filename, __pyx_lineno, __pyx_clineno) shared(__pyx_parallel_why, __pyx_parallel_exc_type, __pyx_parallel_exc_value, __pyx_parallel_exc_tb)
-                #endif /* _OPENMP */
-                {
-                    #ifdef _OPENMP
-                    PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
-                    Py_BEGIN_ALLOW_THREADS
-                    #endif /* _OPENMP */
-                    #ifdef _OPENMP
-                    #pragma omp for firstprivate(__pyx_v_index) lastprivate(__pyx_v_index) firstprivate(__pyx_v_link) lastprivate(__pyx_v_link) firstprivate(__pyx_v_upwind_node) lastprivate(__pyx_v_upwind_node) schedule(static)
-                    #endif /* _OPENMP */
-                    for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_3; __pyx_t_2++){
-                        if (__pyx_parallel_why < 2)
-                        {
-                            __pyx_v_index = (int)(0 + 1 * __pyx_t_2);
+  __pyx_t_1 = __pyx_v_n_links;
+  __pyx_t_2 = __pyx_t_1;
+  for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
+    __pyx_v_index = __pyx_t_3;
 
-                            /* "cfuncs_ErosionDeposition.pyx":108
+    /* "cfuncs_ErosionDeposition.pyx":124
  * 
- *         for index in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):
+ *         for index in range(n_links):
  *             link = link_list[index]             # <<<<<<<<<<<<<<
  *             upwind_node = upwind_node_at_link[link]
  *             out_discharge_at_node[upwind_node] += abs_discharge[link]
 */
-                            __pyx_t_4 = __pyx_v_index;
-                            __pyx_t_5 = -1;
-                            if (__pyx_t_4 < 0) {
-                              __pyx_t_4 += __pyx_pybuffernd_link_list.diminfo[0].shape;
-                              if (unlikely(__pyx_t_4 < 0)) __pyx_t_5 = 0;
-                            } else if (unlikely(__pyx_t_4 >= __pyx_pybuffernd_link_list.diminfo[0].shape)) __pyx_t_5 = 0;
-                            if (unlikely(__pyx_t_5 != -1)) {
-                              __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_5);
-                              __PYX_ERR(0, 108, __pyx_L8_error)
-                            }
-                            __pyx_v_link = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_link_list.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_link_list.diminfo[0].strides));
+    __pyx_t_4 = __pyx_v_index;
+    __pyx_t_5 = -1;
+    if (__pyx_t_4 < 0) {
+      __pyx_t_4 += __pyx_pybuffernd_link_list.diminfo[0].shape;
+      if (unlikely(__pyx_t_4 < 0)) __pyx_t_5 = 0;
+    } else if (unlikely(__pyx_t_4 >= __pyx_pybuffernd_link_list.diminfo[0].shape)) __pyx_t_5 = 0;
+    if (unlikely(__pyx_t_5 != -1)) {
+      __Pyx_RaiseBufferIndexError(__pyx_t_5);
+      __PYX_ERR(0, 124, __pyx_L1_error)
+    }
+    __pyx_v_link = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_link_list.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_link_list.diminfo[0].strides));
 
-                            /* "cfuncs_ErosionDeposition.pyx":109
- *         for index in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):
+    /* "cfuncs_ErosionDeposition.pyx":125
+ *         for index in range(n_links):
  *             link = link_list[index]
  *             upwind_node = upwind_node_at_link[link]             # <<<<<<<<<<<<<<
  *             out_discharge_at_node[upwind_node] += abs_discharge[link]
  * 
 */
-                            __pyx_t_4 = __pyx_v_link;
-                            __pyx_t_5 = -1;
-                            if (__pyx_t_4 < 0) {
-                              __pyx_t_4 += __pyx_pybuffernd_upwind_node_at_link.diminfo[0].shape;
-                              if (unlikely(__pyx_t_4 < 0)) __pyx_t_5 = 0;
-                            } else if (unlikely(__pyx_t_4 >= __pyx_pybuffernd_upwind_node_at_link.diminfo[0].shape)) __pyx_t_5 = 0;
-                            if (unlikely(__pyx_t_5 != -1)) {
-                              __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_5);
-                              __PYX_ERR(0, 109, __pyx_L8_error)
-                            }
-                            __pyx_v_upwind_node = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_upwind_node_at_link.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_upwind_node_at_link.diminfo[0].strides));
+    __pyx_t_4 = __pyx_v_link;
+    __pyx_t_5 = -1;
+    if (__pyx_t_4 < 0) {
+      __pyx_t_4 += __pyx_pybuffernd_upwind_node_at_link.diminfo[0].shape;
+      if (unlikely(__pyx_t_4 < 0)) __pyx_t_5 = 0;
+    } else if (unlikely(__pyx_t_4 >= __pyx_pybuffernd_upwind_node_at_link.diminfo[0].shape)) __pyx_t_5 = 0;
+    if (unlikely(__pyx_t_5 != -1)) {
+      __Pyx_RaiseBufferIndexError(__pyx_t_5);
+      __PYX_ERR(0, 125, __pyx_L1_error)
+    }
+    __pyx_v_upwind_node = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_upwind_node_at_link.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_upwind_node_at_link.diminfo[0].strides));
 
-                            /* "cfuncs_ErosionDeposition.pyx":110
+    /* "cfuncs_ErosionDeposition.pyx":126
  *             link = link_list[index]
  *             upwind_node = upwind_node_at_link[link]
  *             out_discharge_at_node[upwind_node] += abs_discharge[link]             # <<<<<<<<<<<<<<
  * 
  *         return out_discharge_at_node
 */
-                            __pyx_t_4 = __pyx_v_link;
-                            __pyx_t_5 = -1;
-                            if (__pyx_t_4 < 0) {
-                              __pyx_t_4 += __pyx_pybuffernd_abs_discharge.diminfo[0].shape;
-                              if (unlikely(__pyx_t_4 < 0)) __pyx_t_5 = 0;
-                            } else if (unlikely(__pyx_t_4 >= __pyx_pybuffernd_abs_discharge.diminfo[0].shape)) __pyx_t_5 = 0;
-                            if (unlikely(__pyx_t_5 != -1)) {
-                              __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_5);
-                              __PYX_ERR(0, 110, __pyx_L8_error)
-                            }
-                            __pyx_t_6 = __pyx_v_upwind_node;
-                            __pyx_t_5 = -1;
-                            if (__pyx_t_6 < 0) {
-                              __pyx_t_6 += __pyx_pybuffernd_out_discharge_at_node.diminfo[0].shape;
-                              if (unlikely(__pyx_t_6 < 0)) __pyx_t_5 = 0;
-                            } else if (unlikely(__pyx_t_6 >= __pyx_pybuffernd_out_discharge_at_node.diminfo[0].shape)) __pyx_t_5 = 0;
-                            if (unlikely(__pyx_t_5 != -1)) {
-                              __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_5);
-                              __PYX_ERR(0, 110, __pyx_L8_error)
-                            }
-                            *__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_out_discharge_at_node.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_out_discharge_at_node.diminfo[0].strides) += (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_abs_discharge.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_abs_discharge.diminfo[0].strides));
-                            goto __pyx_L11;
-                            __pyx_L8_error:;
-                            {
-                                PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
-                                #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                                PyMutex_Lock(&__pyx_parallel_freethreading_mutex);
-                                #endif
-                                #ifdef _OPENMP
-                                #pragma omp flush(__pyx_parallel_exc_type)
-                                #endif /* _OPENMP */
-                                if (!__pyx_parallel_exc_type) {
-                                  __Pyx_ErrFetchWithState(&__pyx_parallel_exc_type, &__pyx_parallel_exc_value, &__pyx_parallel_exc_tb);
-                                  __pyx_parallel_filename = __pyx_filename; __pyx_parallel_lineno = __pyx_lineno; __pyx_parallel_clineno = __pyx_clineno;
-                                  __Pyx_GOTREF(__pyx_parallel_exc_type);
-                                }
-                                #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                                PyMutex_Unlock(&__pyx_parallel_freethreading_mutex);
-                                #endif
-                                __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                            }
-                            __pyx_parallel_why = 4;
-                            goto __pyx_L11;
-                            __pyx_L11:;
-                            #ifdef _OPENMP
-                            #pragma omp flush(__pyx_parallel_why)
-                            #endif /* _OPENMP */
-                        }
-                    }
-                    #ifdef _OPENMP
-                    Py_END_ALLOW_THREADS
-                    #else
-{
-PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
-                    #endif /* _OPENMP */
-                    /* Clean up any temporaries */
-                    __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                    #ifndef _OPENMP
-}
-#endif /* _OPENMP */
-                }
-            }
-            if (__pyx_parallel_exc_type) {
-              /* This may have been overridden by a continue, break or return in another thread. Prefer the error. */
-              __pyx_parallel_why = 4;
-            }
-            if (__pyx_parallel_why) {
-              switch (__pyx_parallel_why) {
-                    case 4:
-                {
-                    PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
-                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                    PyMutex_Lock(&__pyx_parallel_freethreading_mutex);
-                    #endif
-                    __Pyx_GIVEREF(__pyx_parallel_exc_type);
-                    __Pyx_ErrRestoreWithState(__pyx_parallel_exc_type, __pyx_parallel_exc_value, __pyx_parallel_exc_tb);
-                    __pyx_filename = __pyx_parallel_filename; __pyx_lineno = __pyx_parallel_lineno; __pyx_clineno = __pyx_parallel_clineno;
-                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                    PyMutex_Unlock(&__pyx_parallel_freethreading_mutex);
-                    #endif
-                    __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                }
-                goto __pyx_L4_error;
-              }
-            }
-        }
-        #if ((defined(__APPLE__) || defined(__OSX__)) && (defined(__GNUC__) && (__GNUC__ > 2 || (__GNUC__ == 2 && (__GNUC_MINOR__ > 95)))))
-            #undef likely
-            #undef unlikely
-            #define likely(x)   __builtin_expect(!!(x), 1)
-            #define unlikely(x) __builtin_expect(!!(x), 0)
-        #endif
-      }
-
-      /* "cfuncs_ErosionDeposition.pyx":107
- *         cdef int n_links = shape
- * 
- *         for index in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
- *             link = link_list[index]
- *             upwind_node = upwind_node_at_link[link]
-*/
-      /*finally:*/ {
-        /*normal exit:*/{
-          __Pyx_FastGIL_Forget();
-          PyEval_RestoreThread(_save);
-          goto __pyx_L5;
-        }
-        __pyx_L4_error: {
-          __Pyx_FastGIL_Forget();
-          PyEval_RestoreThread(_save);
-          goto __pyx_L1_error;
-        }
-        __pyx_L5:;
-      }
+    __pyx_t_4 = __pyx_v_link;
+    __pyx_t_5 = -1;
+    if (__pyx_t_4 < 0) {
+      __pyx_t_4 += __pyx_pybuffernd_abs_discharge.diminfo[0].shape;
+      if (unlikely(__pyx_t_4 < 0)) __pyx_t_5 = 0;
+    } else if (unlikely(__pyx_t_4 >= __pyx_pybuffernd_abs_discharge.diminfo[0].shape)) __pyx_t_5 = 0;
+    if (unlikely(__pyx_t_5 != -1)) {
+      __Pyx_RaiseBufferIndexError(__pyx_t_5);
+      __PYX_ERR(0, 126, __pyx_L1_error)
+    }
+    __pyx_t_6 = __pyx_v_upwind_node;
+    __pyx_t_5 = -1;
+    if (__pyx_t_6 < 0) {
+      __pyx_t_6 += __pyx_pybuffernd_out_discharge_at_node.diminfo[0].shape;
+      if (unlikely(__pyx_t_6 < 0)) __pyx_t_5 = 0;
+    } else if (unlikely(__pyx_t_6 >= __pyx_pybuffernd_out_discharge_at_node.diminfo[0].shape)) __pyx_t_5 = 0;
+    if (unlikely(__pyx_t_5 != -1)) {
+      __Pyx_RaiseBufferIndexError(__pyx_t_5);
+      __PYX_ERR(0, 126, __pyx_L1_error)
+    }
+    *__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_out_discharge_at_node.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_out_discharge_at_node.diminfo[0].strides) += (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_abs_discharge.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_abs_discharge.diminfo[0].strides));
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":112
+  /* "cfuncs_ErosionDeposition.pyx":128
  *             out_discharge_at_node[upwind_node] += abs_discharge[link]
  * 
  *         return out_discharge_at_node             # <<<<<<<<<<<<<<
@@ -23750,7 +23628,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
   return __pyx_r;
 }
 
-/* "cfuncs_ErosionDeposition.pyx":115
+/* "cfuncs_ErosionDeposition.pyx":131
  * 
  * 
  * def calc_flux_at_link(             # <<<<<<<<<<<<<<
@@ -23786,53 +23664,53 @@ static PyObject *__pyx_pw_24cfuncs_ErosionDeposition_7calc_flux_at_link(PyObject
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_signatures,&__pyx_mstate_global->__pyx_n_u_args,&__pyx_mstate_global->__pyx_n_u_kwargs,&__pyx_mstate_global->__pyx_n_u_defaults,&__pyx_mstate_global->__pyx_n_u_fused_sigindex,0};
     struct __pyx_defaults *__pyx_dynamic_args = __Pyx_CyFunction_Defaults(struct __pyx_defaults, __pyx_self);
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_VARARGS(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 115, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 131, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  5:
         values[4] = __Pyx_ArgRef_VARARGS(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 131, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 131, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 131, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 131, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 131, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "__pyx_fused_cpdef", 0) < (0)) __PYX_ERR(0, 115, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "__pyx_fused_cpdef", 0) < (0)) __PYX_ERR(0, 131, __pyx_L3_error)
       if (!values[4]) values[4] = __Pyx_NewRef(__pyx_dynamic_args->arg0);
       for (Py_ssize_t i = __pyx_nargs; i < 4; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 0, 4, 5, i); __PYX_ERR(0, 115, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 0, 4, 5, i); __PYX_ERR(0, 131, __pyx_L3_error) }
       }
     } else {
       switch (__pyx_nargs) {
         case  5:
         values[4] = __Pyx_ArgRef_VARARGS(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 131, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 131, __pyx_L3_error)
         values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 131, __pyx_L3_error)
         values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 131, __pyx_L3_error)
         values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 131, __pyx_L3_error)
         break;
         default: goto __pyx_L5_argtuple_error;
       }
@@ -23846,7 +23724,7 @@ static PyObject *__pyx_pw_24cfuncs_ErosionDeposition_7calc_flux_at_link(PyObject
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 0, 4, 5, __pyx_nargs); __PYX_ERR(0, 115, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 0, 4, 5, __pyx_nargs); __PYX_ERR(0, 131, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -23895,7 +23773,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_6calc_flux_at_link(CYTHON_U
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L4_bool_binop_done;
   }
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_kwargs); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 115, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_kwargs); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 131, __pyx_L1_error)
   __pyx_t_3 = (!__pyx_t_2);
   __pyx_t_1 = __pyx_t_3;
   __pyx_L4_bool_binop_done:;
@@ -23903,22 +23781,22 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_6calc_flux_at_link(CYTHON_U
     __Pyx_INCREF(Py_None);
     __Pyx_DECREF_SET(__pyx_v_kwargs, Py_None);
   }
-  __pyx_t_4 = ((PyObject *)__Pyx_ImportNumPyArrayTypeIfAvailable()); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 115, __pyx_L1_error)
+  __pyx_t_4 = ((PyObject *)__Pyx_ImportNumPyArrayTypeIfAvailable()); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 131, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_v_ndarray = ((PyTypeObject*)__pyx_t_4);
   __pyx_t_4 = 0;
   if (unlikely(__pyx_v_args == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "object of type 'NoneType' has no len()");
-    __PYX_ERR(0, 115, __pyx_L1_error)
+    __PYX_ERR(0, 131, __pyx_L1_error)
   }
-  __pyx_t_5 = __Pyx_PyTuple_GET_SIZE(((PyObject*)__pyx_v_args)); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 115, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyTuple_GET_SIZE(((PyObject*)__pyx_v_args)); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 131, __pyx_L1_error)
   __pyx_t_1 = (3 < __pyx_t_5);
   if (__pyx_t_1) {
     if (unlikely(__pyx_v_args == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-      __PYX_ERR(0, 115, __pyx_L1_error)
+      __PYX_ERR(0, 131, __pyx_L1_error)
     }
-    __pyx_t_4 = __Pyx_GetItemInt_Tuple(((PyObject*)__pyx_v_args), 3, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_SharedReference); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 115, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_GetItemInt_Tuple(((PyObject*)__pyx_v_args), 3, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_SharedReference); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 131, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_v_arg = __pyx_t_4;
     __pyx_t_4 = 0;
@@ -23932,17 +23810,17 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_6calc_flux_at_link(CYTHON_U
   }
   if (unlikely(__pyx_v_kwargs == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not iterable");
-    __PYX_ERR(0, 115, __pyx_L1_error)
+    __PYX_ERR(0, 131, __pyx_L1_error)
   }
-  __pyx_t_3 = (__Pyx_PyDict_ContainsTF(__pyx_mstate_global->__pyx_n_u_weight_flux_at_link, ((PyObject*)__pyx_v_kwargs), Py_EQ)); if (unlikely((__pyx_t_3 < 0))) __PYX_ERR(0, 115, __pyx_L1_error)
+  __pyx_t_3 = (__Pyx_PyDict_ContainsTF(__pyx_mstate_global->__pyx_n_u_weight_flux_at_link, ((PyObject*)__pyx_v_kwargs), Py_EQ)); if (unlikely((__pyx_t_3 < 0))) __PYX_ERR(0, 131, __pyx_L1_error)
   __pyx_t_1 = __pyx_t_3;
   __pyx_L7_bool_binop_done:;
   if (likely(__pyx_t_1)) {
     if (unlikely(__pyx_v_kwargs == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-      __PYX_ERR(0, 115, __pyx_L1_error)
+      __PYX_ERR(0, 131, __pyx_L1_error)
     }
-    __pyx_t_4 = __Pyx_PyDict_GetItem(((PyObject*)__pyx_v_kwargs), __pyx_mstate_global->__pyx_n_u_weight_flux_at_link); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 115, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyDict_GetItem(((PyObject*)__pyx_v_kwargs), __pyx_mstate_global->__pyx_n_u_weight_flux_at_link); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 131, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_v_arg = __pyx_t_4;
     __pyx_t_4 = 0;
@@ -23950,21 +23828,21 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_6calc_flux_at_link(CYTHON_U
   }
   /*else*/ {
     __pyx_t_6 = NULL;
-    __pyx_t_7 = __Pyx_PyUnicode_From_long(7, 0, ' ', 'd'); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 115, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyUnicode_From_long(7, 0, ' ', 'd'); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 131, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     if (unlikely(__pyx_v_args == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "object of type 'NoneType' has no len()");
-      __PYX_ERR(0, 115, __pyx_L1_error)
+      __PYX_ERR(0, 131, __pyx_L1_error)
     }
-    __pyx_t_5 = __Pyx_PyTuple_GET_SIZE(((PyObject*)__pyx_v_args)); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 115, __pyx_L1_error)
-    __pyx_t_8 = __Pyx_PyUnicode_From_Py_ssize_t(__pyx_t_5, 0, ' ', 'd'); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 115, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyTuple_GET_SIZE(((PyObject*)__pyx_v_args)); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 131, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyUnicode_From_Py_ssize_t(__pyx_t_5, 0, ' ', 'd'); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 131, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __pyx_t_9[0] = __pyx_mstate_global->__pyx_kp_u_Expected_at_least;
     __pyx_t_9[1] = __pyx_t_7;
     __pyx_t_9[2] = __pyx_mstate_global->__pyx_kp_u_arguments_got;
     __pyx_t_9[3] = __pyx_t_8;
     __pyx_t_10 = __Pyx_PyUnicode_Join(__pyx_t_9, 4, 18 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_7) + 16 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_8), 127);
-    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 115, __pyx_L1_error)
+    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 131, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -23974,20 +23852,20 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_6calc_flux_at_link(CYTHON_U
       __pyx_t_4 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_TypeError)), __pyx_callargs+__pyx_t_11, (2-__pyx_t_11) | (__pyx_t_11*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 115, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 131, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
     __Pyx_Raise(__pyx_t_4, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __PYX_ERR(0, 115, __pyx_L1_error)
+    __PYX_ERR(0, 131, __pyx_L1_error)
   }
   __pyx_L6:;
-  __pyx_t_4 = __pyx_ff_map_fused_cb4857_2_2_float__and_double(__pyx_v_arg, __pyx_v_ndarray); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 115, __pyx_L1_error)
+  __pyx_t_4 = __pyx_ff_map_fused_cb4857_2_2_float__and_double(__pyx_v_arg, __pyx_v_ndarray); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 131, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_v_dest_sig0 = ((PyObject*)__pyx_t_4);
   __pyx_t_4 = 0;
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_4 = __pyx_ff_match_signatures_single(((PyObject*)__pyx_v_signatures), __pyx_v_dest_sig0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 115, __pyx_L1_error)
+  __pyx_t_4 = __pyx_ff_match_signatures_single(((PyObject*)__pyx_v_signatures), __pyx_v_dest_sig0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 131, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_r = __pyx_t_4;
   __pyx_t_4 = 0;
@@ -24041,74 +23919,74 @@ static PyObject *__pyx_fuse_0__pyx_pw_24cfuncs_ErosionDeposition_43calc_flux_at_
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_dx,&__pyx_mstate_global->__pyx_n_u_sigma,&__pyx_mstate_global->__pyx_n_u_phi,&__pyx_mstate_global->__pyx_n_u_weight_flux_at_link,&__pyx_mstate_global->__pyx_n_u_water_surface_grad_at_link,&__pyx_mstate_global->__pyx_n_u_sediments_flux_at_link,&__pyx_mstate_global->__pyx_n_u_shape,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_VARARGS(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 115, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 131, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  7:
         values[6] = __Pyx_ArgRef_VARARGS(__pyx_args, 6);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 131, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  6:
         values[5] = __Pyx_ArgRef_VARARGS(__pyx_args, 5);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 131, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  5:
         values[4] = __Pyx_ArgRef_VARARGS(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 131, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 131, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 131, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 131, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 131, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_flux_at_link", 0) < (0)) __PYX_ERR(0, 115, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_flux_at_link", 0) < (0)) __PYX_ERR(0, 131, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 7; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_flux_at_link", 1, 7, 7, i); __PYX_ERR(0, 115, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_flux_at_link", 1, 7, 7, i); __PYX_ERR(0, 131, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 7)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 115, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 131, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 115, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 131, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 115, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 131, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 115, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 131, __pyx_L3_error)
       values[4] = __Pyx_ArgRef_VARARGS(__pyx_args, 4);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 115, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 131, __pyx_L3_error)
       values[5] = __Pyx_ArgRef_VARARGS(__pyx_args, 5);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 115, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 131, __pyx_L3_error)
       values[6] = __Pyx_ArgRef_VARARGS(__pyx_args, 6);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 115, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 131, __pyx_L3_error)
     }
-    __pyx_v_dx = __Pyx_PyFloat_AsDouble(values[0]); if (unlikely((__pyx_v_dx == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 116, __pyx_L3_error)
-    __pyx_v_sigma = __Pyx_PyFloat_AsDouble(values[1]); if (unlikely((__pyx_v_sigma == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 117, __pyx_L3_error)
-    __pyx_v_phi = __Pyx_PyFloat_AsDouble(values[2]); if (unlikely((__pyx_v_phi == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 118, __pyx_L3_error)
-    __pyx_v_weight_flux_at_link = __Pyx_PyObject_to_MemoryviewSlice_dsds_float(values[3], PyBUF_WRITABLE); if (unlikely(!__pyx_v_weight_flux_at_link.memview)) __PYX_ERR(0, 119, __pyx_L3_error)
-    __pyx_v_water_surface_grad_at_link = __Pyx_PyObject_to_MemoryviewSlice_ds_float(values[4], PyBUF_WRITABLE); if (unlikely(!__pyx_v_water_surface_grad_at_link.memview)) __PYX_ERR(0, 120, __pyx_L3_error)
-    __pyx_v_sediments_flux_at_link = __Pyx_PyObject_to_MemoryviewSlice_dsds_float(values[5], PyBUF_WRITABLE); if (unlikely(!__pyx_v_sediments_flux_at_link.memview)) __PYX_ERR(0, 121, __pyx_L3_error)
+    __pyx_v_dx = __Pyx_PyFloat_AsDouble(values[0]); if (unlikely((__pyx_v_dx == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 132, __pyx_L3_error)
+    __pyx_v_sigma = __Pyx_PyFloat_AsDouble(values[1]); if (unlikely((__pyx_v_sigma == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 133, __pyx_L3_error)
+    __pyx_v_phi = __Pyx_PyFloat_AsDouble(values[2]); if (unlikely((__pyx_v_phi == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 134, __pyx_L3_error)
+    __pyx_v_weight_flux_at_link = __Pyx_PyObject_to_MemoryviewSlice_dsds_float(values[3], PyBUF_WRITABLE); if (unlikely(!__pyx_v_weight_flux_at_link.memview)) __PYX_ERR(0, 135, __pyx_L3_error)
+    __pyx_v_water_surface_grad_at_link = __Pyx_PyObject_to_MemoryviewSlice_ds_float(values[4], PyBUF_WRITABLE); if (unlikely(!__pyx_v_water_surface_grad_at_link.memview)) __PYX_ERR(0, 136, __pyx_L3_error)
+    __pyx_v_sediments_flux_at_link = __Pyx_PyObject_to_MemoryviewSlice_dsds_float(values[5], PyBUF_WRITABLE); if (unlikely(!__pyx_v_sediments_flux_at_link.memview)) __PYX_ERR(0, 137, __pyx_L3_error)
     __pyx_v_shape = values[6];
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("calc_flux_at_link", 1, 7, 7, __pyx_nargs); __PYX_ERR(0, 115, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("calc_flux_at_link", 1, 7, 7, __pyx_nargs); __PYX_ERR(0, 131, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -24161,33 +24039,33 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_42calc_flux_at_link(CYTHON_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__pyx_fuse_0calc_flux_at_link", 0);
 
-  /* "cfuncs_ErosionDeposition.pyx":124
+  /* "cfuncs_ErosionDeposition.pyx":140
  *         shape,
  * ):
  *     cdef int n_links = shape[0]             # <<<<<<<<<<<<<<
  *     cdef int n_cols = shape[1]
  *     cdef int col, link, index
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 124, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 140, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 124, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 140, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_links = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":125
+  /* "cfuncs_ErosionDeposition.pyx":141
  * ):
  *     cdef int n_links = shape[0]
  *     cdef int n_cols = shape[1]             # <<<<<<<<<<<<<<
  *     cdef int col, link, index
  * 
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 125, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 141, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 125, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 141, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_cols = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":129
+  /* "cfuncs_ErosionDeposition.pyx":145
  * 
  * 
  *     for link in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -24233,7 +24111,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_42calc_flux_at_link(CYTHON_
                         {
                             __pyx_v_link = (int)(0 + 1 * __pyx_t_3);
 
-                            /* "cfuncs_ErosionDeposition.pyx":130
+                            /* "cfuncs_ErosionDeposition.pyx":146
  * 
  *     for link in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):
  *         for col in range(n_cols):             # <<<<<<<<<<<<<<
@@ -24245,7 +24123,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_42calc_flux_at_link(CYTHON_
                             for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
                               __pyx_v_col = __pyx_t_7;
 
-                              /* "cfuncs_ErosionDeposition.pyx":131
+                              /* "cfuncs_ErosionDeposition.pyx":147
  *     for link in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):
  *         for col in range(n_cols):
  *             sediments_flux_at_link[link, col]  = water_surface_grad_at_link[link] * (weight_flux_at_link[link, col] / (dx * sigma * (1 - phi)))             # <<<<<<<<<<<<<<
@@ -24260,7 +24138,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_42calc_flux_at_link(CYTHON_
                               } else if (unlikely(__pyx_t_8 >= __pyx_v_water_surface_grad_at_link.shape[0])) __pyx_t_9 = 0;
                               if (unlikely(__pyx_t_9 != -1)) {
                                 __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_9);
-                                __PYX_ERR(0, 131, __pyx_L8_error)
+                                __PYX_ERR(0, 147, __pyx_L8_error)
                               }
                               __pyx_t_10 = __pyx_v_link;
                               __pyx_t_11 = __pyx_v_col;
@@ -24275,7 +24153,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_42calc_flux_at_link(CYTHON_
                               } else if (unlikely(__pyx_t_11 >= __pyx_v_weight_flux_at_link.shape[1])) __pyx_t_9 = 1;
                               if (unlikely(__pyx_t_9 != -1)) {
                                 __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_9);
-                                __PYX_ERR(0, 131, __pyx_L8_error)
+                                __PYX_ERR(0, 147, __pyx_L8_error)
                               }
                               __pyx_t_12 = (*((float *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_weight_flux_at_link.data + __pyx_t_10 * __pyx_v_weight_flux_at_link.strides[0]) ) + __pyx_t_11 * __pyx_v_weight_flux_at_link.strides[1]) )));
                               __pyx_t_13 = ((__pyx_v_dx * __pyx_v_sigma) * (1.0 - __pyx_v_phi));
@@ -24283,7 +24161,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_42calc_flux_at_link(CYTHON_
                                 PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                                 PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                                 __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                                __PYX_ERR(0, 131, __pyx_L8_error)
+                                __PYX_ERR(0, 147, __pyx_L8_error)
                               }
                               __pyx_t_11 = __pyx_v_link;
                               __pyx_t_10 = __pyx_v_col;
@@ -24298,7 +24176,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_42calc_flux_at_link(CYTHON_
                               } else if (unlikely(__pyx_t_10 >= __pyx_v_sediments_flux_at_link.shape[1])) __pyx_t_9 = 1;
                               if (unlikely(__pyx_t_9 != -1)) {
                                 __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_9);
-                                __PYX_ERR(0, 131, __pyx_L8_error)
+                                __PYX_ERR(0, 147, __pyx_L8_error)
                               }
                               *((float *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sediments_flux_at_link.data + __pyx_t_11 * __pyx_v_sediments_flux_at_link.strides[0]) ) + __pyx_t_10 * __pyx_v_sediments_flux_at_link.strides[1]) )) = ((*((float *) ( /* dim=0 */ (__pyx_v_water_surface_grad_at_link.data + __pyx_t_8 * __pyx_v_water_surface_grad_at_link.strides[0]) ))) * (((double)__pyx_t_12) / __pyx_t_13));
                             }
@@ -24375,7 +24253,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
         #endif
       }
 
-      /* "cfuncs_ErosionDeposition.pyx":129
+      /* "cfuncs_ErosionDeposition.pyx":145
  * 
  * 
  *     for link in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -24397,7 +24275,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
       }
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":133
+  /* "cfuncs_ErosionDeposition.pyx":149
  *             sediments_flux_at_link[link, col]  = water_surface_grad_at_link[link] * (weight_flux_at_link[link, col] / (dx * sigma * (1 - phi)))
  * 
  *     return sediments_flux_at_link.base             # <<<<<<<<<<<<<<
@@ -24405,16 +24283,16 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
  * 
 */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_sediments_flux_at_link, 2, (PyObject *(*)(char *)) __pyx_memview_get_float, (int (*)(char *, PyObject *)) __pyx_memview_set_float, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 133, __pyx_L1_error)
+  __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_sediments_flux_at_link, 2, (PyObject *(*)(char *)) __pyx_memview_get_float, (int (*)(char *, PyObject *)) __pyx_memview_set_float, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_base); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 133, __pyx_L1_error)
+  __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_base); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_14);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_r = __pyx_t_14;
   __pyx_t_14 = 0;
   goto __pyx_L0;
 
-  /* "cfuncs_ErosionDeposition.pyx":115
+  /* "cfuncs_ErosionDeposition.pyx":131
  * 
  * 
  * def calc_flux_at_link(             # <<<<<<<<<<<<<<
@@ -24463,74 +24341,74 @@ static PyObject *__pyx_fuse_1__pyx_pw_24cfuncs_ErosionDeposition_45calc_flux_at_
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_dx,&__pyx_mstate_global->__pyx_n_u_sigma,&__pyx_mstate_global->__pyx_n_u_phi,&__pyx_mstate_global->__pyx_n_u_weight_flux_at_link,&__pyx_mstate_global->__pyx_n_u_water_surface_grad_at_link,&__pyx_mstate_global->__pyx_n_u_sediments_flux_at_link,&__pyx_mstate_global->__pyx_n_u_shape,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_VARARGS(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 115, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 131, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  7:
         values[6] = __Pyx_ArgRef_VARARGS(__pyx_args, 6);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 131, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  6:
         values[5] = __Pyx_ArgRef_VARARGS(__pyx_args, 5);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 131, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  5:
         values[4] = __Pyx_ArgRef_VARARGS(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 131, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 131, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 131, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 131, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 115, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 131, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_flux_at_link", 0) < (0)) __PYX_ERR(0, 115, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_flux_at_link", 0) < (0)) __PYX_ERR(0, 131, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 7; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_flux_at_link", 1, 7, 7, i); __PYX_ERR(0, 115, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_flux_at_link", 1, 7, 7, i); __PYX_ERR(0, 131, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 7)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 115, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 131, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 115, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 131, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 115, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 131, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 115, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 131, __pyx_L3_error)
       values[4] = __Pyx_ArgRef_VARARGS(__pyx_args, 4);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 115, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 131, __pyx_L3_error)
       values[5] = __Pyx_ArgRef_VARARGS(__pyx_args, 5);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 115, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 131, __pyx_L3_error)
       values[6] = __Pyx_ArgRef_VARARGS(__pyx_args, 6);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 115, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 131, __pyx_L3_error)
     }
-    __pyx_v_dx = __Pyx_PyFloat_AsDouble(values[0]); if (unlikely((__pyx_v_dx == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 116, __pyx_L3_error)
-    __pyx_v_sigma = __Pyx_PyFloat_AsDouble(values[1]); if (unlikely((__pyx_v_sigma == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 117, __pyx_L3_error)
-    __pyx_v_phi = __Pyx_PyFloat_AsDouble(values[2]); if (unlikely((__pyx_v_phi == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 118, __pyx_L3_error)
-    __pyx_v_weight_flux_at_link = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(values[3], PyBUF_WRITABLE); if (unlikely(!__pyx_v_weight_flux_at_link.memview)) __PYX_ERR(0, 119, __pyx_L3_error)
-    __pyx_v_water_surface_grad_at_link = __Pyx_PyObject_to_MemoryviewSlice_ds_double(values[4], PyBUF_WRITABLE); if (unlikely(!__pyx_v_water_surface_grad_at_link.memview)) __PYX_ERR(0, 120, __pyx_L3_error)
-    __pyx_v_sediments_flux_at_link = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(values[5], PyBUF_WRITABLE); if (unlikely(!__pyx_v_sediments_flux_at_link.memview)) __PYX_ERR(0, 121, __pyx_L3_error)
+    __pyx_v_dx = __Pyx_PyFloat_AsDouble(values[0]); if (unlikely((__pyx_v_dx == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 132, __pyx_L3_error)
+    __pyx_v_sigma = __Pyx_PyFloat_AsDouble(values[1]); if (unlikely((__pyx_v_sigma == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 133, __pyx_L3_error)
+    __pyx_v_phi = __Pyx_PyFloat_AsDouble(values[2]); if (unlikely((__pyx_v_phi == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 134, __pyx_L3_error)
+    __pyx_v_weight_flux_at_link = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(values[3], PyBUF_WRITABLE); if (unlikely(!__pyx_v_weight_flux_at_link.memview)) __PYX_ERR(0, 135, __pyx_L3_error)
+    __pyx_v_water_surface_grad_at_link = __Pyx_PyObject_to_MemoryviewSlice_ds_double(values[4], PyBUF_WRITABLE); if (unlikely(!__pyx_v_water_surface_grad_at_link.memview)) __PYX_ERR(0, 136, __pyx_L3_error)
+    __pyx_v_sediments_flux_at_link = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(values[5], PyBUF_WRITABLE); if (unlikely(!__pyx_v_sediments_flux_at_link.memview)) __PYX_ERR(0, 137, __pyx_L3_error)
     __pyx_v_shape = values[6];
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("calc_flux_at_link", 1, 7, 7, __pyx_nargs); __PYX_ERR(0, 115, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("calc_flux_at_link", 1, 7, 7, __pyx_nargs); __PYX_ERR(0, 131, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -24583,33 +24461,33 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_44calc_flux_at_link(CYTHON_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__pyx_fuse_1calc_flux_at_link", 0);
 
-  /* "cfuncs_ErosionDeposition.pyx":124
+  /* "cfuncs_ErosionDeposition.pyx":140
  *         shape,
  * ):
  *     cdef int n_links = shape[0]             # <<<<<<<<<<<<<<
  *     cdef int n_cols = shape[1]
  *     cdef int col, link, index
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 124, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 140, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 124, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 140, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_links = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":125
+  /* "cfuncs_ErosionDeposition.pyx":141
  * ):
  *     cdef int n_links = shape[0]
  *     cdef int n_cols = shape[1]             # <<<<<<<<<<<<<<
  *     cdef int col, link, index
  * 
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 125, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 141, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 125, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 141, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_cols = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":129
+  /* "cfuncs_ErosionDeposition.pyx":145
  * 
  * 
  *     for link in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -24655,7 +24533,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_44calc_flux_at_link(CYTHON_
                         {
                             __pyx_v_link = (int)(0 + 1 * __pyx_t_3);
 
-                            /* "cfuncs_ErosionDeposition.pyx":130
+                            /* "cfuncs_ErosionDeposition.pyx":146
  * 
  *     for link in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):
  *         for col in range(n_cols):             # <<<<<<<<<<<<<<
@@ -24667,7 +24545,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_44calc_flux_at_link(CYTHON_
                             for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
                               __pyx_v_col = __pyx_t_7;
 
-                              /* "cfuncs_ErosionDeposition.pyx":131
+                              /* "cfuncs_ErosionDeposition.pyx":147
  *     for link in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):
  *         for col in range(n_cols):
  *             sediments_flux_at_link[link, col]  = water_surface_grad_at_link[link] * (weight_flux_at_link[link, col] / (dx * sigma * (1 - phi)))             # <<<<<<<<<<<<<<
@@ -24682,7 +24560,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_44calc_flux_at_link(CYTHON_
                               } else if (unlikely(__pyx_t_8 >= __pyx_v_water_surface_grad_at_link.shape[0])) __pyx_t_9 = 0;
                               if (unlikely(__pyx_t_9 != -1)) {
                                 __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_9);
-                                __PYX_ERR(0, 131, __pyx_L8_error)
+                                __PYX_ERR(0, 147, __pyx_L8_error)
                               }
                               __pyx_t_10 = __pyx_v_link;
                               __pyx_t_11 = __pyx_v_col;
@@ -24697,7 +24575,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_44calc_flux_at_link(CYTHON_
                               } else if (unlikely(__pyx_t_11 >= __pyx_v_weight_flux_at_link.shape[1])) __pyx_t_9 = 1;
                               if (unlikely(__pyx_t_9 != -1)) {
                                 __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_9);
-                                __PYX_ERR(0, 131, __pyx_L8_error)
+                                __PYX_ERR(0, 147, __pyx_L8_error)
                               }
                               __pyx_t_12 = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_weight_flux_at_link.data + __pyx_t_10 * __pyx_v_weight_flux_at_link.strides[0]) ) + __pyx_t_11 * __pyx_v_weight_flux_at_link.strides[1]) )));
                               __pyx_t_13 = ((__pyx_v_dx * __pyx_v_sigma) * (1.0 - __pyx_v_phi));
@@ -24705,7 +24583,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_44calc_flux_at_link(CYTHON_
                                 PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                                 PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                                 __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                                __PYX_ERR(0, 131, __pyx_L8_error)
+                                __PYX_ERR(0, 147, __pyx_L8_error)
                               }
                               __pyx_t_11 = __pyx_v_link;
                               __pyx_t_10 = __pyx_v_col;
@@ -24720,7 +24598,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_44calc_flux_at_link(CYTHON_
                               } else if (unlikely(__pyx_t_10 >= __pyx_v_sediments_flux_at_link.shape[1])) __pyx_t_9 = 1;
                               if (unlikely(__pyx_t_9 != -1)) {
                                 __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_9);
-                                __PYX_ERR(0, 131, __pyx_L8_error)
+                                __PYX_ERR(0, 147, __pyx_L8_error)
                               }
                               *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sediments_flux_at_link.data + __pyx_t_11 * __pyx_v_sediments_flux_at_link.strides[0]) ) + __pyx_t_10 * __pyx_v_sediments_flux_at_link.strides[1]) )) = ((*((double *) ( /* dim=0 */ (__pyx_v_water_surface_grad_at_link.data + __pyx_t_8 * __pyx_v_water_surface_grad_at_link.strides[0]) ))) * (__pyx_t_12 / __pyx_t_13));
                             }
@@ -24797,7 +24675,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
         #endif
       }
 
-      /* "cfuncs_ErosionDeposition.pyx":129
+      /* "cfuncs_ErosionDeposition.pyx":145
  * 
  * 
  *     for link in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -24819,7 +24697,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
       }
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":133
+  /* "cfuncs_ErosionDeposition.pyx":149
  *             sediments_flux_at_link[link, col]  = water_surface_grad_at_link[link] * (weight_flux_at_link[link, col] / (dx * sigma * (1 - phi)))
  * 
  *     return sediments_flux_at_link.base             # <<<<<<<<<<<<<<
@@ -24827,16 +24705,16 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
  * 
 */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_sediments_flux_at_link, 2, (PyObject *(*)(char *)) __pyx_memview_get_double, (int (*)(char *, PyObject *)) __pyx_memview_set_double, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 133, __pyx_L1_error)
+  __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_sediments_flux_at_link, 2, (PyObject *(*)(char *)) __pyx_memview_get_double, (int (*)(char *, PyObject *)) __pyx_memview_set_double, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_base); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 133, __pyx_L1_error)
+  __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_base); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_14);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_r = __pyx_t_14;
   __pyx_t_14 = 0;
   goto __pyx_L0;
 
-  /* "cfuncs_ErosionDeposition.pyx":115
+  /* "cfuncs_ErosionDeposition.pyx":131
  * 
  * 
  * def calc_flux_at_link(             # <<<<<<<<<<<<<<
@@ -24856,7 +24734,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
   return __pyx_r;
 }
 
-/* "cfuncs_ErosionDeposition.pyx":138
+/* "cfuncs_ErosionDeposition.pyx":154
  * 
  * 
  * def get_outin_fluxes(             # <<<<<<<<<<<<<<
@@ -24911,74 +24789,74 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_upwind_node_at_link,&__pyx_mstate_global->__pyx_n_u_downwind_node_at_link,&__pyx_mstate_global->__pyx_n_u_weight_flux_at_link,&__pyx_mstate_global->__pyx_n_u_link_list,&__pyx_mstate_global->__pyx_n_u_outlinks_fluxes_at_node,&__pyx_mstate_global->__pyx_n_u_inlinks_fluxes_at_node,&__pyx_mstate_global->__pyx_n_u_total_outflux_at_node,&__pyx_mstate_global->__pyx_n_u_total_influx_at_node,&__pyx_mstate_global->__pyx_n_u_shape,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 138, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 154, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  9:
         values[8] = __Pyx_ArgRef_FASTCALL(__pyx_args, 8);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 138, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 154, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  8:
         values[7] = __Pyx_ArgRef_FASTCALL(__pyx_args, 7);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 138, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 154, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  7:
         values[6] = __Pyx_ArgRef_FASTCALL(__pyx_args, 6);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 138, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 154, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  6:
         values[5] = __Pyx_ArgRef_FASTCALL(__pyx_args, 5);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 138, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 154, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  5:
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 138, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 154, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 138, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 154, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 138, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 154, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 138, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 154, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 138, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 154, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "get_outin_fluxes", 0) < (0)) __PYX_ERR(0, 138, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "get_outin_fluxes", 0) < (0)) __PYX_ERR(0, 154, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 9; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("get_outin_fluxes", 1, 9, 9, i); __PYX_ERR(0, 138, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("get_outin_fluxes", 1, 9, 9, i); __PYX_ERR(0, 154, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 9)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 138, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 154, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 138, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 154, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 138, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 154, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 138, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 154, __pyx_L3_error)
       values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 138, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 154, __pyx_L3_error)
       values[5] = __Pyx_ArgRef_FASTCALL(__pyx_args, 5);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 138, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 154, __pyx_L3_error)
       values[6] = __Pyx_ArgRef_FASTCALL(__pyx_args, 6);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 138, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 154, __pyx_L3_error)
       values[7] = __Pyx_ArgRef_FASTCALL(__pyx_args, 7);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 138, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 154, __pyx_L3_error)
       values[8] = __Pyx_ArgRef_FASTCALL(__pyx_args, 8);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 138, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 154, __pyx_L3_error)
     }
     __pyx_v_upwind_node_at_link = ((PyArrayObject *)values[0]);
     __pyx_v_downwind_node_at_link = ((PyArrayObject *)values[1]);
@@ -24992,7 +24870,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("get_outin_fluxes", 1, 9, 9, __pyx_nargs); __PYX_ERR(0, 138, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("get_outin_fluxes", 1, 9, 9, __pyx_nargs); __PYX_ERR(0, 154, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -25003,14 +24881,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_upwind_node_at_link), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "upwind_node_at_link", 0))) __PYX_ERR(0, 139, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_downwind_node_at_link), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "downwind_node_at_link", 0))) __PYX_ERR(0, 140, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_weight_flux_at_link), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "weight_flux_at_link", 0))) __PYX_ERR(0, 141, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_link_list), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "link_list", 0))) __PYX_ERR(0, 142, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_outlinks_fluxes_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "outlinks_fluxes_at_node", 0))) __PYX_ERR(0, 143, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_inlinks_fluxes_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "inlinks_fluxes_at_node", 0))) __PYX_ERR(0, 144, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_total_outflux_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "total_outflux_at_node", 0))) __PYX_ERR(0, 145, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_total_influx_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "total_influx_at_node", 0))) __PYX_ERR(0, 146, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_upwind_node_at_link), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "upwind_node_at_link", 0))) __PYX_ERR(0, 155, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_downwind_node_at_link), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "downwind_node_at_link", 0))) __PYX_ERR(0, 156, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_weight_flux_at_link), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "weight_flux_at_link", 0))) __PYX_ERR(0, 157, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_link_list), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "link_list", 0))) __PYX_ERR(0, 158, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_outlinks_fluxes_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "outlinks_fluxes_at_node", 0))) __PYX_ERR(0, 159, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_inlinks_fluxes_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "inlinks_fluxes_at_node", 0))) __PYX_ERR(0, 160, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_total_outflux_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "total_outflux_at_node", 0))) __PYX_ERR(0, 161, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_total_influx_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "total_influx_at_node", 0))) __PYX_ERR(0, 162, __pyx_L1_error)
   __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_8get_outin_fluxes(__pyx_self, __pyx_v_upwind_node_at_link, __pyx_v_downwind_node_at_link, __pyx_v_weight_flux_at_link, __pyx_v_link_list, __pyx_v_outlinks_fluxes_at_node, __pyx_v_inlinks_fluxes_at_node, __pyx_v_total_outflux_at_node, __pyx_v_total_influx_at_node, __pyx_v_shape);
 
   /* function exit code */
@@ -25106,428 +24984,301 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_8get_outin_fluxes(CYTHON_UN
   __pyx_pybuffernd_total_influx_at_node.rcbuffer = &__pyx_pybuffer_total_influx_at_node;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_upwind_node_at_link.rcbuffer->pybuffer, (PyObject*)__pyx_v_upwind_node_at_link, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 138, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_upwind_node_at_link.rcbuffer->pybuffer, (PyObject*)__pyx_v_upwind_node_at_link, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 154, __pyx_L1_error)
   }
   __pyx_pybuffernd_upwind_node_at_link.diminfo[0].strides = __pyx_pybuffernd_upwind_node_at_link.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_upwind_node_at_link.diminfo[0].shape = __pyx_pybuffernd_upwind_node_at_link.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_downwind_node_at_link.rcbuffer->pybuffer, (PyObject*)__pyx_v_downwind_node_at_link, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 138, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_downwind_node_at_link.rcbuffer->pybuffer, (PyObject*)__pyx_v_downwind_node_at_link, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 154, __pyx_L1_error)
   }
   __pyx_pybuffernd_downwind_node_at_link.diminfo[0].strides = __pyx_pybuffernd_downwind_node_at_link.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_downwind_node_at_link.diminfo[0].shape = __pyx_pybuffernd_downwind_node_at_link.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer, (PyObject*)__pyx_v_weight_flux_at_link, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 138, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer, (PyObject*)__pyx_v_weight_flux_at_link, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 154, __pyx_L1_error)
   }
   __pyx_pybuffernd_weight_flux_at_link.diminfo[0].strides = __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape = __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_weight_flux_at_link.diminfo[1].strides = __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape = __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_link_list.rcbuffer->pybuffer, (PyObject*)__pyx_v_link_list, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 138, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_link_list.rcbuffer->pybuffer, (PyObject*)__pyx_v_link_list, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 154, __pyx_L1_error)
   }
   __pyx_pybuffernd_link_list.diminfo[0].strides = __pyx_pybuffernd_link_list.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_link_list.diminfo[0].shape = __pyx_pybuffernd_link_list.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_outlinks_fluxes_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_outlinks_fluxes_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 138, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_outlinks_fluxes_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_outlinks_fluxes_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 154, __pyx_L1_error)
   }
   __pyx_pybuffernd_outlinks_fluxes_at_node.diminfo[0].strides = __pyx_pybuffernd_outlinks_fluxes_at_node.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_outlinks_fluxes_at_node.diminfo[0].shape = __pyx_pybuffernd_outlinks_fluxes_at_node.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_outlinks_fluxes_at_node.diminfo[1].strides = __pyx_pybuffernd_outlinks_fluxes_at_node.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_outlinks_fluxes_at_node.diminfo[1].shape = __pyx_pybuffernd_outlinks_fluxes_at_node.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_inlinks_fluxes_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_inlinks_fluxes_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 138, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_inlinks_fluxes_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_inlinks_fluxes_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 154, __pyx_L1_error)
   }
   __pyx_pybuffernd_inlinks_fluxes_at_node.diminfo[0].strides = __pyx_pybuffernd_inlinks_fluxes_at_node.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_inlinks_fluxes_at_node.diminfo[0].shape = __pyx_pybuffernd_inlinks_fluxes_at_node.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_inlinks_fluxes_at_node.diminfo[1].strides = __pyx_pybuffernd_inlinks_fluxes_at_node.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_inlinks_fluxes_at_node.diminfo[1].shape = __pyx_pybuffernd_inlinks_fluxes_at_node.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_total_outflux_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_total_outflux_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 138, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_total_outflux_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_total_outflux_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 154, __pyx_L1_error)
   }
   __pyx_pybuffernd_total_outflux_at_node.diminfo[0].strides = __pyx_pybuffernd_total_outflux_at_node.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_total_outflux_at_node.diminfo[0].shape = __pyx_pybuffernd_total_outflux_at_node.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_total_influx_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_total_influx_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 138, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_total_influx_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_total_influx_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 154, __pyx_L1_error)
   }
   __pyx_pybuffernd_total_influx_at_node.diminfo[0].strides = __pyx_pybuffernd_total_influx_at_node.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_total_influx_at_node.diminfo[0].shape = __pyx_pybuffernd_total_influx_at_node.rcbuffer->pybuffer.shape[0];
 
-  /* "cfuncs_ErosionDeposition.pyx":151
+  /* "cfuncs_ErosionDeposition.pyx":167
  * 
  *         cdef int node, index, index_inlink, index_outlink, l_inlink, l_outlink, gs, link, upwind_node, downwind_node
  *         cdef int n_links = shape[0]             # <<<<<<<<<<<<<<
  *         cdef int n_gs  = shape[1]
  * 
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 151, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 167, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 151, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 167, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_links = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":152
+  /* "cfuncs_ErosionDeposition.pyx":168
  *         cdef int node, index, index_inlink, index_outlink, l_inlink, l_outlink, gs, link, upwind_node, downwind_node
  *         cdef int n_links = shape[0]
  *         cdef int n_gs  = shape[1]             # <<<<<<<<<<<<<<
  * 
- *         for index in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):
+ *         # Deliberately SERIAL, not prange - same reasoning as sum_out_discharge
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 152, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 168, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 152, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 168, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_gs = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":154
- *         cdef int n_gs  = shape[1]
- * 
- *         for index in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
+  /* "cfuncs_ErosionDeposition.pyx":176
+ *         # over prange races multiple threads on the same node's accumulator
+ *         # with no synchronization, silently losing updates.
+ *         for index in range(n_links):             # <<<<<<<<<<<<<<
  *             link = link_list[index]
  * 
 */
-  {
-      PyThreadState * _save;
-      _save = PyEval_SaveThread();
-      __Pyx_FastGIL_Remember();
-      /*try:*/ {
-        __pyx_t_2 = __pyx_v_n_links;
-        {
-            const char *__pyx_parallel_filename = NULL; int __pyx_parallel_lineno = 0, __pyx_parallel_clineno = 0;
-            PyObject *__pyx_parallel_exc_type = NULL, *__pyx_parallel_exc_value = NULL, *__pyx_parallel_exc_tb = NULL;
-            #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-            PyMutex __pyx_parallel_freethreading_mutex = {0};
-            #endif
-            int __pyx_parallel_why;
-            __pyx_parallel_why = 0;
-            #if ((defined(__APPLE__) || defined(__OSX__)) && (defined(__GNUC__) && (__GNUC__ > 2 || (__GNUC__ == 2 && (__GNUC_MINOR__ > 95)))))
-                #undef likely
-                #undef unlikely
-                #define likely(x)   (x)
-                #define unlikely(x) (x)
-            #endif
-            __pyx_t_4 = (__pyx_t_2 - 0 + 1 - 1/abs(1)) / 1;
-            if (__pyx_t_4 > 0)
-            {
-                #ifdef _OPENMP
-                #pragma omp parallel num_threads(__pyx_v_24cfuncs_ErosionDeposition_N_THREADS) private(__pyx_t_10, __pyx_t_11, __pyx_t_12, __pyx_t_5, __pyx_t_6, __pyx_t_7, __pyx_t_8, __pyx_t_9) __Pyx_shared_in_cpython_freethreading(__pyx_parallel_freethreading_mutex) private(__pyx_filename, __pyx_lineno, __pyx_clineno) shared(__pyx_parallel_why, __pyx_parallel_exc_type, __pyx_parallel_exc_value, __pyx_parallel_exc_tb)
-                #endif /* _OPENMP */
-                {
-                    #ifdef _OPENMP
-                    PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
-                    Py_BEGIN_ALLOW_THREADS
-                    #endif /* _OPENMP */
-                    #ifdef _OPENMP
-                    #pragma omp for firstprivate(__pyx_v_downwind_node) lastprivate(__pyx_v_downwind_node) firstprivate(__pyx_v_gs) lastprivate(__pyx_v_gs) firstprivate(__pyx_v_index) lastprivate(__pyx_v_index) firstprivate(__pyx_v_link) lastprivate(__pyx_v_link) firstprivate(__pyx_v_upwind_node) lastprivate(__pyx_v_upwind_node) schedule(static)
-                    #endif /* _OPENMP */
-                    for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_4; __pyx_t_3++){
-                        if (__pyx_parallel_why < 2)
-                        {
-                            __pyx_v_index = (int)(0 + 1 * __pyx_t_3);
+  __pyx_t_2 = __pyx_v_n_links;
+  __pyx_t_3 = __pyx_t_2;
+  for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
+    __pyx_v_index = __pyx_t_4;
 
-                            /* "cfuncs_ErosionDeposition.pyx":155
- * 
- *         for index in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):
+    /* "cfuncs_ErosionDeposition.pyx":177
+ *         # with no synchronization, silently losing updates.
+ *         for index in range(n_links):
  *             link = link_list[index]             # <<<<<<<<<<<<<<
  * 
  *             upwind_node = upwind_node_at_link[link]
 */
-                            __pyx_t_5 = __pyx_v_index;
-                            __pyx_t_6 = -1;
-                            if (__pyx_t_5 < 0) {
-                              __pyx_t_5 += __pyx_pybuffernd_link_list.diminfo[0].shape;
-                              if (unlikely(__pyx_t_5 < 0)) __pyx_t_6 = 0;
-                            } else if (unlikely(__pyx_t_5 >= __pyx_pybuffernd_link_list.diminfo[0].shape)) __pyx_t_6 = 0;
-                            if (unlikely(__pyx_t_6 != -1)) {
-                              __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_6);
-                              __PYX_ERR(0, 155, __pyx_L8_error)
-                            }
-                            __pyx_v_link = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_link_list.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_link_list.diminfo[0].strides));
+    __pyx_t_5 = __pyx_v_index;
+    __pyx_t_6 = -1;
+    if (__pyx_t_5 < 0) {
+      __pyx_t_5 += __pyx_pybuffernd_link_list.diminfo[0].shape;
+      if (unlikely(__pyx_t_5 < 0)) __pyx_t_6 = 0;
+    } else if (unlikely(__pyx_t_5 >= __pyx_pybuffernd_link_list.diminfo[0].shape)) __pyx_t_6 = 0;
+    if (unlikely(__pyx_t_6 != -1)) {
+      __Pyx_RaiseBufferIndexError(__pyx_t_6);
+      __PYX_ERR(0, 177, __pyx_L1_error)
+    }
+    __pyx_v_link = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_link_list.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_link_list.diminfo[0].strides));
 
-                            /* "cfuncs_ErosionDeposition.pyx":157
+    /* "cfuncs_ErosionDeposition.pyx":179
  *             link = link_list[index]
  * 
  *             upwind_node = upwind_node_at_link[link]             # <<<<<<<<<<<<<<
  *             downwind_node = downwind_node_at_link[link]
  * 
 */
-                            __pyx_t_5 = __pyx_v_link;
-                            __pyx_t_6 = -1;
-                            if (__pyx_t_5 < 0) {
-                              __pyx_t_5 += __pyx_pybuffernd_upwind_node_at_link.diminfo[0].shape;
-                              if (unlikely(__pyx_t_5 < 0)) __pyx_t_6 = 0;
-                            } else if (unlikely(__pyx_t_5 >= __pyx_pybuffernd_upwind_node_at_link.diminfo[0].shape)) __pyx_t_6 = 0;
-                            if (unlikely(__pyx_t_6 != -1)) {
-                              __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_6);
-                              __PYX_ERR(0, 157, __pyx_L8_error)
-                            }
-                            __pyx_v_upwind_node = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_upwind_node_at_link.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_upwind_node_at_link.diminfo[0].strides));
+    __pyx_t_5 = __pyx_v_link;
+    __pyx_t_6 = -1;
+    if (__pyx_t_5 < 0) {
+      __pyx_t_5 += __pyx_pybuffernd_upwind_node_at_link.diminfo[0].shape;
+      if (unlikely(__pyx_t_5 < 0)) __pyx_t_6 = 0;
+    } else if (unlikely(__pyx_t_5 >= __pyx_pybuffernd_upwind_node_at_link.diminfo[0].shape)) __pyx_t_6 = 0;
+    if (unlikely(__pyx_t_6 != -1)) {
+      __Pyx_RaiseBufferIndexError(__pyx_t_6);
+      __PYX_ERR(0, 179, __pyx_L1_error)
+    }
+    __pyx_v_upwind_node = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_upwind_node_at_link.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_upwind_node_at_link.diminfo[0].strides));
 
-                            /* "cfuncs_ErosionDeposition.pyx":158
+    /* "cfuncs_ErosionDeposition.pyx":180
  * 
  *             upwind_node = upwind_node_at_link[link]
  *             downwind_node = downwind_node_at_link[link]             # <<<<<<<<<<<<<<
  * 
  *             for gs in range(n_gs):
 */
-                            __pyx_t_5 = __pyx_v_link;
-                            __pyx_t_6 = -1;
-                            if (__pyx_t_5 < 0) {
-                              __pyx_t_5 += __pyx_pybuffernd_downwind_node_at_link.diminfo[0].shape;
-                              if (unlikely(__pyx_t_5 < 0)) __pyx_t_6 = 0;
-                            } else if (unlikely(__pyx_t_5 >= __pyx_pybuffernd_downwind_node_at_link.diminfo[0].shape)) __pyx_t_6 = 0;
-                            if (unlikely(__pyx_t_6 != -1)) {
-                              __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_6);
-                              __PYX_ERR(0, 158, __pyx_L8_error)
-                            }
-                            __pyx_v_downwind_node = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_downwind_node_at_link.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_downwind_node_at_link.diminfo[0].strides));
+    __pyx_t_5 = __pyx_v_link;
+    __pyx_t_6 = -1;
+    if (__pyx_t_5 < 0) {
+      __pyx_t_5 += __pyx_pybuffernd_downwind_node_at_link.diminfo[0].shape;
+      if (unlikely(__pyx_t_5 < 0)) __pyx_t_6 = 0;
+    } else if (unlikely(__pyx_t_5 >= __pyx_pybuffernd_downwind_node_at_link.diminfo[0].shape)) __pyx_t_6 = 0;
+    if (unlikely(__pyx_t_6 != -1)) {
+      __Pyx_RaiseBufferIndexError(__pyx_t_6);
+      __PYX_ERR(0, 180, __pyx_L1_error)
+    }
+    __pyx_v_downwind_node = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_downwind_node_at_link.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_downwind_node_at_link.diminfo[0].strides));
 
-                            /* "cfuncs_ErosionDeposition.pyx":160
+    /* "cfuncs_ErosionDeposition.pyx":182
  *             downwind_node = downwind_node_at_link[link]
  * 
  *             for gs in range(n_gs):             # <<<<<<<<<<<<<<
  *                 inlinks_fluxes_at_node[downwind_node, gs] += weight_flux_at_link[link, gs]
  *                 outlinks_fluxes_at_node[upwind_node, gs] += weight_flux_at_link[link, gs]
 */
-                            __pyx_t_6 = __pyx_v_n_gs;
-                            __pyx_t_7 = __pyx_t_6;
-                            for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
-                              __pyx_v_gs = __pyx_t_8;
+    __pyx_t_6 = __pyx_v_n_gs;
+    __pyx_t_7 = __pyx_t_6;
+    for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
+      __pyx_v_gs = __pyx_t_8;
 
-                              /* "cfuncs_ErosionDeposition.pyx":161
+      /* "cfuncs_ErosionDeposition.pyx":183
  * 
  *             for gs in range(n_gs):
  *                 inlinks_fluxes_at_node[downwind_node, gs] += weight_flux_at_link[link, gs]             # <<<<<<<<<<<<<<
  *                 outlinks_fluxes_at_node[upwind_node, gs] += weight_flux_at_link[link, gs]
  *                 total_outflux_at_node[upwind_node] += weight_flux_at_link[link, gs]
 */
-                              __pyx_t_5 = __pyx_v_link;
-                              __pyx_t_9 = __pyx_v_gs;
-                              __pyx_t_10 = -1;
-                              if (__pyx_t_5 < 0) {
-                                __pyx_t_5 += __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape;
-                                if (unlikely(__pyx_t_5 < 0)) __pyx_t_10 = 0;
-                              } else if (unlikely(__pyx_t_5 >= __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape)) __pyx_t_10 = 0;
-                              if (__pyx_t_9 < 0) {
-                                __pyx_t_9 += __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape;
-                                if (unlikely(__pyx_t_9 < 0)) __pyx_t_10 = 1;
-                              } else if (unlikely(__pyx_t_9 >= __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape)) __pyx_t_10 = 1;
-                              if (unlikely(__pyx_t_10 != -1)) {
-                                __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                __PYX_ERR(0, 161, __pyx_L8_error)
-                              }
-                              __pyx_t_11 = __pyx_v_downwind_node;
-                              __pyx_t_12 = __pyx_v_gs;
-                              __pyx_t_10 = -1;
-                              if (__pyx_t_11 < 0) {
-                                __pyx_t_11 += __pyx_pybuffernd_inlinks_fluxes_at_node.diminfo[0].shape;
-                                if (unlikely(__pyx_t_11 < 0)) __pyx_t_10 = 0;
-                              } else if (unlikely(__pyx_t_11 >= __pyx_pybuffernd_inlinks_fluxes_at_node.diminfo[0].shape)) __pyx_t_10 = 0;
-                              if (__pyx_t_12 < 0) {
-                                __pyx_t_12 += __pyx_pybuffernd_inlinks_fluxes_at_node.diminfo[1].shape;
-                                if (unlikely(__pyx_t_12 < 0)) __pyx_t_10 = 1;
-                              } else if (unlikely(__pyx_t_12 >= __pyx_pybuffernd_inlinks_fluxes_at_node.diminfo[1].shape)) __pyx_t_10 = 1;
-                              if (unlikely(__pyx_t_10 != -1)) {
-                                __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                __PYX_ERR(0, 161, __pyx_L8_error)
-                              }
-                              *__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_inlinks_fluxes_at_node.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_inlinks_fluxes_at_node.diminfo[0].strides, __pyx_t_12, __pyx_pybuffernd_inlinks_fluxes_at_node.diminfo[1].strides) += (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_weight_flux_at_link.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_weight_flux_at_link.diminfo[1].strides));
+      __pyx_t_5 = __pyx_v_link;
+      __pyx_t_9 = __pyx_v_gs;
+      __pyx_t_10 = -1;
+      if (__pyx_t_5 < 0) {
+        __pyx_t_5 += __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape;
+        if (unlikely(__pyx_t_5 < 0)) __pyx_t_10 = 0;
+      } else if (unlikely(__pyx_t_5 >= __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape)) __pyx_t_10 = 0;
+      if (__pyx_t_9 < 0) {
+        __pyx_t_9 += __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape;
+        if (unlikely(__pyx_t_9 < 0)) __pyx_t_10 = 1;
+      } else if (unlikely(__pyx_t_9 >= __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape)) __pyx_t_10 = 1;
+      if (unlikely(__pyx_t_10 != -1)) {
+        __Pyx_RaiseBufferIndexError(__pyx_t_10);
+        __PYX_ERR(0, 183, __pyx_L1_error)
+      }
+      __pyx_t_11 = __pyx_v_downwind_node;
+      __pyx_t_12 = __pyx_v_gs;
+      __pyx_t_10 = -1;
+      if (__pyx_t_11 < 0) {
+        __pyx_t_11 += __pyx_pybuffernd_inlinks_fluxes_at_node.diminfo[0].shape;
+        if (unlikely(__pyx_t_11 < 0)) __pyx_t_10 = 0;
+      } else if (unlikely(__pyx_t_11 >= __pyx_pybuffernd_inlinks_fluxes_at_node.diminfo[0].shape)) __pyx_t_10 = 0;
+      if (__pyx_t_12 < 0) {
+        __pyx_t_12 += __pyx_pybuffernd_inlinks_fluxes_at_node.diminfo[1].shape;
+        if (unlikely(__pyx_t_12 < 0)) __pyx_t_10 = 1;
+      } else if (unlikely(__pyx_t_12 >= __pyx_pybuffernd_inlinks_fluxes_at_node.diminfo[1].shape)) __pyx_t_10 = 1;
+      if (unlikely(__pyx_t_10 != -1)) {
+        __Pyx_RaiseBufferIndexError(__pyx_t_10);
+        __PYX_ERR(0, 183, __pyx_L1_error)
+      }
+      *__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_inlinks_fluxes_at_node.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_inlinks_fluxes_at_node.diminfo[0].strides, __pyx_t_12, __pyx_pybuffernd_inlinks_fluxes_at_node.diminfo[1].strides) += (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_weight_flux_at_link.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_weight_flux_at_link.diminfo[1].strides));
 
-                              /* "cfuncs_ErosionDeposition.pyx":162
+      /* "cfuncs_ErosionDeposition.pyx":184
  *             for gs in range(n_gs):
  *                 inlinks_fluxes_at_node[downwind_node, gs] += weight_flux_at_link[link, gs]
  *                 outlinks_fluxes_at_node[upwind_node, gs] += weight_flux_at_link[link, gs]             # <<<<<<<<<<<<<<
  *                 total_outflux_at_node[upwind_node] += weight_flux_at_link[link, gs]
  *                 total_influx_at_node[downwind_node] += weight_flux_at_link[link, gs]
 */
-                              __pyx_t_9 = __pyx_v_link;
-                              __pyx_t_5 = __pyx_v_gs;
-                              __pyx_t_10 = -1;
-                              if (__pyx_t_9 < 0) {
-                                __pyx_t_9 += __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape;
-                                if (unlikely(__pyx_t_9 < 0)) __pyx_t_10 = 0;
-                              } else if (unlikely(__pyx_t_9 >= __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape)) __pyx_t_10 = 0;
-                              if (__pyx_t_5 < 0) {
-                                __pyx_t_5 += __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape;
-                                if (unlikely(__pyx_t_5 < 0)) __pyx_t_10 = 1;
-                              } else if (unlikely(__pyx_t_5 >= __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape)) __pyx_t_10 = 1;
-                              if (unlikely(__pyx_t_10 != -1)) {
-                                __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                __PYX_ERR(0, 162, __pyx_L8_error)
-                              }
-                              __pyx_t_12 = __pyx_v_upwind_node;
-                              __pyx_t_11 = __pyx_v_gs;
-                              __pyx_t_10 = -1;
-                              if (__pyx_t_12 < 0) {
-                                __pyx_t_12 += __pyx_pybuffernd_outlinks_fluxes_at_node.diminfo[0].shape;
-                                if (unlikely(__pyx_t_12 < 0)) __pyx_t_10 = 0;
-                              } else if (unlikely(__pyx_t_12 >= __pyx_pybuffernd_outlinks_fluxes_at_node.diminfo[0].shape)) __pyx_t_10 = 0;
-                              if (__pyx_t_11 < 0) {
-                                __pyx_t_11 += __pyx_pybuffernd_outlinks_fluxes_at_node.diminfo[1].shape;
-                                if (unlikely(__pyx_t_11 < 0)) __pyx_t_10 = 1;
-                              } else if (unlikely(__pyx_t_11 >= __pyx_pybuffernd_outlinks_fluxes_at_node.diminfo[1].shape)) __pyx_t_10 = 1;
-                              if (unlikely(__pyx_t_10 != -1)) {
-                                __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                __PYX_ERR(0, 162, __pyx_L8_error)
-                              }
-                              *__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_outlinks_fluxes_at_node.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_outlinks_fluxes_at_node.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_outlinks_fluxes_at_node.diminfo[1].strides) += (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_weight_flux_at_link.diminfo[0].strides, __pyx_t_5, __pyx_pybuffernd_weight_flux_at_link.diminfo[1].strides));
+      __pyx_t_9 = __pyx_v_link;
+      __pyx_t_5 = __pyx_v_gs;
+      __pyx_t_10 = -1;
+      if (__pyx_t_9 < 0) {
+        __pyx_t_9 += __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape;
+        if (unlikely(__pyx_t_9 < 0)) __pyx_t_10 = 0;
+      } else if (unlikely(__pyx_t_9 >= __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape)) __pyx_t_10 = 0;
+      if (__pyx_t_5 < 0) {
+        __pyx_t_5 += __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape;
+        if (unlikely(__pyx_t_5 < 0)) __pyx_t_10 = 1;
+      } else if (unlikely(__pyx_t_5 >= __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape)) __pyx_t_10 = 1;
+      if (unlikely(__pyx_t_10 != -1)) {
+        __Pyx_RaiseBufferIndexError(__pyx_t_10);
+        __PYX_ERR(0, 184, __pyx_L1_error)
+      }
+      __pyx_t_12 = __pyx_v_upwind_node;
+      __pyx_t_11 = __pyx_v_gs;
+      __pyx_t_10 = -1;
+      if (__pyx_t_12 < 0) {
+        __pyx_t_12 += __pyx_pybuffernd_outlinks_fluxes_at_node.diminfo[0].shape;
+        if (unlikely(__pyx_t_12 < 0)) __pyx_t_10 = 0;
+      } else if (unlikely(__pyx_t_12 >= __pyx_pybuffernd_outlinks_fluxes_at_node.diminfo[0].shape)) __pyx_t_10 = 0;
+      if (__pyx_t_11 < 0) {
+        __pyx_t_11 += __pyx_pybuffernd_outlinks_fluxes_at_node.diminfo[1].shape;
+        if (unlikely(__pyx_t_11 < 0)) __pyx_t_10 = 1;
+      } else if (unlikely(__pyx_t_11 >= __pyx_pybuffernd_outlinks_fluxes_at_node.diminfo[1].shape)) __pyx_t_10 = 1;
+      if (unlikely(__pyx_t_10 != -1)) {
+        __Pyx_RaiseBufferIndexError(__pyx_t_10);
+        __PYX_ERR(0, 184, __pyx_L1_error)
+      }
+      *__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_outlinks_fluxes_at_node.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_outlinks_fluxes_at_node.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_outlinks_fluxes_at_node.diminfo[1].strides) += (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_weight_flux_at_link.diminfo[0].strides, __pyx_t_5, __pyx_pybuffernd_weight_flux_at_link.diminfo[1].strides));
 
-                              /* "cfuncs_ErosionDeposition.pyx":163
+      /* "cfuncs_ErosionDeposition.pyx":185
  *                 inlinks_fluxes_at_node[downwind_node, gs] += weight_flux_at_link[link, gs]
  *                 outlinks_fluxes_at_node[upwind_node, gs] += weight_flux_at_link[link, gs]
  *                 total_outflux_at_node[upwind_node] += weight_flux_at_link[link, gs]             # <<<<<<<<<<<<<<
  *                 total_influx_at_node[downwind_node] += weight_flux_at_link[link, gs]
  * 
 */
-                              __pyx_t_5 = __pyx_v_link;
-                              __pyx_t_9 = __pyx_v_gs;
-                              __pyx_t_10 = -1;
-                              if (__pyx_t_5 < 0) {
-                                __pyx_t_5 += __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape;
-                                if (unlikely(__pyx_t_5 < 0)) __pyx_t_10 = 0;
-                              } else if (unlikely(__pyx_t_5 >= __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape)) __pyx_t_10 = 0;
-                              if (__pyx_t_9 < 0) {
-                                __pyx_t_9 += __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape;
-                                if (unlikely(__pyx_t_9 < 0)) __pyx_t_10 = 1;
-                              } else if (unlikely(__pyx_t_9 >= __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape)) __pyx_t_10 = 1;
-                              if (unlikely(__pyx_t_10 != -1)) {
-                                __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                __PYX_ERR(0, 163, __pyx_L8_error)
-                              }
-                              __pyx_t_11 = __pyx_v_upwind_node;
-                              __pyx_t_10 = -1;
-                              if (__pyx_t_11 < 0) {
-                                __pyx_t_11 += __pyx_pybuffernd_total_outflux_at_node.diminfo[0].shape;
-                                if (unlikely(__pyx_t_11 < 0)) __pyx_t_10 = 0;
-                              } else if (unlikely(__pyx_t_11 >= __pyx_pybuffernd_total_outflux_at_node.diminfo[0].shape)) __pyx_t_10 = 0;
-                              if (unlikely(__pyx_t_10 != -1)) {
-                                __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                __PYX_ERR(0, 163, __pyx_L8_error)
-                              }
-                              *__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_total_outflux_at_node.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_total_outflux_at_node.diminfo[0].strides) += (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_weight_flux_at_link.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_weight_flux_at_link.diminfo[1].strides));
+      __pyx_t_5 = __pyx_v_link;
+      __pyx_t_9 = __pyx_v_gs;
+      __pyx_t_10 = -1;
+      if (__pyx_t_5 < 0) {
+        __pyx_t_5 += __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape;
+        if (unlikely(__pyx_t_5 < 0)) __pyx_t_10 = 0;
+      } else if (unlikely(__pyx_t_5 >= __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape)) __pyx_t_10 = 0;
+      if (__pyx_t_9 < 0) {
+        __pyx_t_9 += __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape;
+        if (unlikely(__pyx_t_9 < 0)) __pyx_t_10 = 1;
+      } else if (unlikely(__pyx_t_9 >= __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape)) __pyx_t_10 = 1;
+      if (unlikely(__pyx_t_10 != -1)) {
+        __Pyx_RaiseBufferIndexError(__pyx_t_10);
+        __PYX_ERR(0, 185, __pyx_L1_error)
+      }
+      __pyx_t_11 = __pyx_v_upwind_node;
+      __pyx_t_10 = -1;
+      if (__pyx_t_11 < 0) {
+        __pyx_t_11 += __pyx_pybuffernd_total_outflux_at_node.diminfo[0].shape;
+        if (unlikely(__pyx_t_11 < 0)) __pyx_t_10 = 0;
+      } else if (unlikely(__pyx_t_11 >= __pyx_pybuffernd_total_outflux_at_node.diminfo[0].shape)) __pyx_t_10 = 0;
+      if (unlikely(__pyx_t_10 != -1)) {
+        __Pyx_RaiseBufferIndexError(__pyx_t_10);
+        __PYX_ERR(0, 185, __pyx_L1_error)
+      }
+      *__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_total_outflux_at_node.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_total_outflux_at_node.diminfo[0].strides) += (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_weight_flux_at_link.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_weight_flux_at_link.diminfo[1].strides));
 
-                              /* "cfuncs_ErosionDeposition.pyx":164
+      /* "cfuncs_ErosionDeposition.pyx":186
  *                 outlinks_fluxes_at_node[upwind_node, gs] += weight_flux_at_link[link, gs]
  *                 total_outflux_at_node[upwind_node] += weight_flux_at_link[link, gs]
  *                 total_influx_at_node[downwind_node] += weight_flux_at_link[link, gs]             # <<<<<<<<<<<<<<
  * 
  *         return outlinks_fluxes_at_node, inlinks_fluxes_at_node, total_outflux_at_node, total_influx_at_node
 */
-                              __pyx_t_9 = __pyx_v_link;
-                              __pyx_t_5 = __pyx_v_gs;
-                              __pyx_t_10 = -1;
-                              if (__pyx_t_9 < 0) {
-                                __pyx_t_9 += __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape;
-                                if (unlikely(__pyx_t_9 < 0)) __pyx_t_10 = 0;
-                              } else if (unlikely(__pyx_t_9 >= __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape)) __pyx_t_10 = 0;
-                              if (__pyx_t_5 < 0) {
-                                __pyx_t_5 += __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape;
-                                if (unlikely(__pyx_t_5 < 0)) __pyx_t_10 = 1;
-                              } else if (unlikely(__pyx_t_5 >= __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape)) __pyx_t_10 = 1;
-                              if (unlikely(__pyx_t_10 != -1)) {
-                                __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                __PYX_ERR(0, 164, __pyx_L8_error)
-                              }
-                              __pyx_t_11 = __pyx_v_downwind_node;
-                              __pyx_t_10 = -1;
-                              if (__pyx_t_11 < 0) {
-                                __pyx_t_11 += __pyx_pybuffernd_total_influx_at_node.diminfo[0].shape;
-                                if (unlikely(__pyx_t_11 < 0)) __pyx_t_10 = 0;
-                              } else if (unlikely(__pyx_t_11 >= __pyx_pybuffernd_total_influx_at_node.diminfo[0].shape)) __pyx_t_10 = 0;
-                              if (unlikely(__pyx_t_10 != -1)) {
-                                __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                __PYX_ERR(0, 164, __pyx_L8_error)
-                              }
-                              *__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_total_influx_at_node.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_total_influx_at_node.diminfo[0].strides) += (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_weight_flux_at_link.diminfo[0].strides, __pyx_t_5, __pyx_pybuffernd_weight_flux_at_link.diminfo[1].strides));
-                            }
-                            goto __pyx_L13;
-                            __pyx_L8_error:;
-                            {
-                                PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
-                                #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                                PyMutex_Lock(&__pyx_parallel_freethreading_mutex);
-                                #endif
-                                #ifdef _OPENMP
-                                #pragma omp flush(__pyx_parallel_exc_type)
-                                #endif /* _OPENMP */
-                                if (!__pyx_parallel_exc_type) {
-                                  __Pyx_ErrFetchWithState(&__pyx_parallel_exc_type, &__pyx_parallel_exc_value, &__pyx_parallel_exc_tb);
-                                  __pyx_parallel_filename = __pyx_filename; __pyx_parallel_lineno = __pyx_lineno; __pyx_parallel_clineno = __pyx_clineno;
-                                  __Pyx_GOTREF(__pyx_parallel_exc_type);
-                                }
-                                #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                                PyMutex_Unlock(&__pyx_parallel_freethreading_mutex);
-                                #endif
-                                __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                            }
-                            __pyx_parallel_why = 4;
-                            goto __pyx_L13;
-                            __pyx_L13:;
-                            #ifdef _OPENMP
-                            #pragma omp flush(__pyx_parallel_why)
-                            #endif /* _OPENMP */
-                        }
-                    }
-                    #ifdef _OPENMP
-                    Py_END_ALLOW_THREADS
-                    #else
-{
-PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
-                    #endif /* _OPENMP */
-                    /* Clean up any temporaries */
-                    __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                    #ifndef _OPENMP
-}
-#endif /* _OPENMP */
-                }
-            }
-            if (__pyx_parallel_exc_type) {
-              /* This may have been overridden by a continue, break or return in another thread. Prefer the error. */
-              __pyx_parallel_why = 4;
-            }
-            if (__pyx_parallel_why) {
-              switch (__pyx_parallel_why) {
-                    case 4:
-                {
-                    PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
-                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                    PyMutex_Lock(&__pyx_parallel_freethreading_mutex);
-                    #endif
-                    __Pyx_GIVEREF(__pyx_parallel_exc_type);
-                    __Pyx_ErrRestoreWithState(__pyx_parallel_exc_type, __pyx_parallel_exc_value, __pyx_parallel_exc_tb);
-                    __pyx_filename = __pyx_parallel_filename; __pyx_lineno = __pyx_parallel_lineno; __pyx_clineno = __pyx_parallel_clineno;
-                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                    PyMutex_Unlock(&__pyx_parallel_freethreading_mutex);
-                    #endif
-                    __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                }
-                goto __pyx_L4_error;
-              }
-            }
-        }
-        #if ((defined(__APPLE__) || defined(__OSX__)) && (defined(__GNUC__) && (__GNUC__ > 2 || (__GNUC__ == 2 && (__GNUC_MINOR__ > 95)))))
-            #undef likely
-            #undef unlikely
-            #define likely(x)   __builtin_expect(!!(x), 1)
-            #define unlikely(x) __builtin_expect(!!(x), 0)
-        #endif
+      __pyx_t_9 = __pyx_v_link;
+      __pyx_t_5 = __pyx_v_gs;
+      __pyx_t_10 = -1;
+      if (__pyx_t_9 < 0) {
+        __pyx_t_9 += __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape;
+        if (unlikely(__pyx_t_9 < 0)) __pyx_t_10 = 0;
+      } else if (unlikely(__pyx_t_9 >= __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape)) __pyx_t_10 = 0;
+      if (__pyx_t_5 < 0) {
+        __pyx_t_5 += __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape;
+        if (unlikely(__pyx_t_5 < 0)) __pyx_t_10 = 1;
+      } else if (unlikely(__pyx_t_5 >= __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape)) __pyx_t_10 = 1;
+      if (unlikely(__pyx_t_10 != -1)) {
+        __Pyx_RaiseBufferIndexError(__pyx_t_10);
+        __PYX_ERR(0, 186, __pyx_L1_error)
       }
-
-      /* "cfuncs_ErosionDeposition.pyx":154
- *         cdef int n_gs  = shape[1]
- * 
- *         for index in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
- *             link = link_list[index]
- * 
-*/
-      /*finally:*/ {
-        /*normal exit:*/{
-          __Pyx_FastGIL_Forget();
-          PyEval_RestoreThread(_save);
-          goto __pyx_L5;
-        }
-        __pyx_L4_error: {
-          __Pyx_FastGIL_Forget();
-          PyEval_RestoreThread(_save);
-          goto __pyx_L1_error;
-        }
-        __pyx_L5:;
+      __pyx_t_11 = __pyx_v_downwind_node;
+      __pyx_t_10 = -1;
+      if (__pyx_t_11 < 0) {
+        __pyx_t_11 += __pyx_pybuffernd_total_influx_at_node.diminfo[0].shape;
+        if (unlikely(__pyx_t_11 < 0)) __pyx_t_10 = 0;
+      } else if (unlikely(__pyx_t_11 >= __pyx_pybuffernd_total_influx_at_node.diminfo[0].shape)) __pyx_t_10 = 0;
+      if (unlikely(__pyx_t_10 != -1)) {
+        __Pyx_RaiseBufferIndexError(__pyx_t_10);
+        __PYX_ERR(0, 186, __pyx_L1_error)
       }
+      *__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_total_influx_at_node.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_total_influx_at_node.diminfo[0].strides) += (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_weight_flux_at_link.diminfo[0].strides, __pyx_t_5, __pyx_pybuffernd_weight_flux_at_link.diminfo[1].strides));
+    }
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":166
+  /* "cfuncs_ErosionDeposition.pyx":188
  *                 total_influx_at_node[downwind_node] += weight_flux_at_link[link, gs]
  * 
  *         return outlinks_fluxes_at_node, inlinks_fluxes_at_node, total_outflux_at_node, total_influx_at_node             # <<<<<<<<<<<<<<
@@ -25535,25 +25286,25 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
  * 
 */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyTuple_New(4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 166, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 188, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF((PyObject *)__pyx_v_outlinks_fluxes_at_node);
   __Pyx_GIVEREF((PyObject *)__pyx_v_outlinks_fluxes_at_node);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)__pyx_v_outlinks_fluxes_at_node)) != (0)) __PYX_ERR(0, 166, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)__pyx_v_outlinks_fluxes_at_node)) != (0)) __PYX_ERR(0, 188, __pyx_L1_error);
   __Pyx_INCREF((PyObject *)__pyx_v_inlinks_fluxes_at_node);
   __Pyx_GIVEREF((PyObject *)__pyx_v_inlinks_fluxes_at_node);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 1, ((PyObject *)__pyx_v_inlinks_fluxes_at_node)) != (0)) __PYX_ERR(0, 166, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 1, ((PyObject *)__pyx_v_inlinks_fluxes_at_node)) != (0)) __PYX_ERR(0, 188, __pyx_L1_error);
   __Pyx_INCREF((PyObject *)__pyx_v_total_outflux_at_node);
   __Pyx_GIVEREF((PyObject *)__pyx_v_total_outflux_at_node);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 2, ((PyObject *)__pyx_v_total_outflux_at_node)) != (0)) __PYX_ERR(0, 166, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 2, ((PyObject *)__pyx_v_total_outflux_at_node)) != (0)) __PYX_ERR(0, 188, __pyx_L1_error);
   __Pyx_INCREF((PyObject *)__pyx_v_total_influx_at_node);
   __Pyx_GIVEREF((PyObject *)__pyx_v_total_influx_at_node);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 3, ((PyObject *)__pyx_v_total_influx_at_node)) != (0)) __PYX_ERR(0, 166, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 3, ((PyObject *)__pyx_v_total_influx_at_node)) != (0)) __PYX_ERR(0, 188, __pyx_L1_error);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "cfuncs_ErosionDeposition.pyx":138
+  /* "cfuncs_ErosionDeposition.pyx":154
  * 
  * 
  * def get_outin_fluxes(             # <<<<<<<<<<<<<<
@@ -25595,7 +25346,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
   return __pyx_r;
 }
 
-/* "cfuncs_ErosionDeposition.pyx":170
+/* "cfuncs_ErosionDeposition.pyx":192
  * 
  * 
  * def calc_CQ(             # <<<<<<<<<<<<<<
@@ -25647,56 +25398,56 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_c_kg,&__pyx_mstate_global->__pyx_n_u_CQ,&__pyx_mstate_global->__pyx_n_u_q,&__pyx_mstate_global->__pyx_n_u_core_nodes,&__pyx_mstate_global->__pyx_n_u_shape,&__pyx_mstate_global->__pyx_n_u_grid_dx,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 170, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 192, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  6:
         values[5] = __Pyx_ArgRef_FASTCALL(__pyx_args, 5);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 170, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 192, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  5:
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 170, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 192, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 170, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 192, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 170, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 192, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 170, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 192, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 170, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 192, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_CQ", 0) < (0)) __PYX_ERR(0, 170, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_CQ", 0) < (0)) __PYX_ERR(0, 192, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 6; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_CQ", 1, 6, 6, i); __PYX_ERR(0, 170, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_CQ", 1, 6, 6, i); __PYX_ERR(0, 192, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 6)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 170, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 192, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 170, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 192, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 170, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 192, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 170, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 192, __pyx_L3_error)
       values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 170, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 192, __pyx_L3_error)
       values[5] = __Pyx_ArgRef_FASTCALL(__pyx_args, 5);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 170, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 192, __pyx_L3_error)
     }
     __pyx_v_c_kg = ((PyArrayObject *)values[0]);
     __pyx_v_CQ = ((PyArrayObject *)values[1]);
@@ -25707,7 +25458,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("calc_CQ", 1, 6, 6, __pyx_nargs); __PYX_ERR(0, 170, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("calc_CQ", 1, 6, 6, __pyx_nargs); __PYX_ERR(0, 192, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -25718,10 +25469,10 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_c_kg), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "c_kg", 0))) __PYX_ERR(0, 171, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_CQ), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "CQ", 0))) __PYX_ERR(0, 172, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_q), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "q", 0))) __PYX_ERR(0, 173, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_core_nodes), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "core_nodes", 0))) __PYX_ERR(0, 174, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_c_kg), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "c_kg", 0))) __PYX_ERR(0, 193, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_CQ), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "CQ", 0))) __PYX_ERR(0, 194, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_q), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "q", 0))) __PYX_ERR(0, 195, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_core_nodes), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "core_nodes", 0))) __PYX_ERR(0, 196, __pyx_L1_error)
   __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_10calc_CQ(__pyx_self, __pyx_v_c_kg, __pyx_v_CQ, __pyx_v_q, __pyx_v_core_nodes, __pyx_v_shape, __pyx_v_grid_dx);
 
   /* function exit code */
@@ -25793,62 +25544,62 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_10calc_CQ(CYTHON_UNUSED PyO
   __pyx_pybuffernd_core_nodes.rcbuffer = &__pyx_pybuffer_core_nodes;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_c_kg.rcbuffer->pybuffer, (PyObject*)__pyx_v_c_kg, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 170, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_c_kg.rcbuffer->pybuffer, (PyObject*)__pyx_v_c_kg, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 192, __pyx_L1_error)
   }
   __pyx_pybuffernd_c_kg.diminfo[0].strides = __pyx_pybuffernd_c_kg.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_c_kg.diminfo[0].shape = __pyx_pybuffernd_c_kg.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_c_kg.diminfo[1].strides = __pyx_pybuffernd_c_kg.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_c_kg.diminfo[1].shape = __pyx_pybuffernd_c_kg.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_CQ.rcbuffer->pybuffer, (PyObject*)__pyx_v_CQ, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 170, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_CQ.rcbuffer->pybuffer, (PyObject*)__pyx_v_CQ, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 192, __pyx_L1_error)
   }
   __pyx_pybuffernd_CQ.diminfo[0].strides = __pyx_pybuffernd_CQ.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_CQ.diminfo[0].shape = __pyx_pybuffernd_CQ.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_CQ.diminfo[1].strides = __pyx_pybuffernd_CQ.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_CQ.diminfo[1].shape = __pyx_pybuffernd_CQ.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_q.rcbuffer->pybuffer, (PyObject*)__pyx_v_q, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 170, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_q.rcbuffer->pybuffer, (PyObject*)__pyx_v_q, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 192, __pyx_L1_error)
   }
   __pyx_pybuffernd_q.diminfo[0].strides = __pyx_pybuffernd_q.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_q.diminfo[0].shape = __pyx_pybuffernd_q.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer, (PyObject*)__pyx_v_core_nodes, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 170, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer, (PyObject*)__pyx_v_core_nodes, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 192, __pyx_L1_error)
   }
   __pyx_pybuffernd_core_nodes.diminfo[0].strides = __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_core_nodes.diminfo[0].shape = __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.shape[0];
 
-  /* "cfuncs_ErosionDeposition.pyx":180
+  /* "cfuncs_ErosionDeposition.pyx":202
  * 
  *         cdef int node, index, gs
  *         cdef int dx = grid_dx             # <<<<<<<<<<<<<<
  *         cdef int n_nodes = shape[0]
  *         cdef int n_gs = shape[1]
 */
-  __pyx_t_1 = __Pyx_PyLong_As_int(__pyx_v_grid_dx); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 180, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyLong_As_int(__pyx_v_grid_dx); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 202, __pyx_L1_error)
   __pyx_v_dx = __pyx_t_1;
 
-  /* "cfuncs_ErosionDeposition.pyx":181
+  /* "cfuncs_ErosionDeposition.pyx":203
  *         cdef int node, index, gs
  *         cdef int dx = grid_dx
  *         cdef int n_nodes = shape[0]             # <<<<<<<<<<<<<<
  *         cdef int n_gs = shape[1]
  * 
 */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 181, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 203, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = __Pyx_PyLong_As_int(__pyx_t_2); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 181, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyLong_As_int(__pyx_t_2); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 203, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_n_nodes = __pyx_t_1;
 
-  /* "cfuncs_ErosionDeposition.pyx":182
+  /* "cfuncs_ErosionDeposition.pyx":204
  *         cdef int dx = grid_dx
  *         cdef int n_nodes = shape[0]
  *         cdef int n_gs = shape[1]             # <<<<<<<<<<<<<<
  * 
  *         for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):
 */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 182, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 204, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = __Pyx_PyLong_As_int(__pyx_t_2); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 182, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyLong_As_int(__pyx_t_2); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 204, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_n_gs = __pyx_t_1;
 
-  /* "cfuncs_ErosionDeposition.pyx":184
+  /* "cfuncs_ErosionDeposition.pyx":206
  *         cdef int n_gs = shape[1]
  * 
  *         for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -25894,7 +25645,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_10calc_CQ(CYTHON_UNUSED PyO
                         {
                             __pyx_v_index = (int)(0 + 1 * __pyx_t_3);
 
-                            /* "cfuncs_ErosionDeposition.pyx":185
+                            /* "cfuncs_ErosionDeposition.pyx":207
  * 
  *         for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):
  *             node = core_nodes[index]             # <<<<<<<<<<<<<<
@@ -25909,11 +25660,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_10calc_CQ(CYTHON_UNUSED PyO
                             } else if (unlikely(__pyx_t_5 >= __pyx_pybuffernd_core_nodes.diminfo[0].shape)) __pyx_t_6 = 0;
                             if (unlikely(__pyx_t_6 != -1)) {
                               __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_6);
-                              __PYX_ERR(0, 185, __pyx_L8_error)
+                              __PYX_ERR(0, 207, __pyx_L8_error)
                             }
                             __pyx_v_node = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_core_nodes.diminfo[0].strides));
 
-                            /* "cfuncs_ErosionDeposition.pyx":187
+                            /* "cfuncs_ErosionDeposition.pyx":209
  *             node = core_nodes[index]
  * 
  *             for gs in range(n_gs):             # <<<<<<<<<<<<<<
@@ -25925,7 +25676,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_10calc_CQ(CYTHON_UNUSED PyO
                             for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
                               __pyx_v_gs = __pyx_t_8;
 
-                              /* "cfuncs_ErosionDeposition.pyx":188
+                              /* "cfuncs_ErosionDeposition.pyx":210
  * 
  *             for gs in range(n_gs):
  *                 CQ[node, gs] = c_kg[node, gs] * q[node] * dx             # <<<<<<<<<<<<<<
@@ -25945,7 +25696,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_10calc_CQ(CYTHON_UNUSED PyO
                               } else if (unlikely(__pyx_t_9 >= __pyx_pybuffernd_c_kg.diminfo[1].shape)) __pyx_t_10 = 1;
                               if (unlikely(__pyx_t_10 != -1)) {
                                 __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                __PYX_ERR(0, 188, __pyx_L8_error)
+                                __PYX_ERR(0, 210, __pyx_L8_error)
                               }
                               __pyx_t_11 = __pyx_v_node;
                               __pyx_t_10 = -1;
@@ -25955,7 +25706,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_10calc_CQ(CYTHON_UNUSED PyO
                               } else if (unlikely(__pyx_t_11 >= __pyx_pybuffernd_q.diminfo[0].shape)) __pyx_t_10 = 0;
                               if (unlikely(__pyx_t_10 != -1)) {
                                 __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                __PYX_ERR(0, 188, __pyx_L8_error)
+                                __PYX_ERR(0, 210, __pyx_L8_error)
                               }
                               __pyx_t_12 = __pyx_v_node;
                               __pyx_t_13 = __pyx_v_gs;
@@ -25970,510 +25721,9 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_10calc_CQ(CYTHON_UNUSED PyO
                               } else if (unlikely(__pyx_t_13 >= __pyx_pybuffernd_CQ.diminfo[1].shape)) __pyx_t_10 = 1;
                               if (unlikely(__pyx_t_10 != -1)) {
                                 __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                __PYX_ERR(0, 188, __pyx_L8_error)
+                                __PYX_ERR(0, 210, __pyx_L8_error)
                               }
                               *__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_CQ.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_CQ.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_CQ.diminfo[1].strides) = (((*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_c_kg.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_c_kg.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_c_kg.diminfo[1].strides)) * (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_q.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_q.diminfo[0].strides))) * __pyx_v_dx);
-                            }
-                            goto __pyx_L13;
-                            __pyx_L8_error:;
-                            {
-                                PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
-                                #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                                PyMutex_Lock(&__pyx_parallel_freethreading_mutex);
-                                #endif
-                                #ifdef _OPENMP
-                                #pragma omp flush(__pyx_parallel_exc_type)
-                                #endif /* _OPENMP */
-                                if (!__pyx_parallel_exc_type) {
-                                  __Pyx_ErrFetchWithState(&__pyx_parallel_exc_type, &__pyx_parallel_exc_value, &__pyx_parallel_exc_tb);
-                                  __pyx_parallel_filename = __pyx_filename; __pyx_parallel_lineno = __pyx_lineno; __pyx_parallel_clineno = __pyx_clineno;
-                                  __Pyx_GOTREF(__pyx_parallel_exc_type);
-                                }
-                                #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                                PyMutex_Unlock(&__pyx_parallel_freethreading_mutex);
-                                #endif
-                                __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                            }
-                            __pyx_parallel_why = 4;
-                            goto __pyx_L13;
-                            __pyx_L13:;
-                            #ifdef _OPENMP
-                            #pragma omp flush(__pyx_parallel_why)
-                            #endif /* _OPENMP */
-                        }
-                    }
-                    #ifdef _OPENMP
-                    Py_END_ALLOW_THREADS
-                    #else
-{
-PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
-                    #endif /* _OPENMP */
-                    /* Clean up any temporaries */
-                    __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                    #ifndef _OPENMP
-}
-#endif /* _OPENMP */
-                }
-            }
-            if (__pyx_parallel_exc_type) {
-              /* This may have been overridden by a continue, break or return in another thread. Prefer the error. */
-              __pyx_parallel_why = 4;
-            }
-            if (__pyx_parallel_why) {
-              switch (__pyx_parallel_why) {
-                    case 4:
-                {
-                    PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
-                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                    PyMutex_Lock(&__pyx_parallel_freethreading_mutex);
-                    #endif
-                    __Pyx_GIVEREF(__pyx_parallel_exc_type);
-                    __Pyx_ErrRestoreWithState(__pyx_parallel_exc_type, __pyx_parallel_exc_value, __pyx_parallel_exc_tb);
-                    __pyx_filename = __pyx_parallel_filename; __pyx_lineno = __pyx_parallel_lineno; __pyx_clineno = __pyx_parallel_clineno;
-                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                    PyMutex_Unlock(&__pyx_parallel_freethreading_mutex);
-                    #endif
-                    __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                }
-                goto __pyx_L4_error;
-              }
-            }
-        }
-        #if ((defined(__APPLE__) || defined(__OSX__)) && (defined(__GNUC__) && (__GNUC__ > 2 || (__GNUC__ == 2 && (__GNUC_MINOR__ > 95)))))
-            #undef likely
-            #undef unlikely
-            #define likely(x)   __builtin_expect(!!(x), 1)
-            #define unlikely(x) __builtin_expect(!!(x), 0)
-        #endif
-      }
-
-      /* "cfuncs_ErosionDeposition.pyx":184
- *         cdef int n_gs = shape[1]
- * 
- *         for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
- *             node = core_nodes[index]
- * 
-*/
-      /*finally:*/ {
-        /*normal exit:*/{
-          __Pyx_FastGIL_Forget();
-          PyEval_RestoreThread(_save);
-          goto __pyx_L5;
-        }
-        __pyx_L4_error: {
-          __Pyx_FastGIL_Forget();
-          PyEval_RestoreThread(_save);
-          goto __pyx_L1_error;
-        }
-        __pyx_L5:;
-      }
-  }
-
-  /* "cfuncs_ErosionDeposition.pyx":190
- *                 CQ[node, gs] = c_kg[node, gs] * q[node] * dx
- * 
- *         return CQ             # <<<<<<<<<<<<<<
- * 
- * 
-*/
-  __Pyx_XDECREF(__pyx_r);
-  __Pyx_INCREF((PyObject *)__pyx_v_CQ);
-  __pyx_r = ((PyObject *)__pyx_v_CQ);
-  goto __pyx_L0;
-
-  /* "cfuncs_ErosionDeposition.pyx":170
- * 
- * 
- * def calc_CQ(             # <<<<<<<<<<<<<<
- *         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] c_kg,
- *         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] CQ,
-*/
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_2);
-  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
-    __Pyx_PyThreadState_declare
-    __Pyx_PyThreadState_assign
-    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_CQ.rcbuffer->pybuffer);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_c_kg.rcbuffer->pybuffer);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_q.rcbuffer->pybuffer);
-  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("cfuncs_ErosionDeposition.calc_CQ", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  goto __pyx_L2;
-  __pyx_L0:;
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_CQ.rcbuffer->pybuffer);
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_c_kg.rcbuffer->pybuffer);
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer);
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_q.rcbuffer->pybuffer);
-  __pyx_L2:;
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "cfuncs_ErosionDeposition.pyx":194
- * 
- * 
- * def calc_flux_at_link_per_size(             # <<<<<<<<<<<<<<
- *         cnp.ndarray[DTYPE_FLOAT_t, ndim=1] q_water_at_link,
- *         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] suspended__sediments_concentration_at_link,
-*/
-
-/* Python wrapper */
-static PyObject *__pyx_pw_24cfuncs_ErosionDeposition_13calc_flux_at_link_per_size(PyObject *__pyx_self, 
-#if CYTHON_METH_FASTCALL
-PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
-#else
-PyObject *__pyx_args, PyObject *__pyx_kwds
-#endif
-); /*proto*/
-static PyMethodDef __pyx_mdef_24cfuncs_ErosionDeposition_13calc_flux_at_link_per_size = {"calc_flux_at_link_per_size", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_24cfuncs_ErosionDeposition_13calc_flux_at_link_per_size, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_24cfuncs_ErosionDeposition_13calc_flux_at_link_per_size(PyObject *__pyx_self, 
-#if CYTHON_METH_FASTCALL
-PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
-#else
-PyObject *__pyx_args, PyObject *__pyx_kwds
-#endif
-) {
-  PyArrayObject *__pyx_v_q_water_at_link = 0;
-  PyArrayObject *__pyx_v_suspended__sediments_concentration_at_link = 0;
-  PyArrayObject *__pyx_v_active_links = 0;
-  PyArrayObject *__pyx_v_weight_flux_at_link = 0;
-  PyObject *__pyx_v_shape = 0;
-  #if !CYTHON_METH_FASTCALL
-  CYTHON_UNUSED Py_ssize_t __pyx_nargs;
-  #endif
-  CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
-  PyObject* values[5] = {0,0,0,0,0};
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("calc_flux_at_link_per_size (wrapper)", 0);
-  #if !CYTHON_METH_FASTCALL
-  #if CYTHON_ASSUME_SAFE_SIZE
-  __pyx_nargs = PyTuple_GET_SIZE(__pyx_args);
-  #else
-  __pyx_nargs = PyTuple_Size(__pyx_args); if (unlikely(__pyx_nargs < 0)) return NULL;
-  #endif
-  #endif
-  __pyx_kwvalues = __Pyx_KwValues_FASTCALL(__pyx_args, __pyx_nargs);
-  {
-    PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_q_water_at_link,&__pyx_mstate_global->__pyx_n_u_suspended__sediments_concentrati,&__pyx_mstate_global->__pyx_n_u_active_links,&__pyx_mstate_global->__pyx_n_u_weight_flux_at_link,&__pyx_mstate_global->__pyx_n_u_shape,0};
-    const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 194, __pyx_L3_error)
-    if (__pyx_kwds_len > 0) {
-      switch (__pyx_nargs) {
-        case  5:
-        values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 194, __pyx_L3_error)
-        CYTHON_FALLTHROUGH;
-        case  4:
-        values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 194, __pyx_L3_error)
-        CYTHON_FALLTHROUGH;
-        case  3:
-        values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 194, __pyx_L3_error)
-        CYTHON_FALLTHROUGH;
-        case  2:
-        values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 194, __pyx_L3_error)
-        CYTHON_FALLTHROUGH;
-        case  1:
-        values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 194, __pyx_L3_error)
-        CYTHON_FALLTHROUGH;
-        case  0: break;
-        default: goto __pyx_L5_argtuple_error;
-      }
-      const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_flux_at_link_per_size", 0) < (0)) __PYX_ERR(0, 194, __pyx_L3_error)
-      for (Py_ssize_t i = __pyx_nargs; i < 5; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_flux_at_link_per_size", 1, 5, 5, i); __PYX_ERR(0, 194, __pyx_L3_error) }
-      }
-    } else if (unlikely(__pyx_nargs != 5)) {
-      goto __pyx_L5_argtuple_error;
-    } else {
-      values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 194, __pyx_L3_error)
-      values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 194, __pyx_L3_error)
-      values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 194, __pyx_L3_error)
-      values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 194, __pyx_L3_error)
-      values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 194, __pyx_L3_error)
-    }
-    __pyx_v_q_water_at_link = ((PyArrayObject *)values[0]);
-    __pyx_v_suspended__sediments_concentration_at_link = ((PyArrayObject *)values[1]);
-    __pyx_v_active_links = ((PyArrayObject *)values[2]);
-    __pyx_v_weight_flux_at_link = ((PyArrayObject *)values[3]);
-    __pyx_v_shape = values[4];
-  }
-  goto __pyx_L6_skip;
-  __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("calc_flux_at_link_per_size", 1, 5, 5, __pyx_nargs); __PYX_ERR(0, 194, __pyx_L3_error)
-  __pyx_L6_skip:;
-  goto __pyx_L4_argument_unpacking_done;
-  __pyx_L3_error:;
-  for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
-    Py_XDECREF(values[__pyx_temp]);
-  }
-  __Pyx_AddTraceback("cfuncs_ErosionDeposition.calc_flux_at_link_per_size", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __Pyx_RefNannyFinishContext();
-  return NULL;
-  __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_q_water_at_link), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "q_water_at_link", 0))) __PYX_ERR(0, 195, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_suspended__sediments_concentration_at_link), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "suspended__sediments_concentration_at_link", 0))) __PYX_ERR(0, 196, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_active_links), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "active_links", 0))) __PYX_ERR(0, 197, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_weight_flux_at_link), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "weight_flux_at_link", 0))) __PYX_ERR(0, 198, __pyx_L1_error)
-  __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_size(__pyx_self, __pyx_v_q_water_at_link, __pyx_v_suspended__sediments_concentration_at_link, __pyx_v_active_links, __pyx_v_weight_flux_at_link, __pyx_v_shape);
-
-  /* function exit code */
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __pyx_r = NULL;
-  for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
-    Py_XDECREF(values[__pyx_temp]);
-  }
-  goto __pyx_L7_cleaned_up;
-  __pyx_L0:;
-  for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
-    Py_XDECREF(values[__pyx_temp]);
-  }
-  __pyx_L7_cleaned_up:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_size(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_q_water_at_link, PyArrayObject *__pyx_v_suspended__sediments_concentration_at_link, PyArrayObject *__pyx_v_active_links, PyArrayObject *__pyx_v_weight_flux_at_link, PyObject *__pyx_v_shape) {
-  int __pyx_v_link;
-  int __pyx_v_index;
-  int __pyx_v_gs;
-  int __pyx_v_n_links;
-  int __pyx_v_n_gs;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_active_links;
-  __Pyx_Buffer __pyx_pybuffer_active_links;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_q_water_at_link;
-  __Pyx_Buffer __pyx_pybuffer_q_water_at_link;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_suspended__sediments_concentration_at_link;
-  __Pyx_Buffer __pyx_pybuffer_suspended__sediments_concentration_at_link;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_weight_flux_at_link;
-  __Pyx_Buffer __pyx_pybuffer_weight_flux_at_link;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  PyObject *__pyx_t_1 = NULL;
-  int __pyx_t_2;
-  int __pyx_t_3;
-  int __pyx_t_4;
-  Py_ssize_t __pyx_t_5;
-  int __pyx_t_6;
-  int __pyx_t_7;
-  int __pyx_t_8;
-  int __pyx_t_9;
-  Py_ssize_t __pyx_t_10;
-  Py_ssize_t __pyx_t_11;
-  Py_ssize_t __pyx_t_12;
-  Py_ssize_t __pyx_t_13;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("calc_flux_at_link_per_size", 0);
-  __pyx_pybuffer_q_water_at_link.pybuffer.buf = NULL;
-  __pyx_pybuffer_q_water_at_link.refcount = 0;
-  __pyx_pybuffernd_q_water_at_link.data = NULL;
-  __pyx_pybuffernd_q_water_at_link.rcbuffer = &__pyx_pybuffer_q_water_at_link;
-  __pyx_pybuffer_suspended__sediments_concentration_at_link.pybuffer.buf = NULL;
-  __pyx_pybuffer_suspended__sediments_concentration_at_link.refcount = 0;
-  __pyx_pybuffernd_suspended__sediments_concentration_at_link.data = NULL;
-  __pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer = &__pyx_pybuffer_suspended__sediments_concentration_at_link;
-  __pyx_pybuffer_active_links.pybuffer.buf = NULL;
-  __pyx_pybuffer_active_links.refcount = 0;
-  __pyx_pybuffernd_active_links.data = NULL;
-  __pyx_pybuffernd_active_links.rcbuffer = &__pyx_pybuffer_active_links;
-  __pyx_pybuffer_weight_flux_at_link.pybuffer.buf = NULL;
-  __pyx_pybuffer_weight_flux_at_link.refcount = 0;
-  __pyx_pybuffernd_weight_flux_at_link.data = NULL;
-  __pyx_pybuffernd_weight_flux_at_link.rcbuffer = &__pyx_pybuffer_weight_flux_at_link;
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_q_water_at_link.rcbuffer->pybuffer, (PyObject*)__pyx_v_q_water_at_link, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 194, __pyx_L1_error)
-  }
-  __pyx_pybuffernd_q_water_at_link.diminfo[0].strides = __pyx_pybuffernd_q_water_at_link.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_q_water_at_link.diminfo[0].shape = __pyx_pybuffernd_q_water_at_link.rcbuffer->pybuffer.shape[0];
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer->pybuffer, (PyObject*)__pyx_v_suspended__sediments_concentration_at_link, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 194, __pyx_L1_error)
-  }
-  __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[0].strides = __pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[0].shape = __pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[1].strides = __pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[1].shape = __pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer->pybuffer.shape[1];
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_active_links.rcbuffer->pybuffer, (PyObject*)__pyx_v_active_links, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 194, __pyx_L1_error)
-  }
-  __pyx_pybuffernd_active_links.diminfo[0].strides = __pyx_pybuffernd_active_links.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_active_links.diminfo[0].shape = __pyx_pybuffernd_active_links.rcbuffer->pybuffer.shape[0];
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer, (PyObject*)__pyx_v_weight_flux_at_link, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 194, __pyx_L1_error)
-  }
-  __pyx_pybuffernd_weight_flux_at_link.diminfo[0].strides = __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape = __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_weight_flux_at_link.diminfo[1].strides = __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape = __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.shape[1];
-
-  /* "cfuncs_ErosionDeposition.pyx":203
- * 
- *         cdef int link, index, gs
- *         cdef int n_links = shape[0]             # <<<<<<<<<<<<<<
- *         cdef int n_gs = shape[1]
- * 
-*/
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 203, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 203, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_v_n_links = __pyx_t_2;
-
-  /* "cfuncs_ErosionDeposition.pyx":204
- *         cdef int link, index, gs
- *         cdef int n_links = shape[0]
- *         cdef int n_gs = shape[1]             # <<<<<<<<<<<<<<
- * 
- *         for index in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):
-*/
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 204, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 204, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_v_n_gs = __pyx_t_2;
-
-  /* "cfuncs_ErosionDeposition.pyx":206
- *         cdef int n_gs = shape[1]
- * 
- *         for index in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
- *             link = active_links[index]
- * 
-*/
-  {
-      PyThreadState * _save;
-      _save = PyEval_SaveThread();
-      __Pyx_FastGIL_Remember();
-      /*try:*/ {
-        __pyx_t_2 = __pyx_v_n_links;
-        {
-            const char *__pyx_parallel_filename = NULL; int __pyx_parallel_lineno = 0, __pyx_parallel_clineno = 0;
-            PyObject *__pyx_parallel_exc_type = NULL, *__pyx_parallel_exc_value = NULL, *__pyx_parallel_exc_tb = NULL;
-            #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-            PyMutex __pyx_parallel_freethreading_mutex = {0};
-            #endif
-            int __pyx_parallel_why;
-            __pyx_parallel_why = 0;
-            #if ((defined(__APPLE__) || defined(__OSX__)) && (defined(__GNUC__) && (__GNUC__ > 2 || (__GNUC__ == 2 && (__GNUC_MINOR__ > 95)))))
-                #undef likely
-                #undef unlikely
-                #define likely(x)   (x)
-                #define unlikely(x) (x)
-            #endif
-            __pyx_t_4 = (__pyx_t_2 - 0 + 1 - 1/abs(1)) / 1;
-            if (__pyx_t_4 > 0)
-            {
-                #ifdef _OPENMP
-                #pragma omp parallel num_threads(__pyx_v_24cfuncs_ErosionDeposition_N_THREADS) private(__pyx_t_10, __pyx_t_11, __pyx_t_12, __pyx_t_13, __pyx_t_5, __pyx_t_6, __pyx_t_7, __pyx_t_8, __pyx_t_9) __Pyx_shared_in_cpython_freethreading(__pyx_parallel_freethreading_mutex) private(__pyx_filename, __pyx_lineno, __pyx_clineno) shared(__pyx_parallel_why, __pyx_parallel_exc_type, __pyx_parallel_exc_value, __pyx_parallel_exc_tb)
-                #endif /* _OPENMP */
-                {
-                    #ifdef _OPENMP
-                    PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
-                    Py_BEGIN_ALLOW_THREADS
-                    #endif /* _OPENMP */
-                    #ifdef _OPENMP
-                    #pragma omp for firstprivate(__pyx_v_gs) lastprivate(__pyx_v_gs) firstprivate(__pyx_v_index) lastprivate(__pyx_v_index) firstprivate(__pyx_v_link) lastprivate(__pyx_v_link) schedule(static)
-                    #endif /* _OPENMP */
-                    for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_4; __pyx_t_3++){
-                        if (__pyx_parallel_why < 2)
-                        {
-                            __pyx_v_index = (int)(0 + 1 * __pyx_t_3);
-
-                            /* "cfuncs_ErosionDeposition.pyx":207
- * 
- *         for index in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):
- *             link = active_links[index]             # <<<<<<<<<<<<<<
- * 
- *             for gs in range(n_gs):
-*/
-                            __pyx_t_5 = __pyx_v_index;
-                            __pyx_t_6 = -1;
-                            if (__pyx_t_5 < 0) {
-                              __pyx_t_5 += __pyx_pybuffernd_active_links.diminfo[0].shape;
-                              if (unlikely(__pyx_t_5 < 0)) __pyx_t_6 = 0;
-                            } else if (unlikely(__pyx_t_5 >= __pyx_pybuffernd_active_links.diminfo[0].shape)) __pyx_t_6 = 0;
-                            if (unlikely(__pyx_t_6 != -1)) {
-                              __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_6);
-                              __PYX_ERR(0, 207, __pyx_L8_error)
-                            }
-                            __pyx_v_link = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_active_links.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_active_links.diminfo[0].strides));
-
-                            /* "cfuncs_ErosionDeposition.pyx":209
- *             link = active_links[index]
- * 
- *             for gs in range(n_gs):             # <<<<<<<<<<<<<<
- *                 weight_flux_at_link[link, gs] = q_water_at_link[link] * suspended__sediments_concentration_at_link[link, gs]
- * 
-*/
-                            __pyx_t_6 = __pyx_v_n_gs;
-                            __pyx_t_7 = __pyx_t_6;
-                            for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
-                              __pyx_v_gs = __pyx_t_8;
-
-                              /* "cfuncs_ErosionDeposition.pyx":210
- * 
- *             for gs in range(n_gs):
- *                 weight_flux_at_link[link, gs] = q_water_at_link[link] * suspended__sediments_concentration_at_link[link, gs]             # <<<<<<<<<<<<<<
- * 
- *         return weight_flux_at_link
-*/
-                              __pyx_t_5 = __pyx_v_link;
-                              __pyx_t_9 = -1;
-                              if (__pyx_t_5 < 0) {
-                                __pyx_t_5 += __pyx_pybuffernd_q_water_at_link.diminfo[0].shape;
-                                if (unlikely(__pyx_t_5 < 0)) __pyx_t_9 = 0;
-                              } else if (unlikely(__pyx_t_5 >= __pyx_pybuffernd_q_water_at_link.diminfo[0].shape)) __pyx_t_9 = 0;
-                              if (unlikely(__pyx_t_9 != -1)) {
-                                __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_9);
-                                __PYX_ERR(0, 210, __pyx_L8_error)
-                              }
-                              __pyx_t_10 = __pyx_v_link;
-                              __pyx_t_11 = __pyx_v_gs;
-                              __pyx_t_9 = -1;
-                              if (__pyx_t_10 < 0) {
-                                __pyx_t_10 += __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[0].shape;
-                                if (unlikely(__pyx_t_10 < 0)) __pyx_t_9 = 0;
-                              } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[0].shape)) __pyx_t_9 = 0;
-                              if (__pyx_t_11 < 0) {
-                                __pyx_t_11 += __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[1].shape;
-                                if (unlikely(__pyx_t_11 < 0)) __pyx_t_9 = 1;
-                              } else if (unlikely(__pyx_t_11 >= __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[1].shape)) __pyx_t_9 = 1;
-                              if (unlikely(__pyx_t_9 != -1)) {
-                                __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_9);
-                                __PYX_ERR(0, 210, __pyx_L8_error)
-                              }
-                              __pyx_t_12 = __pyx_v_link;
-                              __pyx_t_13 = __pyx_v_gs;
-                              __pyx_t_9 = -1;
-                              if (__pyx_t_12 < 0) {
-                                __pyx_t_12 += __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape;
-                                if (unlikely(__pyx_t_12 < 0)) __pyx_t_9 = 0;
-                              } else if (unlikely(__pyx_t_12 >= __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape)) __pyx_t_9 = 0;
-                              if (__pyx_t_13 < 0) {
-                                __pyx_t_13 += __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape;
-                                if (unlikely(__pyx_t_13 < 0)) __pyx_t_9 = 1;
-                              } else if (unlikely(__pyx_t_13 >= __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape)) __pyx_t_9 = 1;
-                              if (unlikely(__pyx_t_9 != -1)) {
-                                __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_9);
-                                __PYX_ERR(0, 210, __pyx_L8_error)
-                              }
-                              *__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_weight_flux_at_link.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_weight_flux_at_link.diminfo[1].strides) = ((*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_q_water_at_link.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_q_water_at_link.diminfo[0].strides)) * (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[1].strides)));
                             }
                             goto __pyx_L13;
                             __pyx_L8_error:;
@@ -26551,6 +25801,507 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
       /* "cfuncs_ErosionDeposition.pyx":206
  *         cdef int n_gs = shape[1]
  * 
+ *         for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
+ *             node = core_nodes[index]
+ * 
+*/
+      /*finally:*/ {
+        /*normal exit:*/{
+          __Pyx_FastGIL_Forget();
+          PyEval_RestoreThread(_save);
+          goto __pyx_L5;
+        }
+        __pyx_L4_error: {
+          __Pyx_FastGIL_Forget();
+          PyEval_RestoreThread(_save);
+          goto __pyx_L1_error;
+        }
+        __pyx_L5:;
+      }
+  }
+
+  /* "cfuncs_ErosionDeposition.pyx":212
+ *                 CQ[node, gs] = c_kg[node, gs] * q[node] * dx
+ * 
+ *         return CQ             # <<<<<<<<<<<<<<
+ * 
+ * 
+*/
+  __Pyx_XDECREF(__pyx_r);
+  __Pyx_INCREF((PyObject *)__pyx_v_CQ);
+  __pyx_r = ((PyObject *)__pyx_v_CQ);
+  goto __pyx_L0;
+
+  /* "cfuncs_ErosionDeposition.pyx":192
+ * 
+ * 
+ * def calc_CQ(             # <<<<<<<<<<<<<<
+ *         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] c_kg,
+ *         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] CQ,
+*/
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_2);
+  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
+    __Pyx_PyThreadState_declare
+    __Pyx_PyThreadState_assign
+    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_CQ.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_c_kg.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_q.rcbuffer->pybuffer);
+  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
+  __Pyx_AddTraceback("cfuncs_ErosionDeposition.calc_CQ", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  goto __pyx_L2;
+  __pyx_L0:;
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_CQ.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_c_kg.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_q.rcbuffer->pybuffer);
+  __pyx_L2:;
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "cfuncs_ErosionDeposition.pyx":216
+ * 
+ * 
+ * def calc_flux_at_link_per_size(             # <<<<<<<<<<<<<<
+ *         cnp.ndarray[DTYPE_FLOAT_t, ndim=1] q_water_at_link,
+ *         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] suspended__sediments_concentration_at_link,
+*/
+
+/* Python wrapper */
+static PyObject *__pyx_pw_24cfuncs_ErosionDeposition_13calc_flux_at_link_per_size(PyObject *__pyx_self, 
+#if CYTHON_METH_FASTCALL
+PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
+#else
+PyObject *__pyx_args, PyObject *__pyx_kwds
+#endif
+); /*proto*/
+static PyMethodDef __pyx_mdef_24cfuncs_ErosionDeposition_13calc_flux_at_link_per_size = {"calc_flux_at_link_per_size", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_24cfuncs_ErosionDeposition_13calc_flux_at_link_per_size, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_24cfuncs_ErosionDeposition_13calc_flux_at_link_per_size(PyObject *__pyx_self, 
+#if CYTHON_METH_FASTCALL
+PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
+#else
+PyObject *__pyx_args, PyObject *__pyx_kwds
+#endif
+) {
+  PyArrayObject *__pyx_v_q_water_at_link = 0;
+  PyArrayObject *__pyx_v_suspended__sediments_concentration_at_link = 0;
+  PyArrayObject *__pyx_v_active_links = 0;
+  PyArrayObject *__pyx_v_weight_flux_at_link = 0;
+  PyObject *__pyx_v_shape = 0;
+  #if !CYTHON_METH_FASTCALL
+  CYTHON_UNUSED Py_ssize_t __pyx_nargs;
+  #endif
+  CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
+  PyObject* values[5] = {0,0,0,0,0};
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("calc_flux_at_link_per_size (wrapper)", 0);
+  #if !CYTHON_METH_FASTCALL
+  #if CYTHON_ASSUME_SAFE_SIZE
+  __pyx_nargs = PyTuple_GET_SIZE(__pyx_args);
+  #else
+  __pyx_nargs = PyTuple_Size(__pyx_args); if (unlikely(__pyx_nargs < 0)) return NULL;
+  #endif
+  #endif
+  __pyx_kwvalues = __Pyx_KwValues_FASTCALL(__pyx_args, __pyx_nargs);
+  {
+    PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_q_water_at_link,&__pyx_mstate_global->__pyx_n_u_suspended__sediments_concentrati,&__pyx_mstate_global->__pyx_n_u_active_links,&__pyx_mstate_global->__pyx_n_u_weight_flux_at_link,&__pyx_mstate_global->__pyx_n_u_shape,0};
+    const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 216, __pyx_L3_error)
+    if (__pyx_kwds_len > 0) {
+      switch (__pyx_nargs) {
+        case  5:
+        values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 216, __pyx_L3_error)
+        CYTHON_FALLTHROUGH;
+        case  4:
+        values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 216, __pyx_L3_error)
+        CYTHON_FALLTHROUGH;
+        case  3:
+        values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 216, __pyx_L3_error)
+        CYTHON_FALLTHROUGH;
+        case  2:
+        values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 216, __pyx_L3_error)
+        CYTHON_FALLTHROUGH;
+        case  1:
+        values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 216, __pyx_L3_error)
+        CYTHON_FALLTHROUGH;
+        case  0: break;
+        default: goto __pyx_L5_argtuple_error;
+      }
+      const Py_ssize_t kwd_pos_args = __pyx_nargs;
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_flux_at_link_per_size", 0) < (0)) __PYX_ERR(0, 216, __pyx_L3_error)
+      for (Py_ssize_t i = __pyx_nargs; i < 5; i++) {
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_flux_at_link_per_size", 1, 5, 5, i); __PYX_ERR(0, 216, __pyx_L3_error) }
+      }
+    } else if (unlikely(__pyx_nargs != 5)) {
+      goto __pyx_L5_argtuple_error;
+    } else {
+      values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 216, __pyx_L3_error)
+      values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 216, __pyx_L3_error)
+      values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 216, __pyx_L3_error)
+      values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 216, __pyx_L3_error)
+      values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 216, __pyx_L3_error)
+    }
+    __pyx_v_q_water_at_link = ((PyArrayObject *)values[0]);
+    __pyx_v_suspended__sediments_concentration_at_link = ((PyArrayObject *)values[1]);
+    __pyx_v_active_links = ((PyArrayObject *)values[2]);
+    __pyx_v_weight_flux_at_link = ((PyArrayObject *)values[3]);
+    __pyx_v_shape = values[4];
+  }
+  goto __pyx_L6_skip;
+  __pyx_L5_argtuple_error:;
+  __Pyx_RaiseArgtupleInvalid("calc_flux_at_link_per_size", 1, 5, 5, __pyx_nargs); __PYX_ERR(0, 216, __pyx_L3_error)
+  __pyx_L6_skip:;
+  goto __pyx_L4_argument_unpacking_done;
+  __pyx_L3_error:;
+  for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
+    Py_XDECREF(values[__pyx_temp]);
+  }
+  __Pyx_AddTraceback("cfuncs_ErosionDeposition.calc_flux_at_link_per_size", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_RefNannyFinishContext();
+  return NULL;
+  __pyx_L4_argument_unpacking_done:;
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_q_water_at_link), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "q_water_at_link", 0))) __PYX_ERR(0, 217, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_suspended__sediments_concentration_at_link), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "suspended__sediments_concentration_at_link", 0))) __PYX_ERR(0, 218, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_active_links), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "active_links", 0))) __PYX_ERR(0, 219, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_weight_flux_at_link), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "weight_flux_at_link", 0))) __PYX_ERR(0, 220, __pyx_L1_error)
+  __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_size(__pyx_self, __pyx_v_q_water_at_link, __pyx_v_suspended__sediments_concentration_at_link, __pyx_v_active_links, __pyx_v_weight_flux_at_link, __pyx_v_shape);
+
+  /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __pyx_r = NULL;
+  for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
+    Py_XDECREF(values[__pyx_temp]);
+  }
+  goto __pyx_L7_cleaned_up;
+  __pyx_L0:;
+  for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
+    Py_XDECREF(values[__pyx_temp]);
+  }
+  __pyx_L7_cleaned_up:;
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_12calc_flux_at_link_per_size(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_q_water_at_link, PyArrayObject *__pyx_v_suspended__sediments_concentration_at_link, PyArrayObject *__pyx_v_active_links, PyArrayObject *__pyx_v_weight_flux_at_link, PyObject *__pyx_v_shape) {
+  int __pyx_v_link;
+  int __pyx_v_index;
+  int __pyx_v_gs;
+  int __pyx_v_n_links;
+  int __pyx_v_n_gs;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_active_links;
+  __Pyx_Buffer __pyx_pybuffer_active_links;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_q_water_at_link;
+  __Pyx_Buffer __pyx_pybuffer_q_water_at_link;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_suspended__sediments_concentration_at_link;
+  __Pyx_Buffer __pyx_pybuffer_suspended__sediments_concentration_at_link;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_weight_flux_at_link;
+  __Pyx_Buffer __pyx_pybuffer_weight_flux_at_link;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  PyObject *__pyx_t_1 = NULL;
+  int __pyx_t_2;
+  int __pyx_t_3;
+  int __pyx_t_4;
+  Py_ssize_t __pyx_t_5;
+  int __pyx_t_6;
+  int __pyx_t_7;
+  int __pyx_t_8;
+  int __pyx_t_9;
+  Py_ssize_t __pyx_t_10;
+  Py_ssize_t __pyx_t_11;
+  Py_ssize_t __pyx_t_12;
+  Py_ssize_t __pyx_t_13;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("calc_flux_at_link_per_size", 0);
+  __pyx_pybuffer_q_water_at_link.pybuffer.buf = NULL;
+  __pyx_pybuffer_q_water_at_link.refcount = 0;
+  __pyx_pybuffernd_q_water_at_link.data = NULL;
+  __pyx_pybuffernd_q_water_at_link.rcbuffer = &__pyx_pybuffer_q_water_at_link;
+  __pyx_pybuffer_suspended__sediments_concentration_at_link.pybuffer.buf = NULL;
+  __pyx_pybuffer_suspended__sediments_concentration_at_link.refcount = 0;
+  __pyx_pybuffernd_suspended__sediments_concentration_at_link.data = NULL;
+  __pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer = &__pyx_pybuffer_suspended__sediments_concentration_at_link;
+  __pyx_pybuffer_active_links.pybuffer.buf = NULL;
+  __pyx_pybuffer_active_links.refcount = 0;
+  __pyx_pybuffernd_active_links.data = NULL;
+  __pyx_pybuffernd_active_links.rcbuffer = &__pyx_pybuffer_active_links;
+  __pyx_pybuffer_weight_flux_at_link.pybuffer.buf = NULL;
+  __pyx_pybuffer_weight_flux_at_link.refcount = 0;
+  __pyx_pybuffernd_weight_flux_at_link.data = NULL;
+  __pyx_pybuffernd_weight_flux_at_link.rcbuffer = &__pyx_pybuffer_weight_flux_at_link;
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_q_water_at_link.rcbuffer->pybuffer, (PyObject*)__pyx_v_q_water_at_link, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 216, __pyx_L1_error)
+  }
+  __pyx_pybuffernd_q_water_at_link.diminfo[0].strides = __pyx_pybuffernd_q_water_at_link.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_q_water_at_link.diminfo[0].shape = __pyx_pybuffernd_q_water_at_link.rcbuffer->pybuffer.shape[0];
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer->pybuffer, (PyObject*)__pyx_v_suspended__sediments_concentration_at_link, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 216, __pyx_L1_error)
+  }
+  __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[0].strides = __pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[0].shape = __pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[1].strides = __pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[1].shape = __pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer->pybuffer.shape[1];
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_active_links.rcbuffer->pybuffer, (PyObject*)__pyx_v_active_links, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 216, __pyx_L1_error)
+  }
+  __pyx_pybuffernd_active_links.diminfo[0].strides = __pyx_pybuffernd_active_links.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_active_links.diminfo[0].shape = __pyx_pybuffernd_active_links.rcbuffer->pybuffer.shape[0];
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer, (PyObject*)__pyx_v_weight_flux_at_link, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 216, __pyx_L1_error)
+  }
+  __pyx_pybuffernd_weight_flux_at_link.diminfo[0].strides = __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape = __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_weight_flux_at_link.diminfo[1].strides = __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape = __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.shape[1];
+
+  /* "cfuncs_ErosionDeposition.pyx":225
+ * 
+ *         cdef int link, index, gs
+ *         cdef int n_links = shape[0]             # <<<<<<<<<<<<<<
+ *         cdef int n_gs = shape[1]
+ * 
+*/
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 225, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 225, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_n_links = __pyx_t_2;
+
+  /* "cfuncs_ErosionDeposition.pyx":226
+ *         cdef int link, index, gs
+ *         cdef int n_links = shape[0]
+ *         cdef int n_gs = shape[1]             # <<<<<<<<<<<<<<
+ * 
+ *         for index in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):
+*/
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 226, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 226, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_n_gs = __pyx_t_2;
+
+  /* "cfuncs_ErosionDeposition.pyx":228
+ *         cdef int n_gs = shape[1]
+ * 
+ *         for index in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
+ *             link = active_links[index]
+ * 
+*/
+  {
+      PyThreadState * _save;
+      _save = PyEval_SaveThread();
+      __Pyx_FastGIL_Remember();
+      /*try:*/ {
+        __pyx_t_2 = __pyx_v_n_links;
+        {
+            const char *__pyx_parallel_filename = NULL; int __pyx_parallel_lineno = 0, __pyx_parallel_clineno = 0;
+            PyObject *__pyx_parallel_exc_type = NULL, *__pyx_parallel_exc_value = NULL, *__pyx_parallel_exc_tb = NULL;
+            #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
+            PyMutex __pyx_parallel_freethreading_mutex = {0};
+            #endif
+            int __pyx_parallel_why;
+            __pyx_parallel_why = 0;
+            #if ((defined(__APPLE__) || defined(__OSX__)) && (defined(__GNUC__) && (__GNUC__ > 2 || (__GNUC__ == 2 && (__GNUC_MINOR__ > 95)))))
+                #undef likely
+                #undef unlikely
+                #define likely(x)   (x)
+                #define unlikely(x) (x)
+            #endif
+            __pyx_t_4 = (__pyx_t_2 - 0 + 1 - 1/abs(1)) / 1;
+            if (__pyx_t_4 > 0)
+            {
+                #ifdef _OPENMP
+                #pragma omp parallel num_threads(__pyx_v_24cfuncs_ErosionDeposition_N_THREADS) private(__pyx_t_10, __pyx_t_11, __pyx_t_12, __pyx_t_13, __pyx_t_5, __pyx_t_6, __pyx_t_7, __pyx_t_8, __pyx_t_9) __Pyx_shared_in_cpython_freethreading(__pyx_parallel_freethreading_mutex) private(__pyx_filename, __pyx_lineno, __pyx_clineno) shared(__pyx_parallel_why, __pyx_parallel_exc_type, __pyx_parallel_exc_value, __pyx_parallel_exc_tb)
+                #endif /* _OPENMP */
+                {
+                    #ifdef _OPENMP
+                    PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
+                    Py_BEGIN_ALLOW_THREADS
+                    #endif /* _OPENMP */
+                    #ifdef _OPENMP
+                    #pragma omp for firstprivate(__pyx_v_gs) lastprivate(__pyx_v_gs) firstprivate(__pyx_v_index) lastprivate(__pyx_v_index) firstprivate(__pyx_v_link) lastprivate(__pyx_v_link) schedule(static)
+                    #endif /* _OPENMP */
+                    for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_4; __pyx_t_3++){
+                        if (__pyx_parallel_why < 2)
+                        {
+                            __pyx_v_index = (int)(0 + 1 * __pyx_t_3);
+
+                            /* "cfuncs_ErosionDeposition.pyx":229
+ * 
+ *         for index in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):
+ *             link = active_links[index]             # <<<<<<<<<<<<<<
+ * 
+ *             for gs in range(n_gs):
+*/
+                            __pyx_t_5 = __pyx_v_index;
+                            __pyx_t_6 = -1;
+                            if (__pyx_t_5 < 0) {
+                              __pyx_t_5 += __pyx_pybuffernd_active_links.diminfo[0].shape;
+                              if (unlikely(__pyx_t_5 < 0)) __pyx_t_6 = 0;
+                            } else if (unlikely(__pyx_t_5 >= __pyx_pybuffernd_active_links.diminfo[0].shape)) __pyx_t_6 = 0;
+                            if (unlikely(__pyx_t_6 != -1)) {
+                              __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_6);
+                              __PYX_ERR(0, 229, __pyx_L8_error)
+                            }
+                            __pyx_v_link = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_active_links.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_active_links.diminfo[0].strides));
+
+                            /* "cfuncs_ErosionDeposition.pyx":231
+ *             link = active_links[index]
+ * 
+ *             for gs in range(n_gs):             # <<<<<<<<<<<<<<
+ *                 weight_flux_at_link[link, gs] = q_water_at_link[link] * suspended__sediments_concentration_at_link[link, gs]
+ * 
+*/
+                            __pyx_t_6 = __pyx_v_n_gs;
+                            __pyx_t_7 = __pyx_t_6;
+                            for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
+                              __pyx_v_gs = __pyx_t_8;
+
+                              /* "cfuncs_ErosionDeposition.pyx":232
+ * 
+ *             for gs in range(n_gs):
+ *                 weight_flux_at_link[link, gs] = q_water_at_link[link] * suspended__sediments_concentration_at_link[link, gs]             # <<<<<<<<<<<<<<
+ * 
+ *         return weight_flux_at_link
+*/
+                              __pyx_t_5 = __pyx_v_link;
+                              __pyx_t_9 = -1;
+                              if (__pyx_t_5 < 0) {
+                                __pyx_t_5 += __pyx_pybuffernd_q_water_at_link.diminfo[0].shape;
+                                if (unlikely(__pyx_t_5 < 0)) __pyx_t_9 = 0;
+                              } else if (unlikely(__pyx_t_5 >= __pyx_pybuffernd_q_water_at_link.diminfo[0].shape)) __pyx_t_9 = 0;
+                              if (unlikely(__pyx_t_9 != -1)) {
+                                __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_9);
+                                __PYX_ERR(0, 232, __pyx_L8_error)
+                              }
+                              __pyx_t_10 = __pyx_v_link;
+                              __pyx_t_11 = __pyx_v_gs;
+                              __pyx_t_9 = -1;
+                              if (__pyx_t_10 < 0) {
+                                __pyx_t_10 += __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[0].shape;
+                                if (unlikely(__pyx_t_10 < 0)) __pyx_t_9 = 0;
+                              } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[0].shape)) __pyx_t_9 = 0;
+                              if (__pyx_t_11 < 0) {
+                                __pyx_t_11 += __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[1].shape;
+                                if (unlikely(__pyx_t_11 < 0)) __pyx_t_9 = 1;
+                              } else if (unlikely(__pyx_t_11 >= __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[1].shape)) __pyx_t_9 = 1;
+                              if (unlikely(__pyx_t_9 != -1)) {
+                                __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_9);
+                                __PYX_ERR(0, 232, __pyx_L8_error)
+                              }
+                              __pyx_t_12 = __pyx_v_link;
+                              __pyx_t_13 = __pyx_v_gs;
+                              __pyx_t_9 = -1;
+                              if (__pyx_t_12 < 0) {
+                                __pyx_t_12 += __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape;
+                                if (unlikely(__pyx_t_12 < 0)) __pyx_t_9 = 0;
+                              } else if (unlikely(__pyx_t_12 >= __pyx_pybuffernd_weight_flux_at_link.diminfo[0].shape)) __pyx_t_9 = 0;
+                              if (__pyx_t_13 < 0) {
+                                __pyx_t_13 += __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape;
+                                if (unlikely(__pyx_t_13 < 0)) __pyx_t_9 = 1;
+                              } else if (unlikely(__pyx_t_13 >= __pyx_pybuffernd_weight_flux_at_link.diminfo[1].shape)) __pyx_t_9 = 1;
+                              if (unlikely(__pyx_t_9 != -1)) {
+                                __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_9);
+                                __PYX_ERR(0, 232, __pyx_L8_error)
+                              }
+                              *__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_weight_flux_at_link.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_weight_flux_at_link.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_weight_flux_at_link.diminfo[1].strides) = ((*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_q_water_at_link.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_q_water_at_link.diminfo[0].strides)) * (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_suspended__sediments_concentration_at_link.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_suspended__sediments_concentration_at_link.diminfo[1].strides)));
+                            }
+                            goto __pyx_L13;
+                            __pyx_L8_error:;
+                            {
+                                PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
+                                #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
+                                PyMutex_Lock(&__pyx_parallel_freethreading_mutex);
+                                #endif
+                                #ifdef _OPENMP
+                                #pragma omp flush(__pyx_parallel_exc_type)
+                                #endif /* _OPENMP */
+                                if (!__pyx_parallel_exc_type) {
+                                  __Pyx_ErrFetchWithState(&__pyx_parallel_exc_type, &__pyx_parallel_exc_value, &__pyx_parallel_exc_tb);
+                                  __pyx_parallel_filename = __pyx_filename; __pyx_parallel_lineno = __pyx_lineno; __pyx_parallel_clineno = __pyx_clineno;
+                                  __Pyx_GOTREF(__pyx_parallel_exc_type);
+                                }
+                                #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
+                                PyMutex_Unlock(&__pyx_parallel_freethreading_mutex);
+                                #endif
+                                __Pyx_PyGILState_Release(__pyx_gilstate_save);
+                            }
+                            __pyx_parallel_why = 4;
+                            goto __pyx_L13;
+                            __pyx_L13:;
+                            #ifdef _OPENMP
+                            #pragma omp flush(__pyx_parallel_why)
+                            #endif /* _OPENMP */
+                        }
+                    }
+                    #ifdef _OPENMP
+                    Py_END_ALLOW_THREADS
+                    #else
+{
+PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
+                    #endif /* _OPENMP */
+                    /* Clean up any temporaries */
+                    __Pyx_PyGILState_Release(__pyx_gilstate_save);
+                    #ifndef _OPENMP
+}
+#endif /* _OPENMP */
+                }
+            }
+            if (__pyx_parallel_exc_type) {
+              /* This may have been overridden by a continue, break or return in another thread. Prefer the error. */
+              __pyx_parallel_why = 4;
+            }
+            if (__pyx_parallel_why) {
+              switch (__pyx_parallel_why) {
+                    case 4:
+                {
+                    PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
+                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
+                    PyMutex_Lock(&__pyx_parallel_freethreading_mutex);
+                    #endif
+                    __Pyx_GIVEREF(__pyx_parallel_exc_type);
+                    __Pyx_ErrRestoreWithState(__pyx_parallel_exc_type, __pyx_parallel_exc_value, __pyx_parallel_exc_tb);
+                    __pyx_filename = __pyx_parallel_filename; __pyx_lineno = __pyx_parallel_lineno; __pyx_clineno = __pyx_parallel_clineno;
+                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
+                    PyMutex_Unlock(&__pyx_parallel_freethreading_mutex);
+                    #endif
+                    __Pyx_PyGILState_Release(__pyx_gilstate_save);
+                }
+                goto __pyx_L4_error;
+              }
+            }
+        }
+        #if ((defined(__APPLE__) || defined(__OSX__)) && (defined(__GNUC__) && (__GNUC__ > 2 || (__GNUC__ == 2 && (__GNUC_MINOR__ > 95)))))
+            #undef likely
+            #undef unlikely
+            #define likely(x)   __builtin_expect(!!(x), 1)
+            #define unlikely(x) __builtin_expect(!!(x), 0)
+        #endif
+      }
+
+      /* "cfuncs_ErosionDeposition.pyx":228
+ *         cdef int n_gs = shape[1]
+ * 
  *         for index in prange(n_links, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
  *             link = active_links[index]
  * 
@@ -26570,7 +26321,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
       }
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":212
+  /* "cfuncs_ErosionDeposition.pyx":234
  *                 weight_flux_at_link[link, gs] = q_water_at_link[link] * suspended__sediments_concentration_at_link[link, gs]
  * 
  *         return weight_flux_at_link             # <<<<<<<<<<<<<<
@@ -26582,7 +26333,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
   __pyx_r = ((PyObject *)__pyx_v_weight_flux_at_link);
   goto __pyx_L0;
 
-  /* "cfuncs_ErosionDeposition.pyx":194
+  /* "cfuncs_ErosionDeposition.pyx":216
  * 
  * 
  * def calc_flux_at_link_per_size(             # <<<<<<<<<<<<<<
@@ -26616,7 +26367,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
   return __pyx_r;
 }
 
-/* "cfuncs_ErosionDeposition.pyx":216
+/* "cfuncs_ErosionDeposition.pyx":238
  * 
  * 
  * def calc_DR(             # <<<<<<<<<<<<<<
@@ -26672,80 +26423,80 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_flow_width,&__pyx_mstate_global->__pyx_n_u_CQ,&__pyx_mstate_global->__pyx_n_u_TC,&__pyx_mstate_global->__pyx_n_u_Dc,&__pyx_mstate_global->__pyx_n_u_vs,&__pyx_mstate_global->__pyx_n_u_active_nodes,&__pyx_mstate_global->__pyx_n_u_q_at_node,&__pyx_mstate_global->__pyx_n_u_out,&__pyx_mstate_global->__pyx_n_u_dx_c,&__pyx_mstate_global->__pyx_n_u_shape,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 216, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 238, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case 10:
         values[9] = __Pyx_ArgRef_FASTCALL(__pyx_args, 9);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 216, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 238, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  9:
         values[8] = __Pyx_ArgRef_FASTCALL(__pyx_args, 8);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 216, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 238, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  8:
         values[7] = __Pyx_ArgRef_FASTCALL(__pyx_args, 7);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 216, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 238, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  7:
         values[6] = __Pyx_ArgRef_FASTCALL(__pyx_args, 6);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 216, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 238, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  6:
         values[5] = __Pyx_ArgRef_FASTCALL(__pyx_args, 5);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 216, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 238, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  5:
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 216, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 238, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 216, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 238, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 216, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 238, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 216, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 238, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 216, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 238, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_DR", 0) < (0)) __PYX_ERR(0, 216, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_DR", 0) < (0)) __PYX_ERR(0, 238, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 10; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_DR", 1, 10, 10, i); __PYX_ERR(0, 216, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_DR", 1, 10, 10, i); __PYX_ERR(0, 238, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 10)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 216, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 238, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 216, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 238, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 216, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 238, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 216, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 238, __pyx_L3_error)
       values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 216, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 238, __pyx_L3_error)
       values[5] = __Pyx_ArgRef_FASTCALL(__pyx_args, 5);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 216, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 238, __pyx_L3_error)
       values[6] = __Pyx_ArgRef_FASTCALL(__pyx_args, 6);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 216, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 238, __pyx_L3_error)
       values[7] = __Pyx_ArgRef_FASTCALL(__pyx_args, 7);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 216, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 238, __pyx_L3_error)
       values[8] = __Pyx_ArgRef_FASTCALL(__pyx_args, 8);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 216, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 238, __pyx_L3_error)
       values[9] = __Pyx_ArgRef_FASTCALL(__pyx_args, 9);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 216, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 238, __pyx_L3_error)
     }
     __pyx_v_flow_width = ((PyArrayObject *)values[0]);
     __pyx_v_CQ = ((PyArrayObject *)values[1]);
@@ -26760,7 +26511,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("calc_DR", 1, 10, 10, __pyx_nargs); __PYX_ERR(0, 216, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("calc_DR", 1, 10, 10, __pyx_nargs); __PYX_ERR(0, 238, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -26771,14 +26522,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_flow_width), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "flow_width", 0))) __PYX_ERR(0, 217, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_CQ), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "CQ", 0))) __PYX_ERR(0, 218, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_TC), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "TC", 0))) __PYX_ERR(0, 219, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_Dc), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "Dc", 0))) __PYX_ERR(0, 220, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_vs), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "vs", 0))) __PYX_ERR(0, 221, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_active_nodes), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "active_nodes", 0))) __PYX_ERR(0, 222, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_q_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "q_at_node", 0))) __PYX_ERR(0, 223, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_out), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "out", 0))) __PYX_ERR(0, 224, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_flow_width), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "flow_width", 0))) __PYX_ERR(0, 239, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_CQ), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "CQ", 0))) __PYX_ERR(0, 240, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_TC), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "TC", 0))) __PYX_ERR(0, 241, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_Dc), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "Dc", 0))) __PYX_ERR(0, 242, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_vs), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "vs", 0))) __PYX_ERR(0, 243, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_active_nodes), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "active_nodes", 0))) __PYX_ERR(0, 244, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_q_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "q_at_node", 0))) __PYX_ERR(0, 245, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_out), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "out", 0))) __PYX_ERR(0, 246, __pyx_L1_error)
   __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_14calc_DR(__pyx_self, __pyx_v_flow_width, __pyx_v_CQ, __pyx_v_TC, __pyx_v_Dc, __pyx_v_vs, __pyx_v_active_nodes, __pyx_v_q_at_node, __pyx_v_out, __pyx_v_dx_c, __pyx_v_shape);
 
   /* function exit code */
@@ -26878,82 +26629,82 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_14calc_DR(CYTHON_UNUSED PyO
   __pyx_pybuffernd_out.rcbuffer = &__pyx_pybuffer_out;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_flow_width.rcbuffer->pybuffer, (PyObject*)__pyx_v_flow_width, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 216, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_flow_width.rcbuffer->pybuffer, (PyObject*)__pyx_v_flow_width, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 238, __pyx_L1_error)
   }
   __pyx_pybuffernd_flow_width.diminfo[0].strides = __pyx_pybuffernd_flow_width.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_flow_width.diminfo[0].shape = __pyx_pybuffernd_flow_width.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_CQ.rcbuffer->pybuffer, (PyObject*)__pyx_v_CQ, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 216, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_CQ.rcbuffer->pybuffer, (PyObject*)__pyx_v_CQ, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 238, __pyx_L1_error)
   }
   __pyx_pybuffernd_CQ.diminfo[0].strides = __pyx_pybuffernd_CQ.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_CQ.diminfo[0].shape = __pyx_pybuffernd_CQ.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_CQ.diminfo[1].strides = __pyx_pybuffernd_CQ.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_CQ.diminfo[1].shape = __pyx_pybuffernd_CQ.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_TC.rcbuffer->pybuffer, (PyObject*)__pyx_v_TC, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 216, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_TC.rcbuffer->pybuffer, (PyObject*)__pyx_v_TC, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 238, __pyx_L1_error)
   }
   __pyx_pybuffernd_TC.diminfo[0].strides = __pyx_pybuffernd_TC.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_TC.diminfo[0].shape = __pyx_pybuffernd_TC.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_TC.diminfo[1].strides = __pyx_pybuffernd_TC.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_TC.diminfo[1].shape = __pyx_pybuffernd_TC.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_Dc.rcbuffer->pybuffer, (PyObject*)__pyx_v_Dc, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 216, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_Dc.rcbuffer->pybuffer, (PyObject*)__pyx_v_Dc, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 238, __pyx_L1_error)
   }
   __pyx_pybuffernd_Dc.diminfo[0].strides = __pyx_pybuffernd_Dc.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_Dc.diminfo[0].shape = __pyx_pybuffernd_Dc.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_Dc.diminfo[1].strides = __pyx_pybuffernd_Dc.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_Dc.diminfo[1].shape = __pyx_pybuffernd_Dc.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_vs.rcbuffer->pybuffer, (PyObject*)__pyx_v_vs, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 216, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_vs.rcbuffer->pybuffer, (PyObject*)__pyx_v_vs, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 238, __pyx_L1_error)
   }
   __pyx_pybuffernd_vs.diminfo[0].strides = __pyx_pybuffernd_vs.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_vs.diminfo[0].shape = __pyx_pybuffernd_vs.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_active_nodes.rcbuffer->pybuffer, (PyObject*)__pyx_v_active_nodes, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 216, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_active_nodes.rcbuffer->pybuffer, (PyObject*)__pyx_v_active_nodes, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 238, __pyx_L1_error)
   }
   __pyx_pybuffernd_active_nodes.diminfo[0].strides = __pyx_pybuffernd_active_nodes.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_active_nodes.diminfo[0].shape = __pyx_pybuffernd_active_nodes.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_q_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_q_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 216, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_q_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_q_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 238, __pyx_L1_error)
   }
   __pyx_pybuffernd_q_at_node.diminfo[0].strides = __pyx_pybuffernd_q_at_node.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_q_at_node.diminfo[0].shape = __pyx_pybuffernd_q_at_node.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_out.rcbuffer->pybuffer, (PyObject*)__pyx_v_out, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 216, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_out.rcbuffer->pybuffer, (PyObject*)__pyx_v_out, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 238, __pyx_L1_error)
   }
   __pyx_pybuffernd_out.diminfo[0].strides = __pyx_pybuffernd_out.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_out.diminfo[0].shape = __pyx_pybuffernd_out.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_out.diminfo[1].strides = __pyx_pybuffernd_out.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_out.diminfo[1].shape = __pyx_pybuffernd_out.rcbuffer->pybuffer.shape[1];
 
-  /* "cfuncs_ErosionDeposition.pyx":230
+  /* "cfuncs_ErosionDeposition.pyx":252
  * 
  * 
  *     cdef int n_nodes = shape[0]             # <<<<<<<<<<<<<<
  *     cdef int n_cols = shape[1]
  *     cdef int dx = dx_c
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 230, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 252, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 230, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 252, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_nodes = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":231
+  /* "cfuncs_ErosionDeposition.pyx":253
  * 
  *     cdef int n_nodes = shape[0]
  *     cdef int n_cols = shape[1]             # <<<<<<<<<<<<<<
  *     cdef int dx = dx_c
  *     cdef int  col, node, index
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 231, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 231, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_cols = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":232
+  /* "cfuncs_ErosionDeposition.pyx":254
  *     cdef int n_nodes = shape[0]
  *     cdef int n_cols = shape[1]
  *     cdef int dx = dx_c             # <<<<<<<<<<<<<<
  *     cdef int  col, node, index
  *     cdef double b
 */
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_v_dx_c); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 232, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_v_dx_c); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 254, __pyx_L1_error)
   __pyx_v_dx = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":237
+  /* "cfuncs_ErosionDeposition.pyx":259
  *     cdef double condition
  * 
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -26999,7 +26750,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_14calc_DR(CYTHON_UNUSED PyO
                         {
                             __pyx_v_index = (int)(0 + 1 * __pyx_t_3);
 
-                            /* "cfuncs_ErosionDeposition.pyx":238
+                            /* "cfuncs_ErosionDeposition.pyx":260
  * 
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):
  *         node = active_nodes[index]             # <<<<<<<<<<<<<<
@@ -27014,11 +26765,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_14calc_DR(CYTHON_UNUSED PyO
                             } else if (unlikely(__pyx_t_5 >= __pyx_pybuffernd_active_nodes.diminfo[0].shape)) __pyx_t_6 = 0;
                             if (unlikely(__pyx_t_6 != -1)) {
                               __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_6);
-                              __PYX_ERR(0, 238, __pyx_L8_error)
+                              __PYX_ERR(0, 260, __pyx_L8_error)
                             }
                             __pyx_v_node = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_active_nodes.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_active_nodes.diminfo[0].strides));
 
-                            /* "cfuncs_ErosionDeposition.pyx":239
+                            /* "cfuncs_ErosionDeposition.pyx":261
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):
  *         node = active_nodes[index]
  *         for col in range(n_cols):             # <<<<<<<<<<<<<<
@@ -27030,7 +26781,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_14calc_DR(CYTHON_UNUSED PyO
                             for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
                               __pyx_v_col = __pyx_t_8;
 
-                              /* "cfuncs_ErosionDeposition.pyx":240
+                              /* "cfuncs_ErosionDeposition.pyx":262
  *         node = active_nodes[index]
  *         for col in range(n_cols):
  *             condition = TC[node, col] * flow_width[node]             # <<<<<<<<<<<<<<
@@ -27050,7 +26801,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_14calc_DR(CYTHON_UNUSED PyO
                               } else if (unlikely(__pyx_t_9 >= __pyx_pybuffernd_TC.diminfo[1].shape)) __pyx_t_10 = 1;
                               if (unlikely(__pyx_t_10 != -1)) {
                                 __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                __PYX_ERR(0, 240, __pyx_L8_error)
+                                __PYX_ERR(0, 262, __pyx_L8_error)
                               }
                               __pyx_t_11 = __pyx_v_node;
                               __pyx_t_10 = -1;
@@ -27060,11 +26811,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_14calc_DR(CYTHON_UNUSED PyO
                               } else if (unlikely(__pyx_t_11 >= __pyx_pybuffernd_flow_width.diminfo[0].shape)) __pyx_t_10 = 0;
                               if (unlikely(__pyx_t_10 != -1)) {
                                 __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                __PYX_ERR(0, 240, __pyx_L8_error)
+                                __PYX_ERR(0, 262, __pyx_L8_error)
                               }
                               __pyx_v_condition = ((*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_TC.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_TC.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_TC.diminfo[1].strides)) * (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_flow_width.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_flow_width.diminfo[0].strides)));
 
-                              /* "cfuncs_ErosionDeposition.pyx":241
+                              /* "cfuncs_ErosionDeposition.pyx":263
  *         for col in range(n_cols):
  *             condition = TC[node, col] * flow_width[node]
  *             if CQ[node, col] < condition:             # <<<<<<<<<<<<<<
@@ -27084,12 +26835,12 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_14calc_DR(CYTHON_UNUSED PyO
                               } else if (unlikely(__pyx_t_9 >= __pyx_pybuffernd_CQ.diminfo[1].shape)) __pyx_t_10 = 1;
                               if (unlikely(__pyx_t_10 != -1)) {
                                 __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                __PYX_ERR(0, 241, __pyx_L8_error)
+                                __PYX_ERR(0, 263, __pyx_L8_error)
                               }
                               __pyx_t_12 = ((*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_CQ.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_CQ.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_CQ.diminfo[1].strides)) < __pyx_v_condition);
                               if (__pyx_t_12) {
 
-                                /* "cfuncs_ErosionDeposition.pyx":242
+                                /* "cfuncs_ErosionDeposition.pyx":264
  *             condition = TC[node, col] * flow_width[node]
  *             if CQ[node, col] < condition:
  *                 out[node, col] = ((1 - (CQ[node, col] / condition)) * Dc[node,col]) /  dx             # <<<<<<<<<<<<<<
@@ -27109,14 +26860,14 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_14calc_DR(CYTHON_UNUSED PyO
                                 } else if (unlikely(__pyx_t_11 >= __pyx_pybuffernd_CQ.diminfo[1].shape)) __pyx_t_10 = 1;
                                 if (unlikely(__pyx_t_10 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                  __PYX_ERR(0, 242, __pyx_L8_error)
+                                  __PYX_ERR(0, 264, __pyx_L8_error)
                                 }
                                 __pyx_t_13 = (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_CQ.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_CQ.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_CQ.diminfo[1].strides));
                                 if (unlikely(__pyx_v_condition == 0)) {
                                   PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                                   PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                                   __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                                  __PYX_ERR(0, 242, __pyx_L8_error)
+                                  __PYX_ERR(0, 264, __pyx_L8_error)
                                 }
                                 __pyx_t_11 = __pyx_v_node;
                                 __pyx_t_9 = __pyx_v_col;
@@ -27131,14 +26882,14 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_14calc_DR(CYTHON_UNUSED PyO
                                 } else if (unlikely(__pyx_t_9 >= __pyx_pybuffernd_Dc.diminfo[1].shape)) __pyx_t_10 = 1;
                                 if (unlikely(__pyx_t_10 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                  __PYX_ERR(0, 242, __pyx_L8_error)
+                                  __PYX_ERR(0, 264, __pyx_L8_error)
                                 }
                                 __pyx_t_14 = ((1.0 - (__pyx_t_13 / ((__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t)__pyx_v_condition))) * (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_Dc.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_Dc.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_Dc.diminfo[1].strides)));
                                 if (unlikely(__pyx_v_dx == 0)) {
                                   PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                                   PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                                   __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                                  __PYX_ERR(0, 242, __pyx_L8_error)
+                                  __PYX_ERR(0, 264, __pyx_L8_error)
                                 }
                                 __pyx_t_9 = __pyx_v_node;
                                 __pyx_t_11 = __pyx_v_col;
@@ -27153,11 +26904,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_14calc_DR(CYTHON_UNUSED PyO
                                 } else if (unlikely(__pyx_t_11 >= __pyx_pybuffernd_out.diminfo[1].shape)) __pyx_t_10 = 1;
                                 if (unlikely(__pyx_t_10 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                  __PYX_ERR(0, 242, __pyx_L8_error)
+                                  __PYX_ERR(0, 264, __pyx_L8_error)
                                 }
                                 *__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_out.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_out.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_out.diminfo[1].strides) = (__pyx_t_14 / ((__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t)__pyx_v_dx));
 
-                                /* "cfuncs_ErosionDeposition.pyx":241
+                                /* "cfuncs_ErosionDeposition.pyx":263
  *         for col in range(n_cols):
  *             condition = TC[node, col] * flow_width[node]
  *             if CQ[node, col] < condition:             # <<<<<<<<<<<<<<
@@ -27167,7 +26918,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_14calc_DR(CYTHON_UNUSED PyO
                                 goto __pyx_L12;
                               }
 
-                              /* "cfuncs_ErosionDeposition.pyx":243
+                              /* "cfuncs_ErosionDeposition.pyx":265
  *             if CQ[node, col] < condition:
  *                 out[node, col] = ((1 - (CQ[node, col] / condition)) * Dc[node,col]) /  dx
  *             elif CQ[node, col] > condition:             # <<<<<<<<<<<<<<
@@ -27187,12 +26938,12 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_14calc_DR(CYTHON_UNUSED PyO
                               } else if (unlikely(__pyx_t_9 >= __pyx_pybuffernd_CQ.diminfo[1].shape)) __pyx_t_10 = 1;
                               if (unlikely(__pyx_t_10 != -1)) {
                                 __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                __PYX_ERR(0, 243, __pyx_L8_error)
+                                __PYX_ERR(0, 265, __pyx_L8_error)
                               }
                               __pyx_t_12 = ((*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_CQ.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_CQ.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_CQ.diminfo[1].strides)) > __pyx_v_condition);
                               if (__pyx_t_12) {
 
-                                /* "cfuncs_ErosionDeposition.pyx":244
+                                /* "cfuncs_ErosionDeposition.pyx":266
  *                 out[node, col] = ((1 - (CQ[node, col] / condition)) * Dc[node,col]) /  dx
  *             elif CQ[node, col] > condition:
  *                 b = condition - CQ[node, col]             # <<<<<<<<<<<<<<
@@ -27212,11 +26963,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_14calc_DR(CYTHON_UNUSED PyO
                                 } else if (unlikely(__pyx_t_11 >= __pyx_pybuffernd_CQ.diminfo[1].shape)) __pyx_t_10 = 1;
                                 if (unlikely(__pyx_t_10 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                  __PYX_ERR(0, 244, __pyx_L8_error)
+                                  __PYX_ERR(0, 266, __pyx_L8_error)
                                 }
                                 __pyx_v_b = (__pyx_v_condition - (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_CQ.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_CQ.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_CQ.diminfo[1].strides)));
 
-                                /* "cfuncs_ErosionDeposition.pyx":245
+                                /* "cfuncs_ErosionDeposition.pyx":267
  *             elif CQ[node, col] > condition:
  *                 b = condition - CQ[node, col]
  *                 out[node,col] = (b * (0.5 * vs[col]) / q_at_node[node]) / dx             # <<<<<<<<<<<<<<
@@ -27231,7 +26982,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_14calc_DR(CYTHON_UNUSED PyO
                                 } else if (unlikely(__pyx_t_11 >= __pyx_pybuffernd_vs.diminfo[0].shape)) __pyx_t_10 = 0;
                                 if (unlikely(__pyx_t_10 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                  __PYX_ERR(0, 245, __pyx_L8_error)
+                                  __PYX_ERR(0, 267, __pyx_L8_error)
                                 }
                                 __pyx_t_14 = (__pyx_v_b * (0.5 * (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_vs.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_vs.diminfo[0].strides))));
                                 __pyx_t_11 = __pyx_v_node;
@@ -27242,21 +26993,21 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_14calc_DR(CYTHON_UNUSED PyO
                                 } else if (unlikely(__pyx_t_11 >= __pyx_pybuffernd_q_at_node.diminfo[0].shape)) __pyx_t_10 = 0;
                                 if (unlikely(__pyx_t_10 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                  __PYX_ERR(0, 245, __pyx_L8_error)
+                                  __PYX_ERR(0, 267, __pyx_L8_error)
                                 }
                                 __pyx_t_13 = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_q_at_node.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_q_at_node.diminfo[0].strides));
                                 if (unlikely(__pyx_t_13 == 0)) {
                                   PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                                   PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                                   __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                                  __PYX_ERR(0, 245, __pyx_L8_error)
+                                  __PYX_ERR(0, 267, __pyx_L8_error)
                                 }
                                 __pyx_t_15 = (__pyx_t_14 / __pyx_t_13);
                                 if (unlikely(__pyx_v_dx == 0)) {
                                   PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                                   PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                                   __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                                  __PYX_ERR(0, 245, __pyx_L8_error)
+                                  __PYX_ERR(0, 267, __pyx_L8_error)
                                 }
                                 __pyx_t_11 = __pyx_v_node;
                                 __pyx_t_9 = __pyx_v_col;
@@ -27271,11 +27022,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_14calc_DR(CYTHON_UNUSED PyO
                                 } else if (unlikely(__pyx_t_9 >= __pyx_pybuffernd_out.diminfo[1].shape)) __pyx_t_10 = 1;
                                 if (unlikely(__pyx_t_10 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                  __PYX_ERR(0, 245, __pyx_L8_error)
+                                  __PYX_ERR(0, 267, __pyx_L8_error)
                                 }
                                 *__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_out.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_out.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_out.diminfo[1].strides) = (__pyx_t_15 / ((__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t)__pyx_v_dx));
 
-                                /* "cfuncs_ErosionDeposition.pyx":243
+                                /* "cfuncs_ErosionDeposition.pyx":265
  *             if CQ[node, col] < condition:
  *                 out[node, col] = ((1 - (CQ[node, col] / condition)) * Dc[node,col]) /  dx
  *             elif CQ[node, col] > condition:             # <<<<<<<<<<<<<<
@@ -27358,7 +27109,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
         #endif
       }
 
-      /* "cfuncs_ErosionDeposition.pyx":237
+      /* "cfuncs_ErosionDeposition.pyx":259
  *     cdef double condition
  * 
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -27380,7 +27131,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
       }
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":249
+  /* "cfuncs_ErosionDeposition.pyx":271
  *             #     out[node,col] = 0.00000001
  * 
  *     return out             # <<<<<<<<<<<<<<
@@ -27392,7 +27143,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
   __pyx_r = ((PyObject *)__pyx_v_out);
   goto __pyx_L0;
 
-  /* "cfuncs_ErosionDeposition.pyx":216
+  /* "cfuncs_ErosionDeposition.pyx":238
  * 
  * 
  * def calc_DR(             # <<<<<<<<<<<<<<
@@ -27434,7 +27185,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
   return __pyx_r;
 }
 
-/* "cfuncs_ErosionDeposition.pyx":253
+/* "cfuncs_ErosionDeposition.pyx":275
  * 
  * 
  * def calc_Dc(             # <<<<<<<<<<<<<<
@@ -27486,56 +27237,56 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_tau_s,&__pyx_mstate_global->__pyx_n_u_tau_c,&__pyx_mstate_global->__pyx_n_u_core_nodes,&__pyx_mstate_global->__pyx_n_u_out,&__pyx_mstate_global->__pyx_n_u_kr_c,&__pyx_mstate_global->__pyx_n_u_shape,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 253, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 275, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  6:
         values[5] = __Pyx_ArgRef_FASTCALL(__pyx_args, 5);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 253, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 275, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  5:
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 253, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 275, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 253, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 275, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 253, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 275, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 253, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 275, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 253, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 275, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_Dc", 0) < (0)) __PYX_ERR(0, 253, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_Dc", 0) < (0)) __PYX_ERR(0, 275, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 6; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_Dc", 1, 6, 6, i); __PYX_ERR(0, 253, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_Dc", 1, 6, 6, i); __PYX_ERR(0, 275, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 6)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 253, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 275, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 253, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 275, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 253, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 275, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 253, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 275, __pyx_L3_error)
       values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 253, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 275, __pyx_L3_error)
       values[5] = __Pyx_ArgRef_FASTCALL(__pyx_args, 5);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 253, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 275, __pyx_L3_error)
     }
     __pyx_v_tau_s = ((PyArrayObject *)values[0]);
     __pyx_v_tau_c = ((PyArrayObject *)values[1]);
@@ -27546,7 +27297,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("calc_Dc", 1, 6, 6, __pyx_nargs); __PYX_ERR(0, 253, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("calc_Dc", 1, 6, 6, __pyx_nargs); __PYX_ERR(0, 275, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -27557,10 +27308,10 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_tau_s), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "tau_s", 0))) __PYX_ERR(0, 254, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_tau_c), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "tau_c", 0))) __PYX_ERR(0, 255, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_core_nodes), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "core_nodes", 0))) __PYX_ERR(0, 256, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_out), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "out", 0))) __PYX_ERR(0, 257, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_tau_s), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "tau_s", 0))) __PYX_ERR(0, 276, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_tau_c), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "tau_c", 0))) __PYX_ERR(0, 277, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_core_nodes), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "core_nodes", 0))) __PYX_ERR(0, 278, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_out), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "out", 0))) __PYX_ERR(0, 279, __pyx_L1_error)
   __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_16calc_Dc(__pyx_self, __pyx_v_tau_s, __pyx_v_tau_c, __pyx_v_core_nodes, __pyx_v_out, __pyx_v_kr_c, __pyx_v_shape);
 
   /* function exit code */
@@ -27633,62 +27384,62 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_16calc_Dc(CYTHON_UNUSED PyO
   __pyx_pybuffernd_out.rcbuffer = &__pyx_pybuffer_out;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_tau_s.rcbuffer->pybuffer, (PyObject*)__pyx_v_tau_s, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 253, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_tau_s.rcbuffer->pybuffer, (PyObject*)__pyx_v_tau_s, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 275, __pyx_L1_error)
   }
   __pyx_pybuffernd_tau_s.diminfo[0].strides = __pyx_pybuffernd_tau_s.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_tau_s.diminfo[0].shape = __pyx_pybuffernd_tau_s.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_tau_c.rcbuffer->pybuffer, (PyObject*)__pyx_v_tau_c, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 253, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_tau_c.rcbuffer->pybuffer, (PyObject*)__pyx_v_tau_c, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 275, __pyx_L1_error)
   }
   __pyx_pybuffernd_tau_c.diminfo[0].strides = __pyx_pybuffernd_tau_c.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_tau_c.diminfo[0].shape = __pyx_pybuffernd_tau_c.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_tau_c.diminfo[1].strides = __pyx_pybuffernd_tau_c.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_tau_c.diminfo[1].shape = __pyx_pybuffernd_tau_c.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer, (PyObject*)__pyx_v_core_nodes, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 253, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer, (PyObject*)__pyx_v_core_nodes, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 275, __pyx_L1_error)
   }
   __pyx_pybuffernd_core_nodes.diminfo[0].strides = __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_core_nodes.diminfo[0].shape = __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_out.rcbuffer->pybuffer, (PyObject*)__pyx_v_out, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 253, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_out.rcbuffer->pybuffer, (PyObject*)__pyx_v_out, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 275, __pyx_L1_error)
   }
   __pyx_pybuffernd_out.diminfo[0].strides = __pyx_pybuffernd_out.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_out.diminfo[0].shape = __pyx_pybuffernd_out.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_out.diminfo[1].strides = __pyx_pybuffernd_out.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_out.diminfo[1].shape = __pyx_pybuffernd_out.rcbuffer->pybuffer.shape[1];
 
-  /* "cfuncs_ErosionDeposition.pyx":265
+  /* "cfuncs_ErosionDeposition.pyx":287
  *         # tau in [Pa] = kg/(m s^2). Kept as the reference/default detachment model.
  * 
  *         cdef int n_nodes = shape[0]             # <<<<<<<<<<<<<<
  *         cdef int n_gs = shape[1]
  *         cdef double kr = kr_c
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 265, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 287, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 265, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 287, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_nodes = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":266
+  /* "cfuncs_ErosionDeposition.pyx":288
  * 
  *         cdef int n_nodes = shape[0]
  *         cdef int n_gs = shape[1]             # <<<<<<<<<<<<<<
  *         cdef double kr = kr_c
  *         cdef double excess_stress
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 266, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 288, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 266, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 288, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_gs = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":267
+  /* "cfuncs_ErosionDeposition.pyx":289
  *         cdef int n_nodes = shape[0]
  *         cdef int n_gs = shape[1]
  *         cdef double kr = kr_c             # <<<<<<<<<<<<<<
  *         cdef double excess_stress
  *         cdef int node, index, gs
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_kr_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 267, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_kr_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 289, __pyx_L1_error)
   __pyx_v_kr = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":271
+  /* "cfuncs_ErosionDeposition.pyx":293
  *         cdef int node, index, gs
  * 
  *         for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -27734,7 +27485,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_16calc_Dc(CYTHON_UNUSED PyO
                         {
                             __pyx_v_index = (int)(0 + 1 * __pyx_t_4);
 
-                            /* "cfuncs_ErosionDeposition.pyx":272
+                            /* "cfuncs_ErosionDeposition.pyx":294
  * 
  *         for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):
  *             node = core_nodes[index]             # <<<<<<<<<<<<<<
@@ -27749,11 +27500,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_16calc_Dc(CYTHON_UNUSED PyO
                             } else if (unlikely(__pyx_t_6 >= __pyx_pybuffernd_core_nodes.diminfo[0].shape)) __pyx_t_7 = 0;
                             if (unlikely(__pyx_t_7 != -1)) {
                               __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_7);
-                              __PYX_ERR(0, 272, __pyx_L8_error)
+                              __PYX_ERR(0, 294, __pyx_L8_error)
                             }
                             __pyx_v_node = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_core_nodes.diminfo[0].strides));
 
-                            /* "cfuncs_ErosionDeposition.pyx":274
+                            /* "cfuncs_ErosionDeposition.pyx":296
  *             node = core_nodes[index]
  * 
  *             for gs in range(n_gs):             # <<<<<<<<<<<<<<
@@ -27765,7 +27516,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_16calc_Dc(CYTHON_UNUSED PyO
                             for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
                               __pyx_v_gs = __pyx_t_9;
 
-                              /* "cfuncs_ErosionDeposition.pyx":275
+                              /* "cfuncs_ErosionDeposition.pyx":297
  * 
  *             for gs in range(n_gs):
  *                 excess_stress = tau_s[node] - tau_c[node, gs]             # <<<<<<<<<<<<<<
@@ -27780,7 +27531,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_16calc_Dc(CYTHON_UNUSED PyO
                               } else if (unlikely(__pyx_t_6 >= __pyx_pybuffernd_tau_s.diminfo[0].shape)) __pyx_t_10 = 0;
                               if (unlikely(__pyx_t_10 != -1)) {
                                 __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                __PYX_ERR(0, 275, __pyx_L8_error)
+                                __PYX_ERR(0, 297, __pyx_L8_error)
                               }
                               __pyx_t_11 = __pyx_v_node;
                               __pyx_t_12 = __pyx_v_gs;
@@ -27795,11 +27546,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_16calc_Dc(CYTHON_UNUSED PyO
                               } else if (unlikely(__pyx_t_12 >= __pyx_pybuffernd_tau_c.diminfo[1].shape)) __pyx_t_10 = 1;
                               if (unlikely(__pyx_t_10 != -1)) {
                                 __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                __PYX_ERR(0, 275, __pyx_L8_error)
+                                __PYX_ERR(0, 297, __pyx_L8_error)
                               }
                               __pyx_v_excess_stress = ((*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_tau_s.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_tau_s.diminfo[0].strides)) - (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_tau_c.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_tau_c.diminfo[0].strides, __pyx_t_12, __pyx_pybuffernd_tau_c.diminfo[1].strides)));
 
-                              /* "cfuncs_ErosionDeposition.pyx":276
+                              /* "cfuncs_ErosionDeposition.pyx":298
  *             for gs in range(n_gs):
  *                 excess_stress = tau_s[node] - tau_c[node, gs]
  *                 if excess_stress>0:             # <<<<<<<<<<<<<<
@@ -27809,7 +27560,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_16calc_Dc(CYTHON_UNUSED PyO
                               __pyx_t_13 = (__pyx_v_excess_stress > 0.0);
                               if (__pyx_t_13) {
 
-                                /* "cfuncs_ErosionDeposition.pyx":277
+                                /* "cfuncs_ErosionDeposition.pyx":299
  *                 excess_stress = tau_s[node] - tau_c[node, gs]
  *                 if excess_stress>0:
  *                     out[node, gs] = excess_stress * kr             # <<<<<<<<<<<<<<
@@ -27829,11 +27580,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_16calc_Dc(CYTHON_UNUSED PyO
                                 } else if (unlikely(__pyx_t_11 >= __pyx_pybuffernd_out.diminfo[1].shape)) __pyx_t_10 = 1;
                                 if (unlikely(__pyx_t_10 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_10);
-                                  __PYX_ERR(0, 277, __pyx_L8_error)
+                                  __PYX_ERR(0, 299, __pyx_L8_error)
                                 }
                                 *__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_out.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_out.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_out.diminfo[1].strides) = (__pyx_v_excess_stress * __pyx_v_kr);
 
-                                /* "cfuncs_ErosionDeposition.pyx":276
+                                /* "cfuncs_ErosionDeposition.pyx":298
  *             for gs in range(n_gs):
  *                 excess_stress = tau_s[node] - tau_c[node, gs]
  *                 if excess_stress>0:             # <<<<<<<<<<<<<<
@@ -27915,7 +27666,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
         #endif
       }
 
-      /* "cfuncs_ErosionDeposition.pyx":271
+      /* "cfuncs_ErosionDeposition.pyx":293
  *         cdef int node, index, gs
  * 
  *         for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -27937,7 +27688,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
       }
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":279
+  /* "cfuncs_ErosionDeposition.pyx":301
  *                     out[node, gs] = excess_stress * kr
  * 
  *         return out             # <<<<<<<<<<<<<<
@@ -27949,7 +27700,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
   __pyx_r = ((PyObject *)__pyx_v_out);
   goto __pyx_L0;
 
-  /* "cfuncs_ErosionDeposition.pyx":253
+  /* "cfuncs_ErosionDeposition.pyx":275
  * 
  * 
  * def calc_Dc(             # <<<<<<<<<<<<<<
@@ -27983,7 +27734,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
   return __pyx_r;
 }
 
-/* "cfuncs_ErosionDeposition.pyx":282
+/* "cfuncs_ErosionDeposition.pyx":304
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -28034,50 +27785,50 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_stream_power,&__pyx_mstate_global->__pyx_n_u_core_nodes,&__pyx_mstate_global->__pyx_n_u_out,&__pyx_mstate_global->__pyx_n_u_k_omega_c,&__pyx_mstate_global->__pyx_n_u_shape,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 282, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 304, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  5:
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 282, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 304, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 282, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 304, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 282, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 304, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 282, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 304, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 282, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 304, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_Dc_stream_power", 0) < (0)) __PYX_ERR(0, 282, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_Dc_stream_power", 0) < (0)) __PYX_ERR(0, 304, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 5; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_Dc_stream_power", 1, 5, 5, i); __PYX_ERR(0, 282, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_Dc_stream_power", 1, 5, 5, i); __PYX_ERR(0, 304, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 5)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 282, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 304, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 282, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 304, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 282, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 304, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 282, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 304, __pyx_L3_error)
       values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 282, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 304, __pyx_L3_error)
     }
     __pyx_v_stream_power = ((PyArrayObject *)values[0]);
     __pyx_v_core_nodes = ((PyArrayObject *)values[1]);
@@ -28087,7 +27838,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("calc_Dc_stream_power", 1, 5, 5, __pyx_nargs); __PYX_ERR(0, 282, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("calc_Dc_stream_power", 1, 5, 5, __pyx_nargs); __PYX_ERR(0, 304, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -28098,9 +27849,9 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_stream_power), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "stream_power", 0))) __PYX_ERR(0, 285, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_core_nodes), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "core_nodes", 0))) __PYX_ERR(0, 286, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_out), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "out", 0))) __PYX_ERR(0, 287, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_stream_power), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "stream_power", 0))) __PYX_ERR(0, 307, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_core_nodes), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "core_nodes", 0))) __PYX_ERR(0, 308, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_out), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "out", 0))) __PYX_ERR(0, 309, __pyx_L1_error)
   __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_18calc_Dc_stream_power(__pyx_self, __pyx_v_stream_power, __pyx_v_core_nodes, __pyx_v_out, __pyx_v_k_omega_c, __pyx_v_shape);
 
   /* function exit code */
@@ -28165,57 +27916,57 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_Dc_stream_power(CYTH
   __pyx_pybuffernd_out.rcbuffer = &__pyx_pybuffer_out;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_stream_power.rcbuffer->pybuffer, (PyObject*)__pyx_v_stream_power, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 282, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_stream_power.rcbuffer->pybuffer, (PyObject*)__pyx_v_stream_power, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 304, __pyx_L1_error)
   }
   __pyx_pybuffernd_stream_power.diminfo[0].strides = __pyx_pybuffernd_stream_power.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_stream_power.diminfo[0].shape = __pyx_pybuffernd_stream_power.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer, (PyObject*)__pyx_v_core_nodes, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 282, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer, (PyObject*)__pyx_v_core_nodes, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 304, __pyx_L1_error)
   }
   __pyx_pybuffernd_core_nodes.diminfo[0].strides = __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_core_nodes.diminfo[0].shape = __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_out.rcbuffer->pybuffer, (PyObject*)__pyx_v_out, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 282, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_out.rcbuffer->pybuffer, (PyObject*)__pyx_v_out, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 304, __pyx_L1_error)
   }
   __pyx_pybuffernd_out.diminfo[0].strides = __pyx_pybuffernd_out.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_out.diminfo[0].shape = __pyx_pybuffernd_out.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_out.diminfo[1].strides = __pyx_pybuffernd_out.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_out.diminfo[1].shape = __pyx_pybuffernd_out.rcbuffer->pybuffer.shape[1];
 
-  /* "cfuncs_ErosionDeposition.pyx":302
+  /* "cfuncs_ErosionDeposition.pyx":324
  *         #   -> Dc = k_omega * omega  has units kg/(m^2 s), matching calc_Dc.
  * 
  *         cdef int n_nodes = shape[0]             # <<<<<<<<<<<<<<
  *         cdef int n_gs = shape[1]
  *         cdef double k_omega = k_omega_c
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 302, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 324, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 302, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 324, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_nodes = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":303
+  /* "cfuncs_ErosionDeposition.pyx":325
  * 
  *         cdef int n_nodes = shape[0]
  *         cdef int n_gs = shape[1]             # <<<<<<<<<<<<<<
  *         cdef double k_omega = k_omega_c
  *         cdef double dc_node
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 303, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 325, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 303, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 325, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_gs = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":304
+  /* "cfuncs_ErosionDeposition.pyx":326
  *         cdef int n_nodes = shape[0]
  *         cdef int n_gs = shape[1]
  *         cdef double k_omega = k_omega_c             # <<<<<<<<<<<<<<
  *         cdef double dc_node
  *         cdef int node, index, gs
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_k_omega_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 304, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_k_omega_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 326, __pyx_L1_error)
   __pyx_v_k_omega = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":308
+  /* "cfuncs_ErosionDeposition.pyx":330
  *         cdef int node, index, gs
  * 
  *         for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -28249,7 +28000,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_Dc_stream_power(CYTH
                         {
                             __pyx_v_index = (int)(0 + 1 * __pyx_t_4);
 
-                            /* "cfuncs_ErosionDeposition.pyx":309
+                            /* "cfuncs_ErosionDeposition.pyx":331
  * 
  *         for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):
  *             node = core_nodes[index]             # <<<<<<<<<<<<<<
@@ -28259,7 +28010,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_Dc_stream_power(CYTH
                             __pyx_t_6 = __pyx_v_index;
                             __pyx_v_node = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_core_nodes.diminfo[0].strides));
 
-                            /* "cfuncs_ErosionDeposition.pyx":311
+                            /* "cfuncs_ErosionDeposition.pyx":333
  *             node = core_nodes[index]
  * 
  *             dc_node = k_omega * stream_power[node]             # <<<<<<<<<<<<<<
@@ -28269,7 +28020,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_Dc_stream_power(CYTH
                             __pyx_t_6 = __pyx_v_node;
                             __pyx_v_dc_node = (__pyx_v_k_omega * (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_stream_power.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_stream_power.diminfo[0].strides)));
 
-                            /* "cfuncs_ErosionDeposition.pyx":312
+                            /* "cfuncs_ErosionDeposition.pyx":334
  * 
  *             dc_node = k_omega * stream_power[node]
  *             if dc_node < 0:             # <<<<<<<<<<<<<<
@@ -28279,7 +28030,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_Dc_stream_power(CYTH
                             __pyx_t_7 = (__pyx_v_dc_node < 0.0);
                             if (__pyx_t_7) {
 
-                              /* "cfuncs_ErosionDeposition.pyx":313
+                              /* "cfuncs_ErosionDeposition.pyx":335
  *             dc_node = k_omega * stream_power[node]
  *             if dc_node < 0:
  *                 dc_node = 0.0             # <<<<<<<<<<<<<<
@@ -28288,7 +28039,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_Dc_stream_power(CYTH
 */
                               __pyx_v_dc_node = 0.0;
 
-                              /* "cfuncs_ErosionDeposition.pyx":312
+                              /* "cfuncs_ErosionDeposition.pyx":334
  * 
  *             dc_node = k_omega * stream_power[node]
  *             if dc_node < 0:             # <<<<<<<<<<<<<<
@@ -28297,7 +28048,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_Dc_stream_power(CYTH
 */
                             }
 
-                            /* "cfuncs_ErosionDeposition.pyx":315
+                            /* "cfuncs_ErosionDeposition.pyx":337
  *                 dc_node = 0.0
  * 
  *             for gs in range(n_gs):             # <<<<<<<<<<<<<<
@@ -28309,7 +28060,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_Dc_stream_power(CYTH
                             for (__pyx_t_10 = 0; __pyx_t_10 < __pyx_t_9; __pyx_t_10+=1) {
                               __pyx_v_gs = __pyx_t_10;
 
-                              /* "cfuncs_ErosionDeposition.pyx":316
+                              /* "cfuncs_ErosionDeposition.pyx":338
  * 
  *             for gs in range(n_gs):
  *                 out[node, gs] = dc_node             # <<<<<<<<<<<<<<
@@ -28333,7 +28084,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_Dc_stream_power(CYTH
         #endif
       }
 
-      /* "cfuncs_ErosionDeposition.pyx":308
+      /* "cfuncs_ErosionDeposition.pyx":330
  *         cdef int node, index, gs
  * 
  *         for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -28350,7 +28101,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_Dc_stream_power(CYTH
       }
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":318
+  /* "cfuncs_ErosionDeposition.pyx":340
  *                 out[node, gs] = dc_node
  * 
  *         return out             # <<<<<<<<<<<<<<
@@ -28362,7 +28113,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_Dc_stream_power(CYTH
   __pyx_r = ((PyObject *)__pyx_v_out);
   goto __pyx_L0;
 
-  /* "cfuncs_ErosionDeposition.pyx":282
+  /* "cfuncs_ErosionDeposition.pyx":304
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -28394,7 +28145,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_18calc_Dc_stream_power(CYTH
   return __pyx_r;
 }
 
-/* "cfuncs_ErosionDeposition.pyx":321
+/* "cfuncs_ErosionDeposition.pyx":343
  * 
  * 
  * def calc_detached_deposited(             # <<<<<<<<<<<<<<
@@ -28459,134 +28210,134 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_DR,&__pyx_mstate_global->__pyx_n_u_DR_abs,&__pyx_mstate_global->__pyx_n_u_grain_weight_at_node,&__pyx_mstate_global->__pyx_n_u_grain_fractions_at_node,&__pyx_mstate_global->__pyx_n_u_deatched_soil_weight,&__pyx_mstate_global->__pyx_n_u_deatched_bedrock_weight,&__pyx_mstate_global->__pyx_n_u_suspended_fraction_at_node,&__pyx_mstate_global->__pyx_n_u_bedrock_grain_fractions,&__pyx_mstate_global->__pyx_n_u_temp_suspended_sediment_weight_a,&__pyx_mstate_global->__pyx_n_u_deposited_suspended_sediments_we,&__pyx_mstate_global->__pyx_n_u_total_deposited_sediments_dz_at,&__pyx_mstate_global->__pyx_n_u_entrainment_soil_rate_dz,&__pyx_mstate_global->__pyx_n_u_entrainment_bedrock_rate_dz,&__pyx_mstate_global->__pyx_n_u_soil_e_expo,&__pyx_mstate_global->__pyx_n_u_core_nodes,&__pyx_mstate_global->__pyx_n_u_factor_convert_weight_to_dz_c,&__pyx_mstate_global->__pyx_n_u_factor_convert_weight_to_dz_bedr,&__pyx_mstate_global->__pyx_n_u_shape,&__pyx_mstate_global->__pyx_n_u_dx_c,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 321, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 343, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case 19:
         values[18] = __Pyx_ArgRef_FASTCALL(__pyx_args, 18);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[18])) __PYX_ERR(0, 321, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[18])) __PYX_ERR(0, 343, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case 18:
         values[17] = __Pyx_ArgRef_FASTCALL(__pyx_args, 17);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[17])) __PYX_ERR(0, 321, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[17])) __PYX_ERR(0, 343, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case 17:
         values[16] = __Pyx_ArgRef_FASTCALL(__pyx_args, 16);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[16])) __PYX_ERR(0, 321, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[16])) __PYX_ERR(0, 343, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case 16:
         values[15] = __Pyx_ArgRef_FASTCALL(__pyx_args, 15);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[15])) __PYX_ERR(0, 321, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[15])) __PYX_ERR(0, 343, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case 15:
         values[14] = __Pyx_ArgRef_FASTCALL(__pyx_args, 14);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[14])) __PYX_ERR(0, 321, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[14])) __PYX_ERR(0, 343, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case 14:
         values[13] = __Pyx_ArgRef_FASTCALL(__pyx_args, 13);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[13])) __PYX_ERR(0, 321, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[13])) __PYX_ERR(0, 343, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case 13:
         values[12] = __Pyx_ArgRef_FASTCALL(__pyx_args, 12);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[12])) __PYX_ERR(0, 321, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[12])) __PYX_ERR(0, 343, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case 12:
         values[11] = __Pyx_ArgRef_FASTCALL(__pyx_args, 11);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[11])) __PYX_ERR(0, 321, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[11])) __PYX_ERR(0, 343, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case 11:
         values[10] = __Pyx_ArgRef_FASTCALL(__pyx_args, 10);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[10])) __PYX_ERR(0, 321, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[10])) __PYX_ERR(0, 343, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case 10:
         values[9] = __Pyx_ArgRef_FASTCALL(__pyx_args, 9);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 321, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 343, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  9:
         values[8] = __Pyx_ArgRef_FASTCALL(__pyx_args, 8);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 321, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 343, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  8:
         values[7] = __Pyx_ArgRef_FASTCALL(__pyx_args, 7);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 321, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 343, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  7:
         values[6] = __Pyx_ArgRef_FASTCALL(__pyx_args, 6);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 321, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 343, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  6:
         values[5] = __Pyx_ArgRef_FASTCALL(__pyx_args, 5);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 321, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 343, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  5:
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 321, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 343, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 321, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 343, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 321, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 343, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 321, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 343, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 321, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 343, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_detached_deposited", 0) < (0)) __PYX_ERR(0, 321, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_detached_deposited", 0) < (0)) __PYX_ERR(0, 343, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 19; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_detached_deposited", 1, 19, 19, i); __PYX_ERR(0, 321, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_detached_deposited", 1, 19, 19, i); __PYX_ERR(0, 343, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 19)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 321, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 343, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 321, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 343, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 321, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 343, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 321, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 343, __pyx_L3_error)
       values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 321, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 343, __pyx_L3_error)
       values[5] = __Pyx_ArgRef_FASTCALL(__pyx_args, 5);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 321, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 343, __pyx_L3_error)
       values[6] = __Pyx_ArgRef_FASTCALL(__pyx_args, 6);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 321, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 343, __pyx_L3_error)
       values[7] = __Pyx_ArgRef_FASTCALL(__pyx_args, 7);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 321, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 343, __pyx_L3_error)
       values[8] = __Pyx_ArgRef_FASTCALL(__pyx_args, 8);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 321, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 343, __pyx_L3_error)
       values[9] = __Pyx_ArgRef_FASTCALL(__pyx_args, 9);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 321, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 343, __pyx_L3_error)
       values[10] = __Pyx_ArgRef_FASTCALL(__pyx_args, 10);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[10])) __PYX_ERR(0, 321, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[10])) __PYX_ERR(0, 343, __pyx_L3_error)
       values[11] = __Pyx_ArgRef_FASTCALL(__pyx_args, 11);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[11])) __PYX_ERR(0, 321, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[11])) __PYX_ERR(0, 343, __pyx_L3_error)
       values[12] = __Pyx_ArgRef_FASTCALL(__pyx_args, 12);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[12])) __PYX_ERR(0, 321, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[12])) __PYX_ERR(0, 343, __pyx_L3_error)
       values[13] = __Pyx_ArgRef_FASTCALL(__pyx_args, 13);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[13])) __PYX_ERR(0, 321, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[13])) __PYX_ERR(0, 343, __pyx_L3_error)
       values[14] = __Pyx_ArgRef_FASTCALL(__pyx_args, 14);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[14])) __PYX_ERR(0, 321, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[14])) __PYX_ERR(0, 343, __pyx_L3_error)
       values[15] = __Pyx_ArgRef_FASTCALL(__pyx_args, 15);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[15])) __PYX_ERR(0, 321, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[15])) __PYX_ERR(0, 343, __pyx_L3_error)
       values[16] = __Pyx_ArgRef_FASTCALL(__pyx_args, 16);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[16])) __PYX_ERR(0, 321, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[16])) __PYX_ERR(0, 343, __pyx_L3_error)
       values[17] = __Pyx_ArgRef_FASTCALL(__pyx_args, 17);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[17])) __PYX_ERR(0, 321, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[17])) __PYX_ERR(0, 343, __pyx_L3_error)
       values[18] = __Pyx_ArgRef_FASTCALL(__pyx_args, 18);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[18])) __PYX_ERR(0, 321, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[18])) __PYX_ERR(0, 343, __pyx_L3_error)
     }
     __pyx_v_DR = ((PyArrayObject *)values[0]);
     __pyx_v_DR_abs = ((PyArrayObject *)values[1]);
@@ -28610,7 +28361,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("calc_detached_deposited", 1, 19, 19, __pyx_nargs); __PYX_ERR(0, 321, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("calc_detached_deposited", 1, 19, 19, __pyx_nargs); __PYX_ERR(0, 343, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -28621,21 +28372,21 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_DR), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "DR", 0))) __PYX_ERR(0, 322, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_DR_abs), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "DR_abs", 0))) __PYX_ERR(0, 323, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_grain_weight_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "grain_weight_at_node", 0))) __PYX_ERR(0, 324, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_grain_fractions_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "grain_fractions_at_node", 0))) __PYX_ERR(0, 325, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_deatched_soil_weight), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "deatched_soil_weight", 0))) __PYX_ERR(0, 326, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_deatched_bedrock_weight), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "deatched_bedrock_weight", 0))) __PYX_ERR(0, 327, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_suspended_fraction_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "suspended_fraction_at_node", 0))) __PYX_ERR(0, 328, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_bedrock_grain_fractions), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "bedrock_grain_fractions", 0))) __PYX_ERR(0, 329, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_temp_suspended_sediment_weight_at_node_per_size), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "temp_suspended_sediment_weight_at_node_per_size", 0))) __PYX_ERR(0, 330, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_deposited_suspended_sediments_weights_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "deposited_suspended_sediments_weights_at_node", 0))) __PYX_ERR(0, 331, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_total_deposited_sediments_dz_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "total_deposited_sediments_dz_at_node", 0))) __PYX_ERR(0, 332, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_entrainment_soil_rate_dz), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "entrainment_soil_rate_dz", 0))) __PYX_ERR(0, 333, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_entrainment_bedrock_rate_dz), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "entrainment_bedrock_rate_dz", 0))) __PYX_ERR(0, 334, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_soil_e_expo), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "soil_e_expo", 0))) __PYX_ERR(0, 335, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_core_nodes), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "core_nodes", 0))) __PYX_ERR(0, 336, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_DR), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "DR", 0))) __PYX_ERR(0, 344, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_DR_abs), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "DR_abs", 0))) __PYX_ERR(0, 345, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_grain_weight_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "grain_weight_at_node", 0))) __PYX_ERR(0, 346, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_grain_fractions_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "grain_fractions_at_node", 0))) __PYX_ERR(0, 347, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_deatched_soil_weight), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "deatched_soil_weight", 0))) __PYX_ERR(0, 348, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_deatched_bedrock_weight), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "deatched_bedrock_weight", 0))) __PYX_ERR(0, 349, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_suspended_fraction_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "suspended_fraction_at_node", 0))) __PYX_ERR(0, 350, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_bedrock_grain_fractions), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "bedrock_grain_fractions", 0))) __PYX_ERR(0, 351, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_temp_suspended_sediment_weight_at_node_per_size), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "temp_suspended_sediment_weight_at_node_per_size", 0))) __PYX_ERR(0, 352, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_deposited_suspended_sediments_weights_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "deposited_suspended_sediments_weights_at_node", 0))) __PYX_ERR(0, 353, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_total_deposited_sediments_dz_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "total_deposited_sediments_dz_at_node", 0))) __PYX_ERR(0, 354, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_entrainment_soil_rate_dz), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "entrainment_soil_rate_dz", 0))) __PYX_ERR(0, 355, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_entrainment_bedrock_rate_dz), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "entrainment_bedrock_rate_dz", 0))) __PYX_ERR(0, 356, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_soil_e_expo), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "soil_e_expo", 0))) __PYX_ERR(0, 357, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_core_nodes), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "core_nodes", 0))) __PYX_ERR(0, 358, __pyx_L1_error)
   __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(__pyx_self, __pyx_v_DR, __pyx_v_DR_abs, __pyx_v_grain_weight_at_node, __pyx_v_grain_fractions_at_node, __pyx_v_deatched_soil_weight, __pyx_v_deatched_bedrock_weight, __pyx_v_suspended_fraction_at_node, __pyx_v_bedrock_grain_fractions, __pyx_v_temp_suspended_sediment_weight_at_node_per_size, __pyx_v_deposited_suspended_sediments_weights_at_node, __pyx_v_total_deposited_sediments_dz_at_node, __pyx_v_entrainment_soil_rate_dz, __pyx_v_entrainment_bedrock_rate_dz, __pyx_v_soil_e_expo, __pyx_v_core_nodes, __pyx_v_factor_convert_weight_to_dz_c, __pyx_v_factor_convert_weight_to_dz_bedrock_c, __pyx_v_shape, __pyx_v_dx_c);
 
   /* function exit code */
@@ -28783,137 +28534,137 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
   __pyx_pybuffernd_core_nodes.rcbuffer = &__pyx_pybuffer_core_nodes;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_DR.rcbuffer->pybuffer, (PyObject*)__pyx_v_DR, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 321, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_DR.rcbuffer->pybuffer, (PyObject*)__pyx_v_DR, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 343, __pyx_L1_error)
   }
   __pyx_pybuffernd_DR.diminfo[0].strides = __pyx_pybuffernd_DR.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_DR.diminfo[0].shape = __pyx_pybuffernd_DR.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_DR.diminfo[1].strides = __pyx_pybuffernd_DR.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_DR.diminfo[1].shape = __pyx_pybuffernd_DR.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_DR_abs.rcbuffer->pybuffer, (PyObject*)__pyx_v_DR_abs, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 321, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_DR_abs.rcbuffer->pybuffer, (PyObject*)__pyx_v_DR_abs, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 343, __pyx_L1_error)
   }
   __pyx_pybuffernd_DR_abs.diminfo[0].strides = __pyx_pybuffernd_DR_abs.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_DR_abs.diminfo[0].shape = __pyx_pybuffernd_DR_abs.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_DR_abs.diminfo[1].strides = __pyx_pybuffernd_DR_abs.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_DR_abs.diminfo[1].shape = __pyx_pybuffernd_DR_abs.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_grain_weight_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_grain_weight_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 321, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_grain_weight_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_grain_weight_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 343, __pyx_L1_error)
   }
   __pyx_pybuffernd_grain_weight_at_node.diminfo[0].strides = __pyx_pybuffernd_grain_weight_at_node.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_grain_weight_at_node.diminfo[0].shape = __pyx_pybuffernd_grain_weight_at_node.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_grain_weight_at_node.diminfo[1].strides = __pyx_pybuffernd_grain_weight_at_node.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_grain_weight_at_node.diminfo[1].shape = __pyx_pybuffernd_grain_weight_at_node.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_grain_fractions_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_grain_fractions_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 321, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_grain_fractions_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_grain_fractions_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 343, __pyx_L1_error)
   }
   __pyx_pybuffernd_grain_fractions_at_node.diminfo[0].strides = __pyx_pybuffernd_grain_fractions_at_node.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_grain_fractions_at_node.diminfo[0].shape = __pyx_pybuffernd_grain_fractions_at_node.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_grain_fractions_at_node.diminfo[1].strides = __pyx_pybuffernd_grain_fractions_at_node.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_grain_fractions_at_node.diminfo[1].shape = __pyx_pybuffernd_grain_fractions_at_node.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_deatched_soil_weight.rcbuffer->pybuffer, (PyObject*)__pyx_v_deatched_soil_weight, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 321, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_deatched_soil_weight.rcbuffer->pybuffer, (PyObject*)__pyx_v_deatched_soil_weight, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 343, __pyx_L1_error)
   }
   __pyx_pybuffernd_deatched_soil_weight.diminfo[0].strides = __pyx_pybuffernd_deatched_soil_weight.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_deatched_soil_weight.diminfo[0].shape = __pyx_pybuffernd_deatched_soil_weight.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_deatched_soil_weight.diminfo[1].strides = __pyx_pybuffernd_deatched_soil_weight.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_deatched_soil_weight.diminfo[1].shape = __pyx_pybuffernd_deatched_soil_weight.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_deatched_bedrock_weight.rcbuffer->pybuffer, (PyObject*)__pyx_v_deatched_bedrock_weight, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 321, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_deatched_bedrock_weight.rcbuffer->pybuffer, (PyObject*)__pyx_v_deatched_bedrock_weight, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 343, __pyx_L1_error)
   }
   __pyx_pybuffernd_deatched_bedrock_weight.diminfo[0].strides = __pyx_pybuffernd_deatched_bedrock_weight.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_deatched_bedrock_weight.diminfo[0].shape = __pyx_pybuffernd_deatched_bedrock_weight.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_deatched_bedrock_weight.diminfo[1].strides = __pyx_pybuffernd_deatched_bedrock_weight.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_deatched_bedrock_weight.diminfo[1].shape = __pyx_pybuffernd_deatched_bedrock_weight.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_suspended_fraction_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_suspended_fraction_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 321, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_suspended_fraction_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_suspended_fraction_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 343, __pyx_L1_error)
   }
   __pyx_pybuffernd_suspended_fraction_at_node.diminfo[0].strides = __pyx_pybuffernd_suspended_fraction_at_node.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_suspended_fraction_at_node.diminfo[0].shape = __pyx_pybuffernd_suspended_fraction_at_node.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_suspended_fraction_at_node.diminfo[1].strides = __pyx_pybuffernd_suspended_fraction_at_node.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_suspended_fraction_at_node.diminfo[1].shape = __pyx_pybuffernd_suspended_fraction_at_node.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_bedrock_grain_fractions.rcbuffer->pybuffer, (PyObject*)__pyx_v_bedrock_grain_fractions, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 321, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_bedrock_grain_fractions.rcbuffer->pybuffer, (PyObject*)__pyx_v_bedrock_grain_fractions, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 343, __pyx_L1_error)
   }
   __pyx_pybuffernd_bedrock_grain_fractions.diminfo[0].strides = __pyx_pybuffernd_bedrock_grain_fractions.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_bedrock_grain_fractions.diminfo[0].shape = __pyx_pybuffernd_bedrock_grain_fractions.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_bedrock_grain_fractions.diminfo[1].strides = __pyx_pybuffernd_bedrock_grain_fractions.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_bedrock_grain_fractions.diminfo[1].shape = __pyx_pybuffernd_bedrock_grain_fractions.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.rcbuffer->pybuffer, (PyObject*)__pyx_v_temp_suspended_sediment_weight_at_node_per_size, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 321, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.rcbuffer->pybuffer, (PyObject*)__pyx_v_temp_suspended_sediment_weight_at_node_per_size, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 343, __pyx_L1_error)
   }
   __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[0].strides = __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[0].shape = __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[1].strides = __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[1].shape = __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_deposited_suspended_sediments_weights_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 321, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_deposited_suspended_sediments_weights_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 343, __pyx_L1_error)
   }
   __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.diminfo[0].strides = __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.diminfo[0].shape = __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.diminfo[1].strides = __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.diminfo[1].shape = __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_total_deposited_sediments_dz_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_total_deposited_sediments_dz_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 321, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_total_deposited_sediments_dz_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_total_deposited_sediments_dz_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 343, __pyx_L1_error)
   }
   __pyx_pybuffernd_total_deposited_sediments_dz_at_node.diminfo[0].strides = __pyx_pybuffernd_total_deposited_sediments_dz_at_node.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_total_deposited_sediments_dz_at_node.diminfo[0].shape = __pyx_pybuffernd_total_deposited_sediments_dz_at_node.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_entrainment_soil_rate_dz.rcbuffer->pybuffer, (PyObject*)__pyx_v_entrainment_soil_rate_dz, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 321, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_entrainment_soil_rate_dz.rcbuffer->pybuffer, (PyObject*)__pyx_v_entrainment_soil_rate_dz, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 343, __pyx_L1_error)
   }
   __pyx_pybuffernd_entrainment_soil_rate_dz.diminfo[0].strides = __pyx_pybuffernd_entrainment_soil_rate_dz.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_entrainment_soil_rate_dz.diminfo[0].shape = __pyx_pybuffernd_entrainment_soil_rate_dz.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_entrainment_bedrock_rate_dz.rcbuffer->pybuffer, (PyObject*)__pyx_v_entrainment_bedrock_rate_dz, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 321, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_entrainment_bedrock_rate_dz.rcbuffer->pybuffer, (PyObject*)__pyx_v_entrainment_bedrock_rate_dz, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 343, __pyx_L1_error)
   }
   __pyx_pybuffernd_entrainment_bedrock_rate_dz.diminfo[0].strides = __pyx_pybuffernd_entrainment_bedrock_rate_dz.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_entrainment_bedrock_rate_dz.diminfo[0].shape = __pyx_pybuffernd_entrainment_bedrock_rate_dz.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_soil_e_expo.rcbuffer->pybuffer, (PyObject*)__pyx_v_soil_e_expo, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 321, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_soil_e_expo.rcbuffer->pybuffer, (PyObject*)__pyx_v_soil_e_expo, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 343, __pyx_L1_error)
   }
   __pyx_pybuffernd_soil_e_expo.diminfo[0].strides = __pyx_pybuffernd_soil_e_expo.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_soil_e_expo.diminfo[0].shape = __pyx_pybuffernd_soil_e_expo.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer, (PyObject*)__pyx_v_core_nodes, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 321, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer, (PyObject*)__pyx_v_core_nodes, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 343, __pyx_L1_error)
   }
   __pyx_pybuffernd_core_nodes.diminfo[0].strides = __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_core_nodes.diminfo[0].shape = __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.shape[0];
 
-  /* "cfuncs_ErosionDeposition.pyx":343
+  /* "cfuncs_ErosionDeposition.pyx":365
  *     ):
  * 
  *     cdef int n_nodes = shape[0]             # <<<<<<<<<<<<<<
  *     cdef int n_gs = shape[1]
  *     cdef int node, index, gs
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 343, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 365, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 343, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 365, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_nodes = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":344
+  /* "cfuncs_ErosionDeposition.pyx":366
  * 
  *     cdef int n_nodes = shape[0]
  *     cdef int n_gs = shape[1]             # <<<<<<<<<<<<<<
  *     cdef int node, index, gs
  *     cdef double dr_node_per_gs, detached_soil_weight_at_node,\
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 344, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 366, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 344, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 366, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_gs = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":349
+  /* "cfuncs_ErosionDeposition.pyx":371
  *         deatched_bedrock_weight_at_node, deposited_weight, summed_deposited_at_node,\
  *         summed_detached_soil_weight_at_node, summed_detached_bedrock_weight_at_node
  *     cdef double factor_convert_weight_to_dz = factor_convert_weight_to_dz_c             # <<<<<<<<<<<<<<
  *     cdef double factor_convert_weight_to_dz_bedrock = factor_convert_weight_to_dz_bedrock_c
  * 
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_factor_convert_weight_to_dz_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 349, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_factor_convert_weight_to_dz_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 371, __pyx_L1_error)
   __pyx_v_factor_convert_weight_to_dz = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":350
+  /* "cfuncs_ErosionDeposition.pyx":372
  *         summed_detached_soil_weight_at_node, summed_detached_bedrock_weight_at_node
  *     cdef double factor_convert_weight_to_dz = factor_convert_weight_to_dz_c
  *     cdef double factor_convert_weight_to_dz_bedrock = factor_convert_weight_to_dz_bedrock_c             # <<<<<<<<<<<<<<
  * 
  *     cdef double dx = dx_c
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_factor_convert_weight_to_dz_bedrock_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 350, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_factor_convert_weight_to_dz_bedrock_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 372, __pyx_L1_error)
   __pyx_v_factor_convert_weight_to_dz_bedrock = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":352
+  /* "cfuncs_ErosionDeposition.pyx":374
  *     cdef double factor_convert_weight_to_dz_bedrock = factor_convert_weight_to_dz_bedrock_c
  * 
  *     cdef double dx = dx_c             # <<<<<<<<<<<<<<
  * 
  * 
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_dx_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 352, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_dx_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 374, __pyx_L1_error)
   __pyx_v_dx = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":355
+  /* "cfuncs_ErosionDeposition.pyx":377
  * 
  * 
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -28959,7 +28710,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                         {
                             __pyx_v_index = (int)(0 + 1 * __pyx_t_4);
 
-                            /* "cfuncs_ErosionDeposition.pyx":356
+                            /* "cfuncs_ErosionDeposition.pyx":378
  * 
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):
  *         node = core_nodes[index]             # <<<<<<<<<<<<<<
@@ -28974,11 +28725,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                             } else if (unlikely(__pyx_t_6 >= __pyx_pybuffernd_core_nodes.diminfo[0].shape)) __pyx_t_7 = 0;
                             if (unlikely(__pyx_t_7 != -1)) {
                               __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_7);
-                              __PYX_ERR(0, 356, __pyx_L8_error)
+                              __PYX_ERR(0, 378, __pyx_L8_error)
                             }
                             __pyx_v_node = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_core_nodes.diminfo[0].strides));
 
-                            /* "cfuncs_ErosionDeposition.pyx":357
+                            /* "cfuncs_ErosionDeposition.pyx":379
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):
  *         node = core_nodes[index]
  *         summed_deposited_at_node = 0             # <<<<<<<<<<<<<<
@@ -28987,7 +28738,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
 */
                             __pyx_v_summed_deposited_at_node = 0.0;
 
-                            /* "cfuncs_ErosionDeposition.pyx":358
+                            /* "cfuncs_ErosionDeposition.pyx":380
  *         node = core_nodes[index]
  *         summed_deposited_at_node = 0
  *         summed_detached_soil_weight_at_node = 0             # <<<<<<<<<<<<<<
@@ -28996,7 +28747,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
 */
                             __pyx_v_summed_detached_soil_weight_at_node = 0.0;
 
-                            /* "cfuncs_ErosionDeposition.pyx":359
+                            /* "cfuncs_ErosionDeposition.pyx":381
  *         summed_deposited_at_node = 0
  *         summed_detached_soil_weight_at_node = 0
  *         summed_detached_bedrock_weight_at_node = 0             # <<<<<<<<<<<<<<
@@ -29005,7 +28756,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
 */
                             __pyx_v_summed_detached_bedrock_weight_at_node = 0.0;
 
-                            /* "cfuncs_ErosionDeposition.pyx":361
+                            /* "cfuncs_ErosionDeposition.pyx":383
  *         summed_detached_bedrock_weight_at_node = 0
  * 
  *         for gs in range(n_gs):             # <<<<<<<<<<<<<<
@@ -29017,7 +28768,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                             for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
                               __pyx_v_gs = __pyx_t_9;
 
-                              /* "cfuncs_ErosionDeposition.pyx":362
+                              /* "cfuncs_ErosionDeposition.pyx":384
  * 
  *         for gs in range(n_gs):
  *             dr_node_per_gs = DR[node, gs]             # <<<<<<<<<<<<<<
@@ -29037,11 +28788,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                               } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_DR.diminfo[1].shape)) __pyx_t_11 = 1;
                               if (unlikely(__pyx_t_11 != -1)) {
                                 __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
-                                __PYX_ERR(0, 362, __pyx_L8_error)
+                                __PYX_ERR(0, 384, __pyx_L8_error)
                               }
                               __pyx_v_dr_node_per_gs = (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_DR.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_DR.diminfo[0].strides, __pyx_t_10, __pyx_pybuffernd_DR.diminfo[1].strides));
 
-                              /* "cfuncs_ErosionDeposition.pyx":364
+                              /* "cfuncs_ErosionDeposition.pyx":386
  *             dr_node_per_gs = DR[node, gs]
  * 
  *             if dr_node_per_gs > 0:             # <<<<<<<<<<<<<<
@@ -29051,7 +28802,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                               __pyx_t_12 = (__pyx_v_dr_node_per_gs > 0.0);
                               if (__pyx_t_12) {
 
-                                /* "cfuncs_ErosionDeposition.pyx":367
+                                /* "cfuncs_ErosionDeposition.pyx":389
  * 
  *                 ## Detached soil weight
  *                 detached_soil_weight_at_node =  dr_node_per_gs  * soil_e_expo[node]             # <<<<<<<<<<<<<<
@@ -29066,11 +28817,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                                 } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_soil_e_expo.diminfo[0].shape)) __pyx_t_11 = 0;
                                 if (unlikely(__pyx_t_11 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
-                                  __PYX_ERR(0, 367, __pyx_L8_error)
+                                  __PYX_ERR(0, 389, __pyx_L8_error)
                                 }
                                 __pyx_v_detached_soil_weight_at_node = (__pyx_v_dr_node_per_gs * (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_soil_e_expo.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_soil_e_expo.diminfo[0].strides)));
 
-                                /* "cfuncs_ErosionDeposition.pyx":368
+                                /* "cfuncs_ErosionDeposition.pyx":390
  *                 ## Detached soil weight
  *                 detached_soil_weight_at_node =  dr_node_per_gs  * soil_e_expo[node]
  *                 detached_soil_weight_at_node = detached_soil_weight_at_node * grain_fractions_at_node[node, gs]             # <<<<<<<<<<<<<<
@@ -29090,11 +28841,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                                 } else if (unlikely(__pyx_t_6 >= __pyx_pybuffernd_grain_fractions_at_node.diminfo[1].shape)) __pyx_t_11 = 1;
                                 if (unlikely(__pyx_t_11 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
-                                  __PYX_ERR(0, 368, __pyx_L8_error)
+                                  __PYX_ERR(0, 390, __pyx_L8_error)
                                 }
                                 __pyx_v_detached_soil_weight_at_node = (__pyx_v_detached_soil_weight_at_node * (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_grain_fractions_at_node.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_grain_fractions_at_node.diminfo[0].strides, __pyx_t_6, __pyx_pybuffernd_grain_fractions_at_node.diminfo[1].strides)));
 
-                                /* "cfuncs_ErosionDeposition.pyx":370
+                                /* "cfuncs_ErosionDeposition.pyx":392
  *                 detached_soil_weight_at_node = detached_soil_weight_at_node * grain_fractions_at_node[node, gs]
  * 
  *                 if detached_soil_weight_at_node > grain_weight_at_node[node,gs]:             # <<<<<<<<<<<<<<
@@ -29114,12 +28865,12 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                                 } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_grain_weight_at_node.diminfo[1].shape)) __pyx_t_11 = 1;
                                 if (unlikely(__pyx_t_11 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
-                                  __PYX_ERR(0, 370, __pyx_L8_error)
+                                  __PYX_ERR(0, 392, __pyx_L8_error)
                                 }
                                 __pyx_t_12 = (__pyx_v_detached_soil_weight_at_node > (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_grain_weight_at_node.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_grain_weight_at_node.diminfo[0].strides, __pyx_t_10, __pyx_pybuffernd_grain_weight_at_node.diminfo[1].strides)));
                                 if (__pyx_t_12) {
 
-                                  /* "cfuncs_ErosionDeposition.pyx":371
+                                  /* "cfuncs_ErosionDeposition.pyx":393
  * 
  *                 if detached_soil_weight_at_node > grain_weight_at_node[node,gs]:
  *                     detached_soil_weight_at_node = grain_weight_at_node[node,gs]             # <<<<<<<<<<<<<<
@@ -29139,11 +28890,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                                   } else if (unlikely(__pyx_t_6 >= __pyx_pybuffernd_grain_weight_at_node.diminfo[1].shape)) __pyx_t_11 = 1;
                                   if (unlikely(__pyx_t_11 != -1)) {
                                     __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
-                                    __PYX_ERR(0, 371, __pyx_L8_error)
+                                    __PYX_ERR(0, 393, __pyx_L8_error)
                                   }
                                   __pyx_v_detached_soil_weight_at_node = (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_grain_weight_at_node.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_grain_weight_at_node.diminfo[0].strides, __pyx_t_6, __pyx_pybuffernd_grain_weight_at_node.diminfo[1].strides));
 
-                                  /* "cfuncs_ErosionDeposition.pyx":370
+                                  /* "cfuncs_ErosionDeposition.pyx":392
  *                 detached_soil_weight_at_node = detached_soil_weight_at_node * grain_fractions_at_node[node, gs]
  * 
  *                 if detached_soil_weight_at_node > grain_weight_at_node[node,gs]:             # <<<<<<<<<<<<<<
@@ -29152,7 +28903,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
 */
                                 }
 
-                                /* "cfuncs_ErosionDeposition.pyx":372
+                                /* "cfuncs_ErosionDeposition.pyx":394
  *                 if detached_soil_weight_at_node > grain_weight_at_node[node,gs]:
  *                     detached_soil_weight_at_node = grain_weight_at_node[node,gs]
  *                 deatched_soil_weight[node, gs] = detached_soil_weight_at_node             # <<<<<<<<<<<<<<
@@ -29172,11 +28923,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                                 } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_deatched_soil_weight.diminfo[1].shape)) __pyx_t_11 = 1;
                                 if (unlikely(__pyx_t_11 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
-                                  __PYX_ERR(0, 372, __pyx_L8_error)
+                                  __PYX_ERR(0, 394, __pyx_L8_error)
                                 }
                                 *__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_deatched_soil_weight.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_deatched_soil_weight.diminfo[0].strides, __pyx_t_10, __pyx_pybuffernd_deatched_soil_weight.diminfo[1].strides) = __pyx_v_detached_soil_weight_at_node;
 
-                                /* "cfuncs_ErosionDeposition.pyx":374
+                                /* "cfuncs_ErosionDeposition.pyx":396
  *                 deatched_soil_weight[node, gs] = detached_soil_weight_at_node
  * 
  *                 summed_detached_soil_weight_at_node = summed_detached_soil_weight_at_node + detached_soil_weight_at_node             # <<<<<<<<<<<<<<
@@ -29185,7 +28936,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
 */
                                 __pyx_v_summed_detached_soil_weight_at_node = (__pyx_v_summed_detached_soil_weight_at_node + __pyx_v_detached_soil_weight_at_node);
 
-                                /* "cfuncs_ErosionDeposition.pyx":378
+                                /* "cfuncs_ErosionDeposition.pyx":400
  * 
  *                 ## Detached bedrock weight
  *                 deatched_bedrock_weight_at_node = dr_node_per_gs  * (1 - soil_e_expo[node])             # <<<<<<<<<<<<<<
@@ -29200,11 +28951,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                                 } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_soil_e_expo.diminfo[0].shape)) __pyx_t_11 = 0;
                                 if (unlikely(__pyx_t_11 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
-                                  __PYX_ERR(0, 378, __pyx_L8_error)
+                                  __PYX_ERR(0, 400, __pyx_L8_error)
                                 }
                                 __pyx_v_deatched_bedrock_weight_at_node = (__pyx_v_dr_node_per_gs * (1.0 - (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_soil_e_expo.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_soil_e_expo.diminfo[0].strides))));
 
-                                /* "cfuncs_ErosionDeposition.pyx":379
+                                /* "cfuncs_ErosionDeposition.pyx":401
  *                 ## Detached bedrock weight
  *                 deatched_bedrock_weight_at_node = dr_node_per_gs  * (1 - soil_e_expo[node])
  *                 deatched_bedrock_weight[node, gs] = deatched_bedrock_weight_at_node * bedrock_grain_fractions[node,gs]             # <<<<<<<<<<<<<<
@@ -29224,7 +28975,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                                 } else if (unlikely(__pyx_t_6 >= __pyx_pybuffernd_bedrock_grain_fractions.diminfo[1].shape)) __pyx_t_11 = 1;
                                 if (unlikely(__pyx_t_11 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
-                                  __PYX_ERR(0, 379, __pyx_L8_error)
+                                  __PYX_ERR(0, 401, __pyx_L8_error)
                                 }
                                 __pyx_t_13 = __pyx_v_node;
                                 __pyx_t_14 = __pyx_v_gs;
@@ -29239,11 +28990,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                                 } else if (unlikely(__pyx_t_14 >= __pyx_pybuffernd_deatched_bedrock_weight.diminfo[1].shape)) __pyx_t_11 = 1;
                                 if (unlikely(__pyx_t_11 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
-                                  __PYX_ERR(0, 379, __pyx_L8_error)
+                                  __PYX_ERR(0, 401, __pyx_L8_error)
                                 }
                                 *__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_deatched_bedrock_weight.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_deatched_bedrock_weight.diminfo[0].strides, __pyx_t_14, __pyx_pybuffernd_deatched_bedrock_weight.diminfo[1].strides) = (__pyx_v_deatched_bedrock_weight_at_node * (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_bedrock_grain_fractions.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_bedrock_grain_fractions.diminfo[0].strides, __pyx_t_6, __pyx_pybuffernd_bedrock_grain_fractions.diminfo[1].strides)));
 
-                                /* "cfuncs_ErosionDeposition.pyx":380
+                                /* "cfuncs_ErosionDeposition.pyx":402
  *                 deatched_bedrock_weight_at_node = dr_node_per_gs  * (1 - soil_e_expo[node])
  *                 deatched_bedrock_weight[node, gs] = deatched_bedrock_weight_at_node * bedrock_grain_fractions[node,gs]
  *                 summed_detached_bedrock_weight_at_node = summed_detached_bedrock_weight_at_node + deatched_bedrock_weight[node, gs] #deatched_bedrock_weight_at_node             # <<<<<<<<<<<<<<
@@ -29263,11 +29014,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                                 } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_deatched_bedrock_weight.diminfo[1].shape)) __pyx_t_11 = 1;
                                 if (unlikely(__pyx_t_11 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
-                                  __PYX_ERR(0, 380, __pyx_L8_error)
+                                  __PYX_ERR(0, 402, __pyx_L8_error)
                                 }
                                 __pyx_v_summed_detached_bedrock_weight_at_node = (__pyx_v_summed_detached_bedrock_weight_at_node + (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_deatched_bedrock_weight.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_deatched_bedrock_weight.diminfo[0].strides, __pyx_t_10, __pyx_pybuffernd_deatched_bedrock_weight.diminfo[1].strides)));
 
-                                /* "cfuncs_ErosionDeposition.pyx":383
+                                /* "cfuncs_ErosionDeposition.pyx":405
  * 
  *                 ## add to suspended
  *                 temp_suspended_sediment_weight_at_node_per_size[node, gs] += detached_soil_weight_at_node + deatched_bedrock_weight_at_node             # <<<<<<<<<<<<<<
@@ -29287,11 +29038,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                                 } else if (unlikely(__pyx_t_6 >= __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[1].shape)) __pyx_t_11 = 1;
                                 if (unlikely(__pyx_t_11 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
-                                  __PYX_ERR(0, 383, __pyx_L8_error)
+                                  __PYX_ERR(0, 405, __pyx_L8_error)
                                 }
                                 *__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[0].strides, __pyx_t_6, __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[1].strides) += (__pyx_v_detached_soil_weight_at_node + __pyx_v_deatched_bedrock_weight_at_node);
 
-                                /* "cfuncs_ErosionDeposition.pyx":364
+                                /* "cfuncs_ErosionDeposition.pyx":386
  *             dr_node_per_gs = DR[node, gs]
  * 
  *             if dr_node_per_gs > 0:             # <<<<<<<<<<<<<<
@@ -29300,7 +29051,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
 */
                               }
 
-                              /* "cfuncs_ErosionDeposition.pyx":385
+                              /* "cfuncs_ErosionDeposition.pyx":407
  *                 temp_suspended_sediment_weight_at_node_per_size[node, gs] += detached_soil_weight_at_node + deatched_bedrock_weight_at_node
  * 
  *             if dr_node_per_gs < 0:             # <<<<<<<<<<<<<<
@@ -29310,7 +29061,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                               __pyx_t_12 = (__pyx_v_dr_node_per_gs < 0.0);
                               if (__pyx_t_12) {
 
-                                /* "cfuncs_ErosionDeposition.pyx":386
+                                /* "cfuncs_ErosionDeposition.pyx":408
  * 
  *             if dr_node_per_gs < 0:
  *                 dr_node_per_gs = DR_abs[node, gs]             # <<<<<<<<<<<<<<
@@ -29330,11 +29081,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                                 } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_DR_abs.diminfo[1].shape)) __pyx_t_11 = 1;
                                 if (unlikely(__pyx_t_11 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
-                                  __PYX_ERR(0, 386, __pyx_L8_error)
+                                  __PYX_ERR(0, 408, __pyx_L8_error)
                                 }
                                 __pyx_v_dr_node_per_gs = (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_DR_abs.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_DR_abs.diminfo[0].strides, __pyx_t_10, __pyx_pybuffernd_DR_abs.diminfo[1].strides));
 
-                                /* "cfuncs_ErosionDeposition.pyx":387
+                                /* "cfuncs_ErosionDeposition.pyx":409
  *             if dr_node_per_gs < 0:
  *                 dr_node_per_gs = DR_abs[node, gs]
  *                 deposited_weight = dr_node_per_gs * dx * dx * suspended_fraction_at_node[node, gs]             # <<<<<<<<<<<<<<
@@ -29354,11 +29105,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                                 } else if (unlikely(__pyx_t_6 >= __pyx_pybuffernd_suspended_fraction_at_node.diminfo[1].shape)) __pyx_t_11 = 1;
                                 if (unlikely(__pyx_t_11 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
-                                  __PYX_ERR(0, 387, __pyx_L8_error)
+                                  __PYX_ERR(0, 409, __pyx_L8_error)
                                 }
                                 __pyx_v_deposited_weight = (((__pyx_v_dr_node_per_gs * __pyx_v_dx) * __pyx_v_dx) * (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_suspended_fraction_at_node.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_suspended_fraction_at_node.diminfo[0].strides, __pyx_t_6, __pyx_pybuffernd_suspended_fraction_at_node.diminfo[1].strides)));
 
-                                /* "cfuncs_ErosionDeposition.pyx":393
+                                /* "cfuncs_ErosionDeposition.pyx":415
  *                 # NaN fails both `<=` and `>`, so a plain `>` check would
  *                 # silently let NaN through uncapped.
  *                 if not (deposited_weight <= temp_suspended_sediment_weight_at_node_per_size[node, gs]):             # <<<<<<<<<<<<<<
@@ -29378,12 +29129,12 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                                 } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[1].shape)) __pyx_t_11 = 1;
                                 if (unlikely(__pyx_t_11 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
-                                  __PYX_ERR(0, 393, __pyx_L8_error)
+                                  __PYX_ERR(0, 415, __pyx_L8_error)
                                 }
                                 __pyx_t_12 = (!(__pyx_v_deposited_weight <= (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[0].strides, __pyx_t_10, __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[1].strides))));
                                 if (__pyx_t_12) {
 
-                                  /* "cfuncs_ErosionDeposition.pyx":394
+                                  /* "cfuncs_ErosionDeposition.pyx":416
  *                 # silently let NaN through uncapped.
  *                 if not (deposited_weight <= temp_suspended_sediment_weight_at_node_per_size[node, gs]):
  *                      deposited_weight = temp_suspended_sediment_weight_at_node_per_size[node, gs] #*50             # <<<<<<<<<<<<<<
@@ -29403,11 +29154,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                                   } else if (unlikely(__pyx_t_6 >= __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[1].shape)) __pyx_t_11 = 1;
                                   if (unlikely(__pyx_t_11 != -1)) {
                                     __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
-                                    __PYX_ERR(0, 394, __pyx_L8_error)
+                                    __PYX_ERR(0, 416, __pyx_L8_error)
                                   }
                                   __pyx_v_deposited_weight = (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[0].strides, __pyx_t_6, __pyx_pybuffernd_temp_suspended_sediment_weight_at_node_per_size.diminfo[1].strides));
 
-                                  /* "cfuncs_ErosionDeposition.pyx":393
+                                  /* "cfuncs_ErosionDeposition.pyx":415
  *                 # NaN fails both `<=` and `>`, so a plain `>` check would
  *                 # silently let NaN through uncapped.
  *                 if not (deposited_weight <= temp_suspended_sediment_weight_at_node_per_size[node, gs]):             # <<<<<<<<<<<<<<
@@ -29416,7 +29167,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
 */
                                 }
 
-                                /* "cfuncs_ErosionDeposition.pyx":396
+                                /* "cfuncs_ErosionDeposition.pyx":418
  *                      deposited_weight = temp_suspended_sediment_weight_at_node_per_size[node, gs] #*50
  * 
  *                 deposited_suspended_sediments_weights_at_node[node, gs] = deposited_weight             # <<<<<<<<<<<<<<
@@ -29436,11 +29187,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                                 } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.diminfo[1].shape)) __pyx_t_11 = 1;
                                 if (unlikely(__pyx_t_11 != -1)) {
                                   __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_11);
-                                  __PYX_ERR(0, 396, __pyx_L8_error)
+                                  __PYX_ERR(0, 418, __pyx_L8_error)
                                 }
                                 *__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.diminfo[0].strides, __pyx_t_10, __pyx_pybuffernd_deposited_suspended_sediments_weights_at_node.diminfo[1].strides) = __pyx_v_deposited_weight;
 
-                                /* "cfuncs_ErosionDeposition.pyx":397
+                                /* "cfuncs_ErosionDeposition.pyx":419
  * 
  *                 deposited_suspended_sediments_weights_at_node[node, gs] = deposited_weight
  *                 summed_deposited_at_node  = summed_deposited_at_node + deposited_weight             # <<<<<<<<<<<<<<
@@ -29449,7 +29200,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
 */
                                 __pyx_v_summed_deposited_at_node = (__pyx_v_summed_deposited_at_node + __pyx_v_deposited_weight);
 
-                                /* "cfuncs_ErosionDeposition.pyx":385
+                                /* "cfuncs_ErosionDeposition.pyx":407
  *                 temp_suspended_sediment_weight_at_node_per_size[node, gs] += detached_soil_weight_at_node + deatched_bedrock_weight_at_node
  * 
  *             if dr_node_per_gs < 0:             # <<<<<<<<<<<<<<
@@ -29459,7 +29210,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                               }
                             }
 
-                            /* "cfuncs_ErosionDeposition.pyx":399
+                            /* "cfuncs_ErosionDeposition.pyx":421
  *                 summed_deposited_at_node  = summed_deposited_at_node + deposited_weight
  * 
  *         entrainment_soil_rate_dz[node] = summed_detached_soil_weight_at_node / factor_convert_weight_to_dz             # <<<<<<<<<<<<<<
@@ -29470,7 +29221,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                               PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                               PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                               __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                              __PYX_ERR(0, 399, __pyx_L8_error)
+                              __PYX_ERR(0, 421, __pyx_L8_error)
                             }
                             __pyx_t_10 = __pyx_v_node;
                             __pyx_t_7 = -1;
@@ -29480,11 +29231,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                             } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_entrainment_soil_rate_dz.diminfo[0].shape)) __pyx_t_7 = 0;
                             if (unlikely(__pyx_t_7 != -1)) {
                               __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_7);
-                              __PYX_ERR(0, 399, __pyx_L8_error)
+                              __PYX_ERR(0, 421, __pyx_L8_error)
                             }
                             *__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_entrainment_soil_rate_dz.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_entrainment_soil_rate_dz.diminfo[0].strides) = (__pyx_v_summed_detached_soil_weight_at_node / __pyx_v_factor_convert_weight_to_dz);
 
-                            /* "cfuncs_ErosionDeposition.pyx":400
+                            /* "cfuncs_ErosionDeposition.pyx":422
  * 
  *         entrainment_soil_rate_dz[node] = summed_detached_soil_weight_at_node / factor_convert_weight_to_dz
  *         entrainment_bedrock_rate_dz[node] = summed_detached_bedrock_weight_at_node / factor_convert_weight_to_dz_bedrock             # <<<<<<<<<<<<<<
@@ -29495,7 +29246,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                               PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                               PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                               __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                              __PYX_ERR(0, 400, __pyx_L8_error)
+                              __PYX_ERR(0, 422, __pyx_L8_error)
                             }
                             __pyx_t_10 = __pyx_v_node;
                             __pyx_t_7 = -1;
@@ -29505,11 +29256,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                             } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_entrainment_bedrock_rate_dz.diminfo[0].shape)) __pyx_t_7 = 0;
                             if (unlikely(__pyx_t_7 != -1)) {
                               __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_7);
-                              __PYX_ERR(0, 400, __pyx_L8_error)
+                              __PYX_ERR(0, 422, __pyx_L8_error)
                             }
                             *__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_entrainment_bedrock_rate_dz.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_entrainment_bedrock_rate_dz.diminfo[0].strides) = (__pyx_v_summed_detached_bedrock_weight_at_node / __pyx_v_factor_convert_weight_to_dz_bedrock);
 
-                            /* "cfuncs_ErosionDeposition.pyx":402
+                            /* "cfuncs_ErosionDeposition.pyx":424
  *         entrainment_bedrock_rate_dz[node] = summed_detached_bedrock_weight_at_node / factor_convert_weight_to_dz_bedrock
  * 
  *         total_deposited_sediments_dz_at_node[node] = summed_deposited_at_node / factor_convert_weight_to_dz             # <<<<<<<<<<<<<<
@@ -29520,7 +29271,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                               PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                               PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                               __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                              __PYX_ERR(0, 402, __pyx_L8_error)
+                              __PYX_ERR(0, 424, __pyx_L8_error)
                             }
                             __pyx_t_10 = __pyx_v_node;
                             __pyx_t_7 = -1;
@@ -29530,7 +29281,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_20calc_detached_deposited(C
                             } else if (unlikely(__pyx_t_10 >= __pyx_pybuffernd_total_deposited_sediments_dz_at_node.diminfo[0].shape)) __pyx_t_7 = 0;
                             if (unlikely(__pyx_t_7 != -1)) {
                               __Pyx_RaiseBufferIndexErrorNogil(__pyx_t_7);
-                              __PYX_ERR(0, 402, __pyx_L8_error)
+                              __PYX_ERR(0, 424, __pyx_L8_error)
                             }
                             *__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_total_deposited_sediments_dz_at_node.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_total_deposited_sediments_dz_at_node.diminfo[0].strides) = (__pyx_v_summed_deposited_at_node / __pyx_v_factor_convert_weight_to_dz);
                             goto __pyx_L17;
@@ -29606,7 +29357,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
         #endif
       }
 
-      /* "cfuncs_ErosionDeposition.pyx":355
+      /* "cfuncs_ErosionDeposition.pyx":377
  * 
  * 
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -29628,7 +29379,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
       }
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":405
+  /* "cfuncs_ErosionDeposition.pyx":427
  * 
  * 
  *     return (deatched_soil_weight,             # <<<<<<<<<<<<<<
@@ -29637,38 +29388,38 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
 */
   __Pyx_XDECREF(__pyx_r);
 
-  /* "cfuncs_ErosionDeposition.pyx":410
+  /* "cfuncs_ErosionDeposition.pyx":432
  *             entrainment_bedrock_rate_dz,
  *             deposited_suspended_sediments_weights_at_node,
  *             total_deposited_sediments_dz_at_node)             # <<<<<<<<<<<<<<
  * 
  * 
 */
-  __pyx_t_1 = PyTuple_New(6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 405, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 427, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF((PyObject *)__pyx_v_deatched_soil_weight);
   __Pyx_GIVEREF((PyObject *)__pyx_v_deatched_soil_weight);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)__pyx_v_deatched_soil_weight)) != (0)) __PYX_ERR(0, 405, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)__pyx_v_deatched_soil_weight)) != (0)) __PYX_ERR(0, 427, __pyx_L1_error);
   __Pyx_INCREF((PyObject *)__pyx_v_deatched_bedrock_weight);
   __Pyx_GIVEREF((PyObject *)__pyx_v_deatched_bedrock_weight);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 1, ((PyObject *)__pyx_v_deatched_bedrock_weight)) != (0)) __PYX_ERR(0, 405, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 1, ((PyObject *)__pyx_v_deatched_bedrock_weight)) != (0)) __PYX_ERR(0, 427, __pyx_L1_error);
   __Pyx_INCREF((PyObject *)__pyx_v_entrainment_soil_rate_dz);
   __Pyx_GIVEREF((PyObject *)__pyx_v_entrainment_soil_rate_dz);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 2, ((PyObject *)__pyx_v_entrainment_soil_rate_dz)) != (0)) __PYX_ERR(0, 405, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 2, ((PyObject *)__pyx_v_entrainment_soil_rate_dz)) != (0)) __PYX_ERR(0, 427, __pyx_L1_error);
   __Pyx_INCREF((PyObject *)__pyx_v_entrainment_bedrock_rate_dz);
   __Pyx_GIVEREF((PyObject *)__pyx_v_entrainment_bedrock_rate_dz);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 3, ((PyObject *)__pyx_v_entrainment_bedrock_rate_dz)) != (0)) __PYX_ERR(0, 405, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 3, ((PyObject *)__pyx_v_entrainment_bedrock_rate_dz)) != (0)) __PYX_ERR(0, 427, __pyx_L1_error);
   __Pyx_INCREF((PyObject *)__pyx_v_deposited_suspended_sediments_weights_at_node);
   __Pyx_GIVEREF((PyObject *)__pyx_v_deposited_suspended_sediments_weights_at_node);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 4, ((PyObject *)__pyx_v_deposited_suspended_sediments_weights_at_node)) != (0)) __PYX_ERR(0, 405, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 4, ((PyObject *)__pyx_v_deposited_suspended_sediments_weights_at_node)) != (0)) __PYX_ERR(0, 427, __pyx_L1_error);
   __Pyx_INCREF((PyObject *)__pyx_v_total_deposited_sediments_dz_at_node);
   __Pyx_GIVEREF((PyObject *)__pyx_v_total_deposited_sediments_dz_at_node);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 5, ((PyObject *)__pyx_v_total_deposited_sediments_dz_at_node)) != (0)) __PYX_ERR(0, 405, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 5, ((PyObject *)__pyx_v_total_deposited_sediments_dz_at_node)) != (0)) __PYX_ERR(0, 427, __pyx_L1_error);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "cfuncs_ErosionDeposition.pyx":321
+  /* "cfuncs_ErosionDeposition.pyx":343
  * 
  * 
  * def calc_detached_deposited(             # <<<<<<<<<<<<<<
@@ -29724,7 +29475,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
   return __pyx_r;
 }
 
-/* "cfuncs_ErosionDeposition.pyx":415
+/* "cfuncs_ErosionDeposition.pyx":437
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -29760,53 +29511,53 @@ static PyObject *__pyx_pw_24cfuncs_ErosionDeposition_23calc_TC(PyObject *__pyx_s
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_signatures,&__pyx_mstate_global->__pyx_n_u_args,&__pyx_mstate_global->__pyx_n_u_kwargs,&__pyx_mstate_global->__pyx_n_u_defaults,&__pyx_mstate_global->__pyx_n_u_fused_sigindex,0};
     struct __pyx_defaults *__pyx_dynamic_args = __Pyx_CyFunction_Defaults(struct __pyx_defaults, __pyx_self);
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_VARARGS(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 415, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 437, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  5:
         values[4] = __Pyx_ArgRef_VARARGS(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "__pyx_fused_cpdef", 0) < (0)) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "__pyx_fused_cpdef", 0) < (0)) __PYX_ERR(0, 437, __pyx_L3_error)
       if (!values[4]) values[4] = __Pyx_NewRef(__pyx_dynamic_args->arg0);
       for (Py_ssize_t i = __pyx_nargs; i < 4; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 0, 4, 5, i); __PYX_ERR(0, 415, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 0, 4, 5, i); __PYX_ERR(0, 437, __pyx_L3_error) }
       }
     } else {
       switch (__pyx_nargs) {
         case  5:
         values[4] = __Pyx_ArgRef_VARARGS(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 437, __pyx_L3_error)
         values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 437, __pyx_L3_error)
         values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 437, __pyx_L3_error)
         values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 437, __pyx_L3_error)
         break;
         default: goto __pyx_L5_argtuple_error;
       }
@@ -29820,7 +29571,7 @@ static PyObject *__pyx_pw_24cfuncs_ErosionDeposition_23calc_TC(PyObject *__pyx_s
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 0, 4, 5, __pyx_nargs); __PYX_ERR(0, 415, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 0, 4, 5, __pyx_nargs); __PYX_ERR(0, 437, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -29869,7 +29620,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_22calc_TC(CYTHON_UNUSED PyO
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L4_bool_binop_done;
   }
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_kwargs); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 415, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_kwargs); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 437, __pyx_L1_error)
   __pyx_t_3 = (!__pyx_t_2);
   __pyx_t_1 = __pyx_t_3;
   __pyx_L4_bool_binop_done:;
@@ -29877,20 +29628,20 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_22calc_TC(CYTHON_UNUSED PyO
     __Pyx_INCREF(Py_None);
     __Pyx_DECREF_SET(__pyx_v_kwargs, Py_None);
   }
-  __pyx_t_4 = ((PyObject *)__Pyx_ImportNumPyArrayTypeIfAvailable()); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 415, __pyx_L1_error)
+  __pyx_t_4 = ((PyObject *)__Pyx_ImportNumPyArrayTypeIfAvailable()); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 437, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_v_ndarray = ((PyTypeObject*)__pyx_t_4);
   __pyx_t_4 = 0;
   if (unlikely(__pyx_v_args == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "object of type 'NoneType' has no len()");
-    __PYX_ERR(0, 415, __pyx_L1_error)
+    __PYX_ERR(0, 437, __pyx_L1_error)
   }
-  __pyx_t_5 = __Pyx_PyTuple_GET_SIZE(((PyObject*)__pyx_v_args)); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 415, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyTuple_GET_SIZE(((PyObject*)__pyx_v_args)); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 437, __pyx_L1_error)
   __pyx_t_1 = (2 < __pyx_t_5);
   if (__pyx_t_1) {
     if (unlikely(__pyx_v_args == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-      __PYX_ERR(0, 415, __pyx_L1_error)
+      __PYX_ERR(0, 437, __pyx_L1_error)
     }
     __pyx_t_4 = __Pyx_PyTuple_GET_ITEM(((PyObject*)__pyx_v_args), 2);
     __Pyx_INCREF(__pyx_t_4);
@@ -29906,17 +29657,17 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_22calc_TC(CYTHON_UNUSED PyO
   }
   if (unlikely(__pyx_v_kwargs == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not iterable");
-    __PYX_ERR(0, 415, __pyx_L1_error)
+    __PYX_ERR(0, 437, __pyx_L1_error)
   }
-  __pyx_t_3 = (__Pyx_PyDict_ContainsTF(__pyx_mstate_global->__pyx_n_u_median_sizes, ((PyObject*)__pyx_v_kwargs), Py_EQ)); if (unlikely((__pyx_t_3 < 0))) __PYX_ERR(0, 415, __pyx_L1_error)
+  __pyx_t_3 = (__Pyx_PyDict_ContainsTF(__pyx_mstate_global->__pyx_n_u_median_sizes, ((PyObject*)__pyx_v_kwargs), Py_EQ)); if (unlikely((__pyx_t_3 < 0))) __PYX_ERR(0, 437, __pyx_L1_error)
   __pyx_t_1 = __pyx_t_3;
   __pyx_L7_bool_binop_done:;
   if (likely(__pyx_t_1)) {
     if (unlikely(__pyx_v_kwargs == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-      __PYX_ERR(0, 415, __pyx_L1_error)
+      __PYX_ERR(0, 437, __pyx_L1_error)
     }
-    __pyx_t_4 = __Pyx_PyDict_GetItem(((PyObject*)__pyx_v_kwargs), __pyx_mstate_global->__pyx_n_u_median_sizes); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 415, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyDict_GetItem(((PyObject*)__pyx_v_kwargs), __pyx_mstate_global->__pyx_n_u_median_sizes); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 437, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_v_arg = __pyx_t_4;
     __pyx_t_4 = 0;
@@ -29924,21 +29675,21 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_22calc_TC(CYTHON_UNUSED PyO
   }
   /*else*/ {
     __pyx_t_6 = NULL;
-    __pyx_t_7 = __Pyx_PyUnicode_From_long(11, 0, ' ', 'd'); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 415, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyUnicode_From_long(11, 0, ' ', 'd'); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 437, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     if (unlikely(__pyx_v_args == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "object of type 'NoneType' has no len()");
-      __PYX_ERR(0, 415, __pyx_L1_error)
+      __PYX_ERR(0, 437, __pyx_L1_error)
     }
-    __pyx_t_5 = __Pyx_PyTuple_GET_SIZE(((PyObject*)__pyx_v_args)); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 415, __pyx_L1_error)
-    __pyx_t_8 = __Pyx_PyUnicode_From_Py_ssize_t(__pyx_t_5, 0, ' ', 'd'); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 415, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyTuple_GET_SIZE(((PyObject*)__pyx_v_args)); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 437, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyUnicode_From_Py_ssize_t(__pyx_t_5, 0, ' ', 'd'); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 437, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __pyx_t_9[0] = __pyx_mstate_global->__pyx_kp_u_Expected_at_least;
     __pyx_t_9[1] = __pyx_t_7;
     __pyx_t_9[2] = __pyx_mstate_global->__pyx_kp_u_arguments_got;
     __pyx_t_9[3] = __pyx_t_8;
     __pyx_t_10 = __Pyx_PyUnicode_Join(__pyx_t_9, 4, 18 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_7) + 16 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_8), 127);
-    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 415, __pyx_L1_error)
+    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 437, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -29948,20 +29699,20 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_22calc_TC(CYTHON_UNUSED PyO
       __pyx_t_4 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_TypeError)), __pyx_callargs+__pyx_t_11, (2-__pyx_t_11) | (__pyx_t_11*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 415, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 437, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
     __Pyx_Raise(__pyx_t_4, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __PYX_ERR(0, 415, __pyx_L1_error)
+    __PYX_ERR(0, 437, __pyx_L1_error)
   }
   __pyx_L6:;
-  __pyx_t_4 = __pyx_ff_map_fused_8b55c5_2_2_float__and_double(__pyx_v_arg, __pyx_v_ndarray); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 415, __pyx_L1_error)
+  __pyx_t_4 = __pyx_ff_map_fused_8b55c5_2_2_float__and_double(__pyx_v_arg, __pyx_v_ndarray); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 437, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_v_dest_sig0 = ((PyObject*)__pyx_t_4);
   __pyx_t_4 = 0;
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_4 = __pyx_ff_match_signatures_single(((PyObject*)__pyx_v_signatures), __pyx_v_dest_sig0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 415, __pyx_L1_error)
+  __pyx_t_4 = __pyx_ff_match_signatures_single(((PyObject*)__pyx_v_signatures), __pyx_v_dest_sig0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 437, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_r = __pyx_t_4;
   __pyx_t_4 = 0;
@@ -30019,93 +29770,93 @@ static PyObject *__pyx_fuse_0__pyx_pw_24cfuncs_ErosionDeposition_49calc_TC(PyObj
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_alpha,&__pyx_mstate_global->__pyx_n_u_beta,&__pyx_mstate_global->__pyx_n_u_median_sizes,&__pyx_mstate_global->__pyx_n_u_fraction_sizes,&__pyx_mstate_global->__pyx_n_u_tau_s,&__pyx_mstate_global->__pyx_n_u_TC,&__pyx_mstate_global->__pyx_n_u_sg_c,&__pyx_mstate_global->__pyx_n_u_rho_c,&__pyx_mstate_global->__pyx_n_u_core_nodes,&__pyx_mstate_global->__pyx_n_u_const_sg_g_rho,&__pyx_mstate_global->__pyx_n_u_shape,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_VARARGS(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 415, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 437, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case 11:
         values[10] = __Pyx_ArgRef_VARARGS(__pyx_args, 10);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[10])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[10])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case 10:
         values[9] = __Pyx_ArgRef_VARARGS(__pyx_args, 9);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  9:
         values[8] = __Pyx_ArgRef_VARARGS(__pyx_args, 8);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  8:
         values[7] = __Pyx_ArgRef_VARARGS(__pyx_args, 7);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  7:
         values[6] = __Pyx_ArgRef_VARARGS(__pyx_args, 6);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  6:
         values[5] = __Pyx_ArgRef_VARARGS(__pyx_args, 5);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  5:
         values[4] = __Pyx_ArgRef_VARARGS(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_TC", 0) < (0)) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_TC", 0) < (0)) __PYX_ERR(0, 437, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 11; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_TC", 1, 11, 11, i); __PYX_ERR(0, 415, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_TC", 1, 11, 11, i); __PYX_ERR(0, 437, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 11)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 437, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 437, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 437, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 437, __pyx_L3_error)
       values[4] = __Pyx_ArgRef_VARARGS(__pyx_args, 4);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 437, __pyx_L3_error)
       values[5] = __Pyx_ArgRef_VARARGS(__pyx_args, 5);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 437, __pyx_L3_error)
       values[6] = __Pyx_ArgRef_VARARGS(__pyx_args, 6);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 437, __pyx_L3_error)
       values[7] = __Pyx_ArgRef_VARARGS(__pyx_args, 7);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 437, __pyx_L3_error)
       values[8] = __Pyx_ArgRef_VARARGS(__pyx_args, 8);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 437, __pyx_L3_error)
       values[9] = __Pyx_ArgRef_VARARGS(__pyx_args, 9);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 437, __pyx_L3_error)
       values[10] = __Pyx_ArgRef_VARARGS(__pyx_args, 10);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[10])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[10])) __PYX_ERR(0, 437, __pyx_L3_error)
     }
-    __pyx_v_alpha = __Pyx_PyFloat_AsDouble(values[0]); if (unlikely((__pyx_v_alpha == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 418, __pyx_L3_error)
-    __pyx_v_beta = __Pyx_PyFloat_AsDouble(values[1]); if (unlikely((__pyx_v_beta == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 419, __pyx_L3_error)
-    __pyx_v_median_sizes = __Pyx_PyObject_to_MemoryviewSlice_ds_float(values[2], PyBUF_WRITABLE); if (unlikely(!__pyx_v_median_sizes.memview)) __PYX_ERR(0, 420, __pyx_L3_error)
-    __pyx_v_fraction_sizes = __Pyx_PyObject_to_MemoryviewSlice_dsds_float(values[3], PyBUF_WRITABLE); if (unlikely(!__pyx_v_fraction_sizes.memview)) __PYX_ERR(0, 421, __pyx_L3_error)
-    __pyx_v_tau_s = __Pyx_PyObject_to_MemoryviewSlice_ds_float(values[4], PyBUF_WRITABLE); if (unlikely(!__pyx_v_tau_s.memview)) __PYX_ERR(0, 422, __pyx_L3_error)
-    __pyx_v_TC = __Pyx_PyObject_to_MemoryviewSlice_dsds_float(values[5], PyBUF_WRITABLE); if (unlikely(!__pyx_v_TC.memview)) __PYX_ERR(0, 423, __pyx_L3_error)
+    __pyx_v_alpha = __Pyx_PyFloat_AsDouble(values[0]); if (unlikely((__pyx_v_alpha == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 440, __pyx_L3_error)
+    __pyx_v_beta = __Pyx_PyFloat_AsDouble(values[1]); if (unlikely((__pyx_v_beta == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 441, __pyx_L3_error)
+    __pyx_v_median_sizes = __Pyx_PyObject_to_MemoryviewSlice_ds_float(values[2], PyBUF_WRITABLE); if (unlikely(!__pyx_v_median_sizes.memview)) __PYX_ERR(0, 442, __pyx_L3_error)
+    __pyx_v_fraction_sizes = __Pyx_PyObject_to_MemoryviewSlice_dsds_float(values[3], PyBUF_WRITABLE); if (unlikely(!__pyx_v_fraction_sizes.memview)) __PYX_ERR(0, 443, __pyx_L3_error)
+    __pyx_v_tau_s = __Pyx_PyObject_to_MemoryviewSlice_ds_float(values[4], PyBUF_WRITABLE); if (unlikely(!__pyx_v_tau_s.memview)) __PYX_ERR(0, 444, __pyx_L3_error)
+    __pyx_v_TC = __Pyx_PyObject_to_MemoryviewSlice_dsds_float(values[5], PyBUF_WRITABLE); if (unlikely(!__pyx_v_TC.memview)) __PYX_ERR(0, 445, __pyx_L3_error)
     __pyx_v_sg_c = values[6];
     __pyx_v_rho_c = values[7];
     __pyx_v_core_nodes = ((PyArrayObject *)values[8]);
@@ -30114,7 +29865,7 @@ static PyObject *__pyx_fuse_0__pyx_pw_24cfuncs_ErosionDeposition_49calc_TC(PyObj
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("calc_TC", 1, 11, 11, __pyx_nargs); __PYX_ERR(0, 415, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("calc_TC", 1, 11, 11, __pyx_nargs); __PYX_ERR(0, 437, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -30129,7 +29880,7 @@ static PyObject *__pyx_fuse_0__pyx_pw_24cfuncs_ErosionDeposition_49calc_TC(PyObj
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_core_nodes), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "core_nodes", 0))) __PYX_ERR(0, 426, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_core_nodes), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "core_nodes", 0))) __PYX_ERR(0, 448, __pyx_L1_error)
   __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_48calc_TC(__pyx_self, __pyx_v_alpha, __pyx_v_beta, __pyx_v_median_sizes, __pyx_v_fraction_sizes, __pyx_v_tau_s, __pyx_v_TC, __pyx_v_sg_c, __pyx_v_rho_c, __pyx_v_core_nodes, __pyx_v_const_sg_g_rho, __pyx_v_shape);
 
   /* function exit code */
@@ -30198,37 +29949,37 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_48calc_TC(CYTHON_UNUSED PyO
   __pyx_pybuffernd_core_nodes.rcbuffer = &__pyx_pybuffer_core_nodes;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer, (PyObject*)__pyx_v_core_nodes, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 415, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer, (PyObject*)__pyx_v_core_nodes, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 437, __pyx_L1_error)
   }
   __pyx_pybuffernd_core_nodes.diminfo[0].strides = __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_core_nodes.diminfo[0].shape = __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.shape[0];
 
-  /* "cfuncs_ErosionDeposition.pyx":430
+  /* "cfuncs_ErosionDeposition.pyx":452
  *         shape
  * ):
  *     cdef int n_nodes = shape[0]             # <<<<<<<<<<<<<<
  *     cdef int n_cols = shape[1]
  *     cdef int index, col, node
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 430, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 452, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 430, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 452, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_nodes = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":431
+  /* "cfuncs_ErosionDeposition.pyx":453
  * ):
  *     cdef int n_nodes = shape[0]
  *     cdef int n_cols = shape[1]             # <<<<<<<<<<<<<<
  *     cdef int index, col, node
  *     cdef double y, yc, l, c, out_solv, loged_beta_plus_one
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 431, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 453, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 431, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 453, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_cols = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":434
+  /* "cfuncs_ErosionDeposition.pyx":456
  *     cdef int index, col, node
  *     cdef double y, yc, l, c, out_solv, loged_beta_plus_one
  *     cdef double const = 2.45             # <<<<<<<<<<<<<<
@@ -30237,7 +29988,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_48calc_TC(CYTHON_UNUSED PyO
 */
   __pyx_v_const = 2.45;
 
-  /* "cfuncs_ErosionDeposition.pyx":435
+  /* "cfuncs_ErosionDeposition.pyx":457
  *     cdef double y, yc, l, c, out_solv, loged_beta_plus_one
  *     cdef double const = 2.45
  *     cdef double const_b = 0.635             # <<<<<<<<<<<<<<
@@ -30246,37 +29997,37 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_48calc_TC(CYTHON_UNUSED PyO
 */
   __pyx_v_const_b = 0.635;
 
-  /* "cfuncs_ErosionDeposition.pyx":436
+  /* "cfuncs_ErosionDeposition.pyx":458
  *     cdef double const = 2.45
  *     cdef double const_b = 0.635
  *     cdef double sg = sg_c             # <<<<<<<<<<<<<<
  *     cdef double rho = rho_c
  *     cdef double const_c = const_sg_g_rho
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_sg_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 436, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_sg_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 458, __pyx_L1_error)
   __pyx_v_sg = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":437
+  /* "cfuncs_ErosionDeposition.pyx":459
  *     cdef double const_b = 0.635
  *     cdef double sg = sg_c
  *     cdef double rho = rho_c             # <<<<<<<<<<<<<<
  *     cdef double const_c = const_sg_g_rho
  * 
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_rho_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 437, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_rho_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 459, __pyx_L1_error)
   __pyx_v_rho = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":438
+  /* "cfuncs_ErosionDeposition.pyx":460
  *     cdef double sg = sg_c
  *     cdef double rho = rho_c
  *     cdef double const_c = const_sg_g_rho             # <<<<<<<<<<<<<<
  * 
  * 
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_const_sg_g_rho); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 438, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_const_sg_g_rho); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 460, __pyx_L1_error)
   __pyx_v_const_c = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":441
+  /* "cfuncs_ErosionDeposition.pyx":463
  * 
  * 
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -30322,7 +30073,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_48calc_TC(CYTHON_UNUSED PyO
                         {
                             __pyx_v_index = (int)(0 + 1 * __pyx_t_4);
 
-                            /* "cfuncs_ErosionDeposition.pyx":442
+                            /* "cfuncs_ErosionDeposition.pyx":464
  * 
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):
  *         node = core_nodes[index]             # <<<<<<<<<<<<<<
@@ -30332,7 +30083,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_48calc_TC(CYTHON_UNUSED PyO
                             __pyx_t_6 = __pyx_v_index;
                             __pyx_v_node = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_core_nodes.diminfo[0].strides));
 
-                            /* "cfuncs_ErosionDeposition.pyx":443
+                            /* "cfuncs_ErosionDeposition.pyx":465
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):
  *         node = core_nodes[index]
  *         for col in range(n_cols):             # <<<<<<<<<<<<<<
@@ -30344,7 +30095,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_48calc_TC(CYTHON_UNUSED PyO
                             for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
                               __pyx_v_col = __pyx_t_9;
 
-                              /* "cfuncs_ErosionDeposition.pyx":445
+                              /* "cfuncs_ErosionDeposition.pyx":467
  *         for col in range(n_cols):
  * 
  *             y = tau_s[node] / (const_c * fraction_sizes[node,col])             # <<<<<<<<<<<<<<
@@ -30360,11 +30111,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_48calc_TC(CYTHON_UNUSED PyO
                                 PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                                 PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                                 __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                                __PYX_ERR(0, 445, __pyx_L8_error)
+                                __PYX_ERR(0, 467, __pyx_L8_error)
                               }
                               __pyx_v_y = (((double)__pyx_t_10) / __pyx_t_3);
 
-                              /* "cfuncs_ErosionDeposition.pyx":446
+                              /* "cfuncs_ErosionDeposition.pyx":468
  * 
  *             y = tau_s[node] / (const_c * fraction_sizes[node,col])
  *             yc = alpha * (fraction_sizes[node,col] /  median_sizes[node])**beta             # <<<<<<<<<<<<<<
@@ -30380,12 +30131,12 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_48calc_TC(CYTHON_UNUSED PyO
                                 PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                                 PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                                 __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                                __PYX_ERR(0, 446, __pyx_L8_error)
+                                __PYX_ERR(0, 468, __pyx_L8_error)
                               }
-                              __pyx_t_3 = __Pyx_SoftComplexToDouble(__Pyx_c_prod_double(__pyx_t_double_complex_from_parts(__pyx_v_alpha, 0), __Pyx_c_pow_double(__pyx_t_double_complex_from_parts((__pyx_t_10 / __pyx_t_12), 0), __pyx_t_double_complex_from_parts(__pyx_v_beta, 0))), 1); if (unlikely(__pyx_t_3 == ((double)-1) && __Pyx_ErrOccurredWithGIL())) __PYX_ERR(0, 446, __pyx_L8_error)
+                              __pyx_t_3 = __Pyx_SoftComplexToDouble(__Pyx_c_prod_double(__pyx_t_double_complex_from_parts(__pyx_v_alpha, 0), __Pyx_c_pow_double(__pyx_t_double_complex_from_parts((__pyx_t_10 / __pyx_t_12), 0), __pyx_t_double_complex_from_parts(__pyx_v_beta, 0))), 1); if (unlikely(__pyx_t_3 == ((double)-1) && __Pyx_ErrOccurredWithGIL())) __PYX_ERR(0, 468, __pyx_L8_error)
                               __pyx_v_yc = __pyx_t_3;
 
-                              /* "cfuncs_ErosionDeposition.pyx":448
+                              /* "cfuncs_ErosionDeposition.pyx":470
  *             yc = alpha * (fraction_sizes[node,col] /  median_sizes[node])**beta
  * 
  *             if y > yc:             # <<<<<<<<<<<<<<
@@ -30395,7 +30146,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_48calc_TC(CYTHON_UNUSED PyO
                               __pyx_t_13 = (__pyx_v_y > __pyx_v_yc);
                               if (__pyx_t_13) {
 
-                                /* "cfuncs_ErosionDeposition.pyx":449
+                                /* "cfuncs_ErosionDeposition.pyx":471
  * 
  *             if y > yc:
  *                 l = (y / yc) - 1             # <<<<<<<<<<<<<<
@@ -30406,21 +30157,21 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_48calc_TC(CYTHON_UNUSED PyO
                                   PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                                   PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                                   __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                                  __PYX_ERR(0, 449, __pyx_L8_error)
+                                  __PYX_ERR(0, 471, __pyx_L8_error)
                                 }
                                 __pyx_v_l = ((__pyx_v_y / __pyx_v_yc) - 1.0);
 
-                                /* "cfuncs_ErosionDeposition.pyx":450
+                                /* "cfuncs_ErosionDeposition.pyx":472
  *             if y > yc:
  *                 l = (y / yc) - 1
  *                 c = const * sg**(-0.4) * yc**(0.5) * l             # <<<<<<<<<<<<<<
  *                 loged_beta_plus_one  = log(c + 1)
  *                 TC[node, col] = const_b * sg * fraction_sizes[node, col] * ((rho * tau_s[node]) ** 0.5) * l * (
 */
-                                __pyx_t_3 = __Pyx_SoftComplexToDouble(__Pyx_c_prod_double(__Pyx_c_prod_double(__Pyx_c_prod_double(__pyx_t_double_complex_from_parts(__pyx_v_const, 0), __Pyx_c_pow_double(__pyx_t_double_complex_from_parts(__pyx_v_sg, 0), __pyx_t_double_complex_from_parts(-0.4, 0))), __Pyx_c_pow_double(__pyx_t_double_complex_from_parts(__pyx_v_yc, 0), __pyx_t_double_complex_from_parts(0.5, 0))), __pyx_t_double_complex_from_parts(__pyx_v_l, 0)), 1); if (unlikely(__pyx_t_3 == ((double)-1) && __Pyx_ErrOccurredWithGIL())) __PYX_ERR(0, 450, __pyx_L8_error)
+                                __pyx_t_3 = __Pyx_SoftComplexToDouble(__Pyx_c_prod_double(__Pyx_c_prod_double(__Pyx_c_prod_double(__pyx_t_double_complex_from_parts(__pyx_v_const, 0), __Pyx_c_pow_double(__pyx_t_double_complex_from_parts(__pyx_v_sg, 0), __pyx_t_double_complex_from_parts(-0.4, 0))), __Pyx_c_pow_double(__pyx_t_double_complex_from_parts(__pyx_v_yc, 0), __pyx_t_double_complex_from_parts(0.5, 0))), __pyx_t_double_complex_from_parts(__pyx_v_l, 0)), 1); if (unlikely(__pyx_t_3 == ((double)-1) && __Pyx_ErrOccurredWithGIL())) __PYX_ERR(0, 472, __pyx_L8_error)
                                 __pyx_v_c = __pyx_t_3;
 
-                                /* "cfuncs_ErosionDeposition.pyx":451
+                                /* "cfuncs_ErosionDeposition.pyx":473
  *                 l = (y / yc) - 1
  *                 c = const * sg**(-0.4) * yc**(0.5) * l
  *                 loged_beta_plus_one  = log(c + 1)             # <<<<<<<<<<<<<<
@@ -30429,7 +30180,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_48calc_TC(CYTHON_UNUSED PyO
 */
                                 __pyx_v_loged_beta_plus_one = log((__pyx_v_c + 1.0));
 
-                                /* "cfuncs_ErosionDeposition.pyx":452
+                                /* "cfuncs_ErosionDeposition.pyx":474
  *                 c = const * sg**(-0.4) * yc**(0.5) * l
  *                 loged_beta_plus_one  = log(c + 1)
  *                 TC[node, col] = const_b * sg * fraction_sizes[node, col] * ((rho * tau_s[node]) ** 0.5) * l * (             # <<<<<<<<<<<<<<
@@ -30440,7 +30191,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_48calc_TC(CYTHON_UNUSED PyO
                                 __pyx_t_11 = __pyx_v_col;
                                 __pyx_t_14 = __pyx_v_node;
 
-                                /* "cfuncs_ErosionDeposition.pyx":454
+                                /* "cfuncs_ErosionDeposition.pyx":476
  *                 TC[node, col] = const_b * sg * fraction_sizes[node, col] * ((rho * tau_s[node]) ** 0.5) * l * (
  *                         1 -
  *                         ((1 / c) * loged_beta_plus_one))             # <<<<<<<<<<<<<<
@@ -30451,22 +30202,22 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_48calc_TC(CYTHON_UNUSED PyO
                                   PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                                   PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                                   __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                                  __PYX_ERR(0, 454, __pyx_L8_error)
+                                  __PYX_ERR(0, 476, __pyx_L8_error)
                                 }
 
-                                /* "cfuncs_ErosionDeposition.pyx":452
+                                /* "cfuncs_ErosionDeposition.pyx":474
  *                 c = const * sg**(-0.4) * yc**(0.5) * l
  *                 loged_beta_plus_one  = log(c + 1)
  *                 TC[node, col] = const_b * sg * fraction_sizes[node, col] * ((rho * tau_s[node]) ** 0.5) * l * (             # <<<<<<<<<<<<<<
  *                         1 -
  *                         ((1 / c) * loged_beta_plus_one))
 */
-                                __pyx_t_3 = __Pyx_SoftComplexToDouble(__Pyx_c_prod_double(__Pyx_c_prod_double(__Pyx_c_prod_double(__pyx_t_double_complex_from_parts(((__pyx_v_const_b * __pyx_v_sg) * (*((float *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_fraction_sizes.data + __pyx_t_6 * __pyx_v_fraction_sizes.strides[0]) ) + __pyx_t_11 * __pyx_v_fraction_sizes.strides[1]) )))), 0), __Pyx_c_pow_double(__pyx_t_double_complex_from_parts((__pyx_v_rho * (*((float *) ( /* dim=0 */ (__pyx_v_tau_s.data + __pyx_t_14 * __pyx_v_tau_s.strides[0]) )))), 0), __pyx_t_double_complex_from_parts(0.5, 0))), __pyx_t_double_complex_from_parts(__pyx_v_l, 0)), __pyx_t_double_complex_from_parts((1.0 - ((1.0 / __pyx_v_c) * __pyx_v_loged_beta_plus_one)), 0)), 1); if (unlikely(__pyx_t_3 == ((double)-1) && __Pyx_ErrOccurredWithGIL())) __PYX_ERR(0, 452, __pyx_L8_error)
+                                __pyx_t_3 = __Pyx_SoftComplexToDouble(__Pyx_c_prod_double(__Pyx_c_prod_double(__Pyx_c_prod_double(__pyx_t_double_complex_from_parts(((__pyx_v_const_b * __pyx_v_sg) * (*((float *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_fraction_sizes.data + __pyx_t_6 * __pyx_v_fraction_sizes.strides[0]) ) + __pyx_t_11 * __pyx_v_fraction_sizes.strides[1]) )))), 0), __Pyx_c_pow_double(__pyx_t_double_complex_from_parts((__pyx_v_rho * (*((float *) ( /* dim=0 */ (__pyx_v_tau_s.data + __pyx_t_14 * __pyx_v_tau_s.strides[0]) )))), 0), __pyx_t_double_complex_from_parts(0.5, 0))), __pyx_t_double_complex_from_parts(__pyx_v_l, 0)), __pyx_t_double_complex_from_parts((1.0 - ((1.0 / __pyx_v_c) * __pyx_v_loged_beta_plus_one)), 0)), 1); if (unlikely(__pyx_t_3 == ((double)-1) && __Pyx_ErrOccurredWithGIL())) __PYX_ERR(0, 474, __pyx_L8_error)
                                 __pyx_t_14 = __pyx_v_node;
                                 __pyx_t_11 = __pyx_v_col;
                                 *((float *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_TC.data + __pyx_t_14 * __pyx_v_TC.strides[0]) ) + __pyx_t_11 * __pyx_v_TC.strides[1]) )) = __pyx_t_3;
 
-                                /* "cfuncs_ErosionDeposition.pyx":448
+                                /* "cfuncs_ErosionDeposition.pyx":470
  *             yc = alpha * (fraction_sizes[node,col] /  median_sizes[node])**beta
  * 
  *             if y > yc:             # <<<<<<<<<<<<<<
@@ -30548,7 +30299,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
         #endif
       }
 
-      /* "cfuncs_ErosionDeposition.pyx":441
+      /* "cfuncs_ErosionDeposition.pyx":463
  * 
  * 
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -30570,7 +30321,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
       }
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":456
+  /* "cfuncs_ErosionDeposition.pyx":478
  *                         ((1 / c) * loged_beta_plus_one))
  * 
  *     return TC.base             # <<<<<<<<<<<<<<
@@ -30578,16 +30329,16 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
  * 
 */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_TC, 2, (PyObject *(*)(char *)) __pyx_memview_get_float, (int (*)(char *, PyObject *)) __pyx_memview_set_float, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 456, __pyx_L1_error)
+  __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_TC, 2, (PyObject *(*)(char *)) __pyx_memview_get_float, (int (*)(char *, PyObject *)) __pyx_memview_set_float, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 478, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_base); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 456, __pyx_L1_error)
+  __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_base); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 478, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_15);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_r = __pyx_t_15;
   __pyx_t_15 = 0;
   goto __pyx_L0;
 
-  /* "cfuncs_ErosionDeposition.pyx":415
+  /* "cfuncs_ErosionDeposition.pyx":437
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -30649,93 +30400,93 @@ static PyObject *__pyx_fuse_1__pyx_pw_24cfuncs_ErosionDeposition_51calc_TC(PyObj
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_alpha,&__pyx_mstate_global->__pyx_n_u_beta,&__pyx_mstate_global->__pyx_n_u_median_sizes,&__pyx_mstate_global->__pyx_n_u_fraction_sizes,&__pyx_mstate_global->__pyx_n_u_tau_s,&__pyx_mstate_global->__pyx_n_u_TC,&__pyx_mstate_global->__pyx_n_u_sg_c,&__pyx_mstate_global->__pyx_n_u_rho_c,&__pyx_mstate_global->__pyx_n_u_core_nodes,&__pyx_mstate_global->__pyx_n_u_const_sg_g_rho,&__pyx_mstate_global->__pyx_n_u_shape,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_VARARGS(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 415, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 437, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case 11:
         values[10] = __Pyx_ArgRef_VARARGS(__pyx_args, 10);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[10])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[10])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case 10:
         values[9] = __Pyx_ArgRef_VARARGS(__pyx_args, 9);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  9:
         values[8] = __Pyx_ArgRef_VARARGS(__pyx_args, 8);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  8:
         values[7] = __Pyx_ArgRef_VARARGS(__pyx_args, 7);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  7:
         values[6] = __Pyx_ArgRef_VARARGS(__pyx_args, 6);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  6:
         values[5] = __Pyx_ArgRef_VARARGS(__pyx_args, 5);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  5:
         values[4] = __Pyx_ArgRef_VARARGS(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 415, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 437, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_TC", 0) < (0)) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_TC", 0) < (0)) __PYX_ERR(0, 437, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 11; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_TC", 1, 11, 11, i); __PYX_ERR(0, 415, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_TC", 1, 11, 11, i); __PYX_ERR(0, 437, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 11)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 437, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 437, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 437, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 437, __pyx_L3_error)
       values[4] = __Pyx_ArgRef_VARARGS(__pyx_args, 4);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 437, __pyx_L3_error)
       values[5] = __Pyx_ArgRef_VARARGS(__pyx_args, 5);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 437, __pyx_L3_error)
       values[6] = __Pyx_ArgRef_VARARGS(__pyx_args, 6);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 437, __pyx_L3_error)
       values[7] = __Pyx_ArgRef_VARARGS(__pyx_args, 7);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 437, __pyx_L3_error)
       values[8] = __Pyx_ArgRef_VARARGS(__pyx_args, 8);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 437, __pyx_L3_error)
       values[9] = __Pyx_ArgRef_VARARGS(__pyx_args, 9);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 437, __pyx_L3_error)
       values[10] = __Pyx_ArgRef_VARARGS(__pyx_args, 10);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[10])) __PYX_ERR(0, 415, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[10])) __PYX_ERR(0, 437, __pyx_L3_error)
     }
-    __pyx_v_alpha = __Pyx_PyFloat_AsDouble(values[0]); if (unlikely((__pyx_v_alpha == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 418, __pyx_L3_error)
-    __pyx_v_beta = __Pyx_PyFloat_AsDouble(values[1]); if (unlikely((__pyx_v_beta == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 419, __pyx_L3_error)
-    __pyx_v_median_sizes = __Pyx_PyObject_to_MemoryviewSlice_ds_double(values[2], PyBUF_WRITABLE); if (unlikely(!__pyx_v_median_sizes.memview)) __PYX_ERR(0, 420, __pyx_L3_error)
-    __pyx_v_fraction_sizes = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(values[3], PyBUF_WRITABLE); if (unlikely(!__pyx_v_fraction_sizes.memview)) __PYX_ERR(0, 421, __pyx_L3_error)
-    __pyx_v_tau_s = __Pyx_PyObject_to_MemoryviewSlice_ds_double(values[4], PyBUF_WRITABLE); if (unlikely(!__pyx_v_tau_s.memview)) __PYX_ERR(0, 422, __pyx_L3_error)
-    __pyx_v_TC = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(values[5], PyBUF_WRITABLE); if (unlikely(!__pyx_v_TC.memview)) __PYX_ERR(0, 423, __pyx_L3_error)
+    __pyx_v_alpha = __Pyx_PyFloat_AsDouble(values[0]); if (unlikely((__pyx_v_alpha == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 440, __pyx_L3_error)
+    __pyx_v_beta = __Pyx_PyFloat_AsDouble(values[1]); if (unlikely((__pyx_v_beta == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 441, __pyx_L3_error)
+    __pyx_v_median_sizes = __Pyx_PyObject_to_MemoryviewSlice_ds_double(values[2], PyBUF_WRITABLE); if (unlikely(!__pyx_v_median_sizes.memview)) __PYX_ERR(0, 442, __pyx_L3_error)
+    __pyx_v_fraction_sizes = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(values[3], PyBUF_WRITABLE); if (unlikely(!__pyx_v_fraction_sizes.memview)) __PYX_ERR(0, 443, __pyx_L3_error)
+    __pyx_v_tau_s = __Pyx_PyObject_to_MemoryviewSlice_ds_double(values[4], PyBUF_WRITABLE); if (unlikely(!__pyx_v_tau_s.memview)) __PYX_ERR(0, 444, __pyx_L3_error)
+    __pyx_v_TC = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(values[5], PyBUF_WRITABLE); if (unlikely(!__pyx_v_TC.memview)) __PYX_ERR(0, 445, __pyx_L3_error)
     __pyx_v_sg_c = values[6];
     __pyx_v_rho_c = values[7];
     __pyx_v_core_nodes = ((PyArrayObject *)values[8]);
@@ -30744,7 +30495,7 @@ static PyObject *__pyx_fuse_1__pyx_pw_24cfuncs_ErosionDeposition_51calc_TC(PyObj
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("calc_TC", 1, 11, 11, __pyx_nargs); __PYX_ERR(0, 415, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("calc_TC", 1, 11, 11, __pyx_nargs); __PYX_ERR(0, 437, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -30759,7 +30510,7 @@ static PyObject *__pyx_fuse_1__pyx_pw_24cfuncs_ErosionDeposition_51calc_TC(PyObj
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_core_nodes), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "core_nodes", 0))) __PYX_ERR(0, 426, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_core_nodes), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "core_nodes", 0))) __PYX_ERR(0, 448, __pyx_L1_error)
   __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_50calc_TC(__pyx_self, __pyx_v_alpha, __pyx_v_beta, __pyx_v_median_sizes, __pyx_v_fraction_sizes, __pyx_v_tau_s, __pyx_v_TC, __pyx_v_sg_c, __pyx_v_rho_c, __pyx_v_core_nodes, __pyx_v_const_sg_g_rho, __pyx_v_shape);
 
   /* function exit code */
@@ -30828,37 +30579,37 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_50calc_TC(CYTHON_UNUSED PyO
   __pyx_pybuffernd_core_nodes.rcbuffer = &__pyx_pybuffer_core_nodes;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer, (PyObject*)__pyx_v_core_nodes, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 415, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer, (PyObject*)__pyx_v_core_nodes, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 437, __pyx_L1_error)
   }
   __pyx_pybuffernd_core_nodes.diminfo[0].strides = __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_core_nodes.diminfo[0].shape = __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.shape[0];
 
-  /* "cfuncs_ErosionDeposition.pyx":430
+  /* "cfuncs_ErosionDeposition.pyx":452
  *         shape
  * ):
  *     cdef int n_nodes = shape[0]             # <<<<<<<<<<<<<<
  *     cdef int n_cols = shape[1]
  *     cdef int index, col, node
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 430, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 452, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 430, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 452, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_nodes = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":431
+  /* "cfuncs_ErosionDeposition.pyx":453
  * ):
  *     cdef int n_nodes = shape[0]
  *     cdef int n_cols = shape[1]             # <<<<<<<<<<<<<<
  *     cdef int index, col, node
  *     cdef double y, yc, l, c, out_solv, loged_beta_plus_one
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 431, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 453, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 431, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 453, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_cols = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":434
+  /* "cfuncs_ErosionDeposition.pyx":456
  *     cdef int index, col, node
  *     cdef double y, yc, l, c, out_solv, loged_beta_plus_one
  *     cdef double const = 2.45             # <<<<<<<<<<<<<<
@@ -30867,7 +30618,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_50calc_TC(CYTHON_UNUSED PyO
 */
   __pyx_v_const = 2.45;
 
-  /* "cfuncs_ErosionDeposition.pyx":435
+  /* "cfuncs_ErosionDeposition.pyx":457
  *     cdef double y, yc, l, c, out_solv, loged_beta_plus_one
  *     cdef double const = 2.45
  *     cdef double const_b = 0.635             # <<<<<<<<<<<<<<
@@ -30876,37 +30627,37 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_50calc_TC(CYTHON_UNUSED PyO
 */
   __pyx_v_const_b = 0.635;
 
-  /* "cfuncs_ErosionDeposition.pyx":436
+  /* "cfuncs_ErosionDeposition.pyx":458
  *     cdef double const = 2.45
  *     cdef double const_b = 0.635
  *     cdef double sg = sg_c             # <<<<<<<<<<<<<<
  *     cdef double rho = rho_c
  *     cdef double const_c = const_sg_g_rho
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_sg_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 436, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_sg_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 458, __pyx_L1_error)
   __pyx_v_sg = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":437
+  /* "cfuncs_ErosionDeposition.pyx":459
  *     cdef double const_b = 0.635
  *     cdef double sg = sg_c
  *     cdef double rho = rho_c             # <<<<<<<<<<<<<<
  *     cdef double const_c = const_sg_g_rho
  * 
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_rho_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 437, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_rho_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 459, __pyx_L1_error)
   __pyx_v_rho = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":438
+  /* "cfuncs_ErosionDeposition.pyx":460
  *     cdef double sg = sg_c
  *     cdef double rho = rho_c
  *     cdef double const_c = const_sg_g_rho             # <<<<<<<<<<<<<<
  * 
  * 
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_const_sg_g_rho); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 438, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_const_sg_g_rho); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 460, __pyx_L1_error)
   __pyx_v_const_c = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":441
+  /* "cfuncs_ErosionDeposition.pyx":463
  * 
  * 
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -30952,7 +30703,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_50calc_TC(CYTHON_UNUSED PyO
                         {
                             __pyx_v_index = (int)(0 + 1 * __pyx_t_4);
 
-                            /* "cfuncs_ErosionDeposition.pyx":442
+                            /* "cfuncs_ErosionDeposition.pyx":464
  * 
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):
  *         node = core_nodes[index]             # <<<<<<<<<<<<<<
@@ -30962,7 +30713,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_50calc_TC(CYTHON_UNUSED PyO
                             __pyx_t_6 = __pyx_v_index;
                             __pyx_v_node = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_core_nodes.diminfo[0].strides));
 
-                            /* "cfuncs_ErosionDeposition.pyx":443
+                            /* "cfuncs_ErosionDeposition.pyx":465
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):
  *         node = core_nodes[index]
  *         for col in range(n_cols):             # <<<<<<<<<<<<<<
@@ -30974,7 +30725,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_50calc_TC(CYTHON_UNUSED PyO
                             for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
                               __pyx_v_col = __pyx_t_9;
 
-                              /* "cfuncs_ErosionDeposition.pyx":445
+                              /* "cfuncs_ErosionDeposition.pyx":467
  *         for col in range(n_cols):
  * 
  *             y = tau_s[node] / (const_c * fraction_sizes[node,col])             # <<<<<<<<<<<<<<
@@ -30990,11 +30741,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_50calc_TC(CYTHON_UNUSED PyO
                                 PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                                 PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                                 __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                                __PYX_ERR(0, 445, __pyx_L8_error)
+                                __PYX_ERR(0, 467, __pyx_L8_error)
                               }
                               __pyx_v_y = (__pyx_t_3 / __pyx_t_11);
 
-                              /* "cfuncs_ErosionDeposition.pyx":446
+                              /* "cfuncs_ErosionDeposition.pyx":468
  * 
  *             y = tau_s[node] / (const_c * fraction_sizes[node,col])
  *             yc = alpha * (fraction_sizes[node,col] /  median_sizes[node])**beta             # <<<<<<<<<<<<<<
@@ -31010,12 +30761,12 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_50calc_TC(CYTHON_UNUSED PyO
                                 PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                                 PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                                 __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                                __PYX_ERR(0, 446, __pyx_L8_error)
+                                __PYX_ERR(0, 468, __pyx_L8_error)
                               }
-                              __pyx_t_12 = __Pyx_SoftComplexToDouble(__Pyx_c_prod_double(__pyx_t_double_complex_from_parts(__pyx_v_alpha, 0), __Pyx_c_pow_double(__pyx_t_double_complex_from_parts((__pyx_t_11 / __pyx_t_3), 0), __pyx_t_double_complex_from_parts(__pyx_v_beta, 0))), 1); if (unlikely(__pyx_t_12 == ((double)-1) && __Pyx_ErrOccurredWithGIL())) __PYX_ERR(0, 446, __pyx_L8_error)
+                              __pyx_t_12 = __Pyx_SoftComplexToDouble(__Pyx_c_prod_double(__pyx_t_double_complex_from_parts(__pyx_v_alpha, 0), __Pyx_c_pow_double(__pyx_t_double_complex_from_parts((__pyx_t_11 / __pyx_t_3), 0), __pyx_t_double_complex_from_parts(__pyx_v_beta, 0))), 1); if (unlikely(__pyx_t_12 == ((double)-1) && __Pyx_ErrOccurredWithGIL())) __PYX_ERR(0, 468, __pyx_L8_error)
                               __pyx_v_yc = __pyx_t_12;
 
-                              /* "cfuncs_ErosionDeposition.pyx":448
+                              /* "cfuncs_ErosionDeposition.pyx":470
  *             yc = alpha * (fraction_sizes[node,col] /  median_sizes[node])**beta
  * 
  *             if y > yc:             # <<<<<<<<<<<<<<
@@ -31025,7 +30776,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_50calc_TC(CYTHON_UNUSED PyO
                               __pyx_t_13 = (__pyx_v_y > __pyx_v_yc);
                               if (__pyx_t_13) {
 
-                                /* "cfuncs_ErosionDeposition.pyx":449
+                                /* "cfuncs_ErosionDeposition.pyx":471
  * 
  *             if y > yc:
  *                 l = (y / yc) - 1             # <<<<<<<<<<<<<<
@@ -31036,21 +30787,21 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_50calc_TC(CYTHON_UNUSED PyO
                                   PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                                   PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                                   __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                                  __PYX_ERR(0, 449, __pyx_L8_error)
+                                  __PYX_ERR(0, 471, __pyx_L8_error)
                                 }
                                 __pyx_v_l = ((__pyx_v_y / __pyx_v_yc) - 1.0);
 
-                                /* "cfuncs_ErosionDeposition.pyx":450
+                                /* "cfuncs_ErosionDeposition.pyx":472
  *             if y > yc:
  *                 l = (y / yc) - 1
  *                 c = const * sg**(-0.4) * yc**(0.5) * l             # <<<<<<<<<<<<<<
  *                 loged_beta_plus_one  = log(c + 1)
  *                 TC[node, col] = const_b * sg * fraction_sizes[node, col] * ((rho * tau_s[node]) ** 0.5) * l * (
 */
-                                __pyx_t_12 = __Pyx_SoftComplexToDouble(__Pyx_c_prod_double(__Pyx_c_prod_double(__Pyx_c_prod_double(__pyx_t_double_complex_from_parts(__pyx_v_const, 0), __Pyx_c_pow_double(__pyx_t_double_complex_from_parts(__pyx_v_sg, 0), __pyx_t_double_complex_from_parts(-0.4, 0))), __Pyx_c_pow_double(__pyx_t_double_complex_from_parts(__pyx_v_yc, 0), __pyx_t_double_complex_from_parts(0.5, 0))), __pyx_t_double_complex_from_parts(__pyx_v_l, 0)), 1); if (unlikely(__pyx_t_12 == ((double)-1) && __Pyx_ErrOccurredWithGIL())) __PYX_ERR(0, 450, __pyx_L8_error)
+                                __pyx_t_12 = __Pyx_SoftComplexToDouble(__Pyx_c_prod_double(__Pyx_c_prod_double(__Pyx_c_prod_double(__pyx_t_double_complex_from_parts(__pyx_v_const, 0), __Pyx_c_pow_double(__pyx_t_double_complex_from_parts(__pyx_v_sg, 0), __pyx_t_double_complex_from_parts(-0.4, 0))), __Pyx_c_pow_double(__pyx_t_double_complex_from_parts(__pyx_v_yc, 0), __pyx_t_double_complex_from_parts(0.5, 0))), __pyx_t_double_complex_from_parts(__pyx_v_l, 0)), 1); if (unlikely(__pyx_t_12 == ((double)-1) && __Pyx_ErrOccurredWithGIL())) __PYX_ERR(0, 472, __pyx_L8_error)
                                 __pyx_v_c = __pyx_t_12;
 
-                                /* "cfuncs_ErosionDeposition.pyx":451
+                                /* "cfuncs_ErosionDeposition.pyx":473
  *                 l = (y / yc) - 1
  *                 c = const * sg**(-0.4) * yc**(0.5) * l
  *                 loged_beta_plus_one  = log(c + 1)             # <<<<<<<<<<<<<<
@@ -31059,7 +30810,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_50calc_TC(CYTHON_UNUSED PyO
 */
                                 __pyx_v_loged_beta_plus_one = log((__pyx_v_c + 1.0));
 
-                                /* "cfuncs_ErosionDeposition.pyx":452
+                                /* "cfuncs_ErosionDeposition.pyx":474
  *                 c = const * sg**(-0.4) * yc**(0.5) * l
  *                 loged_beta_plus_one  = log(c + 1)
  *                 TC[node, col] = const_b * sg * fraction_sizes[node, col] * ((rho * tau_s[node]) ** 0.5) * l * (             # <<<<<<<<<<<<<<
@@ -31070,7 +30821,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_50calc_TC(CYTHON_UNUSED PyO
                                 __pyx_t_10 = __pyx_v_col;
                                 __pyx_t_14 = __pyx_v_node;
 
-                                /* "cfuncs_ErosionDeposition.pyx":454
+                                /* "cfuncs_ErosionDeposition.pyx":476
  *                 TC[node, col] = const_b * sg * fraction_sizes[node, col] * ((rho * tau_s[node]) ** 0.5) * l * (
  *                         1 -
  *                         ((1 / c) * loged_beta_plus_one))             # <<<<<<<<<<<<<<
@@ -31081,22 +30832,22 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_50calc_TC(CYTHON_UNUSED PyO
                                   PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                                   PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                                   __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                                  __PYX_ERR(0, 454, __pyx_L8_error)
+                                  __PYX_ERR(0, 476, __pyx_L8_error)
                                 }
 
-                                /* "cfuncs_ErosionDeposition.pyx":452
+                                /* "cfuncs_ErosionDeposition.pyx":474
  *                 c = const * sg**(-0.4) * yc**(0.5) * l
  *                 loged_beta_plus_one  = log(c + 1)
  *                 TC[node, col] = const_b * sg * fraction_sizes[node, col] * ((rho * tau_s[node]) ** 0.5) * l * (             # <<<<<<<<<<<<<<
  *                         1 -
  *                         ((1 / c) * loged_beta_plus_one))
 */
-                                __pyx_t_12 = __Pyx_SoftComplexToDouble(__Pyx_c_prod_double(__Pyx_c_prod_double(__Pyx_c_prod_double(__pyx_t_double_complex_from_parts(((__pyx_v_const_b * __pyx_v_sg) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_fraction_sizes.data + __pyx_t_6 * __pyx_v_fraction_sizes.strides[0]) ) + __pyx_t_10 * __pyx_v_fraction_sizes.strides[1]) )))), 0), __Pyx_c_pow_double(__pyx_t_double_complex_from_parts((__pyx_v_rho * (*((double *) ( /* dim=0 */ (__pyx_v_tau_s.data + __pyx_t_14 * __pyx_v_tau_s.strides[0]) )))), 0), __pyx_t_double_complex_from_parts(0.5, 0))), __pyx_t_double_complex_from_parts(__pyx_v_l, 0)), __pyx_t_double_complex_from_parts((1.0 - ((1.0 / __pyx_v_c) * __pyx_v_loged_beta_plus_one)), 0)), 1); if (unlikely(__pyx_t_12 == ((double)-1) && __Pyx_ErrOccurredWithGIL())) __PYX_ERR(0, 452, __pyx_L8_error)
+                                __pyx_t_12 = __Pyx_SoftComplexToDouble(__Pyx_c_prod_double(__Pyx_c_prod_double(__Pyx_c_prod_double(__pyx_t_double_complex_from_parts(((__pyx_v_const_b * __pyx_v_sg) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_fraction_sizes.data + __pyx_t_6 * __pyx_v_fraction_sizes.strides[0]) ) + __pyx_t_10 * __pyx_v_fraction_sizes.strides[1]) )))), 0), __Pyx_c_pow_double(__pyx_t_double_complex_from_parts((__pyx_v_rho * (*((double *) ( /* dim=0 */ (__pyx_v_tau_s.data + __pyx_t_14 * __pyx_v_tau_s.strides[0]) )))), 0), __pyx_t_double_complex_from_parts(0.5, 0))), __pyx_t_double_complex_from_parts(__pyx_v_l, 0)), __pyx_t_double_complex_from_parts((1.0 - ((1.0 / __pyx_v_c) * __pyx_v_loged_beta_plus_one)), 0)), 1); if (unlikely(__pyx_t_12 == ((double)-1) && __Pyx_ErrOccurredWithGIL())) __PYX_ERR(0, 474, __pyx_L8_error)
                                 __pyx_t_14 = __pyx_v_node;
                                 __pyx_t_10 = __pyx_v_col;
                                 *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_TC.data + __pyx_t_14 * __pyx_v_TC.strides[0]) ) + __pyx_t_10 * __pyx_v_TC.strides[1]) )) = __pyx_t_12;
 
-                                /* "cfuncs_ErosionDeposition.pyx":448
+                                /* "cfuncs_ErosionDeposition.pyx":470
  *             yc = alpha * (fraction_sizes[node,col] /  median_sizes[node])**beta
  * 
  *             if y > yc:             # <<<<<<<<<<<<<<
@@ -31178,7 +30929,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
         #endif
       }
 
-      /* "cfuncs_ErosionDeposition.pyx":441
+      /* "cfuncs_ErosionDeposition.pyx":463
  * 
  * 
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -31200,7 +30951,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
       }
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":456
+  /* "cfuncs_ErosionDeposition.pyx":478
  *                         ((1 / c) * loged_beta_plus_one))
  * 
  *     return TC.base             # <<<<<<<<<<<<<<
@@ -31208,16 +30959,16 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
  * 
 */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_TC, 2, (PyObject *(*)(char *)) __pyx_memview_get_double, (int (*)(char *, PyObject *)) __pyx_memview_set_double, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 456, __pyx_L1_error)
+  __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_TC, 2, (PyObject *(*)(char *)) __pyx_memview_get_double, (int (*)(char *, PyObject *)) __pyx_memview_set_double, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 478, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_base); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 456, __pyx_L1_error)
+  __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_base); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 478, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_15);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_r = __pyx_t_15;
   __pyx_t_15 = 0;
   goto __pyx_L0;
 
-  /* "cfuncs_ErosionDeposition.pyx":415
+  /* "cfuncs_ErosionDeposition.pyx":437
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -31246,7 +30997,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
   return __pyx_r;
 }
 
-/* "cfuncs_ErosionDeposition.pyx":459
+/* "cfuncs_ErosionDeposition.pyx":481
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -31282,53 +31033,53 @@ static PyObject *__pyx_pw_24cfuncs_ErosionDeposition_25calc_TC_EH_with_discharge
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_signatures,&__pyx_mstate_global->__pyx_n_u_args,&__pyx_mstate_global->__pyx_n_u_kwargs,&__pyx_mstate_global->__pyx_n_u_defaults,&__pyx_mstate_global->__pyx_n_u_fused_sigindex,0};
     struct __pyx_defaults *__pyx_dynamic_args = __Pyx_CyFunction_Defaults(struct __pyx_defaults, __pyx_self);
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_VARARGS(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 459, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 481, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  5:
         values[4] = __Pyx_ArgRef_VARARGS(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "__pyx_fused_cpdef", 0) < (0)) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "__pyx_fused_cpdef", 0) < (0)) __PYX_ERR(0, 481, __pyx_L3_error)
       if (!values[4]) values[4] = __Pyx_NewRef(__pyx_dynamic_args->arg0);
       for (Py_ssize_t i = __pyx_nargs; i < 4; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 0, 4, 5, i); __PYX_ERR(0, 459, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 0, 4, 5, i); __PYX_ERR(0, 481, __pyx_L3_error) }
       }
     } else {
       switch (__pyx_nargs) {
         case  5:
         values[4] = __Pyx_ArgRef_VARARGS(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 481, __pyx_L3_error)
         values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 481, __pyx_L3_error)
         values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 481, __pyx_L3_error)
         values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 481, __pyx_L3_error)
         break;
         default: goto __pyx_L5_argtuple_error;
       }
@@ -31342,7 +31093,7 @@ static PyObject *__pyx_pw_24cfuncs_ErosionDeposition_25calc_TC_EH_with_discharge
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 0, 4, 5, __pyx_nargs); __PYX_ERR(0, 459, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 0, 4, 5, __pyx_nargs); __PYX_ERR(0, 481, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -31391,7 +31142,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_24calc_TC_EH_with_discharge
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L4_bool_binop_done;
   }
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_kwargs); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 459, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_kwargs); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 481, __pyx_L1_error)
   __pyx_t_3 = (!__pyx_t_2);
   __pyx_t_1 = __pyx_t_3;
   __pyx_L4_bool_binop_done:;
@@ -31399,20 +31150,20 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_24calc_TC_EH_with_discharge
     __Pyx_INCREF(Py_None);
     __Pyx_DECREF_SET(__pyx_v_kwargs, Py_None);
   }
-  __pyx_t_4 = ((PyObject *)__Pyx_ImportNumPyArrayTypeIfAvailable()); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 459, __pyx_L1_error)
+  __pyx_t_4 = ((PyObject *)__Pyx_ImportNumPyArrayTypeIfAvailable()); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 481, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_v_ndarray = ((PyTypeObject*)__pyx_t_4);
   __pyx_t_4 = 0;
   if (unlikely(__pyx_v_args == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "object of type 'NoneType' has no len()");
-    __PYX_ERR(0, 459, __pyx_L1_error)
+    __PYX_ERR(0, 481, __pyx_L1_error)
   }
-  __pyx_t_5 = __Pyx_PyTuple_GET_SIZE(((PyObject*)__pyx_v_args)); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 459, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyTuple_GET_SIZE(((PyObject*)__pyx_v_args)); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 481, __pyx_L1_error)
   __pyx_t_1 = (0 < __pyx_t_5);
   if (__pyx_t_1) {
     if (unlikely(__pyx_v_args == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-      __PYX_ERR(0, 459, __pyx_L1_error)
+      __PYX_ERR(0, 481, __pyx_L1_error)
     }
     __pyx_t_4 = __Pyx_PyTuple_GET_ITEM(((PyObject*)__pyx_v_args), 0);
     __Pyx_INCREF(__pyx_t_4);
@@ -31428,17 +31179,17 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_24calc_TC_EH_with_discharge
   }
   if (unlikely(__pyx_v_kwargs == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not iterable");
-    __PYX_ERR(0, 459, __pyx_L1_error)
+    __PYX_ERR(0, 481, __pyx_L1_error)
   }
-  __pyx_t_3 = (__Pyx_PyDict_ContainsTF(__pyx_mstate_global->__pyx_n_u_fraction_sizes, ((PyObject*)__pyx_v_kwargs), Py_EQ)); if (unlikely((__pyx_t_3 < 0))) __PYX_ERR(0, 459, __pyx_L1_error)
+  __pyx_t_3 = (__Pyx_PyDict_ContainsTF(__pyx_mstate_global->__pyx_n_u_fraction_sizes, ((PyObject*)__pyx_v_kwargs), Py_EQ)); if (unlikely((__pyx_t_3 < 0))) __PYX_ERR(0, 481, __pyx_L1_error)
   __pyx_t_1 = __pyx_t_3;
   __pyx_L7_bool_binop_done:;
   if (likely(__pyx_t_1)) {
     if (unlikely(__pyx_v_kwargs == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-      __PYX_ERR(0, 459, __pyx_L1_error)
+      __PYX_ERR(0, 481, __pyx_L1_error)
     }
-    __pyx_t_4 = __Pyx_PyDict_GetItem(((PyObject*)__pyx_v_kwargs), __pyx_mstate_global->__pyx_n_u_fraction_sizes); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 459, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyDict_GetItem(((PyObject*)__pyx_v_kwargs), __pyx_mstate_global->__pyx_n_u_fraction_sizes); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 481, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_v_arg = __pyx_t_4;
     __pyx_t_4 = 0;
@@ -31446,21 +31197,21 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_24calc_TC_EH_with_discharge
   }
   /*else*/ {
     __pyx_t_6 = NULL;
-    __pyx_t_7 = __Pyx_PyUnicode_From_long(10, 0, ' ', 'd'); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 459, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyUnicode_From_long(10, 0, ' ', 'd'); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 481, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     if (unlikely(__pyx_v_args == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "object of type 'NoneType' has no len()");
-      __PYX_ERR(0, 459, __pyx_L1_error)
+      __PYX_ERR(0, 481, __pyx_L1_error)
     }
-    __pyx_t_5 = __Pyx_PyTuple_GET_SIZE(((PyObject*)__pyx_v_args)); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 459, __pyx_L1_error)
-    __pyx_t_8 = __Pyx_PyUnicode_From_Py_ssize_t(__pyx_t_5, 0, ' ', 'd'); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 459, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyTuple_GET_SIZE(((PyObject*)__pyx_v_args)); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 481, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyUnicode_From_Py_ssize_t(__pyx_t_5, 0, ' ', 'd'); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 481, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __pyx_t_9[0] = __pyx_mstate_global->__pyx_kp_u_Expected_at_least;
     __pyx_t_9[1] = __pyx_t_7;
     __pyx_t_9[2] = __pyx_mstate_global->__pyx_kp_u_arguments_got;
     __pyx_t_9[3] = __pyx_t_8;
     __pyx_t_10 = __Pyx_PyUnicode_Join(__pyx_t_9, 4, 18 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_7) + 16 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_8), 127);
-    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 459, __pyx_L1_error)
+    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 481, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -31470,20 +31221,20 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_24calc_TC_EH_with_discharge
       __pyx_t_4 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_TypeError)), __pyx_callargs+__pyx_t_11, (2-__pyx_t_11) | (__pyx_t_11*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 459, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 481, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
     __Pyx_Raise(__pyx_t_4, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __PYX_ERR(0, 459, __pyx_L1_error)
+    __PYX_ERR(0, 481, __pyx_L1_error)
   }
   __pyx_L6:;
-  __pyx_t_4 = __pyx_ff_map_fused_cb4857_2_2_float__and_double(__pyx_v_arg, __pyx_v_ndarray); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 459, __pyx_L1_error)
+  __pyx_t_4 = __pyx_ff_map_fused_cb4857_2_2_float__and_double(__pyx_v_arg, __pyx_v_ndarray); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 481, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_v_dest_sig0 = ((PyObject*)__pyx_t_4);
   __pyx_t_4 = 0;
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_4 = __pyx_ff_match_signatures_single(((PyObject*)__pyx_v_signatures), __pyx_v_dest_sig0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 459, __pyx_L1_error)
+  __pyx_t_4 = __pyx_ff_match_signatures_single(((PyObject*)__pyx_v_signatures), __pyx_v_dest_sig0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 481, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_r = __pyx_t_4;
   __pyx_t_4 = 0;
@@ -31540,86 +31291,86 @@ static PyObject *__pyx_fuse_0__pyx_pw_24cfuncs_ErosionDeposition_55calc_TC_EH_wi
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_fraction_sizes,&__pyx_mstate_global->__pyx_n_u_tau_s,&__pyx_mstate_global->__pyx_n_u_q_unit,&__pyx_mstate_global->__pyx_n_u_depth,&__pyx_mstate_global->__pyx_n_u_TC,&__pyx_mstate_global->__pyx_n_u_sg_c,&__pyx_mstate_global->__pyx_n_u_rho_c,&__pyx_mstate_global->__pyx_n_u_core_nodes,&__pyx_mstate_global->__pyx_n_u_const_sg_g_rho,&__pyx_mstate_global->__pyx_n_u_shape,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_VARARGS(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 459, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 481, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case 10:
         values[9] = __Pyx_ArgRef_VARARGS(__pyx_args, 9);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  9:
         values[8] = __Pyx_ArgRef_VARARGS(__pyx_args, 8);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  8:
         values[7] = __Pyx_ArgRef_VARARGS(__pyx_args, 7);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  7:
         values[6] = __Pyx_ArgRef_VARARGS(__pyx_args, 6);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  6:
         values[5] = __Pyx_ArgRef_VARARGS(__pyx_args, 5);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  5:
         values[4] = __Pyx_ArgRef_VARARGS(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_TC_EH_with_discharge", 0) < (0)) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_TC_EH_with_discharge", 0) < (0)) __PYX_ERR(0, 481, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 10; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_TC_EH_with_discharge", 1, 10, 10, i); __PYX_ERR(0, 459, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_TC_EH_with_discharge", 1, 10, 10, i); __PYX_ERR(0, 481, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 10)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 481, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 481, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 481, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 481, __pyx_L3_error)
       values[4] = __Pyx_ArgRef_VARARGS(__pyx_args, 4);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 481, __pyx_L3_error)
       values[5] = __Pyx_ArgRef_VARARGS(__pyx_args, 5);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 481, __pyx_L3_error)
       values[6] = __Pyx_ArgRef_VARARGS(__pyx_args, 6);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 481, __pyx_L3_error)
       values[7] = __Pyx_ArgRef_VARARGS(__pyx_args, 7);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 481, __pyx_L3_error)
       values[8] = __Pyx_ArgRef_VARARGS(__pyx_args, 8);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 481, __pyx_L3_error)
       values[9] = __Pyx_ArgRef_VARARGS(__pyx_args, 9);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 481, __pyx_L3_error)
     }
-    __pyx_v_fraction_sizes = __Pyx_PyObject_to_MemoryviewSlice_dsds_float(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_fraction_sizes.memview)) __PYX_ERR(0, 462, __pyx_L3_error)
-    __pyx_v_tau_s = __Pyx_PyObject_to_MemoryviewSlice_ds_float(values[1], PyBUF_WRITABLE); if (unlikely(!__pyx_v_tau_s.memview)) __PYX_ERR(0, 463, __pyx_L3_error)
-    __pyx_v_q_unit = __Pyx_PyObject_to_MemoryviewSlice_ds_float(values[2], PyBUF_WRITABLE); if (unlikely(!__pyx_v_q_unit.memview)) __PYX_ERR(0, 464, __pyx_L3_error)
-    __pyx_v_depth = __Pyx_PyObject_to_MemoryviewSlice_ds_float(values[3], PyBUF_WRITABLE); if (unlikely(!__pyx_v_depth.memview)) __PYX_ERR(0, 465, __pyx_L3_error)
-    __pyx_v_TC = __Pyx_PyObject_to_MemoryviewSlice_dsds_float(values[4], PyBUF_WRITABLE); if (unlikely(!__pyx_v_TC.memview)) __PYX_ERR(0, 466, __pyx_L3_error)
+    __pyx_v_fraction_sizes = __Pyx_PyObject_to_MemoryviewSlice_dsds_float(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_fraction_sizes.memview)) __PYX_ERR(0, 484, __pyx_L3_error)
+    __pyx_v_tau_s = __Pyx_PyObject_to_MemoryviewSlice_ds_float(values[1], PyBUF_WRITABLE); if (unlikely(!__pyx_v_tau_s.memview)) __PYX_ERR(0, 485, __pyx_L3_error)
+    __pyx_v_q_unit = __Pyx_PyObject_to_MemoryviewSlice_ds_float(values[2], PyBUF_WRITABLE); if (unlikely(!__pyx_v_q_unit.memview)) __PYX_ERR(0, 486, __pyx_L3_error)
+    __pyx_v_depth = __Pyx_PyObject_to_MemoryviewSlice_ds_float(values[3], PyBUF_WRITABLE); if (unlikely(!__pyx_v_depth.memview)) __PYX_ERR(0, 487, __pyx_L3_error)
+    __pyx_v_TC = __Pyx_PyObject_to_MemoryviewSlice_dsds_float(values[4], PyBUF_WRITABLE); if (unlikely(!__pyx_v_TC.memview)) __PYX_ERR(0, 488, __pyx_L3_error)
     __pyx_v_sg_c = values[5];
     __pyx_v_rho_c = values[6];
     __pyx_v_core_nodes = ((PyArrayObject *)values[7]);
@@ -31628,7 +31379,7 @@ static PyObject *__pyx_fuse_0__pyx_pw_24cfuncs_ErosionDeposition_55calc_TC_EH_wi
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("calc_TC_EH_with_discharge", 1, 10, 10, __pyx_nargs); __PYX_ERR(0, 459, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("calc_TC_EH_with_discharge", 1, 10, 10, __pyx_nargs); __PYX_ERR(0, 481, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -31644,7 +31395,7 @@ static PyObject *__pyx_fuse_0__pyx_pw_24cfuncs_ErosionDeposition_55calc_TC_EH_wi
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_core_nodes), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "core_nodes", 0))) __PYX_ERR(0, 469, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_core_nodes), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "core_nodes", 0))) __PYX_ERR(0, 491, __pyx_L1_error)
   __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_54calc_TC_EH_with_discharge(__pyx_self, __pyx_v_fraction_sizes, __pyx_v_tau_s, __pyx_v_q_unit, __pyx_v_depth, __pyx_v_TC, __pyx_v_sg_c, __pyx_v_rho_c, __pyx_v_core_nodes, __pyx_v_const_sg_g_rho, __pyx_v_shape);
 
   /* function exit code */
@@ -31712,57 +31463,57 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_54calc_TC_EH_with_discharge
   __pyx_pybuffernd_core_nodes.rcbuffer = &__pyx_pybuffer_core_nodes;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer, (PyObject*)__pyx_v_core_nodes, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 459, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer, (PyObject*)__pyx_v_core_nodes, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 481, __pyx_L1_error)
   }
   __pyx_pybuffernd_core_nodes.diminfo[0].strides = __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_core_nodes.diminfo[0].shape = __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.shape[0];
 
-  /* "cfuncs_ErosionDeposition.pyx":473
+  /* "cfuncs_ErosionDeposition.pyx":495
  *         shape
  * ):
  *     cdef int n_nodes = shape[0]             # <<<<<<<<<<<<<<
  *     cdef int n_cols = shape[1]
  *     cdef int index, col, node
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 473, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 495, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 473, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 495, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_nodes = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":474
+  /* "cfuncs_ErosionDeposition.pyx":496
  * ):
  *     cdef int n_nodes = shape[0]
  *     cdef int n_cols = shape[1]             # <<<<<<<<<<<<<<
  *     cdef int index, col, node
  * 
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 474, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 496, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 474, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 496, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_cols = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":478
+  /* "cfuncs_ErosionDeposition.pyx":500
  * 
  *     # Typed constants
  *     cdef double sg = sg_c             # <<<<<<<<<<<<<<
  *     cdef double rho = rho_c  # Fluid density (rho_w)
  *     cdef double rho_s = sg * rho  # Sediment density
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_sg_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 478, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_sg_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 500, __pyx_L1_error)
   __pyx_v_sg = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":479
+  /* "cfuncs_ErosionDeposition.pyx":501
  *     # Typed constants
  *     cdef double sg = sg_c
  *     cdef double rho = rho_c  # Fluid density (rho_w)             # <<<<<<<<<<<<<<
  *     cdef double rho_s = sg * rho  # Sediment density
  *     cdef double g = 9.81
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_rho_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 479, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_rho_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 501, __pyx_L1_error)
   __pyx_v_rho = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":480
+  /* "cfuncs_ErosionDeposition.pyx":502
  *     cdef double sg = sg_c
  *     cdef double rho = rho_c  # Fluid density (rho_w)
  *     cdef double rho_s = sg * rho  # Sediment density             # <<<<<<<<<<<<<<
@@ -31771,7 +31522,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_54calc_TC_EH_with_discharge
 */
   __pyx_v_rho_s = (__pyx_v_sg * __pyx_v_rho);
 
-  /* "cfuncs_ErosionDeposition.pyx":481
+  /* "cfuncs_ErosionDeposition.pyx":503
  *     cdef double rho = rho_c  # Fluid density (rho_w)
  *     cdef double rho_s = sg * rho  # Sediment density
  *     cdef double g = 9.81             # <<<<<<<<<<<<<<
@@ -31780,7 +31531,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_54calc_TC_EH_with_discharge
 */
   __pyx_v_g = 9.81;
 
-  /* "cfuncs_ErosionDeposition.pyx":482
+  /* "cfuncs_ErosionDeposition.pyx":504
  *     cdef double rho_s = sg * rho  # Sediment density
  *     cdef double g = 9.81
  *     cdef double R = sg - 1.0  # Submerged specific gravity             # <<<<<<<<<<<<<<
@@ -31789,7 +31540,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_54calc_TC_EH_with_discharge
 */
   __pyx_v_R = (__pyx_v_sg - 1.0);
 
-  /* "cfuncs_ErosionDeposition.pyx":485
+  /* "cfuncs_ErosionDeposition.pyx":507
  * 
  *     # Pre-calculated variables for the loop
  *     cdef double velocity = 0.0             # <<<<<<<<<<<<<<
@@ -31798,7 +31549,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_54calc_TC_EH_with_discharge
 */
   __pyx_v_velocity = 0.0;
 
-  /* "cfuncs_ErosionDeposition.pyx":486
+  /* "cfuncs_ErosionDeposition.pyx":508
  *     # Pre-calculated variables for the loop
  *     cdef double velocity = 0.0
  *     cdef double numerator_shared = 0.0             # <<<<<<<<<<<<<<
@@ -31807,7 +31558,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_54calc_TC_EH_with_discharge
 */
   __pyx_v_numerator_shared = 0.0;
 
-  /* "cfuncs_ErosionDeposition.pyx":487
+  /* "cfuncs_ErosionDeposition.pyx":509
  *     cdef double velocity = 0.0
  *     cdef double numerator_shared = 0.0
  *     cdef double denominator_base = pow(rho, 1.5) * pow(g, 2.0) * pow(R, 2.0)             # <<<<<<<<<<<<<<
@@ -31816,7 +31567,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_54calc_TC_EH_with_discharge
 */
   __pyx_v_denominator_base = ((pow(__pyx_v_rho, 1.5) * pow(__pyx_v_g, 2.0)) * pow(__pyx_v_R, 2.0));
 
-  /* "cfuncs_ErosionDeposition.pyx":489
+  /* "cfuncs_ErosionDeposition.pyx":511
  *     cdef double denominator_base = pow(rho, 1.5) * pow(g, 2.0) * pow(R, 2.0)
  * 
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -31862,7 +31613,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_54calc_TC_EH_with_discharge
                         {
                             __pyx_v_index = (int)(0 + 1 * __pyx_t_4);
 
-                            /* "cfuncs_ErosionDeposition.pyx":490
+                            /* "cfuncs_ErosionDeposition.pyx":512
  * 
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):
  *         node = core_nodes[index]             # <<<<<<<<<<<<<<
@@ -31872,7 +31623,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_54calc_TC_EH_with_discharge
                             __pyx_t_6 = __pyx_v_index;
                             __pyx_v_node = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_core_nodes.diminfo[0].strides));
 
-                            /* "cfuncs_ErosionDeposition.pyx":493
+                            /* "cfuncs_ErosionDeposition.pyx":515
  * 
  *         # Guard clause: If the node is dry or has zero shear stress, capacity is zero
  *         if tau_s[node] <= 1e-5 or q_unit[node] <= 0.0 or depth[node] <= 0.0:             # <<<<<<<<<<<<<<
@@ -31899,7 +31650,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_54calc_TC_EH_with_discharge
                             __pyx_L11_bool_binop_done:;
                             if (__pyx_t_7) {
 
-                              /* "cfuncs_ErosionDeposition.pyx":494
+                              /* "cfuncs_ErosionDeposition.pyx":516
  *         # Guard clause: If the node is dry or has zero shear stress, capacity is zero
  *         if tau_s[node] <= 1e-5 or q_unit[node] <= 0.0 or depth[node] <= 0.0:
  *             for col in range(n_cols):             # <<<<<<<<<<<<<<
@@ -31911,7 +31662,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_54calc_TC_EH_with_discharge
                               for (__pyx_t_11 = 0; __pyx_t_11 < __pyx_t_10; __pyx_t_11+=1) {
                                 __pyx_v_col = __pyx_t_11;
 
-                                /* "cfuncs_ErosionDeposition.pyx":495
+                                /* "cfuncs_ErosionDeposition.pyx":517
  *         if tau_s[node] <= 1e-5 or q_unit[node] <= 0.0 or depth[node] <= 0.0:
  *             for col in range(n_cols):
  *                 TC[node, col] = 0.0             # <<<<<<<<<<<<<<
@@ -31923,7 +31674,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_54calc_TC_EH_with_discharge
                                 *((float *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_TC.data + __pyx_t_6 * __pyx_v_TC.strides[0]) ) + __pyx_t_12 * __pyx_v_TC.strides[1]) )) = 0.0;
                               }
 
-                              /* "cfuncs_ErosionDeposition.pyx":496
+                              /* "cfuncs_ErosionDeposition.pyx":518
  *             for col in range(n_cols):
  *                 TC[node, col] = 0.0
  *             continue             # <<<<<<<<<<<<<<
@@ -31932,7 +31683,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_54calc_TC_EH_with_discharge
 */
                               goto __pyx_L6_continue;
 
-                              /* "cfuncs_ErosionDeposition.pyx":493
+                              /* "cfuncs_ErosionDeposition.pyx":515
  * 
  *         # Guard clause: If the node is dry or has zero shear stress, capacity is zero
  *         if tau_s[node] <= 1e-5 or q_unit[node] <= 0.0 or depth[node] <= 0.0:             # <<<<<<<<<<<<<<
@@ -31941,7 +31692,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_54calc_TC_EH_with_discharge
 */
                             }
 
-                            /* "cfuncs_ErosionDeposition.pyx":500
+                            /* "cfuncs_ErosionDeposition.pyx":522
  *         # Depth-averaged velocity from the field-measured water depth:
  *         # V = q / H, using H = surface_water__depth_at_node directly
  *         velocity = q_unit[node] / depth[node]             # <<<<<<<<<<<<<<
@@ -31956,11 +31707,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_54calc_TC_EH_with_discharge
                               PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                               PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                               __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                              __PYX_ERR(0, 500, __pyx_L8_error)
+                              __PYX_ERR(0, 522, __pyx_L8_error)
                             }
                             __pyx_v_velocity = (__pyx_t_13 / __pyx_t_14);
 
-                            /* "cfuncs_ErosionDeposition.pyx":504
+                            /* "cfuncs_ErosionDeposition.pyx":526
  *         # Pre-calculate the shared numerator for all grain sizes at this specific node
  *         # Engelund-Hansen: g_s ~ V^2 * tau^1.5 (velocity enters squared)
  *         numerator_shared = 0.05 * rho_s * pow(velocity, 2.0) * pow(tau_s[node], 1.5)             # <<<<<<<<<<<<<<
@@ -31970,7 +31721,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_54calc_TC_EH_with_discharge
                             __pyx_t_12 = __pyx_v_node;
                             __pyx_v_numerator_shared = (((0.05 * __pyx_v_rho_s) * pow(__pyx_v_velocity, 2.0)) * pow((*((float *) ( /* dim=0 */ (__pyx_v_tau_s.data + __pyx_t_12 * __pyx_v_tau_s.strides[0]) ))), 1.5));
 
-                            /* "cfuncs_ErosionDeposition.pyx":506
+                            /* "cfuncs_ErosionDeposition.pyx":528
  *         numerator_shared = 0.05 * rho_s * pow(velocity, 2.0) * pow(tau_s[node], 1.5)
  * 
  *         for col in range(n_cols):             # <<<<<<<<<<<<<<
@@ -31982,7 +31733,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_54calc_TC_EH_with_discharge
                             for (__pyx_t_11 = 0; __pyx_t_11 < __pyx_t_10; __pyx_t_11+=1) {
                               __pyx_v_col = __pyx_t_11;
 
-                              /* "cfuncs_ErosionDeposition.pyx":508
+                              /* "cfuncs_ErosionDeposition.pyx":530
  *         for col in range(n_cols):
  *             # Dimensional Engelund-Hansen mapping per grain fraction:
  *             TC[node, col] = numerator_shared / (denominator_base * fraction_sizes[node, col])             # <<<<<<<<<<<<<<
@@ -31996,7 +31747,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_54calc_TC_EH_with_discharge
                                 PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                                 PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                                 __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                                __PYX_ERR(0, 508, __pyx_L8_error)
+                                __PYX_ERR(0, 530, __pyx_L8_error)
                               }
                               __pyx_t_6 = __pyx_v_node;
                               __pyx_t_12 = __pyx_v_col;
@@ -32077,7 +31828,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
         #endif
       }
 
-      /* "cfuncs_ErosionDeposition.pyx":489
+      /* "cfuncs_ErosionDeposition.pyx":511
  *     cdef double denominator_base = pow(rho, 1.5) * pow(g, 2.0) * pow(R, 2.0)
  * 
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -32099,7 +31850,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
       }
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":510
+  /* "cfuncs_ErosionDeposition.pyx":532
  *             TC[node, col] = numerator_shared / (denominator_base * fraction_sizes[node, col])
  * 
  *     return TC.base             # <<<<<<<<<<<<<<
@@ -32107,16 +31858,16 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
  * @cython.boundscheck(False)
 */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_TC, 2, (PyObject *(*)(char *)) __pyx_memview_get_float, (int (*)(char *, PyObject *)) __pyx_memview_set_float, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 510, __pyx_L1_error)
+  __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_TC, 2, (PyObject *(*)(char *)) __pyx_memview_get_float, (int (*)(char *, PyObject *)) __pyx_memview_set_float, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 532, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_base); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 510, __pyx_L1_error)
+  __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_base); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 532, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_15);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_r = __pyx_t_15;
   __pyx_t_15 = 0;
   goto __pyx_L0;
 
-  /* "cfuncs_ErosionDeposition.pyx":459
+  /* "cfuncs_ErosionDeposition.pyx":481
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -32177,86 +31928,86 @@ static PyObject *__pyx_fuse_1__pyx_pw_24cfuncs_ErosionDeposition_57calc_TC_EH_wi
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_fraction_sizes,&__pyx_mstate_global->__pyx_n_u_tau_s,&__pyx_mstate_global->__pyx_n_u_q_unit,&__pyx_mstate_global->__pyx_n_u_depth,&__pyx_mstate_global->__pyx_n_u_TC,&__pyx_mstate_global->__pyx_n_u_sg_c,&__pyx_mstate_global->__pyx_n_u_rho_c,&__pyx_mstate_global->__pyx_n_u_core_nodes,&__pyx_mstate_global->__pyx_n_u_const_sg_g_rho,&__pyx_mstate_global->__pyx_n_u_shape,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_VARARGS(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 459, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 481, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case 10:
         values[9] = __Pyx_ArgRef_VARARGS(__pyx_args, 9);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  9:
         values[8] = __Pyx_ArgRef_VARARGS(__pyx_args, 8);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  8:
         values[7] = __Pyx_ArgRef_VARARGS(__pyx_args, 7);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  7:
         values[6] = __Pyx_ArgRef_VARARGS(__pyx_args, 6);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  6:
         values[5] = __Pyx_ArgRef_VARARGS(__pyx_args, 5);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  5:
         values[4] = __Pyx_ArgRef_VARARGS(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 459, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 481, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_TC_EH_with_discharge", 0) < (0)) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_TC_EH_with_discharge", 0) < (0)) __PYX_ERR(0, 481, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 10; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_TC_EH_with_discharge", 1, 10, 10, i); __PYX_ERR(0, 459, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_TC_EH_with_discharge", 1, 10, 10, i); __PYX_ERR(0, 481, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 10)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 481, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 481, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 481, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 481, __pyx_L3_error)
       values[4] = __Pyx_ArgRef_VARARGS(__pyx_args, 4);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 481, __pyx_L3_error)
       values[5] = __Pyx_ArgRef_VARARGS(__pyx_args, 5);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 481, __pyx_L3_error)
       values[6] = __Pyx_ArgRef_VARARGS(__pyx_args, 6);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 481, __pyx_L3_error)
       values[7] = __Pyx_ArgRef_VARARGS(__pyx_args, 7);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 481, __pyx_L3_error)
       values[8] = __Pyx_ArgRef_VARARGS(__pyx_args, 8);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 481, __pyx_L3_error)
       values[9] = __Pyx_ArgRef_VARARGS(__pyx_args, 9);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 459, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 481, __pyx_L3_error)
     }
-    __pyx_v_fraction_sizes = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_fraction_sizes.memview)) __PYX_ERR(0, 462, __pyx_L3_error)
-    __pyx_v_tau_s = __Pyx_PyObject_to_MemoryviewSlice_ds_double(values[1], PyBUF_WRITABLE); if (unlikely(!__pyx_v_tau_s.memview)) __PYX_ERR(0, 463, __pyx_L3_error)
-    __pyx_v_q_unit = __Pyx_PyObject_to_MemoryviewSlice_ds_double(values[2], PyBUF_WRITABLE); if (unlikely(!__pyx_v_q_unit.memview)) __PYX_ERR(0, 464, __pyx_L3_error)
-    __pyx_v_depth = __Pyx_PyObject_to_MemoryviewSlice_ds_double(values[3], PyBUF_WRITABLE); if (unlikely(!__pyx_v_depth.memview)) __PYX_ERR(0, 465, __pyx_L3_error)
-    __pyx_v_TC = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(values[4], PyBUF_WRITABLE); if (unlikely(!__pyx_v_TC.memview)) __PYX_ERR(0, 466, __pyx_L3_error)
+    __pyx_v_fraction_sizes = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_fraction_sizes.memview)) __PYX_ERR(0, 484, __pyx_L3_error)
+    __pyx_v_tau_s = __Pyx_PyObject_to_MemoryviewSlice_ds_double(values[1], PyBUF_WRITABLE); if (unlikely(!__pyx_v_tau_s.memview)) __PYX_ERR(0, 485, __pyx_L3_error)
+    __pyx_v_q_unit = __Pyx_PyObject_to_MemoryviewSlice_ds_double(values[2], PyBUF_WRITABLE); if (unlikely(!__pyx_v_q_unit.memview)) __PYX_ERR(0, 486, __pyx_L3_error)
+    __pyx_v_depth = __Pyx_PyObject_to_MemoryviewSlice_ds_double(values[3], PyBUF_WRITABLE); if (unlikely(!__pyx_v_depth.memview)) __PYX_ERR(0, 487, __pyx_L3_error)
+    __pyx_v_TC = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(values[4], PyBUF_WRITABLE); if (unlikely(!__pyx_v_TC.memview)) __PYX_ERR(0, 488, __pyx_L3_error)
     __pyx_v_sg_c = values[5];
     __pyx_v_rho_c = values[6];
     __pyx_v_core_nodes = ((PyArrayObject *)values[7]);
@@ -32265,7 +32016,7 @@ static PyObject *__pyx_fuse_1__pyx_pw_24cfuncs_ErosionDeposition_57calc_TC_EH_wi
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("calc_TC_EH_with_discharge", 1, 10, 10, __pyx_nargs); __PYX_ERR(0, 459, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("calc_TC_EH_with_discharge", 1, 10, 10, __pyx_nargs); __PYX_ERR(0, 481, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -32281,7 +32032,7 @@ static PyObject *__pyx_fuse_1__pyx_pw_24cfuncs_ErosionDeposition_57calc_TC_EH_wi
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_core_nodes), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "core_nodes", 0))) __PYX_ERR(0, 469, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_core_nodes), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "core_nodes", 0))) __PYX_ERR(0, 491, __pyx_L1_error)
   __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_56calc_TC_EH_with_discharge(__pyx_self, __pyx_v_fraction_sizes, __pyx_v_tau_s, __pyx_v_q_unit, __pyx_v_depth, __pyx_v_TC, __pyx_v_sg_c, __pyx_v_rho_c, __pyx_v_core_nodes, __pyx_v_const_sg_g_rho, __pyx_v_shape);
 
   /* function exit code */
@@ -32348,57 +32099,57 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_56calc_TC_EH_with_discharge
   __pyx_pybuffernd_core_nodes.rcbuffer = &__pyx_pybuffer_core_nodes;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer, (PyObject*)__pyx_v_core_nodes, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 459, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_core_nodes.rcbuffer->pybuffer, (PyObject*)__pyx_v_core_nodes, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 481, __pyx_L1_error)
   }
   __pyx_pybuffernd_core_nodes.diminfo[0].strides = __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_core_nodes.diminfo[0].shape = __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.shape[0];
 
-  /* "cfuncs_ErosionDeposition.pyx":473
+  /* "cfuncs_ErosionDeposition.pyx":495
  *         shape
  * ):
  *     cdef int n_nodes = shape[0]             # <<<<<<<<<<<<<<
  *     cdef int n_cols = shape[1]
  *     cdef int index, col, node
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 473, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 495, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 473, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 495, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_nodes = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":474
+  /* "cfuncs_ErosionDeposition.pyx":496
  * ):
  *     cdef int n_nodes = shape[0]
  *     cdef int n_cols = shape[1]             # <<<<<<<<<<<<<<
  *     cdef int index, col, node
  * 
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 474, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 496, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 474, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 496, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_cols = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":478
+  /* "cfuncs_ErosionDeposition.pyx":500
  * 
  *     # Typed constants
  *     cdef double sg = sg_c             # <<<<<<<<<<<<<<
  *     cdef double rho = rho_c  # Fluid density (rho_w)
  *     cdef double rho_s = sg * rho  # Sediment density
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_sg_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 478, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_sg_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 500, __pyx_L1_error)
   __pyx_v_sg = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":479
+  /* "cfuncs_ErosionDeposition.pyx":501
  *     # Typed constants
  *     cdef double sg = sg_c
  *     cdef double rho = rho_c  # Fluid density (rho_w)             # <<<<<<<<<<<<<<
  *     cdef double rho_s = sg * rho  # Sediment density
  *     cdef double g = 9.81
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_rho_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 479, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_rho_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 501, __pyx_L1_error)
   __pyx_v_rho = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":480
+  /* "cfuncs_ErosionDeposition.pyx":502
  *     cdef double sg = sg_c
  *     cdef double rho = rho_c  # Fluid density (rho_w)
  *     cdef double rho_s = sg * rho  # Sediment density             # <<<<<<<<<<<<<<
@@ -32407,7 +32158,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_56calc_TC_EH_with_discharge
 */
   __pyx_v_rho_s = (__pyx_v_sg * __pyx_v_rho);
 
-  /* "cfuncs_ErosionDeposition.pyx":481
+  /* "cfuncs_ErosionDeposition.pyx":503
  *     cdef double rho = rho_c  # Fluid density (rho_w)
  *     cdef double rho_s = sg * rho  # Sediment density
  *     cdef double g = 9.81             # <<<<<<<<<<<<<<
@@ -32416,7 +32167,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_56calc_TC_EH_with_discharge
 */
   __pyx_v_g = 9.81;
 
-  /* "cfuncs_ErosionDeposition.pyx":482
+  /* "cfuncs_ErosionDeposition.pyx":504
  *     cdef double rho_s = sg * rho  # Sediment density
  *     cdef double g = 9.81
  *     cdef double R = sg - 1.0  # Submerged specific gravity             # <<<<<<<<<<<<<<
@@ -32425,7 +32176,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_56calc_TC_EH_with_discharge
 */
   __pyx_v_R = (__pyx_v_sg - 1.0);
 
-  /* "cfuncs_ErosionDeposition.pyx":485
+  /* "cfuncs_ErosionDeposition.pyx":507
  * 
  *     # Pre-calculated variables for the loop
  *     cdef double velocity = 0.0             # <<<<<<<<<<<<<<
@@ -32434,7 +32185,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_56calc_TC_EH_with_discharge
 */
   __pyx_v_velocity = 0.0;
 
-  /* "cfuncs_ErosionDeposition.pyx":486
+  /* "cfuncs_ErosionDeposition.pyx":508
  *     # Pre-calculated variables for the loop
  *     cdef double velocity = 0.0
  *     cdef double numerator_shared = 0.0             # <<<<<<<<<<<<<<
@@ -32443,7 +32194,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_56calc_TC_EH_with_discharge
 */
   __pyx_v_numerator_shared = 0.0;
 
-  /* "cfuncs_ErosionDeposition.pyx":487
+  /* "cfuncs_ErosionDeposition.pyx":509
  *     cdef double velocity = 0.0
  *     cdef double numerator_shared = 0.0
  *     cdef double denominator_base = pow(rho, 1.5) * pow(g, 2.0) * pow(R, 2.0)             # <<<<<<<<<<<<<<
@@ -32452,7 +32203,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_56calc_TC_EH_with_discharge
 */
   __pyx_v_denominator_base = ((pow(__pyx_v_rho, 1.5) * pow(__pyx_v_g, 2.0)) * pow(__pyx_v_R, 2.0));
 
-  /* "cfuncs_ErosionDeposition.pyx":489
+  /* "cfuncs_ErosionDeposition.pyx":511
  *     cdef double denominator_base = pow(rho, 1.5) * pow(g, 2.0) * pow(R, 2.0)
  * 
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -32498,7 +32249,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_56calc_TC_EH_with_discharge
                         {
                             __pyx_v_index = (int)(0 + 1 * __pyx_t_4);
 
-                            /* "cfuncs_ErosionDeposition.pyx":490
+                            /* "cfuncs_ErosionDeposition.pyx":512
  * 
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):
  *         node = core_nodes[index]             # <<<<<<<<<<<<<<
@@ -32508,7 +32259,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_56calc_TC_EH_with_discharge
                             __pyx_t_6 = __pyx_v_index;
                             __pyx_v_node = (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_INT_t *, __pyx_pybuffernd_core_nodes.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_core_nodes.diminfo[0].strides));
 
-                            /* "cfuncs_ErosionDeposition.pyx":493
+                            /* "cfuncs_ErosionDeposition.pyx":515
  * 
  *         # Guard clause: If the node is dry or has zero shear stress, capacity is zero
  *         if tau_s[node] <= 1e-5 or q_unit[node] <= 0.0 or depth[node] <= 0.0:             # <<<<<<<<<<<<<<
@@ -32535,7 +32286,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_56calc_TC_EH_with_discharge
                             __pyx_L11_bool_binop_done:;
                             if (__pyx_t_7) {
 
-                              /* "cfuncs_ErosionDeposition.pyx":494
+                              /* "cfuncs_ErosionDeposition.pyx":516
  *         # Guard clause: If the node is dry or has zero shear stress, capacity is zero
  *         if tau_s[node] <= 1e-5 or q_unit[node] <= 0.0 or depth[node] <= 0.0:
  *             for col in range(n_cols):             # <<<<<<<<<<<<<<
@@ -32547,7 +32298,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_56calc_TC_EH_with_discharge
                               for (__pyx_t_11 = 0; __pyx_t_11 < __pyx_t_10; __pyx_t_11+=1) {
                                 __pyx_v_col = __pyx_t_11;
 
-                                /* "cfuncs_ErosionDeposition.pyx":495
+                                /* "cfuncs_ErosionDeposition.pyx":517
  *         if tau_s[node] <= 1e-5 or q_unit[node] <= 0.0 or depth[node] <= 0.0:
  *             for col in range(n_cols):
  *                 TC[node, col] = 0.0             # <<<<<<<<<<<<<<
@@ -32559,7 +32310,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_56calc_TC_EH_with_discharge
                                 *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_TC.data + __pyx_t_6 * __pyx_v_TC.strides[0]) ) + __pyx_t_12 * __pyx_v_TC.strides[1]) )) = 0.0;
                               }
 
-                              /* "cfuncs_ErosionDeposition.pyx":496
+                              /* "cfuncs_ErosionDeposition.pyx":518
  *             for col in range(n_cols):
  *                 TC[node, col] = 0.0
  *             continue             # <<<<<<<<<<<<<<
@@ -32568,7 +32319,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_56calc_TC_EH_with_discharge
 */
                               goto __pyx_L6_continue;
 
-                              /* "cfuncs_ErosionDeposition.pyx":493
+                              /* "cfuncs_ErosionDeposition.pyx":515
  * 
  *         # Guard clause: If the node is dry or has zero shear stress, capacity is zero
  *         if tau_s[node] <= 1e-5 or q_unit[node] <= 0.0 or depth[node] <= 0.0:             # <<<<<<<<<<<<<<
@@ -32577,7 +32328,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_56calc_TC_EH_with_discharge
 */
                             }
 
-                            /* "cfuncs_ErosionDeposition.pyx":500
+                            /* "cfuncs_ErosionDeposition.pyx":522
  *         # Depth-averaged velocity from the field-measured water depth:
  *         # V = q / H, using H = surface_water__depth_at_node directly
  *         velocity = q_unit[node] / depth[node]             # <<<<<<<<<<<<<<
@@ -32592,11 +32343,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_56calc_TC_EH_with_discharge
                               PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                               PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                               __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                              __PYX_ERR(0, 500, __pyx_L8_error)
+                              __PYX_ERR(0, 522, __pyx_L8_error)
                             }
                             __pyx_v_velocity = (__pyx_t_3 / __pyx_t_13);
 
-                            /* "cfuncs_ErosionDeposition.pyx":504
+                            /* "cfuncs_ErosionDeposition.pyx":526
  *         # Pre-calculate the shared numerator for all grain sizes at this specific node
  *         # Engelund-Hansen: g_s ~ V^2 * tau^1.5 (velocity enters squared)
  *         numerator_shared = 0.05 * rho_s * pow(velocity, 2.0) * pow(tau_s[node], 1.5)             # <<<<<<<<<<<<<<
@@ -32606,7 +32357,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_56calc_TC_EH_with_discharge
                             __pyx_t_12 = __pyx_v_node;
                             __pyx_v_numerator_shared = (((0.05 * __pyx_v_rho_s) * pow(__pyx_v_velocity, 2.0)) * pow((*((double *) ( /* dim=0 */ (__pyx_v_tau_s.data + __pyx_t_12 * __pyx_v_tau_s.strides[0]) ))), 1.5));
 
-                            /* "cfuncs_ErosionDeposition.pyx":506
+                            /* "cfuncs_ErosionDeposition.pyx":528
  *         numerator_shared = 0.05 * rho_s * pow(velocity, 2.0) * pow(tau_s[node], 1.5)
  * 
  *         for col in range(n_cols):             # <<<<<<<<<<<<<<
@@ -32618,7 +32369,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_56calc_TC_EH_with_discharge
                             for (__pyx_t_11 = 0; __pyx_t_11 < __pyx_t_10; __pyx_t_11+=1) {
                               __pyx_v_col = __pyx_t_11;
 
-                              /* "cfuncs_ErosionDeposition.pyx":508
+                              /* "cfuncs_ErosionDeposition.pyx":530
  *         for col in range(n_cols):
  *             # Dimensional Engelund-Hansen mapping per grain fraction:
  *             TC[node, col] = numerator_shared / (denominator_base * fraction_sizes[node, col])             # <<<<<<<<<<<<<<
@@ -32632,7 +32383,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_56calc_TC_EH_with_discharge
                                 PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                                 PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                                 __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                                __PYX_ERR(0, 508, __pyx_L8_error)
+                                __PYX_ERR(0, 530, __pyx_L8_error)
                               }
                               __pyx_t_6 = __pyx_v_node;
                               __pyx_t_12 = __pyx_v_col;
@@ -32713,7 +32464,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
         #endif
       }
 
-      /* "cfuncs_ErosionDeposition.pyx":489
+      /* "cfuncs_ErosionDeposition.pyx":511
  *     cdef double denominator_base = pow(rho, 1.5) * pow(g, 2.0) * pow(R, 2.0)
  * 
  *     for index in prange(n_nodes, nogil=True, schedule="static", num_threads=N_THREADS):             # <<<<<<<<<<<<<<
@@ -32735,7 +32486,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
       }
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":510
+  /* "cfuncs_ErosionDeposition.pyx":532
  *             TC[node, col] = numerator_shared / (denominator_base * fraction_sizes[node, col])
  * 
  *     return TC.base             # <<<<<<<<<<<<<<
@@ -32743,16 +32494,16 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
  * @cython.boundscheck(False)
 */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_TC, 2, (PyObject *(*)(char *)) __pyx_memview_get_double, (int (*)(char *, PyObject *)) __pyx_memview_set_double, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 510, __pyx_L1_error)
+  __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_TC, 2, (PyObject *(*)(char *)) __pyx_memview_get_double, (int (*)(char *, PyObject *)) __pyx_memview_set_double, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 532, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_base); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 510, __pyx_L1_error)
+  __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_base); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 532, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_14);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_r = __pyx_t_14;
   __pyx_t_14 = 0;
   goto __pyx_L0;
 
-  /* "cfuncs_ErosionDeposition.pyx":459
+  /* "cfuncs_ErosionDeposition.pyx":481
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -32781,7 +32532,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
   return __pyx_r;
 }
 
-/* "cfuncs_ErosionDeposition.pyx":512
+/* "cfuncs_ErosionDeposition.pyx":534
  *     return TC.base
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -32817,53 +32568,53 @@ static PyObject *__pyx_pw_24cfuncs_ErosionDeposition_27calc_flux_div_at_node(PyO
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_signatures,&__pyx_mstate_global->__pyx_n_u_args,&__pyx_mstate_global->__pyx_n_u_kwargs,&__pyx_mstate_global->__pyx_n_u_defaults,&__pyx_mstate_global->__pyx_n_u_fused_sigindex,0};
     struct __pyx_defaults *__pyx_dynamic_args = __Pyx_CyFunction_Defaults(struct __pyx_defaults, __pyx_self);
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_VARARGS(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 512, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 534, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  5:
         values[4] = __Pyx_ArgRef_VARARGS(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "__pyx_fused_cpdef", 0) < (0)) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "__pyx_fused_cpdef", 0) < (0)) __PYX_ERR(0, 534, __pyx_L3_error)
       if (!values[4]) values[4] = __Pyx_NewRef(__pyx_dynamic_args->arg0);
       for (Py_ssize_t i = __pyx_nargs; i < 4; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 0, 4, 5, i); __PYX_ERR(0, 512, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 0, 4, 5, i); __PYX_ERR(0, 534, __pyx_L3_error) }
       }
     } else {
       switch (__pyx_nargs) {
         case  5:
         values[4] = __Pyx_ArgRef_VARARGS(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 534, __pyx_L3_error)
         values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 534, __pyx_L3_error)
         values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 534, __pyx_L3_error)
         values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 534, __pyx_L3_error)
         break;
         default: goto __pyx_L5_argtuple_error;
       }
@@ -32877,7 +32628,7 @@ static PyObject *__pyx_pw_24cfuncs_ErosionDeposition_27calc_flux_div_at_node(PyO
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 0, 4, 5, __pyx_nargs); __PYX_ERR(0, 512, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 0, 4, 5, __pyx_nargs); __PYX_ERR(0, 534, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -32926,7 +32677,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_26calc_flux_div_at_node(CYT
     __pyx_t_1 = __pyx_t_2;
     goto __pyx_L4_bool_binop_done;
   }
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_kwargs); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 512, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_kwargs); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 534, __pyx_L1_error)
   __pyx_t_3 = (!__pyx_t_2);
   __pyx_t_1 = __pyx_t_3;
   __pyx_L4_bool_binop_done:;
@@ -32934,20 +32685,20 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_26calc_flux_div_at_node(CYT
     __Pyx_INCREF(Py_None);
     __Pyx_DECREF_SET(__pyx_v_kwargs, Py_None);
   }
-  __pyx_t_4 = ((PyObject *)__Pyx_ImportNumPyArrayTypeIfAvailable()); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 512, __pyx_L1_error)
+  __pyx_t_4 = ((PyObject *)__Pyx_ImportNumPyArrayTypeIfAvailable()); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 534, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_v_ndarray = ((PyTypeObject*)__pyx_t_4);
   __pyx_t_4 = 0;
   if (unlikely(__pyx_v_args == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "object of type 'NoneType' has no len()");
-    __PYX_ERR(0, 512, __pyx_L1_error)
+    __PYX_ERR(0, 534, __pyx_L1_error)
   }
-  __pyx_t_5 = __Pyx_PyTuple_GET_SIZE(((PyObject*)__pyx_v_args)); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 512, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyTuple_GET_SIZE(((PyObject*)__pyx_v_args)); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 534, __pyx_L1_error)
   __pyx_t_1 = (2 < __pyx_t_5);
   if (__pyx_t_1) {
     if (unlikely(__pyx_v_args == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-      __PYX_ERR(0, 512, __pyx_L1_error)
+      __PYX_ERR(0, 534, __pyx_L1_error)
     }
     __pyx_t_4 = __Pyx_PyTuple_GET_ITEM(((PyObject*)__pyx_v_args), 2);
     __Pyx_INCREF(__pyx_t_4);
@@ -32963,17 +32714,17 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_26calc_flux_div_at_node(CYT
   }
   if (unlikely(__pyx_v_kwargs == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not iterable");
-    __PYX_ERR(0, 512, __pyx_L1_error)
+    __PYX_ERR(0, 534, __pyx_L1_error)
   }
-  __pyx_t_3 = (__Pyx_PyDict_ContainsTF(__pyx_mstate_global->__pyx_n_u_value_at_link, ((PyObject*)__pyx_v_kwargs), Py_EQ)); if (unlikely((__pyx_t_3 < 0))) __PYX_ERR(0, 512, __pyx_L1_error)
+  __pyx_t_3 = (__Pyx_PyDict_ContainsTF(__pyx_mstate_global->__pyx_n_u_value_at_link, ((PyObject*)__pyx_v_kwargs), Py_EQ)); if (unlikely((__pyx_t_3 < 0))) __PYX_ERR(0, 534, __pyx_L1_error)
   __pyx_t_1 = __pyx_t_3;
   __pyx_L7_bool_binop_done:;
   if (likely(__pyx_t_1)) {
     if (unlikely(__pyx_v_kwargs == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-      __PYX_ERR(0, 512, __pyx_L1_error)
+      __PYX_ERR(0, 534, __pyx_L1_error)
     }
-    __pyx_t_4 = __Pyx_PyDict_GetItem(((PyObject*)__pyx_v_kwargs), __pyx_mstate_global->__pyx_n_u_value_at_link); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 512, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyDict_GetItem(((PyObject*)__pyx_v_kwargs), __pyx_mstate_global->__pyx_n_u_value_at_link); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 534, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_v_arg = __pyx_t_4;
     __pyx_t_4 = 0;
@@ -32981,21 +32732,21 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_26calc_flux_div_at_node(CYT
   }
   /*else*/ {
     __pyx_t_6 = NULL;
-    __pyx_t_7 = __Pyx_PyUnicode_From_long(4, 0, ' ', 'd'); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 512, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyUnicode_From_long(4, 0, ' ', 'd'); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 534, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     if (unlikely(__pyx_v_args == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "object of type 'NoneType' has no len()");
-      __PYX_ERR(0, 512, __pyx_L1_error)
+      __PYX_ERR(0, 534, __pyx_L1_error)
     }
-    __pyx_t_5 = __Pyx_PyTuple_GET_SIZE(((PyObject*)__pyx_v_args)); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 512, __pyx_L1_error)
-    __pyx_t_8 = __Pyx_PyUnicode_From_Py_ssize_t(__pyx_t_5, 0, ' ', 'd'); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 512, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyTuple_GET_SIZE(((PyObject*)__pyx_v_args)); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(0, 534, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyUnicode_From_Py_ssize_t(__pyx_t_5, 0, ' ', 'd'); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 534, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __pyx_t_9[0] = __pyx_mstate_global->__pyx_kp_u_Expected_at_least;
     __pyx_t_9[1] = __pyx_t_7;
     __pyx_t_9[2] = __pyx_mstate_global->__pyx_kp_u_arguments_got;
     __pyx_t_9[3] = __pyx_t_8;
     __pyx_t_10 = __Pyx_PyUnicode_Join(__pyx_t_9, 4, 18 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_7) + 16 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_8), 127);
-    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 512, __pyx_L1_error)
+    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 534, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -33005,20 +32756,20 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_26calc_flux_div_at_node(CYT
       __pyx_t_4 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_TypeError)), __pyx_callargs+__pyx_t_11, (2-__pyx_t_11) | (__pyx_t_11*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 512, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 534, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
     __Pyx_Raise(__pyx_t_4, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __PYX_ERR(0, 512, __pyx_L1_error)
+    __PYX_ERR(0, 534, __pyx_L1_error)
   }
   __pyx_L6:;
-  __pyx_t_4 = __pyx_ff_map_fused_f2549f_2_5_short__and_int__and_long__and_float__and_double(__pyx_v_arg, __pyx_v_ndarray); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 512, __pyx_L1_error)
+  __pyx_t_4 = __pyx_ff_map_fused_f2549f_2_5_short__and_int__and_long__and_float__and_double(__pyx_v_arg, __pyx_v_ndarray); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 534, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_v_dest_sig0 = ((PyObject*)__pyx_t_4);
   __pyx_t_4 = 0;
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_4 = __pyx_ff_match_signatures_single(((PyObject*)__pyx_v_signatures), __pyx_v_dest_sig0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 512, __pyx_L1_error)
+  __pyx_t_4 = __pyx_ff_match_signatures_single(((PyObject*)__pyx_v_signatures), __pyx_v_dest_sig0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 534, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_r = __pyx_t_4;
   __pyx_t_4 = 0;
@@ -33069,53 +32820,53 @@ static PyObject *__pyx_fuse_0__pyx_pw_24cfuncs_ErosionDeposition_61calc_flux_div
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_shape,&__pyx_mstate_global->__pyx_n_u_xy_spacing,&__pyx_mstate_global->__pyx_n_u_value_at_link,&__pyx_mstate_global->__pyx_n_u_out,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_VARARGS(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 512, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 534, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  4:
         values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_flux_div_at_node", 0) < (0)) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_flux_div_at_node", 0) < (0)) __PYX_ERR(0, 534, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 4; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_flux_div_at_node", 1, 4, 4, i); __PYX_ERR(0, 512, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_flux_div_at_node", 1, 4, 4, i); __PYX_ERR(0, 534, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 4)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 534, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 534, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 534, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 534, __pyx_L3_error)
     }
     __pyx_v_shape = values[0];
     __pyx_v_xy_spacing = values[1];
-    __pyx_v_value_at_link = __Pyx_PyObject_to_MemoryviewSlice_ds_short__const__(values[2], 0); if (unlikely(!__pyx_v_value_at_link.memview)) __PYX_ERR(0, 517, __pyx_L3_error)
+    __pyx_v_value_at_link = __Pyx_PyObject_to_MemoryviewSlice_ds_short__const__(values[2], 0); if (unlikely(!__pyx_v_value_at_link.memview)) __PYX_ERR(0, 539, __pyx_L3_error)
     __pyx_v_out = ((PyArrayObject *)values[3]);
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("calc_flux_div_at_node", 1, 4, 4, __pyx_nargs); __PYX_ERR(0, 512, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("calc_flux_div_at_node", 1, 4, 4, __pyx_nargs); __PYX_ERR(0, 534, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -33127,7 +32878,7 @@ static PyObject *__pyx_fuse_0__pyx_pw_24cfuncs_ErosionDeposition_61calc_flux_div
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_out), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "out", 0))) __PYX_ERR(0, 518, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_out), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "out", 0))) __PYX_ERR(0, 540, __pyx_L1_error)
   __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_60calc_flux_div_at_node(__pyx_self, __pyx_v_shape, __pyx_v_xy_spacing, __pyx_v_value_at_link, __pyx_v_out);
 
   /* function exit code */
@@ -33186,63 +32937,63 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_60calc_flux_div_at_node(CYT
   __pyx_pybuffernd_out.rcbuffer = &__pyx_pybuffer_out;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_out.rcbuffer->pybuffer, (PyObject*)__pyx_v_out, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 512, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_out.rcbuffer->pybuffer, (PyObject*)__pyx_v_out, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 534, __pyx_L1_error)
   }
   __pyx_pybuffernd_out.diminfo[0].strides = __pyx_pybuffernd_out.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_out.diminfo[0].shape = __pyx_pybuffernd_out.rcbuffer->pybuffer.shape[0];
 
-  /* "cfuncs_ErosionDeposition.pyx":521
+  /* "cfuncs_ErosionDeposition.pyx":543
  * ):
  * 
  *     cdef int n_rows = shape[0]             # <<<<<<<<<<<<<<
  *     cdef int n_cols = shape[1]
  *     cdef double dx = xy_spacing[0]
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 521, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 543, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 521, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 543, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_rows = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":522
+  /* "cfuncs_ErosionDeposition.pyx":544
  * 
  *     cdef int n_rows = shape[0]
  *     cdef int n_cols = shape[1]             # <<<<<<<<<<<<<<
  *     cdef double dx = xy_spacing[0]
  *     cdef double dy = xy_spacing[1]
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 522, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 544, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 522, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 544, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_cols = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":523
+  /* "cfuncs_ErosionDeposition.pyx":545
  *     cdef int n_rows = shape[0]
  *     cdef int n_cols = shape[1]
  *     cdef double dx = xy_spacing[0]             # <<<<<<<<<<<<<<
  *     cdef double dy = xy_spacing[1]
  *     cdef int links_per_row = 2 * n_cols - 1
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_xy_spacing, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 523, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_xy_spacing, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 545, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 523, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 545, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_dx = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":524
+  /* "cfuncs_ErosionDeposition.pyx":546
  *     cdef int n_cols = shape[1]
  *     cdef double dx = xy_spacing[0]
  *     cdef double dy = xy_spacing[1]             # <<<<<<<<<<<<<<
  *     cdef int links_per_row = 2 * n_cols - 1
  *     cdef double inv_area_of_cell = 1.0 / (dx * dy)
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_xy_spacing, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 524, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_xy_spacing, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 546, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 524, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 546, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_dy = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":525
+  /* "cfuncs_ErosionDeposition.pyx":547
  *     cdef double dx = xy_spacing[0]
  *     cdef double dy = xy_spacing[1]
  *     cdef int links_per_row = 2 * n_cols - 1             # <<<<<<<<<<<<<<
@@ -33251,7 +33002,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_60calc_flux_div_at_node(CYT
 */
   __pyx_v_links_per_row = ((2 * __pyx_v_n_cols) - 1);
 
-  /* "cfuncs_ErosionDeposition.pyx":526
+  /* "cfuncs_ErosionDeposition.pyx":548
  *     cdef double dy = xy_spacing[1]
  *     cdef int links_per_row = 2 * n_cols - 1
  *     cdef double inv_area_of_cell = 1.0 / (dx * dy)             # <<<<<<<<<<<<<<
@@ -33261,11 +33012,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_60calc_flux_div_at_node(CYT
   __pyx_t_3 = (__pyx_v_dx * __pyx_v_dy);
   if (unlikely(__pyx_t_3 == 0)) {
     PyErr_SetString(PyExc_ZeroDivisionError, "float division");
-    __PYX_ERR(0, 526, __pyx_L1_error)
+    __PYX_ERR(0, 548, __pyx_L1_error)
   }
   __pyx_v_inv_area_of_cell = (1.0 / __pyx_t_3);
 
-  /* "cfuncs_ErosionDeposition.pyx":531
+  /* "cfuncs_ErosionDeposition.pyx":553
  * 
  * 
  *     for row in prange(1, n_rows - 1, nogil=True, schedule="static"):             # <<<<<<<<<<<<<<
@@ -33299,7 +33050,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_60calc_flux_div_at_node(CYT
                         {
                             __pyx_v_row = (int)(1 + 1 * __pyx_t_5);
 
-                            /* "cfuncs_ErosionDeposition.pyx":532
+                            /* "cfuncs_ErosionDeposition.pyx":554
  * 
  *     for row in prange(1, n_rows - 1, nogil=True, schedule="static"):
  *         node = row * n_cols             # <<<<<<<<<<<<<<
@@ -33308,7 +33059,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_60calc_flux_div_at_node(CYT
 */
                             __pyx_v_node = (__pyx_v_row * __pyx_v_n_cols);
 
-                            /* "cfuncs_ErosionDeposition.pyx":533
+                            /* "cfuncs_ErosionDeposition.pyx":555
  *     for row in prange(1, n_rows - 1, nogil=True, schedule="static"):
  *         node = row * n_cols
  *         link = row * links_per_row             # <<<<<<<<<<<<<<
@@ -33317,7 +33068,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_60calc_flux_div_at_node(CYT
 */
                             __pyx_v_link = (__pyx_v_row * __pyx_v_links_per_row);
 
-                            /* "cfuncs_ErosionDeposition.pyx":536
+                            /* "cfuncs_ErosionDeposition.pyx":558
  * 
  * 
  *         for col in range(1, n_cols - 1):             # <<<<<<<<<<<<<<
@@ -33329,7 +33080,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_60calc_flux_div_at_node(CYT
                             for (__pyx_t_2 = 1; __pyx_t_2 < __pyx_t_8; __pyx_t_2+=1) {
                               __pyx_v_col = __pyx_t_2;
 
-                              /* "cfuncs_ErosionDeposition.pyx":538
+                              /* "cfuncs_ErosionDeposition.pyx":560
  *         for col in range(1, n_cols - 1):
  *             out[node + col] = (
  *                 dy * (value_at_link[link + 1] - value_at_link[link])             # <<<<<<<<<<<<<<
@@ -33339,7 +33090,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_60calc_flux_div_at_node(CYT
                               __pyx_t_9 = (__pyx_v_link + 1);
                               __pyx_t_10 = __pyx_v_link;
 
-                              /* "cfuncs_ErosionDeposition.pyx":539
+                              /* "cfuncs_ErosionDeposition.pyx":561
  *             out[node + col] = (
  *                 dy * (value_at_link[link + 1] - value_at_link[link])
  *                 + dx * (value_at_link[link + n_cols] - value_at_link[link - n_cols + 1])             # <<<<<<<<<<<<<<
@@ -33349,7 +33100,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_60calc_flux_div_at_node(CYT
                               __pyx_t_11 = (__pyx_v_link + __pyx_v_n_cols);
                               __pyx_t_12 = ((__pyx_v_link - __pyx_v_n_cols) + 1);
 
-                              /* "cfuncs_ErosionDeposition.pyx":537
+                              /* "cfuncs_ErosionDeposition.pyx":559
  * 
  *         for col in range(1, n_cols - 1):
  *             out[node + col] = (             # <<<<<<<<<<<<<<
@@ -33359,7 +33110,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_60calc_flux_div_at_node(CYT
                               __pyx_t_13 = (__pyx_v_node + __pyx_v_col);
                               *__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_out.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_out.diminfo[0].strides) = (((__pyx_v_dy * ((*((short const  *) ( /* dim=0 */ (__pyx_v_value_at_link.data + __pyx_t_9 * __pyx_v_value_at_link.strides[0]) ))) - (*((short const  *) ( /* dim=0 */ (__pyx_v_value_at_link.data + __pyx_t_10 * __pyx_v_value_at_link.strides[0]) ))))) + (__pyx_v_dx * ((*((short const  *) ( /* dim=0 */ (__pyx_v_value_at_link.data + __pyx_t_11 * __pyx_v_value_at_link.strides[0]) ))) - (*((short const  *) ( /* dim=0 */ (__pyx_v_value_at_link.data + __pyx_t_12 * __pyx_v_value_at_link.strides[0]) )))))) * __pyx_v_inv_area_of_cell);
 
-                              /* "cfuncs_ErosionDeposition.pyx":541
+                              /* "cfuncs_ErosionDeposition.pyx":563
  *                 + dx * (value_at_link[link + n_cols] - value_at_link[link - n_cols + 1])
  *             ) * inv_area_of_cell
  *             link = link + 1             # <<<<<<<<<<<<<<
@@ -33381,7 +33132,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_60calc_flux_div_at_node(CYT
         #endif
       }
 
-      /* "cfuncs_ErosionDeposition.pyx":531
+      /* "cfuncs_ErosionDeposition.pyx":553
  * 
  * 
  *     for row in prange(1, n_rows - 1, nogil=True, schedule="static"):             # <<<<<<<<<<<<<<
@@ -33398,7 +33149,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_60calc_flux_div_at_node(CYT
       }
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":543
+  /* "cfuncs_ErosionDeposition.pyx":565
  *             link = link + 1
  * 
  *     return out             # <<<<<<<<<<<<<<
@@ -33410,7 +33161,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_60calc_flux_div_at_node(CYT
   __pyx_r = ((PyObject *)__pyx_v_out);
   goto __pyx_L0;
 
-  /* "cfuncs_ErosionDeposition.pyx":512
+  /* "cfuncs_ErosionDeposition.pyx":534
  *     return TC.base
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -33464,53 +33215,53 @@ static PyObject *__pyx_fuse_1__pyx_pw_24cfuncs_ErosionDeposition_63calc_flux_div
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_shape,&__pyx_mstate_global->__pyx_n_u_xy_spacing,&__pyx_mstate_global->__pyx_n_u_value_at_link,&__pyx_mstate_global->__pyx_n_u_out,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_VARARGS(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 512, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 534, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  4:
         values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_flux_div_at_node", 0) < (0)) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_flux_div_at_node", 0) < (0)) __PYX_ERR(0, 534, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 4; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_flux_div_at_node", 1, 4, 4, i); __PYX_ERR(0, 512, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_flux_div_at_node", 1, 4, 4, i); __PYX_ERR(0, 534, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 4)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 534, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 534, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 534, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 534, __pyx_L3_error)
     }
     __pyx_v_shape = values[0];
     __pyx_v_xy_spacing = values[1];
-    __pyx_v_value_at_link = __Pyx_PyObject_to_MemoryviewSlice_ds_int__const__(values[2], 0); if (unlikely(!__pyx_v_value_at_link.memview)) __PYX_ERR(0, 517, __pyx_L3_error)
+    __pyx_v_value_at_link = __Pyx_PyObject_to_MemoryviewSlice_ds_int__const__(values[2], 0); if (unlikely(!__pyx_v_value_at_link.memview)) __PYX_ERR(0, 539, __pyx_L3_error)
     __pyx_v_out = ((PyArrayObject *)values[3]);
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("calc_flux_div_at_node", 1, 4, 4, __pyx_nargs); __PYX_ERR(0, 512, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("calc_flux_div_at_node", 1, 4, 4, __pyx_nargs); __PYX_ERR(0, 534, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -33522,7 +33273,7 @@ static PyObject *__pyx_fuse_1__pyx_pw_24cfuncs_ErosionDeposition_63calc_flux_div
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_out), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "out", 0))) __PYX_ERR(0, 518, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_out), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "out", 0))) __PYX_ERR(0, 540, __pyx_L1_error)
   __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_62calc_flux_div_at_node(__pyx_self, __pyx_v_shape, __pyx_v_xy_spacing, __pyx_v_value_at_link, __pyx_v_out);
 
   /* function exit code */
@@ -33581,63 +33332,63 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_62calc_flux_div_at_node(CYT
   __pyx_pybuffernd_out.rcbuffer = &__pyx_pybuffer_out;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_out.rcbuffer->pybuffer, (PyObject*)__pyx_v_out, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 512, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_out.rcbuffer->pybuffer, (PyObject*)__pyx_v_out, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 534, __pyx_L1_error)
   }
   __pyx_pybuffernd_out.diminfo[0].strides = __pyx_pybuffernd_out.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_out.diminfo[0].shape = __pyx_pybuffernd_out.rcbuffer->pybuffer.shape[0];
 
-  /* "cfuncs_ErosionDeposition.pyx":521
+  /* "cfuncs_ErosionDeposition.pyx":543
  * ):
  * 
  *     cdef int n_rows = shape[0]             # <<<<<<<<<<<<<<
  *     cdef int n_cols = shape[1]
  *     cdef double dx = xy_spacing[0]
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 521, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 543, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 521, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 543, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_rows = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":522
+  /* "cfuncs_ErosionDeposition.pyx":544
  * 
  *     cdef int n_rows = shape[0]
  *     cdef int n_cols = shape[1]             # <<<<<<<<<<<<<<
  *     cdef double dx = xy_spacing[0]
  *     cdef double dy = xy_spacing[1]
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 522, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 544, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 522, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 544, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_cols = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":523
+  /* "cfuncs_ErosionDeposition.pyx":545
  *     cdef int n_rows = shape[0]
  *     cdef int n_cols = shape[1]
  *     cdef double dx = xy_spacing[0]             # <<<<<<<<<<<<<<
  *     cdef double dy = xy_spacing[1]
  *     cdef int links_per_row = 2 * n_cols - 1
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_xy_spacing, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 523, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_xy_spacing, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 545, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 523, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 545, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_dx = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":524
+  /* "cfuncs_ErosionDeposition.pyx":546
  *     cdef int n_cols = shape[1]
  *     cdef double dx = xy_spacing[0]
  *     cdef double dy = xy_spacing[1]             # <<<<<<<<<<<<<<
  *     cdef int links_per_row = 2 * n_cols - 1
  *     cdef double inv_area_of_cell = 1.0 / (dx * dy)
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_xy_spacing, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 524, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_xy_spacing, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 546, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 524, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 546, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_dy = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":525
+  /* "cfuncs_ErosionDeposition.pyx":547
  *     cdef double dx = xy_spacing[0]
  *     cdef double dy = xy_spacing[1]
  *     cdef int links_per_row = 2 * n_cols - 1             # <<<<<<<<<<<<<<
@@ -33646,7 +33397,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_62calc_flux_div_at_node(CYT
 */
   __pyx_v_links_per_row = ((2 * __pyx_v_n_cols) - 1);
 
-  /* "cfuncs_ErosionDeposition.pyx":526
+  /* "cfuncs_ErosionDeposition.pyx":548
  *     cdef double dy = xy_spacing[1]
  *     cdef int links_per_row = 2 * n_cols - 1
  *     cdef double inv_area_of_cell = 1.0 / (dx * dy)             # <<<<<<<<<<<<<<
@@ -33656,11 +33407,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_62calc_flux_div_at_node(CYT
   __pyx_t_3 = (__pyx_v_dx * __pyx_v_dy);
   if (unlikely(__pyx_t_3 == 0)) {
     PyErr_SetString(PyExc_ZeroDivisionError, "float division");
-    __PYX_ERR(0, 526, __pyx_L1_error)
+    __PYX_ERR(0, 548, __pyx_L1_error)
   }
   __pyx_v_inv_area_of_cell = (1.0 / __pyx_t_3);
 
-  /* "cfuncs_ErosionDeposition.pyx":531
+  /* "cfuncs_ErosionDeposition.pyx":553
  * 
  * 
  *     for row in prange(1, n_rows - 1, nogil=True, schedule="static"):             # <<<<<<<<<<<<<<
@@ -33694,7 +33445,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_62calc_flux_div_at_node(CYT
                         {
                             __pyx_v_row = (int)(1 + 1 * __pyx_t_5);
 
-                            /* "cfuncs_ErosionDeposition.pyx":532
+                            /* "cfuncs_ErosionDeposition.pyx":554
  * 
  *     for row in prange(1, n_rows - 1, nogil=True, schedule="static"):
  *         node = row * n_cols             # <<<<<<<<<<<<<<
@@ -33703,7 +33454,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_62calc_flux_div_at_node(CYT
 */
                             __pyx_v_node = (__pyx_v_row * __pyx_v_n_cols);
 
-                            /* "cfuncs_ErosionDeposition.pyx":533
+                            /* "cfuncs_ErosionDeposition.pyx":555
  *     for row in prange(1, n_rows - 1, nogil=True, schedule="static"):
  *         node = row * n_cols
  *         link = row * links_per_row             # <<<<<<<<<<<<<<
@@ -33712,7 +33463,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_62calc_flux_div_at_node(CYT
 */
                             __pyx_v_link = (__pyx_v_row * __pyx_v_links_per_row);
 
-                            /* "cfuncs_ErosionDeposition.pyx":536
+                            /* "cfuncs_ErosionDeposition.pyx":558
  * 
  * 
  *         for col in range(1, n_cols - 1):             # <<<<<<<<<<<<<<
@@ -33724,7 +33475,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_62calc_flux_div_at_node(CYT
                             for (__pyx_t_2 = 1; __pyx_t_2 < __pyx_t_8; __pyx_t_2+=1) {
                               __pyx_v_col = __pyx_t_2;
 
-                              /* "cfuncs_ErosionDeposition.pyx":538
+                              /* "cfuncs_ErosionDeposition.pyx":560
  *         for col in range(1, n_cols - 1):
  *             out[node + col] = (
  *                 dy * (value_at_link[link + 1] - value_at_link[link])             # <<<<<<<<<<<<<<
@@ -33734,7 +33485,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_62calc_flux_div_at_node(CYT
                               __pyx_t_9 = (__pyx_v_link + 1);
                               __pyx_t_10 = __pyx_v_link;
 
-                              /* "cfuncs_ErosionDeposition.pyx":539
+                              /* "cfuncs_ErosionDeposition.pyx":561
  *             out[node + col] = (
  *                 dy * (value_at_link[link + 1] - value_at_link[link])
  *                 + dx * (value_at_link[link + n_cols] - value_at_link[link - n_cols + 1])             # <<<<<<<<<<<<<<
@@ -33744,7 +33495,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_62calc_flux_div_at_node(CYT
                               __pyx_t_11 = (__pyx_v_link + __pyx_v_n_cols);
                               __pyx_t_12 = ((__pyx_v_link - __pyx_v_n_cols) + 1);
 
-                              /* "cfuncs_ErosionDeposition.pyx":537
+                              /* "cfuncs_ErosionDeposition.pyx":559
  * 
  *         for col in range(1, n_cols - 1):
  *             out[node + col] = (             # <<<<<<<<<<<<<<
@@ -33754,7 +33505,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_62calc_flux_div_at_node(CYT
                               __pyx_t_13 = (__pyx_v_node + __pyx_v_col);
                               *__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_out.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_out.diminfo[0].strides) = (((__pyx_v_dy * ((*((int const  *) ( /* dim=0 */ (__pyx_v_value_at_link.data + __pyx_t_9 * __pyx_v_value_at_link.strides[0]) ))) - (*((int const  *) ( /* dim=0 */ (__pyx_v_value_at_link.data + __pyx_t_10 * __pyx_v_value_at_link.strides[0]) ))))) + (__pyx_v_dx * ((*((int const  *) ( /* dim=0 */ (__pyx_v_value_at_link.data + __pyx_t_11 * __pyx_v_value_at_link.strides[0]) ))) - (*((int const  *) ( /* dim=0 */ (__pyx_v_value_at_link.data + __pyx_t_12 * __pyx_v_value_at_link.strides[0]) )))))) * __pyx_v_inv_area_of_cell);
 
-                              /* "cfuncs_ErosionDeposition.pyx":541
+                              /* "cfuncs_ErosionDeposition.pyx":563
  *                 + dx * (value_at_link[link + n_cols] - value_at_link[link - n_cols + 1])
  *             ) * inv_area_of_cell
  *             link = link + 1             # <<<<<<<<<<<<<<
@@ -33776,7 +33527,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_62calc_flux_div_at_node(CYT
         #endif
       }
 
-      /* "cfuncs_ErosionDeposition.pyx":531
+      /* "cfuncs_ErosionDeposition.pyx":553
  * 
  * 
  *     for row in prange(1, n_rows - 1, nogil=True, schedule="static"):             # <<<<<<<<<<<<<<
@@ -33793,7 +33544,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_62calc_flux_div_at_node(CYT
       }
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":543
+  /* "cfuncs_ErosionDeposition.pyx":565
  *             link = link + 1
  * 
  *     return out             # <<<<<<<<<<<<<<
@@ -33805,7 +33556,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_62calc_flux_div_at_node(CYT
   __pyx_r = ((PyObject *)__pyx_v_out);
   goto __pyx_L0;
 
-  /* "cfuncs_ErosionDeposition.pyx":512
+  /* "cfuncs_ErosionDeposition.pyx":534
  *     return TC.base
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -33859,53 +33610,53 @@ static PyObject *__pyx_fuse_2__pyx_pw_24cfuncs_ErosionDeposition_65calc_flux_div
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_shape,&__pyx_mstate_global->__pyx_n_u_xy_spacing,&__pyx_mstate_global->__pyx_n_u_value_at_link,&__pyx_mstate_global->__pyx_n_u_out,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_VARARGS(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 512, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 534, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  4:
         values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_flux_div_at_node", 0) < (0)) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_flux_div_at_node", 0) < (0)) __PYX_ERR(0, 534, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 4; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_flux_div_at_node", 1, 4, 4, i); __PYX_ERR(0, 512, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_flux_div_at_node", 1, 4, 4, i); __PYX_ERR(0, 534, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 4)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 534, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 534, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 534, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 534, __pyx_L3_error)
     }
     __pyx_v_shape = values[0];
     __pyx_v_xy_spacing = values[1];
-    __pyx_v_value_at_link = __Pyx_PyObject_to_MemoryviewSlice_ds_long__const__(values[2], 0); if (unlikely(!__pyx_v_value_at_link.memview)) __PYX_ERR(0, 517, __pyx_L3_error)
+    __pyx_v_value_at_link = __Pyx_PyObject_to_MemoryviewSlice_ds_long__const__(values[2], 0); if (unlikely(!__pyx_v_value_at_link.memview)) __PYX_ERR(0, 539, __pyx_L3_error)
     __pyx_v_out = ((PyArrayObject *)values[3]);
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("calc_flux_div_at_node", 1, 4, 4, __pyx_nargs); __PYX_ERR(0, 512, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("calc_flux_div_at_node", 1, 4, 4, __pyx_nargs); __PYX_ERR(0, 534, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -33917,7 +33668,7 @@ static PyObject *__pyx_fuse_2__pyx_pw_24cfuncs_ErosionDeposition_65calc_flux_div
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_out), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "out", 0))) __PYX_ERR(0, 518, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_out), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "out", 0))) __PYX_ERR(0, 540, __pyx_L1_error)
   __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_64calc_flux_div_at_node(__pyx_self, __pyx_v_shape, __pyx_v_xy_spacing, __pyx_v_value_at_link, __pyx_v_out);
 
   /* function exit code */
@@ -33976,63 +33727,63 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_64calc_flux_div_at_node(CYT
   __pyx_pybuffernd_out.rcbuffer = &__pyx_pybuffer_out;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_out.rcbuffer->pybuffer, (PyObject*)__pyx_v_out, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 512, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_out.rcbuffer->pybuffer, (PyObject*)__pyx_v_out, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 534, __pyx_L1_error)
   }
   __pyx_pybuffernd_out.diminfo[0].strides = __pyx_pybuffernd_out.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_out.diminfo[0].shape = __pyx_pybuffernd_out.rcbuffer->pybuffer.shape[0];
 
-  /* "cfuncs_ErosionDeposition.pyx":521
+  /* "cfuncs_ErosionDeposition.pyx":543
  * ):
  * 
  *     cdef int n_rows = shape[0]             # <<<<<<<<<<<<<<
  *     cdef int n_cols = shape[1]
  *     cdef double dx = xy_spacing[0]
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 521, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 543, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 521, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 543, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_rows = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":522
+  /* "cfuncs_ErosionDeposition.pyx":544
  * 
  *     cdef int n_rows = shape[0]
  *     cdef int n_cols = shape[1]             # <<<<<<<<<<<<<<
  *     cdef double dx = xy_spacing[0]
  *     cdef double dy = xy_spacing[1]
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 522, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 544, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 522, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 544, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_cols = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":523
+  /* "cfuncs_ErosionDeposition.pyx":545
  *     cdef int n_rows = shape[0]
  *     cdef int n_cols = shape[1]
  *     cdef double dx = xy_spacing[0]             # <<<<<<<<<<<<<<
  *     cdef double dy = xy_spacing[1]
  *     cdef int links_per_row = 2 * n_cols - 1
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_xy_spacing, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 523, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_xy_spacing, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 545, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 523, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 545, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_dx = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":524
+  /* "cfuncs_ErosionDeposition.pyx":546
  *     cdef int n_cols = shape[1]
  *     cdef double dx = xy_spacing[0]
  *     cdef double dy = xy_spacing[1]             # <<<<<<<<<<<<<<
  *     cdef int links_per_row = 2 * n_cols - 1
  *     cdef double inv_area_of_cell = 1.0 / (dx * dy)
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_xy_spacing, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 524, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_xy_spacing, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 546, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 524, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 546, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_dy = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":525
+  /* "cfuncs_ErosionDeposition.pyx":547
  *     cdef double dx = xy_spacing[0]
  *     cdef double dy = xy_spacing[1]
  *     cdef int links_per_row = 2 * n_cols - 1             # <<<<<<<<<<<<<<
@@ -34041,7 +33792,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_64calc_flux_div_at_node(CYT
 */
   __pyx_v_links_per_row = ((2 * __pyx_v_n_cols) - 1);
 
-  /* "cfuncs_ErosionDeposition.pyx":526
+  /* "cfuncs_ErosionDeposition.pyx":548
  *     cdef double dy = xy_spacing[1]
  *     cdef int links_per_row = 2 * n_cols - 1
  *     cdef double inv_area_of_cell = 1.0 / (dx * dy)             # <<<<<<<<<<<<<<
@@ -34051,11 +33802,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_64calc_flux_div_at_node(CYT
   __pyx_t_3 = (__pyx_v_dx * __pyx_v_dy);
   if (unlikely(__pyx_t_3 == 0)) {
     PyErr_SetString(PyExc_ZeroDivisionError, "float division");
-    __PYX_ERR(0, 526, __pyx_L1_error)
+    __PYX_ERR(0, 548, __pyx_L1_error)
   }
   __pyx_v_inv_area_of_cell = (1.0 / __pyx_t_3);
 
-  /* "cfuncs_ErosionDeposition.pyx":531
+  /* "cfuncs_ErosionDeposition.pyx":553
  * 
  * 
  *     for row in prange(1, n_rows - 1, nogil=True, schedule="static"):             # <<<<<<<<<<<<<<
@@ -34089,7 +33840,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_64calc_flux_div_at_node(CYT
                         {
                             __pyx_v_row = (int)(1 + 1 * __pyx_t_5);
 
-                            /* "cfuncs_ErosionDeposition.pyx":532
+                            /* "cfuncs_ErosionDeposition.pyx":554
  * 
  *     for row in prange(1, n_rows - 1, nogil=True, schedule="static"):
  *         node = row * n_cols             # <<<<<<<<<<<<<<
@@ -34098,7 +33849,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_64calc_flux_div_at_node(CYT
 */
                             __pyx_v_node = (__pyx_v_row * __pyx_v_n_cols);
 
-                            /* "cfuncs_ErosionDeposition.pyx":533
+                            /* "cfuncs_ErosionDeposition.pyx":555
  *     for row in prange(1, n_rows - 1, nogil=True, schedule="static"):
  *         node = row * n_cols
  *         link = row * links_per_row             # <<<<<<<<<<<<<<
@@ -34107,7 +33858,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_64calc_flux_div_at_node(CYT
 */
                             __pyx_v_link = (__pyx_v_row * __pyx_v_links_per_row);
 
-                            /* "cfuncs_ErosionDeposition.pyx":536
+                            /* "cfuncs_ErosionDeposition.pyx":558
  * 
  * 
  *         for col in range(1, n_cols - 1):             # <<<<<<<<<<<<<<
@@ -34119,7 +33870,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_64calc_flux_div_at_node(CYT
                             for (__pyx_t_2 = 1; __pyx_t_2 < __pyx_t_8; __pyx_t_2+=1) {
                               __pyx_v_col = __pyx_t_2;
 
-                              /* "cfuncs_ErosionDeposition.pyx":538
+                              /* "cfuncs_ErosionDeposition.pyx":560
  *         for col in range(1, n_cols - 1):
  *             out[node + col] = (
  *                 dy * (value_at_link[link + 1] - value_at_link[link])             # <<<<<<<<<<<<<<
@@ -34129,7 +33880,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_64calc_flux_div_at_node(CYT
                               __pyx_t_9 = (__pyx_v_link + 1);
                               __pyx_t_10 = __pyx_v_link;
 
-                              /* "cfuncs_ErosionDeposition.pyx":539
+                              /* "cfuncs_ErosionDeposition.pyx":561
  *             out[node + col] = (
  *                 dy * (value_at_link[link + 1] - value_at_link[link])
  *                 + dx * (value_at_link[link + n_cols] - value_at_link[link - n_cols + 1])             # <<<<<<<<<<<<<<
@@ -34139,7 +33890,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_64calc_flux_div_at_node(CYT
                               __pyx_t_11 = (__pyx_v_link + __pyx_v_n_cols);
                               __pyx_t_12 = ((__pyx_v_link - __pyx_v_n_cols) + 1);
 
-                              /* "cfuncs_ErosionDeposition.pyx":537
+                              /* "cfuncs_ErosionDeposition.pyx":559
  * 
  *         for col in range(1, n_cols - 1):
  *             out[node + col] = (             # <<<<<<<<<<<<<<
@@ -34149,7 +33900,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_64calc_flux_div_at_node(CYT
                               __pyx_t_13 = (__pyx_v_node + __pyx_v_col);
                               *__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_out.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_out.diminfo[0].strides) = (((__pyx_v_dy * ((*((long const  *) ( /* dim=0 */ (__pyx_v_value_at_link.data + __pyx_t_9 * __pyx_v_value_at_link.strides[0]) ))) - (*((long const  *) ( /* dim=0 */ (__pyx_v_value_at_link.data + __pyx_t_10 * __pyx_v_value_at_link.strides[0]) ))))) + (__pyx_v_dx * ((*((long const  *) ( /* dim=0 */ (__pyx_v_value_at_link.data + __pyx_t_11 * __pyx_v_value_at_link.strides[0]) ))) - (*((long const  *) ( /* dim=0 */ (__pyx_v_value_at_link.data + __pyx_t_12 * __pyx_v_value_at_link.strides[0]) )))))) * __pyx_v_inv_area_of_cell);
 
-                              /* "cfuncs_ErosionDeposition.pyx":541
+                              /* "cfuncs_ErosionDeposition.pyx":563
  *                 + dx * (value_at_link[link + n_cols] - value_at_link[link - n_cols + 1])
  *             ) * inv_area_of_cell
  *             link = link + 1             # <<<<<<<<<<<<<<
@@ -34171,7 +33922,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_64calc_flux_div_at_node(CYT
         #endif
       }
 
-      /* "cfuncs_ErosionDeposition.pyx":531
+      /* "cfuncs_ErosionDeposition.pyx":553
  * 
  * 
  *     for row in prange(1, n_rows - 1, nogil=True, schedule="static"):             # <<<<<<<<<<<<<<
@@ -34188,7 +33939,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_64calc_flux_div_at_node(CYT
       }
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":543
+  /* "cfuncs_ErosionDeposition.pyx":565
  *             link = link + 1
  * 
  *     return out             # <<<<<<<<<<<<<<
@@ -34200,7 +33951,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_64calc_flux_div_at_node(CYT
   __pyx_r = ((PyObject *)__pyx_v_out);
   goto __pyx_L0;
 
-  /* "cfuncs_ErosionDeposition.pyx":512
+  /* "cfuncs_ErosionDeposition.pyx":534
  *     return TC.base
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -34254,53 +34005,53 @@ static PyObject *__pyx_fuse_3__pyx_pw_24cfuncs_ErosionDeposition_67calc_flux_div
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_shape,&__pyx_mstate_global->__pyx_n_u_xy_spacing,&__pyx_mstate_global->__pyx_n_u_value_at_link,&__pyx_mstate_global->__pyx_n_u_out,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_VARARGS(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 512, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 534, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  4:
         values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_flux_div_at_node", 0) < (0)) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_flux_div_at_node", 0) < (0)) __PYX_ERR(0, 534, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 4; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_flux_div_at_node", 1, 4, 4, i); __PYX_ERR(0, 512, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_flux_div_at_node", 1, 4, 4, i); __PYX_ERR(0, 534, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 4)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 534, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 534, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 534, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 534, __pyx_L3_error)
     }
     __pyx_v_shape = values[0];
     __pyx_v_xy_spacing = values[1];
-    __pyx_v_value_at_link = __Pyx_PyObject_to_MemoryviewSlice_ds_float__const__(values[2], 0); if (unlikely(!__pyx_v_value_at_link.memview)) __PYX_ERR(0, 517, __pyx_L3_error)
+    __pyx_v_value_at_link = __Pyx_PyObject_to_MemoryviewSlice_ds_float__const__(values[2], 0); if (unlikely(!__pyx_v_value_at_link.memview)) __PYX_ERR(0, 539, __pyx_L3_error)
     __pyx_v_out = ((PyArrayObject *)values[3]);
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("calc_flux_div_at_node", 1, 4, 4, __pyx_nargs); __PYX_ERR(0, 512, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("calc_flux_div_at_node", 1, 4, 4, __pyx_nargs); __PYX_ERR(0, 534, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -34312,7 +34063,7 @@ static PyObject *__pyx_fuse_3__pyx_pw_24cfuncs_ErosionDeposition_67calc_flux_div
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_out), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "out", 0))) __PYX_ERR(0, 518, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_out), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "out", 0))) __PYX_ERR(0, 540, __pyx_L1_error)
   __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_66calc_flux_div_at_node(__pyx_self, __pyx_v_shape, __pyx_v_xy_spacing, __pyx_v_value_at_link, __pyx_v_out);
 
   /* function exit code */
@@ -34371,63 +34122,63 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_66calc_flux_div_at_node(CYT
   __pyx_pybuffernd_out.rcbuffer = &__pyx_pybuffer_out;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_out.rcbuffer->pybuffer, (PyObject*)__pyx_v_out, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 512, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_out.rcbuffer->pybuffer, (PyObject*)__pyx_v_out, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 534, __pyx_L1_error)
   }
   __pyx_pybuffernd_out.diminfo[0].strides = __pyx_pybuffernd_out.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_out.diminfo[0].shape = __pyx_pybuffernd_out.rcbuffer->pybuffer.shape[0];
 
-  /* "cfuncs_ErosionDeposition.pyx":521
+  /* "cfuncs_ErosionDeposition.pyx":543
  * ):
  * 
  *     cdef int n_rows = shape[0]             # <<<<<<<<<<<<<<
  *     cdef int n_cols = shape[1]
  *     cdef double dx = xy_spacing[0]
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 521, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 543, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 521, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 543, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_rows = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":522
+  /* "cfuncs_ErosionDeposition.pyx":544
  * 
  *     cdef int n_rows = shape[0]
  *     cdef int n_cols = shape[1]             # <<<<<<<<<<<<<<
  *     cdef double dx = xy_spacing[0]
  *     cdef double dy = xy_spacing[1]
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 522, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 544, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 522, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 544, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_cols = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":523
+  /* "cfuncs_ErosionDeposition.pyx":545
  *     cdef int n_rows = shape[0]
  *     cdef int n_cols = shape[1]
  *     cdef double dx = xy_spacing[0]             # <<<<<<<<<<<<<<
  *     cdef double dy = xy_spacing[1]
  *     cdef int links_per_row = 2 * n_cols - 1
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_xy_spacing, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 523, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_xy_spacing, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 545, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 523, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 545, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_dx = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":524
+  /* "cfuncs_ErosionDeposition.pyx":546
  *     cdef int n_cols = shape[1]
  *     cdef double dx = xy_spacing[0]
  *     cdef double dy = xy_spacing[1]             # <<<<<<<<<<<<<<
  *     cdef int links_per_row = 2 * n_cols - 1
  *     cdef double inv_area_of_cell = 1.0 / (dx * dy)
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_xy_spacing, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 524, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_xy_spacing, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 546, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 524, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 546, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_dy = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":525
+  /* "cfuncs_ErosionDeposition.pyx":547
  *     cdef double dx = xy_spacing[0]
  *     cdef double dy = xy_spacing[1]
  *     cdef int links_per_row = 2 * n_cols - 1             # <<<<<<<<<<<<<<
@@ -34436,7 +34187,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_66calc_flux_div_at_node(CYT
 */
   __pyx_v_links_per_row = ((2 * __pyx_v_n_cols) - 1);
 
-  /* "cfuncs_ErosionDeposition.pyx":526
+  /* "cfuncs_ErosionDeposition.pyx":548
  *     cdef double dy = xy_spacing[1]
  *     cdef int links_per_row = 2 * n_cols - 1
  *     cdef double inv_area_of_cell = 1.0 / (dx * dy)             # <<<<<<<<<<<<<<
@@ -34446,11 +34197,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_66calc_flux_div_at_node(CYT
   __pyx_t_3 = (__pyx_v_dx * __pyx_v_dy);
   if (unlikely(__pyx_t_3 == 0)) {
     PyErr_SetString(PyExc_ZeroDivisionError, "float division");
-    __PYX_ERR(0, 526, __pyx_L1_error)
+    __PYX_ERR(0, 548, __pyx_L1_error)
   }
   __pyx_v_inv_area_of_cell = (1.0 / __pyx_t_3);
 
-  /* "cfuncs_ErosionDeposition.pyx":531
+  /* "cfuncs_ErosionDeposition.pyx":553
  * 
  * 
  *     for row in prange(1, n_rows - 1, nogil=True, schedule="static"):             # <<<<<<<<<<<<<<
@@ -34484,7 +34235,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_66calc_flux_div_at_node(CYT
                         {
                             __pyx_v_row = (int)(1 + 1 * __pyx_t_5);
 
-                            /* "cfuncs_ErosionDeposition.pyx":532
+                            /* "cfuncs_ErosionDeposition.pyx":554
  * 
  *     for row in prange(1, n_rows - 1, nogil=True, schedule="static"):
  *         node = row * n_cols             # <<<<<<<<<<<<<<
@@ -34493,7 +34244,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_66calc_flux_div_at_node(CYT
 */
                             __pyx_v_node = (__pyx_v_row * __pyx_v_n_cols);
 
-                            /* "cfuncs_ErosionDeposition.pyx":533
+                            /* "cfuncs_ErosionDeposition.pyx":555
  *     for row in prange(1, n_rows - 1, nogil=True, schedule="static"):
  *         node = row * n_cols
  *         link = row * links_per_row             # <<<<<<<<<<<<<<
@@ -34502,7 +34253,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_66calc_flux_div_at_node(CYT
 */
                             __pyx_v_link = (__pyx_v_row * __pyx_v_links_per_row);
 
-                            /* "cfuncs_ErosionDeposition.pyx":536
+                            /* "cfuncs_ErosionDeposition.pyx":558
  * 
  * 
  *         for col in range(1, n_cols - 1):             # <<<<<<<<<<<<<<
@@ -34514,7 +34265,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_66calc_flux_div_at_node(CYT
                             for (__pyx_t_2 = 1; __pyx_t_2 < __pyx_t_8; __pyx_t_2+=1) {
                               __pyx_v_col = __pyx_t_2;
 
-                              /* "cfuncs_ErosionDeposition.pyx":538
+                              /* "cfuncs_ErosionDeposition.pyx":560
  *         for col in range(1, n_cols - 1):
  *             out[node + col] = (
  *                 dy * (value_at_link[link + 1] - value_at_link[link])             # <<<<<<<<<<<<<<
@@ -34524,7 +34275,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_66calc_flux_div_at_node(CYT
                               __pyx_t_9 = (__pyx_v_link + 1);
                               __pyx_t_10 = __pyx_v_link;
 
-                              /* "cfuncs_ErosionDeposition.pyx":539
+                              /* "cfuncs_ErosionDeposition.pyx":561
  *             out[node + col] = (
  *                 dy * (value_at_link[link + 1] - value_at_link[link])
  *                 + dx * (value_at_link[link + n_cols] - value_at_link[link - n_cols + 1])             # <<<<<<<<<<<<<<
@@ -34534,7 +34285,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_66calc_flux_div_at_node(CYT
                               __pyx_t_11 = (__pyx_v_link + __pyx_v_n_cols);
                               __pyx_t_12 = ((__pyx_v_link - __pyx_v_n_cols) + 1);
 
-                              /* "cfuncs_ErosionDeposition.pyx":537
+                              /* "cfuncs_ErosionDeposition.pyx":559
  * 
  *         for col in range(1, n_cols - 1):
  *             out[node + col] = (             # <<<<<<<<<<<<<<
@@ -34544,7 +34295,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_66calc_flux_div_at_node(CYT
                               __pyx_t_13 = (__pyx_v_node + __pyx_v_col);
                               *__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_out.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_out.diminfo[0].strides) = (((__pyx_v_dy * ((*((float const  *) ( /* dim=0 */ (__pyx_v_value_at_link.data + __pyx_t_9 * __pyx_v_value_at_link.strides[0]) ))) - (*((float const  *) ( /* dim=0 */ (__pyx_v_value_at_link.data + __pyx_t_10 * __pyx_v_value_at_link.strides[0]) ))))) + (__pyx_v_dx * ((*((float const  *) ( /* dim=0 */ (__pyx_v_value_at_link.data + __pyx_t_11 * __pyx_v_value_at_link.strides[0]) ))) - (*((float const  *) ( /* dim=0 */ (__pyx_v_value_at_link.data + __pyx_t_12 * __pyx_v_value_at_link.strides[0]) )))))) * __pyx_v_inv_area_of_cell);
 
-                              /* "cfuncs_ErosionDeposition.pyx":541
+                              /* "cfuncs_ErosionDeposition.pyx":563
  *                 + dx * (value_at_link[link + n_cols] - value_at_link[link - n_cols + 1])
  *             ) * inv_area_of_cell
  *             link = link + 1             # <<<<<<<<<<<<<<
@@ -34566,7 +34317,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_66calc_flux_div_at_node(CYT
         #endif
       }
 
-      /* "cfuncs_ErosionDeposition.pyx":531
+      /* "cfuncs_ErosionDeposition.pyx":553
  * 
  * 
  *     for row in prange(1, n_rows - 1, nogil=True, schedule="static"):             # <<<<<<<<<<<<<<
@@ -34583,7 +34334,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_66calc_flux_div_at_node(CYT
       }
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":543
+  /* "cfuncs_ErosionDeposition.pyx":565
  *             link = link + 1
  * 
  *     return out             # <<<<<<<<<<<<<<
@@ -34595,7 +34346,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_66calc_flux_div_at_node(CYT
   __pyx_r = ((PyObject *)__pyx_v_out);
   goto __pyx_L0;
 
-  /* "cfuncs_ErosionDeposition.pyx":512
+  /* "cfuncs_ErosionDeposition.pyx":534
  *     return TC.base
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -34649,53 +34400,53 @@ static PyObject *__pyx_fuse_4__pyx_pw_24cfuncs_ErosionDeposition_69calc_flux_div
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_shape,&__pyx_mstate_global->__pyx_n_u_xy_spacing,&__pyx_mstate_global->__pyx_n_u_value_at_link,&__pyx_mstate_global->__pyx_n_u_out,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_VARARGS(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 512, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 534, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  4:
         values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 512, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 534, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_flux_div_at_node", 0) < (0)) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_flux_div_at_node", 0) < (0)) __PYX_ERR(0, 534, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 4; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_flux_div_at_node", 1, 4, 4, i); __PYX_ERR(0, 512, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_flux_div_at_node", 1, 4, 4, i); __PYX_ERR(0, 534, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 4)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_VARARGS(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 534, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_VARARGS(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 534, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_VARARGS(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 534, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_VARARGS(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 512, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 534, __pyx_L3_error)
     }
     __pyx_v_shape = values[0];
     __pyx_v_xy_spacing = values[1];
-    __pyx_v_value_at_link = __Pyx_PyObject_to_MemoryviewSlice_ds_double__const__(values[2], 0); if (unlikely(!__pyx_v_value_at_link.memview)) __PYX_ERR(0, 517, __pyx_L3_error)
+    __pyx_v_value_at_link = __Pyx_PyObject_to_MemoryviewSlice_ds_double__const__(values[2], 0); if (unlikely(!__pyx_v_value_at_link.memview)) __PYX_ERR(0, 539, __pyx_L3_error)
     __pyx_v_out = ((PyArrayObject *)values[3]);
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("calc_flux_div_at_node", 1, 4, 4, __pyx_nargs); __PYX_ERR(0, 512, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("calc_flux_div_at_node", 1, 4, 4, __pyx_nargs); __PYX_ERR(0, 534, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -34707,7 +34458,7 @@ static PyObject *__pyx_fuse_4__pyx_pw_24cfuncs_ErosionDeposition_69calc_flux_div
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_out), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "out", 0))) __PYX_ERR(0, 518, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_out), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "out", 0))) __PYX_ERR(0, 540, __pyx_L1_error)
   __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_68calc_flux_div_at_node(__pyx_self, __pyx_v_shape, __pyx_v_xy_spacing, __pyx_v_value_at_link, __pyx_v_out);
 
   /* function exit code */
@@ -34766,63 +34517,63 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_68calc_flux_div_at_node(CYT
   __pyx_pybuffernd_out.rcbuffer = &__pyx_pybuffer_out;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_out.rcbuffer->pybuffer, (PyObject*)__pyx_v_out, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 512, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_out.rcbuffer->pybuffer, (PyObject*)__pyx_v_out, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 534, __pyx_L1_error)
   }
   __pyx_pybuffernd_out.diminfo[0].strides = __pyx_pybuffernd_out.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_out.diminfo[0].shape = __pyx_pybuffernd_out.rcbuffer->pybuffer.shape[0];
 
-  /* "cfuncs_ErosionDeposition.pyx":521
+  /* "cfuncs_ErosionDeposition.pyx":543
  * ):
  * 
  *     cdef int n_rows = shape[0]             # <<<<<<<<<<<<<<
  *     cdef int n_cols = shape[1]
  *     cdef double dx = xy_spacing[0]
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 521, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 543, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 521, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 543, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_rows = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":522
+  /* "cfuncs_ErosionDeposition.pyx":544
  * 
  *     cdef int n_rows = shape[0]
  *     cdef int n_cols = shape[1]             # <<<<<<<<<<<<<<
  *     cdef double dx = xy_spacing[0]
  *     cdef double dy = xy_spacing[1]
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 522, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 544, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 522, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 544, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_cols = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":523
+  /* "cfuncs_ErosionDeposition.pyx":545
  *     cdef int n_rows = shape[0]
  *     cdef int n_cols = shape[1]
  *     cdef double dx = xy_spacing[0]             # <<<<<<<<<<<<<<
  *     cdef double dy = xy_spacing[1]
  *     cdef int links_per_row = 2 * n_cols - 1
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_xy_spacing, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 523, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_xy_spacing, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 545, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 523, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 545, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_dx = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":524
+  /* "cfuncs_ErosionDeposition.pyx":546
  *     cdef int n_cols = shape[1]
  *     cdef double dx = xy_spacing[0]
  *     cdef double dy = xy_spacing[1]             # <<<<<<<<<<<<<<
  *     cdef int links_per_row = 2 * n_cols - 1
  *     cdef double inv_area_of_cell = 1.0 / (dx * dy)
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_xy_spacing, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 524, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_xy_spacing, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 546, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 524, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 546, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_dy = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":525
+  /* "cfuncs_ErosionDeposition.pyx":547
  *     cdef double dx = xy_spacing[0]
  *     cdef double dy = xy_spacing[1]
  *     cdef int links_per_row = 2 * n_cols - 1             # <<<<<<<<<<<<<<
@@ -34831,7 +34582,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_68calc_flux_div_at_node(CYT
 */
   __pyx_v_links_per_row = ((2 * __pyx_v_n_cols) - 1);
 
-  /* "cfuncs_ErosionDeposition.pyx":526
+  /* "cfuncs_ErosionDeposition.pyx":548
  *     cdef double dy = xy_spacing[1]
  *     cdef int links_per_row = 2 * n_cols - 1
  *     cdef double inv_area_of_cell = 1.0 / (dx * dy)             # <<<<<<<<<<<<<<
@@ -34841,11 +34592,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_68calc_flux_div_at_node(CYT
   __pyx_t_3 = (__pyx_v_dx * __pyx_v_dy);
   if (unlikely(__pyx_t_3 == 0)) {
     PyErr_SetString(PyExc_ZeroDivisionError, "float division");
-    __PYX_ERR(0, 526, __pyx_L1_error)
+    __PYX_ERR(0, 548, __pyx_L1_error)
   }
   __pyx_v_inv_area_of_cell = (1.0 / __pyx_t_3);
 
-  /* "cfuncs_ErosionDeposition.pyx":531
+  /* "cfuncs_ErosionDeposition.pyx":553
  * 
  * 
  *     for row in prange(1, n_rows - 1, nogil=True, schedule="static"):             # <<<<<<<<<<<<<<
@@ -34879,7 +34630,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_68calc_flux_div_at_node(CYT
                         {
                             __pyx_v_row = (int)(1 + 1 * __pyx_t_5);
 
-                            /* "cfuncs_ErosionDeposition.pyx":532
+                            /* "cfuncs_ErosionDeposition.pyx":554
  * 
  *     for row in prange(1, n_rows - 1, nogil=True, schedule="static"):
  *         node = row * n_cols             # <<<<<<<<<<<<<<
@@ -34888,7 +34639,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_68calc_flux_div_at_node(CYT
 */
                             __pyx_v_node = (__pyx_v_row * __pyx_v_n_cols);
 
-                            /* "cfuncs_ErosionDeposition.pyx":533
+                            /* "cfuncs_ErosionDeposition.pyx":555
  *     for row in prange(1, n_rows - 1, nogil=True, schedule="static"):
  *         node = row * n_cols
  *         link = row * links_per_row             # <<<<<<<<<<<<<<
@@ -34897,7 +34648,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_68calc_flux_div_at_node(CYT
 */
                             __pyx_v_link = (__pyx_v_row * __pyx_v_links_per_row);
 
-                            /* "cfuncs_ErosionDeposition.pyx":536
+                            /* "cfuncs_ErosionDeposition.pyx":558
  * 
  * 
  *         for col in range(1, n_cols - 1):             # <<<<<<<<<<<<<<
@@ -34909,7 +34660,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_68calc_flux_div_at_node(CYT
                             for (__pyx_t_2 = 1; __pyx_t_2 < __pyx_t_8; __pyx_t_2+=1) {
                               __pyx_v_col = __pyx_t_2;
 
-                              /* "cfuncs_ErosionDeposition.pyx":538
+                              /* "cfuncs_ErosionDeposition.pyx":560
  *         for col in range(1, n_cols - 1):
  *             out[node + col] = (
  *                 dy * (value_at_link[link + 1] - value_at_link[link])             # <<<<<<<<<<<<<<
@@ -34919,7 +34670,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_68calc_flux_div_at_node(CYT
                               __pyx_t_9 = (__pyx_v_link + 1);
                               __pyx_t_10 = __pyx_v_link;
 
-                              /* "cfuncs_ErosionDeposition.pyx":539
+                              /* "cfuncs_ErosionDeposition.pyx":561
  *             out[node + col] = (
  *                 dy * (value_at_link[link + 1] - value_at_link[link])
  *                 + dx * (value_at_link[link + n_cols] - value_at_link[link - n_cols + 1])             # <<<<<<<<<<<<<<
@@ -34929,7 +34680,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_68calc_flux_div_at_node(CYT
                               __pyx_t_11 = (__pyx_v_link + __pyx_v_n_cols);
                               __pyx_t_12 = ((__pyx_v_link - __pyx_v_n_cols) + 1);
 
-                              /* "cfuncs_ErosionDeposition.pyx":537
+                              /* "cfuncs_ErosionDeposition.pyx":559
  * 
  *         for col in range(1, n_cols - 1):
  *             out[node + col] = (             # <<<<<<<<<<<<<<
@@ -34939,7 +34690,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_68calc_flux_div_at_node(CYT
                               __pyx_t_13 = (__pyx_v_node + __pyx_v_col);
                               *__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_out.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_out.diminfo[0].strides) = (((__pyx_v_dy * ((*((double const  *) ( /* dim=0 */ (__pyx_v_value_at_link.data + __pyx_t_9 * __pyx_v_value_at_link.strides[0]) ))) - (*((double const  *) ( /* dim=0 */ (__pyx_v_value_at_link.data + __pyx_t_10 * __pyx_v_value_at_link.strides[0]) ))))) + (__pyx_v_dx * ((*((double const  *) ( /* dim=0 */ (__pyx_v_value_at_link.data + __pyx_t_11 * __pyx_v_value_at_link.strides[0]) ))) - (*((double const  *) ( /* dim=0 */ (__pyx_v_value_at_link.data + __pyx_t_12 * __pyx_v_value_at_link.strides[0]) )))))) * __pyx_v_inv_area_of_cell);
 
-                              /* "cfuncs_ErosionDeposition.pyx":541
+                              /* "cfuncs_ErosionDeposition.pyx":563
  *                 + dx * (value_at_link[link + n_cols] - value_at_link[link - n_cols + 1])
  *             ) * inv_area_of_cell
  *             link = link + 1             # <<<<<<<<<<<<<<
@@ -34961,7 +34712,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_68calc_flux_div_at_node(CYT
         #endif
       }
 
-      /* "cfuncs_ErosionDeposition.pyx":531
+      /* "cfuncs_ErosionDeposition.pyx":553
  * 
  * 
  *     for row in prange(1, n_rows - 1, nogil=True, schedule="static"):             # <<<<<<<<<<<<<<
@@ -34978,7 +34729,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_68calc_flux_div_at_node(CYT
       }
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":543
+  /* "cfuncs_ErosionDeposition.pyx":565
  *             link = link + 1
  * 
  *     return out             # <<<<<<<<<<<<<<
@@ -34990,7 +34741,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_68calc_flux_div_at_node(CYT
   __pyx_r = ((PyObject *)__pyx_v_out);
   goto __pyx_L0;
 
-  /* "cfuncs_ErosionDeposition.pyx":512
+  /* "cfuncs_ErosionDeposition.pyx":534
  *     return TC.base
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -35018,7 +34769,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_68calc_flux_div_at_node(CYT
   return __pyx_r;
 }
 
-/* "cfuncs_ErosionDeposition.pyx":546
+/* "cfuncs_ErosionDeposition.pyx":568
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -35034,7 +34785,7 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_24cfuncs_ErosionDeposition_28calc_stable_dt, "Serial (deliberately NOT prange) reduction over the four CFL-like\n    stability conditions used by `_calculate_stable_timestep` in\n    OverlandflowErosionDeposition_clean.py.\n\n    This replaces ~9 separate NumPy calls (each allocating a full-size\n    temporary array) with a single pass over the nodes/grain-size classes\n    that keeps everything in scalar registers. Unlike the other loops in\n    this file, this one is intentionally left serial: it's a running-minimum\n    reduction with a shared accumulator on every iteration, which is a poor\n    fit for prange (would need a reduction clause per output, and the loop\n    body is cheap/branchy rather than arithmetic-heavy) - so parallelizing it\n    would likely reproduce the same overhead problem the N_THREADS note above\n    describes, for little benefit since this runs once per substep rather\n    than being itself a hot inner loop.\n    ");
+PyDoc_STRVAR(__pyx_doc_24cfuncs_ErosionDeposition_28calc_stable_dt, "Serial (deliberately NOT prange) reduction over the five CFL-like\n    stability conditions used by `_calculate_stable_timestep` in\n    OverlandflowErosionDeposition_clean.py.\n\n    This replaces ~9 separate NumPy calls (each allocating a full-size\n    temporary array) with a single pass over the nodes/grain-size classes\n    that keeps everything in scalar registers. Unlike the other loops in\n    this file, this one is intentionally left serial: it's a running-minimum\n    reduction with a shared accumulator on every iteration, which is a poor\n    fit for prange (would need a reduction clause per output, and the loop\n    body is cheap/branchy rather than arithmetic-heavy) - so parallelizing it\n    would likely reproduce the same overhead problem the N_THREADS note above\n    describes, for little benefit since this runs once per substep rather\n    than being itself a hot inner loop.\n    ");
 static PyMethodDef __pyx_mdef_24cfuncs_ErosionDeposition_29calc_stable_dt = {"calc_stable_dt", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_24cfuncs_ErosionDeposition_29calc_stable_dt, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_24cfuncs_ErosionDeposition_28calc_stable_dt};
 static PyObject *__pyx_pw_24cfuncs_ErosionDeposition_29calc_stable_dt(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
@@ -35059,11 +34810,13 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   PyObject *__pyx_v_max_deposition_slope_c = 0;
   PyObject *__pyx_v_min_suspended_mass_c = 0;
   PyObject *__pyx_v_shape = 0;
+  PyArrayObject *__pyx_v_grain_mass_at_node = 0;
+  PyArrayObject *__pyx_v_detached_soil_mass_at_node = 0;
   #if !CYTHON_METH_FASTCALL
   CYTHON_UNUSED Py_ssize_t __pyx_nargs;
   #endif
   CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
-  PyObject* values[16] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+  PyObject* values[18] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -35079,118 +34832,130 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   #endif
   __pyx_kwvalues = __Pyx_KwValues_FASTCALL(__pyx_args, __pyx_nargs);
   {
-    PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_max_downwind_gradient,&__pyx_mstate_global->__pyx_n_u_max_upwind_gradient,&__pyx_mstate_global->__pyx_n_u_detached_bedrock_dz,&__pyx_mstate_global->__pyx_n_u_detached_soil_dz,&__pyx_mstate_global->__pyx_n_u_deposited_dz,&__pyx_mstate_global->__pyx_n_u_suspended_weight_at_node,&__pyx_mstate_global->__pyx_n_u_deposited_weight,&__pyx_mstate_global->__pyx_n_u_suspended_dzdt_at_node,&__pyx_mstate_global->__pyx_n_u_outflux_weights_at_node,&__pyx_mstate_global->__pyx_n_u_dx_c,&__pyx_mstate_global->__pyx_n_u_dx_squared_c,&__pyx_mstate_global->__pyx_n_u_sediment_density_c,&__pyx_mstate_global->__pyx_n_u_porosity_c,&__pyx_mstate_global->__pyx_n_u_max_deposition_slope_c,&__pyx_mstate_global->__pyx_n_u_min_suspended_mass_c,&__pyx_mstate_global->__pyx_n_u_shape,0};
+    PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_max_downwind_gradient,&__pyx_mstate_global->__pyx_n_u_max_upwind_gradient,&__pyx_mstate_global->__pyx_n_u_detached_bedrock_dz,&__pyx_mstate_global->__pyx_n_u_detached_soil_dz,&__pyx_mstate_global->__pyx_n_u_deposited_dz,&__pyx_mstate_global->__pyx_n_u_suspended_weight_at_node,&__pyx_mstate_global->__pyx_n_u_deposited_weight,&__pyx_mstate_global->__pyx_n_u_suspended_dzdt_at_node,&__pyx_mstate_global->__pyx_n_u_outflux_weights_at_node,&__pyx_mstate_global->__pyx_n_u_dx_c,&__pyx_mstate_global->__pyx_n_u_dx_squared_c,&__pyx_mstate_global->__pyx_n_u_sediment_density_c,&__pyx_mstate_global->__pyx_n_u_porosity_c,&__pyx_mstate_global->__pyx_n_u_max_deposition_slope_c,&__pyx_mstate_global->__pyx_n_u_min_suspended_mass_c,&__pyx_mstate_global->__pyx_n_u_shape,&__pyx_mstate_global->__pyx_n_u_grain_mass_at_node,&__pyx_mstate_global->__pyx_n_u_detached_soil_mass_at_node,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 546, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len < 0)) __PYX_ERR(0, 568, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
+        case 18:
+        values[17] = __Pyx_ArgRef_FASTCALL(__pyx_args, 17);
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[17])) __PYX_ERR(0, 568, __pyx_L3_error)
+        CYTHON_FALLTHROUGH;
+        case 17:
+        values[16] = __Pyx_ArgRef_FASTCALL(__pyx_args, 16);
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[16])) __PYX_ERR(0, 568, __pyx_L3_error)
+        CYTHON_FALLTHROUGH;
         case 16:
         values[15] = __Pyx_ArgRef_FASTCALL(__pyx_args, 15);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[15])) __PYX_ERR(0, 546, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[15])) __PYX_ERR(0, 568, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case 15:
         values[14] = __Pyx_ArgRef_FASTCALL(__pyx_args, 14);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[14])) __PYX_ERR(0, 546, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[14])) __PYX_ERR(0, 568, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case 14:
         values[13] = __Pyx_ArgRef_FASTCALL(__pyx_args, 13);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[13])) __PYX_ERR(0, 546, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[13])) __PYX_ERR(0, 568, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case 13:
         values[12] = __Pyx_ArgRef_FASTCALL(__pyx_args, 12);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[12])) __PYX_ERR(0, 546, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[12])) __PYX_ERR(0, 568, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case 12:
         values[11] = __Pyx_ArgRef_FASTCALL(__pyx_args, 11);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[11])) __PYX_ERR(0, 546, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[11])) __PYX_ERR(0, 568, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case 11:
         values[10] = __Pyx_ArgRef_FASTCALL(__pyx_args, 10);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[10])) __PYX_ERR(0, 546, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[10])) __PYX_ERR(0, 568, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case 10:
         values[9] = __Pyx_ArgRef_FASTCALL(__pyx_args, 9);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 546, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 568, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  9:
         values[8] = __Pyx_ArgRef_FASTCALL(__pyx_args, 8);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 546, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 568, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  8:
         values[7] = __Pyx_ArgRef_FASTCALL(__pyx_args, 7);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 546, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 568, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  7:
         values[6] = __Pyx_ArgRef_FASTCALL(__pyx_args, 6);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 546, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 568, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  6:
         values[5] = __Pyx_ArgRef_FASTCALL(__pyx_args, 5);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 546, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 568, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  5:
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 546, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 568, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 546, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 568, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 546, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 568, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 546, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 568, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 546, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 568, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_stable_dt", 0) < (0)) __PYX_ERR(0, 546, __pyx_L3_error)
-      for (Py_ssize_t i = __pyx_nargs; i < 16; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_stable_dt", 1, 16, 16, i); __PYX_ERR(0, 546, __pyx_L3_error) }
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "calc_stable_dt", 0) < (0)) __PYX_ERR(0, 568, __pyx_L3_error)
+      for (Py_ssize_t i = __pyx_nargs; i < 18; i++) {
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("calc_stable_dt", 1, 18, 18, i); __PYX_ERR(0, 568, __pyx_L3_error) }
       }
-    } else if (unlikely(__pyx_nargs != 16)) {
+    } else if (unlikely(__pyx_nargs != 18)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 546, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 568, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 546, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 568, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 546, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 568, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 546, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 568, __pyx_L3_error)
       values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 546, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 568, __pyx_L3_error)
       values[5] = __Pyx_ArgRef_FASTCALL(__pyx_args, 5);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 546, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 568, __pyx_L3_error)
       values[6] = __Pyx_ArgRef_FASTCALL(__pyx_args, 6);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 546, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 568, __pyx_L3_error)
       values[7] = __Pyx_ArgRef_FASTCALL(__pyx_args, 7);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 546, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 568, __pyx_L3_error)
       values[8] = __Pyx_ArgRef_FASTCALL(__pyx_args, 8);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 546, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[8])) __PYX_ERR(0, 568, __pyx_L3_error)
       values[9] = __Pyx_ArgRef_FASTCALL(__pyx_args, 9);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 546, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[9])) __PYX_ERR(0, 568, __pyx_L3_error)
       values[10] = __Pyx_ArgRef_FASTCALL(__pyx_args, 10);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[10])) __PYX_ERR(0, 546, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[10])) __PYX_ERR(0, 568, __pyx_L3_error)
       values[11] = __Pyx_ArgRef_FASTCALL(__pyx_args, 11);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[11])) __PYX_ERR(0, 546, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[11])) __PYX_ERR(0, 568, __pyx_L3_error)
       values[12] = __Pyx_ArgRef_FASTCALL(__pyx_args, 12);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[12])) __PYX_ERR(0, 546, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[12])) __PYX_ERR(0, 568, __pyx_L3_error)
       values[13] = __Pyx_ArgRef_FASTCALL(__pyx_args, 13);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[13])) __PYX_ERR(0, 546, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[13])) __PYX_ERR(0, 568, __pyx_L3_error)
       values[14] = __Pyx_ArgRef_FASTCALL(__pyx_args, 14);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[14])) __PYX_ERR(0, 546, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[14])) __PYX_ERR(0, 568, __pyx_L3_error)
       values[15] = __Pyx_ArgRef_FASTCALL(__pyx_args, 15);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[15])) __PYX_ERR(0, 546, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[15])) __PYX_ERR(0, 568, __pyx_L3_error)
+      values[16] = __Pyx_ArgRef_FASTCALL(__pyx_args, 16);
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[16])) __PYX_ERR(0, 568, __pyx_L3_error)
+      values[17] = __Pyx_ArgRef_FASTCALL(__pyx_args, 17);
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[17])) __PYX_ERR(0, 568, __pyx_L3_error)
     }
     __pyx_v_max_downwind_gradient = ((PyArrayObject *)values[0]);
     __pyx_v_max_upwind_gradient = ((PyArrayObject *)values[1]);
@@ -35208,10 +34973,12 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
     __pyx_v_max_deposition_slope_c = values[13];
     __pyx_v_min_suspended_mass_c = values[14];
     __pyx_v_shape = values[15];
+    __pyx_v_grain_mass_at_node = ((PyArrayObject *)values[16]);
+    __pyx_v_detached_soil_mass_at_node = ((PyArrayObject *)values[17]);
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("calc_stable_dt", 1, 16, 16, __pyx_nargs); __PYX_ERR(0, 546, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("calc_stable_dt", 1, 18, 18, __pyx_nargs); __PYX_ERR(0, 568, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -35222,16 +34989,18 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_max_downwind_gradient), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "max_downwind_gradient", 0))) __PYX_ERR(0, 549, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_max_upwind_gradient), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "max_upwind_gradient", 0))) __PYX_ERR(0, 550, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_detached_bedrock_dz), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "detached_bedrock_dz", 0))) __PYX_ERR(0, 551, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_detached_soil_dz), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "detached_soil_dz", 0))) __PYX_ERR(0, 552, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_deposited_dz), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "deposited_dz", 0))) __PYX_ERR(0, 553, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_suspended_weight_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "suspended_weight_at_node", 0))) __PYX_ERR(0, 554, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_deposited_weight), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "deposited_weight", 0))) __PYX_ERR(0, 555, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_suspended_dzdt_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "suspended_dzdt_at_node", 0))) __PYX_ERR(0, 556, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_outflux_weights_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "outflux_weights_at_node", 0))) __PYX_ERR(0, 557, __pyx_L1_error)
-  __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(__pyx_self, __pyx_v_max_downwind_gradient, __pyx_v_max_upwind_gradient, __pyx_v_detached_bedrock_dz, __pyx_v_detached_soil_dz, __pyx_v_deposited_dz, __pyx_v_suspended_weight_at_node, __pyx_v_deposited_weight, __pyx_v_suspended_dzdt_at_node, __pyx_v_outflux_weights_at_node, __pyx_v_dx_c, __pyx_v_dx_squared_c, __pyx_v_sediment_density_c, __pyx_v_porosity_c, __pyx_v_max_deposition_slope_c, __pyx_v_min_suspended_mass_c, __pyx_v_shape);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_max_downwind_gradient), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "max_downwind_gradient", 0))) __PYX_ERR(0, 571, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_max_upwind_gradient), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "max_upwind_gradient", 0))) __PYX_ERR(0, 572, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_detached_bedrock_dz), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "detached_bedrock_dz", 0))) __PYX_ERR(0, 573, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_detached_soil_dz), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "detached_soil_dz", 0))) __PYX_ERR(0, 574, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_deposited_dz), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "deposited_dz", 0))) __PYX_ERR(0, 575, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_suspended_weight_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "suspended_weight_at_node", 0))) __PYX_ERR(0, 576, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_deposited_weight), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "deposited_weight", 0))) __PYX_ERR(0, 577, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_suspended_dzdt_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "suspended_dzdt_at_node", 0))) __PYX_ERR(0, 578, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_outflux_weights_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "outflux_weights_at_node", 0))) __PYX_ERR(0, 579, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_grain_mass_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "grain_mass_at_node", 0))) __PYX_ERR(0, 587, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_detached_soil_mass_at_node), __pyx_mstate_global->__pyx_ptype_5numpy_ndarray, 1, "detached_soil_mass_at_node", 0))) __PYX_ERR(0, 588, __pyx_L1_error)
+  __pyx_r = __pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(__pyx_self, __pyx_v_max_downwind_gradient, __pyx_v_max_upwind_gradient, __pyx_v_detached_bedrock_dz, __pyx_v_detached_soil_dz, __pyx_v_deposited_dz, __pyx_v_suspended_weight_at_node, __pyx_v_deposited_weight, __pyx_v_suspended_dzdt_at_node, __pyx_v_outflux_weights_at_node, __pyx_v_dx_c, __pyx_v_dx_squared_c, __pyx_v_sediment_density_c, __pyx_v_porosity_c, __pyx_v_max_deposition_slope_c, __pyx_v_min_suspended_mass_c, __pyx_v_shape, __pyx_v_grain_mass_at_node, __pyx_v_detached_soil_mass_at_node);
 
   /* function exit code */
   goto __pyx_L0;
@@ -35250,7 +35019,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_max_downwind_gradient, PyArrayObject *__pyx_v_max_upwind_gradient, PyArrayObject *__pyx_v_detached_bedrock_dz, PyArrayObject *__pyx_v_detached_soil_dz, PyArrayObject *__pyx_v_deposited_dz, PyArrayObject *__pyx_v_suspended_weight_at_node, PyArrayObject *__pyx_v_deposited_weight, PyArrayObject *__pyx_v_suspended_dzdt_at_node, PyArrayObject *__pyx_v_outflux_weights_at_node, PyObject *__pyx_v_dx_c, PyObject *__pyx_v_dx_squared_c, PyObject *__pyx_v_sediment_density_c, PyObject *__pyx_v_porosity_c, PyObject *__pyx_v_max_deposition_slope_c, PyObject *__pyx_v_min_suspended_mass_c, PyObject *__pyx_v_shape) {
+static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_max_downwind_gradient, PyArrayObject *__pyx_v_max_upwind_gradient, PyArrayObject *__pyx_v_detached_bedrock_dz, PyArrayObject *__pyx_v_detached_soil_dz, PyArrayObject *__pyx_v_deposited_dz, PyArrayObject *__pyx_v_suspended_weight_at_node, PyArrayObject *__pyx_v_deposited_weight, PyArrayObject *__pyx_v_suspended_dzdt_at_node, PyArrayObject *__pyx_v_outflux_weights_at_node, PyObject *__pyx_v_dx_c, PyObject *__pyx_v_dx_squared_c, PyObject *__pyx_v_sediment_density_c, PyObject *__pyx_v_porosity_c, PyObject *__pyx_v_max_deposition_slope_c, PyObject *__pyx_v_min_suspended_mass_c, PyObject *__pyx_v_shape, PyArrayObject *__pyx_v_grain_mass_at_node, PyArrayObject *__pyx_v_detached_soil_mass_at_node) {
   int __pyx_v_n_nodes;
   int __pyx_v_n_gs;
   int __pyx_v_node;
@@ -35267,6 +35036,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
   double __pyx_v_dt_deposition_mass;
   double __pyx_v_dt_deposition_topo;
   double __pyx_v_dt_mass;
+  double __pyx_v_dt_erosion_mass;
   double __pyx_v_stable_erosion_depth;
   double __pyx_v_net_erosion;
   double __pyx_v_cand;
@@ -35277,6 +35047,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
   double __pyx_v_swp_raw;
   double __pyx_v_dep;
   double __pyx_v_outflux;
+  double __pyx_v_det;
   int __pyx_v_nodes_losing_mass;
   int __pyx_v_found_deposition_mass;
   int __pyx_v_found_mass_loss;
@@ -35288,6 +35059,10 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
   __Pyx_Buffer __pyx_pybuffer_detached_bedrock_dz;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_detached_soil_dz;
   __Pyx_Buffer __pyx_pybuffer_detached_soil_dz;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_detached_soil_mass_at_node;
+  __Pyx_Buffer __pyx_pybuffer_detached_soil_mass_at_node;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_grain_mass_at_node;
+  __Pyx_Buffer __pyx_pybuffer_grain_mass_at_node;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_max_downwind_gradient;
   __Pyx_Buffer __pyx_pybuffer_max_downwind_gradient;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_max_upwind_gradient;
@@ -35312,10 +35087,12 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
   int __pyx_t_10;
   int __pyx_t_11;
   int __pyx_t_12;
-  PyObject *__pyx_t_13 = NULL;
+  __pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t __pyx_t_13;
   PyObject *__pyx_t_14 = NULL;
   PyObject *__pyx_t_15 = NULL;
   PyObject *__pyx_t_16 = NULL;
+  PyObject *__pyx_t_17 = NULL;
+  PyObject *__pyx_t_18 = NULL;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -35356,139 +35133,157 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
   __pyx_pybuffer_outflux_weights_at_node.refcount = 0;
   __pyx_pybuffernd_outflux_weights_at_node.data = NULL;
   __pyx_pybuffernd_outflux_weights_at_node.rcbuffer = &__pyx_pybuffer_outflux_weights_at_node;
+  __pyx_pybuffer_grain_mass_at_node.pybuffer.buf = NULL;
+  __pyx_pybuffer_grain_mass_at_node.refcount = 0;
+  __pyx_pybuffernd_grain_mass_at_node.data = NULL;
+  __pyx_pybuffernd_grain_mass_at_node.rcbuffer = &__pyx_pybuffer_grain_mass_at_node;
+  __pyx_pybuffer_detached_soil_mass_at_node.pybuffer.buf = NULL;
+  __pyx_pybuffer_detached_soil_mass_at_node.refcount = 0;
+  __pyx_pybuffernd_detached_soil_mass_at_node.data = NULL;
+  __pyx_pybuffernd_detached_soil_mass_at_node.rcbuffer = &__pyx_pybuffer_detached_soil_mass_at_node;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_max_downwind_gradient.rcbuffer->pybuffer, (PyObject*)__pyx_v_max_downwind_gradient, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 546, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_max_downwind_gradient.rcbuffer->pybuffer, (PyObject*)__pyx_v_max_downwind_gradient, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 568, __pyx_L1_error)
   }
   __pyx_pybuffernd_max_downwind_gradient.diminfo[0].strides = __pyx_pybuffernd_max_downwind_gradient.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_max_downwind_gradient.diminfo[0].shape = __pyx_pybuffernd_max_downwind_gradient.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_max_upwind_gradient.rcbuffer->pybuffer, (PyObject*)__pyx_v_max_upwind_gradient, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 546, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_max_upwind_gradient.rcbuffer->pybuffer, (PyObject*)__pyx_v_max_upwind_gradient, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 568, __pyx_L1_error)
   }
   __pyx_pybuffernd_max_upwind_gradient.diminfo[0].strides = __pyx_pybuffernd_max_upwind_gradient.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_max_upwind_gradient.diminfo[0].shape = __pyx_pybuffernd_max_upwind_gradient.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_detached_bedrock_dz.rcbuffer->pybuffer, (PyObject*)__pyx_v_detached_bedrock_dz, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 546, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_detached_bedrock_dz.rcbuffer->pybuffer, (PyObject*)__pyx_v_detached_bedrock_dz, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 568, __pyx_L1_error)
   }
   __pyx_pybuffernd_detached_bedrock_dz.diminfo[0].strides = __pyx_pybuffernd_detached_bedrock_dz.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_detached_bedrock_dz.diminfo[0].shape = __pyx_pybuffernd_detached_bedrock_dz.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_detached_soil_dz.rcbuffer->pybuffer, (PyObject*)__pyx_v_detached_soil_dz, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 546, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_detached_soil_dz.rcbuffer->pybuffer, (PyObject*)__pyx_v_detached_soil_dz, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 568, __pyx_L1_error)
   }
   __pyx_pybuffernd_detached_soil_dz.diminfo[0].strides = __pyx_pybuffernd_detached_soil_dz.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_detached_soil_dz.diminfo[0].shape = __pyx_pybuffernd_detached_soil_dz.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_deposited_dz.rcbuffer->pybuffer, (PyObject*)__pyx_v_deposited_dz, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 546, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_deposited_dz.rcbuffer->pybuffer, (PyObject*)__pyx_v_deposited_dz, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 568, __pyx_L1_error)
   }
   __pyx_pybuffernd_deposited_dz.diminfo[0].strides = __pyx_pybuffernd_deposited_dz.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_deposited_dz.diminfo[0].shape = __pyx_pybuffernd_deposited_dz.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_suspended_weight_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_suspended_weight_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 546, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_suspended_weight_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_suspended_weight_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 568, __pyx_L1_error)
   }
   __pyx_pybuffernd_suspended_weight_at_node.diminfo[0].strides = __pyx_pybuffernd_suspended_weight_at_node.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_suspended_weight_at_node.diminfo[0].shape = __pyx_pybuffernd_suspended_weight_at_node.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_suspended_weight_at_node.diminfo[1].strides = __pyx_pybuffernd_suspended_weight_at_node.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_suspended_weight_at_node.diminfo[1].shape = __pyx_pybuffernd_suspended_weight_at_node.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_deposited_weight.rcbuffer->pybuffer, (PyObject*)__pyx_v_deposited_weight, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 546, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_deposited_weight.rcbuffer->pybuffer, (PyObject*)__pyx_v_deposited_weight, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 568, __pyx_L1_error)
   }
   __pyx_pybuffernd_deposited_weight.diminfo[0].strides = __pyx_pybuffernd_deposited_weight.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_deposited_weight.diminfo[0].shape = __pyx_pybuffernd_deposited_weight.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_deposited_weight.diminfo[1].strides = __pyx_pybuffernd_deposited_weight.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_deposited_weight.diminfo[1].shape = __pyx_pybuffernd_deposited_weight.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_suspended_dzdt_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_suspended_dzdt_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 546, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_suspended_dzdt_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_suspended_dzdt_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 568, __pyx_L1_error)
   }
   __pyx_pybuffernd_suspended_dzdt_at_node.diminfo[0].strides = __pyx_pybuffernd_suspended_dzdt_at_node.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_suspended_dzdt_at_node.diminfo[0].shape = __pyx_pybuffernd_suspended_dzdt_at_node.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_suspended_dzdt_at_node.diminfo[1].strides = __pyx_pybuffernd_suspended_dzdt_at_node.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_suspended_dzdt_at_node.diminfo[1].shape = __pyx_pybuffernd_suspended_dzdt_at_node.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_outflux_weights_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_outflux_weights_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 546, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_outflux_weights_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_outflux_weights_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 568, __pyx_L1_error)
   }
   __pyx_pybuffernd_outflux_weights_at_node.diminfo[0].strides = __pyx_pybuffernd_outflux_weights_at_node.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_outflux_weights_at_node.diminfo[0].shape = __pyx_pybuffernd_outflux_weights_at_node.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_outflux_weights_at_node.diminfo[1].strides = __pyx_pybuffernd_outflux_weights_at_node.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_outflux_weights_at_node.diminfo[1].shape = __pyx_pybuffernd_outflux_weights_at_node.rcbuffer->pybuffer.shape[1];
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_grain_mass_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_grain_mass_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 568, __pyx_L1_error)
+  }
+  __pyx_pybuffernd_grain_mass_at_node.diminfo[0].strides = __pyx_pybuffernd_grain_mass_at_node.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_grain_mass_at_node.diminfo[0].shape = __pyx_pybuffernd_grain_mass_at_node.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_grain_mass_at_node.diminfo[1].strides = __pyx_pybuffernd_grain_mass_at_node.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_grain_mass_at_node.diminfo[1].shape = __pyx_pybuffernd_grain_mass_at_node.rcbuffer->pybuffer.shape[1];
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_detached_soil_mass_at_node.rcbuffer->pybuffer, (PyObject*)__pyx_v_detached_soil_mass_at_node, &__Pyx_TypeInfo_nn___pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 568, __pyx_L1_error)
+  }
+  __pyx_pybuffernd_detached_soil_mass_at_node.diminfo[0].strides = __pyx_pybuffernd_detached_soil_mass_at_node.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_detached_soil_mass_at_node.diminfo[0].shape = __pyx_pybuffernd_detached_soil_mass_at_node.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_detached_soil_mass_at_node.diminfo[1].strides = __pyx_pybuffernd_detached_soil_mass_at_node.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_detached_soil_mass_at_node.diminfo[1].shape = __pyx_pybuffernd_detached_soil_mass_at_node.rcbuffer->pybuffer.shape[1];
 
-  /* "cfuncs_ErosionDeposition.pyx":581
+  /* "cfuncs_ErosionDeposition.pyx":605
  *     than being itself a hot inner loop.
  *     """
  *     cdef int n_nodes = shape[0]             # <<<<<<<<<<<<<<
  *     cdef int n_gs = shape[1]
  *     cdef int node, gs
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 581, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 605, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 581, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 605, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_nodes = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":582
+  /* "cfuncs_ErosionDeposition.pyx":606
  *     """
  *     cdef int n_nodes = shape[0]
  *     cdef int n_gs = shape[1]             # <<<<<<<<<<<<<<
  *     cdef int node, gs
  *     cdef double dx = dx_c
 */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 582, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_shape, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 606, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 582, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 606, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_gs = __pyx_t_2;
 
-  /* "cfuncs_ErosionDeposition.pyx":584
+  /* "cfuncs_ErosionDeposition.pyx":608
  *     cdef int n_gs = shape[1]
  *     cdef int node, gs
  *     cdef double dx = dx_c             # <<<<<<<<<<<<<<
  *     cdef double dx_squared = dx_squared_c
  *     cdef double sediment_density = sediment_density_c
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_dx_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 584, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_dx_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 608, __pyx_L1_error)
   __pyx_v_dx = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":585
+  /* "cfuncs_ErosionDeposition.pyx":609
  *     cdef int node, gs
  *     cdef double dx = dx_c
  *     cdef double dx_squared = dx_squared_c             # <<<<<<<<<<<<<<
  *     cdef double sediment_density = sediment_density_c
  *     cdef double porosity = porosity_c
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_dx_squared_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 585, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_dx_squared_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 609, __pyx_L1_error)
   __pyx_v_dx_squared = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":586
+  /* "cfuncs_ErosionDeposition.pyx":610
  *     cdef double dx = dx_c
  *     cdef double dx_squared = dx_squared_c
  *     cdef double sediment_density = sediment_density_c             # <<<<<<<<<<<<<<
  *     cdef double porosity = porosity_c
  *     cdef double max_deposition_slope = max_deposition_slope_c
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_sediment_density_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 586, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_sediment_density_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 610, __pyx_L1_error)
   __pyx_v_sediment_density = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":587
+  /* "cfuncs_ErosionDeposition.pyx":611
  *     cdef double dx_squared = dx_squared_c
  *     cdef double sediment_density = sediment_density_c
  *     cdef double porosity = porosity_c             # <<<<<<<<<<<<<<
  *     cdef double max_deposition_slope = max_deposition_slope_c
  *     cdef double min_suspended_mass = min_suspended_mass_c
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_porosity_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 587, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_porosity_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 611, __pyx_L1_error)
   __pyx_v_porosity = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":588
+  /* "cfuncs_ErosionDeposition.pyx":612
  *     cdef double sediment_density = sediment_density_c
  *     cdef double porosity = porosity_c
  *     cdef double max_deposition_slope = max_deposition_slope_c             # <<<<<<<<<<<<<<
  *     cdef double min_suspended_mass = min_suspended_mass_c
  *     cdef double dx_half = dx / 2.0
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_max_deposition_slope_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 588, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_max_deposition_slope_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 612, __pyx_L1_error)
   __pyx_v_max_deposition_slope = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":589
+  /* "cfuncs_ErosionDeposition.pyx":613
  *     cdef double porosity = porosity_c
  *     cdef double max_deposition_slope = max_deposition_slope_c
  *     cdef double min_suspended_mass = min_suspended_mass_c             # <<<<<<<<<<<<<<
  *     cdef double dx_half = dx / 2.0
  *     cdef double max_dep_slope_dx = max_deposition_slope * dx
 */
-  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_min_suspended_mass_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 589, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyFloat_AsDouble(__pyx_v_min_suspended_mass_c); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 613, __pyx_L1_error)
   __pyx_v_min_suspended_mass = __pyx_t_3;
 
-  /* "cfuncs_ErosionDeposition.pyx":590
+  /* "cfuncs_ErosionDeposition.pyx":614
  *     cdef double max_deposition_slope = max_deposition_slope_c
  *     cdef double min_suspended_mass = min_suspended_mass_c
  *     cdef double dx_half = dx / 2.0             # <<<<<<<<<<<<<<
@@ -35497,7 +35292,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
   __pyx_v_dx_half = (__pyx_v_dx / 2.0);
 
-  /* "cfuncs_ErosionDeposition.pyx":591
+  /* "cfuncs_ErosionDeposition.pyx":615
  *     cdef double min_suspended_mass = min_suspended_mass_c
  *     cdef double dx_half = dx / 2.0
  *     cdef double max_dep_slope_dx = max_deposition_slope * dx             # <<<<<<<<<<<<<<
@@ -35506,7 +35301,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
   __pyx_v_max_dep_slope_dx = (__pyx_v_max_deposition_slope * __pyx_v_dx);
 
-  /* "cfuncs_ErosionDeposition.pyx":592
+  /* "cfuncs_ErosionDeposition.pyx":616
  *     cdef double dx_half = dx / 2.0
  *     cdef double max_dep_slope_dx = max_deposition_slope * dx
  *     cdef double dt_erosion = INFINITY             # <<<<<<<<<<<<<<
@@ -35515,7 +35310,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
   __pyx_v_dt_erosion = INFINITY;
 
-  /* "cfuncs_ErosionDeposition.pyx":593
+  /* "cfuncs_ErosionDeposition.pyx":617
  *     cdef double max_dep_slope_dx = max_deposition_slope * dx
  *     cdef double dt_erosion = INFINITY
  *     cdef double dt_deposition_mass = INFINITY             # <<<<<<<<<<<<<<
@@ -35524,26 +35319,35 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
   __pyx_v_dt_deposition_mass = INFINITY;
 
-  /* "cfuncs_ErosionDeposition.pyx":594
+  /* "cfuncs_ErosionDeposition.pyx":618
  *     cdef double dt_erosion = INFINITY
  *     cdef double dt_deposition_mass = INFINITY
  *     cdef double dt_deposition_topo = INFINITY             # <<<<<<<<<<<<<<
  *     cdef double dt_mass = INFINITY
- *     cdef double stable_erosion_depth, net_erosion, cand
+ *     cdef double dt_erosion_mass = INFINITY
 */
   __pyx_v_dt_deposition_topo = INFINITY;
 
-  /* "cfuncs_ErosionDeposition.pyx":595
+  /* "cfuncs_ErosionDeposition.pyx":619
  *     cdef double dt_deposition_mass = INFINITY
  *     cdef double dt_deposition_topo = INFINITY
  *     cdef double dt_mass = INFINITY             # <<<<<<<<<<<<<<
+ *     cdef double dt_erosion_mass = INFINITY
  *     cdef double stable_erosion_depth, net_erosion, cand
- *     cdef double stable_deposition_depth, net_deposition
 */
   __pyx_v_dt_mass = INFINITY;
 
-  /* "cfuncs_ErosionDeposition.pyx":600
- *     cdef double total_weight_flux, swp_clamped, swp_raw, dep, outflux
+  /* "cfuncs_ErosionDeposition.pyx":620
+ *     cdef double dt_deposition_topo = INFINITY
+ *     cdef double dt_mass = INFINITY
+ *     cdef double dt_erosion_mass = INFINITY             # <<<<<<<<<<<<<<
+ *     cdef double stable_erosion_depth, net_erosion, cand
+ *     cdef double stable_deposition_depth, net_deposition
+*/
+  __pyx_v_dt_erosion_mass = INFINITY;
+
+  /* "cfuncs_ErosionDeposition.pyx":625
+ *     cdef double total_weight_flux, swp_clamped, swp_raw, dep, outflux, det
  *     cdef bint nodes_losing_mass
  *     cdef bint found_deposition_mass = False             # <<<<<<<<<<<<<<
  *     cdef bint found_mass_loss = False
@@ -35551,7 +35355,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
   __pyx_v_found_deposition_mass = 0;
 
-  /* "cfuncs_ErosionDeposition.pyx":601
+  /* "cfuncs_ErosionDeposition.pyx":626
  *     cdef bint nodes_losing_mass
  *     cdef bint found_deposition_mass = False
  *     cdef bint found_mass_loss = False             # <<<<<<<<<<<<<<
@@ -35560,7 +35364,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
   __pyx_v_found_mass_loss = 0;
 
-  /* "cfuncs_ErosionDeposition.pyx":603
+  /* "cfuncs_ErosionDeposition.pyx":628
  *     cdef bint found_mass_loss = False
  * 
  *     with nogil:             # <<<<<<<<<<<<<<
@@ -35573,7 +35377,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
       __Pyx_FastGIL_Remember();
       /*try:*/ {
 
-        /* "cfuncs_ErosionDeposition.pyx":604
+        /* "cfuncs_ErosionDeposition.pyx":629
  * 
  *     with nogil:
  *         for node in range(n_nodes):             # <<<<<<<<<<<<<<
@@ -35585,7 +35389,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
         for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
           __pyx_v_node = __pyx_t_5;
 
-          /* "cfuncs_ErosionDeposition.pyx":606
+          /* "cfuncs_ErosionDeposition.pyx":631
  *         for node in range(n_nodes):
  *             # Condition 1: stable erosion depth
  *             stable_erosion_depth = max_downwind_gradient[node] * dx_half             # <<<<<<<<<<<<<<
@@ -35595,7 +35399,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
           __pyx_t_6 = __pyx_v_node;
           __pyx_v_stable_erosion_depth = ((*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_max_downwind_gradient.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_max_downwind_gradient.diminfo[0].strides)) * __pyx_v_dx_half);
 
-          /* "cfuncs_ErosionDeposition.pyx":607
+          /* "cfuncs_ErosionDeposition.pyx":632
  *             # Condition 1: stable erosion depth
  *             stable_erosion_depth = max_downwind_gradient[node] * dx_half
  *             if stable_erosion_depth <= 0:             # <<<<<<<<<<<<<<
@@ -35605,7 +35409,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
           __pyx_t_7 = (__pyx_v_stable_erosion_depth <= 0.0);
           if (__pyx_t_7) {
 
-            /* "cfuncs_ErosionDeposition.pyx":608
+            /* "cfuncs_ErosionDeposition.pyx":633
  *             stable_erosion_depth = max_downwind_gradient[node] * dx_half
  *             if stable_erosion_depth <= 0:
  *                 stable_erosion_depth = INFINITY             # <<<<<<<<<<<<<<
@@ -35614,7 +35418,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
             __pyx_v_stable_erosion_depth = INFINITY;
 
-            /* "cfuncs_ErosionDeposition.pyx":607
+            /* "cfuncs_ErosionDeposition.pyx":632
  *             # Condition 1: stable erosion depth
  *             stable_erosion_depth = max_downwind_gradient[node] * dx_half
  *             if stable_erosion_depth <= 0:             # <<<<<<<<<<<<<<
@@ -35623,7 +35427,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
           }
 
-          /* "cfuncs_ErosionDeposition.pyx":609
+          /* "cfuncs_ErosionDeposition.pyx":634
  *             if stable_erosion_depth <= 0:
  *                 stable_erosion_depth = INFINITY
  *             net_erosion = detached_bedrock_dz[node] + detached_soil_dz[node] - deposited_dz[node]             # <<<<<<<<<<<<<<
@@ -35635,7 +35439,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
           __pyx_t_9 = __pyx_v_node;
           __pyx_v_net_erosion = (((*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_detached_bedrock_dz.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_detached_bedrock_dz.diminfo[0].strides)) + (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_detached_soil_dz.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_detached_soil_dz.diminfo[0].strides))) - (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_deposited_dz.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_deposited_dz.diminfo[0].strides)));
 
-          /* "cfuncs_ErosionDeposition.pyx":610
+          /* "cfuncs_ErosionDeposition.pyx":635
  *                 stable_erosion_depth = INFINITY
  *             net_erosion = detached_bedrock_dz[node] + detached_soil_dz[node] - deposited_dz[node]
  *             if net_erosion > 0:             # <<<<<<<<<<<<<<
@@ -35645,7 +35449,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
           __pyx_t_7 = (__pyx_v_net_erosion > 0.0);
           if (__pyx_t_7) {
 
-            /* "cfuncs_ErosionDeposition.pyx":611
+            /* "cfuncs_ErosionDeposition.pyx":636
  *             net_erosion = detached_bedrock_dz[node] + detached_soil_dz[node] - deposited_dz[node]
  *             if net_erosion > 0:
  *                 cand = stable_erosion_depth / net_erosion             # <<<<<<<<<<<<<<
@@ -35656,11 +35460,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
               PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
               PyErr_SetString(PyExc_ZeroDivisionError, "float division");
               __Pyx_PyGILState_Release(__pyx_gilstate_save);
-              __PYX_ERR(0, 611, __pyx_L4_error)
+              __PYX_ERR(0, 636, __pyx_L4_error)
             }
             __pyx_v_cand = (__pyx_v_stable_erosion_depth / __pyx_v_net_erosion);
 
-            /* "cfuncs_ErosionDeposition.pyx":612
+            /* "cfuncs_ErosionDeposition.pyx":637
  *             if net_erosion > 0:
  *                 cand = stable_erosion_depth / net_erosion
  *                 if cand < dt_erosion:             # <<<<<<<<<<<<<<
@@ -35670,7 +35474,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
             __pyx_t_7 = (__pyx_v_cand < __pyx_v_dt_erosion);
             if (__pyx_t_7) {
 
-              /* "cfuncs_ErosionDeposition.pyx":613
+              /* "cfuncs_ErosionDeposition.pyx":638
  *                 cand = stable_erosion_depth / net_erosion
  *                 if cand < dt_erosion:
  *                     dt_erosion = cand             # <<<<<<<<<<<<<<
@@ -35679,7 +35483,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
               __pyx_v_dt_erosion = __pyx_v_cand;
 
-              /* "cfuncs_ErosionDeposition.pyx":612
+              /* "cfuncs_ErosionDeposition.pyx":637
  *             if net_erosion > 0:
  *                 cand = stable_erosion_depth / net_erosion
  *                 if cand < dt_erosion:             # <<<<<<<<<<<<<<
@@ -35688,7 +35492,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
             }
 
-            /* "cfuncs_ErosionDeposition.pyx":610
+            /* "cfuncs_ErosionDeposition.pyx":635
  *                 stable_erosion_depth = INFINITY
  *             net_erosion = detached_bedrock_dz[node] + detached_soil_dz[node] - deposited_dz[node]
  *             if net_erosion > 0:             # <<<<<<<<<<<<<<
@@ -35697,7 +35501,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
           }
 
-          /* "cfuncs_ErosionDeposition.pyx":616
+          /* "cfuncs_ErosionDeposition.pyx":641
  * 
  *             # Condition 3: stable deposition depth
  *             stable_deposition_depth = fabs(max_upwind_gradient[node]) * dx_half             # <<<<<<<<<<<<<<
@@ -35707,7 +35511,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
           __pyx_t_9 = __pyx_v_node;
           __pyx_v_stable_deposition_depth = (fabs((*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_max_upwind_gradient.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_max_upwind_gradient.diminfo[0].strides))) * __pyx_v_dx_half);
 
-          /* "cfuncs_ErosionDeposition.pyx":617
+          /* "cfuncs_ErosionDeposition.pyx":642
  *             # Condition 3: stable deposition depth
  *             stable_deposition_depth = fabs(max_upwind_gradient[node]) * dx_half
  *             if stable_deposition_depth < max_dep_slope_dx:             # <<<<<<<<<<<<<<
@@ -35717,7 +35521,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
           __pyx_t_7 = (__pyx_v_stable_deposition_depth < __pyx_v_max_dep_slope_dx);
           if (__pyx_t_7) {
 
-            /* "cfuncs_ErosionDeposition.pyx":618
+            /* "cfuncs_ErosionDeposition.pyx":643
  *             stable_deposition_depth = fabs(max_upwind_gradient[node]) * dx_half
  *             if stable_deposition_depth < max_dep_slope_dx:
  *                 stable_deposition_depth = max_dep_slope_dx             # <<<<<<<<<<<<<<
@@ -35726,7 +35530,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
             __pyx_v_stable_deposition_depth = __pyx_v_max_dep_slope_dx;
 
-            /* "cfuncs_ErosionDeposition.pyx":617
+            /* "cfuncs_ErosionDeposition.pyx":642
  *             # Condition 3: stable deposition depth
  *             stable_deposition_depth = fabs(max_upwind_gradient[node]) * dx_half
  *             if stable_deposition_depth < max_dep_slope_dx:             # <<<<<<<<<<<<<<
@@ -35735,7 +35539,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
           }
 
-          /* "cfuncs_ErosionDeposition.pyx":619
+          /* "cfuncs_ErosionDeposition.pyx":644
  *             if stable_deposition_depth < max_dep_slope_dx:
  *                 stable_deposition_depth = max_dep_slope_dx
  *             net_deposition = deposited_dz[node] - (detached_bedrock_dz[node] + detached_soil_dz[node])             # <<<<<<<<<<<<<<
@@ -35747,7 +35551,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
           __pyx_t_6 = __pyx_v_node;
           __pyx_v_net_deposition = ((*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_deposited_dz.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_deposited_dz.diminfo[0].strides)) - ((*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_detached_bedrock_dz.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_detached_bedrock_dz.diminfo[0].strides)) + (*__Pyx_BufPtrStrided1d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_detached_soil_dz.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_detached_soil_dz.diminfo[0].strides))));
 
-          /* "cfuncs_ErosionDeposition.pyx":620
+          /* "cfuncs_ErosionDeposition.pyx":645
  *                 stable_deposition_depth = max_dep_slope_dx
  *             net_deposition = deposited_dz[node] - (detached_bedrock_dz[node] + detached_soil_dz[node])
  *             if net_deposition > 0.001:             # <<<<<<<<<<<<<<
@@ -35757,7 +35561,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
           __pyx_t_7 = (__pyx_v_net_deposition > 0.001);
           if (__pyx_t_7) {
 
-            /* "cfuncs_ErosionDeposition.pyx":621
+            /* "cfuncs_ErosionDeposition.pyx":646
  *             net_deposition = deposited_dz[node] - (detached_bedrock_dz[node] + detached_soil_dz[node])
  *             if net_deposition > 0.001:
  *                 cand = stable_deposition_depth / net_deposition             # <<<<<<<<<<<<<<
@@ -35768,11 +35572,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
               PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
               PyErr_SetString(PyExc_ZeroDivisionError, "float division");
               __Pyx_PyGILState_Release(__pyx_gilstate_save);
-              __PYX_ERR(0, 621, __pyx_L4_error)
+              __PYX_ERR(0, 646, __pyx_L4_error)
             }
             __pyx_v_cand = (__pyx_v_stable_deposition_depth / __pyx_v_net_deposition);
 
-            /* "cfuncs_ErosionDeposition.pyx":622
+            /* "cfuncs_ErosionDeposition.pyx":647
  *             if net_deposition > 0.001:
  *                 cand = stable_deposition_depth / net_deposition
  *                 if cand < dt_deposition_topo:             # <<<<<<<<<<<<<<
@@ -35782,7 +35586,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
             __pyx_t_7 = (__pyx_v_cand < __pyx_v_dt_deposition_topo);
             if (__pyx_t_7) {
 
-              /* "cfuncs_ErosionDeposition.pyx":623
+              /* "cfuncs_ErosionDeposition.pyx":648
  *                 cand = stable_deposition_depth / net_deposition
  *                 if cand < dt_deposition_topo:
  *                     dt_deposition_topo = cand             # <<<<<<<<<<<<<<
@@ -35791,7 +35595,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
               __pyx_v_dt_deposition_topo = __pyx_v_cand;
 
-              /* "cfuncs_ErosionDeposition.pyx":622
+              /* "cfuncs_ErosionDeposition.pyx":647
  *             if net_deposition > 0.001:
  *                 cand = stable_deposition_depth / net_deposition
  *                 if cand < dt_deposition_topo:             # <<<<<<<<<<<<<<
@@ -35800,7 +35604,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
             }
 
-            /* "cfuncs_ErosionDeposition.pyx":620
+            /* "cfuncs_ErosionDeposition.pyx":645
  *                 stable_deposition_depth = max_dep_slope_dx
  *             net_deposition = deposited_dz[node] - (detached_bedrock_dz[node] + detached_soil_dz[node])
  *             if net_deposition > 0.001:             # <<<<<<<<<<<<<<
@@ -35809,7 +35613,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
           }
 
-          /* "cfuncs_ErosionDeposition.pyx":626
+          /* "cfuncs_ErosionDeposition.pyx":651
  * 
  *             # Condition 4 pre-check: total suspended-mass flux change at this node
  *             total_weight_flux = 0.0             # <<<<<<<<<<<<<<
@@ -35818,7 +35622,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
           __pyx_v_total_weight_flux = 0.0;
 
-          /* "cfuncs_ErosionDeposition.pyx":627
+          /* "cfuncs_ErosionDeposition.pyx":652
  *             # Condition 4 pre-check: total suspended-mass flux change at this node
  *             total_weight_flux = 0.0
  *             for gs in range(n_gs):             # <<<<<<<<<<<<<<
@@ -35830,7 +35634,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
           for (__pyx_t_12 = 0; __pyx_t_12 < __pyx_t_11; __pyx_t_12+=1) {
             __pyx_v_gs = __pyx_t_12;
 
-            /* "cfuncs_ErosionDeposition.pyx":629
+            /* "cfuncs_ErosionDeposition.pyx":654
  *             for gs in range(n_gs):
  *                 total_weight_flux += (
  *                     suspended_dzdt_at_node[node, gs] * dx_squared *             # <<<<<<<<<<<<<<
@@ -35840,7 +35644,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
             __pyx_t_6 = __pyx_v_node;
             __pyx_t_8 = __pyx_v_gs;
 
-            /* "cfuncs_ErosionDeposition.pyx":628
+            /* "cfuncs_ErosionDeposition.pyx":653
  *             total_weight_flux = 0.0
  *             for gs in range(n_gs):
  *                 total_weight_flux += (             # <<<<<<<<<<<<<<
@@ -35850,7 +35654,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
             __pyx_v_total_weight_flux = (__pyx_v_total_weight_flux + ((((*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_suspended_dzdt_at_node.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_suspended_dzdt_at_node.diminfo[0].strides, __pyx_t_8, __pyx_pybuffernd_suspended_dzdt_at_node.diminfo[1].strides)) * __pyx_v_dx_squared) * __pyx_v_sediment_density) * (1.0 - __pyx_v_porosity)));
           }
 
-          /* "cfuncs_ErosionDeposition.pyx":632
+          /* "cfuncs_ErosionDeposition.pyx":657
  *                     sediment_density * (1.0 - porosity)
  *                 )
  *             nodes_losing_mass = total_weight_flux < -min_suspended_mass             # <<<<<<<<<<<<<<
@@ -35859,7 +35663,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
           __pyx_v_nodes_losing_mass = (__pyx_v_total_weight_flux < (-__pyx_v_min_suspended_mass));
 
-          /* "cfuncs_ErosionDeposition.pyx":633
+          /* "cfuncs_ErosionDeposition.pyx":658
  *                 )
  *             nodes_losing_mass = total_weight_flux < -min_suspended_mass
  *             if nodes_losing_mass:             # <<<<<<<<<<<<<<
@@ -35868,7 +35672,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
           if (__pyx_v_nodes_losing_mass) {
 
-            /* "cfuncs_ErosionDeposition.pyx":634
+            /* "cfuncs_ErosionDeposition.pyx":659
  *             nodes_losing_mass = total_weight_flux < -min_suspended_mass
  *             if nodes_losing_mass:
  *                 found_mass_loss = True             # <<<<<<<<<<<<<<
@@ -35877,7 +35681,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
             __pyx_v_found_mass_loss = 1;
 
-            /* "cfuncs_ErosionDeposition.pyx":633
+            /* "cfuncs_ErosionDeposition.pyx":658
  *                 )
  *             nodes_losing_mass = total_weight_flux < -min_suspended_mass
  *             if nodes_losing_mass:             # <<<<<<<<<<<<<<
@@ -35886,7 +35690,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
           }
 
-          /* "cfuncs_ErosionDeposition.pyx":637
+          /* "cfuncs_ErosionDeposition.pyx":662
  * 
  *             # Conditions 2 & 4: per grain-size class
  *             for gs in range(n_gs):             # <<<<<<<<<<<<<<
@@ -35898,7 +35702,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
           for (__pyx_t_12 = 0; __pyx_t_12 < __pyx_t_11; __pyx_t_12+=1) {
             __pyx_v_gs = __pyx_t_12;
 
-            /* "cfuncs_ErosionDeposition.pyx":638
+            /* "cfuncs_ErosionDeposition.pyx":663
  *             # Conditions 2 & 4: per grain-size class
  *             for gs in range(n_gs):
  *                 swp_raw = suspended_weight_at_node[node, gs]             # <<<<<<<<<<<<<<
@@ -35909,7 +35713,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
             __pyx_t_6 = __pyx_v_gs;
             __pyx_v_swp_raw = (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_suspended_weight_at_node.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_suspended_weight_at_node.diminfo[0].strides, __pyx_t_6, __pyx_pybuffernd_suspended_weight_at_node.diminfo[1].strides));
 
-            /* "cfuncs_ErosionDeposition.pyx":639
+            /* "cfuncs_ErosionDeposition.pyx":664
  *             for gs in range(n_gs):
  *                 swp_raw = suspended_weight_at_node[node, gs]
  *                 swp_clamped = swp_raw if swp_raw > 0 else 0.0             # <<<<<<<<<<<<<<
@@ -35924,7 +35728,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
             }
             __pyx_v_swp_clamped = __pyx_t_3;
 
-            /* "cfuncs_ErosionDeposition.pyx":641
+            /* "cfuncs_ErosionDeposition.pyx":666
  *                 swp_clamped = swp_raw if swp_raw > 0 else 0.0
  * 
  *                 dep = deposited_weight[node, gs]             # <<<<<<<<<<<<<<
@@ -35935,7 +35739,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
             __pyx_t_8 = __pyx_v_gs;
             __pyx_v_dep = (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_deposited_weight.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_deposited_weight.diminfo[0].strides, __pyx_t_8, __pyx_pybuffernd_deposited_weight.diminfo[1].strides));
 
-            /* "cfuncs_ErosionDeposition.pyx":642
+            /* "cfuncs_ErosionDeposition.pyx":667
  * 
  *                 dep = deposited_weight[node, gs]
  *                 if dep > 1e-10:             # <<<<<<<<<<<<<<
@@ -35945,7 +35749,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
             __pyx_t_7 = (__pyx_v_dep > 1e-10);
             if (__pyx_t_7) {
 
-              /* "cfuncs_ErosionDeposition.pyx":643
+              /* "cfuncs_ErosionDeposition.pyx":668
  *                 dep = deposited_weight[node, gs]
  *                 if dep > 1e-10:
  *                     cand = swp_clamped / dep             # <<<<<<<<<<<<<<
@@ -35956,11 +35760,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
                 PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                 PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                 __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                __PYX_ERR(0, 643, __pyx_L4_error)
+                __PYX_ERR(0, 668, __pyx_L4_error)
               }
               __pyx_v_cand = (__pyx_v_swp_clamped / __pyx_v_dep);
 
-              /* "cfuncs_ErosionDeposition.pyx":644
+              /* "cfuncs_ErosionDeposition.pyx":669
  *                 if dep > 1e-10:
  *                     cand = swp_clamped / dep
  *                     if cand < dt_deposition_mass:             # <<<<<<<<<<<<<<
@@ -35970,7 +35774,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
               __pyx_t_7 = (__pyx_v_cand < __pyx_v_dt_deposition_mass);
               if (__pyx_t_7) {
 
-                /* "cfuncs_ErosionDeposition.pyx":645
+                /* "cfuncs_ErosionDeposition.pyx":670
  *                     cand = swp_clamped / dep
  *                     if cand < dt_deposition_mass:
  *                         dt_deposition_mass = cand             # <<<<<<<<<<<<<<
@@ -35979,7 +35783,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
                 __pyx_v_dt_deposition_mass = __pyx_v_cand;
 
-                /* "cfuncs_ErosionDeposition.pyx":644
+                /* "cfuncs_ErosionDeposition.pyx":669
  *                 if dep > 1e-10:
  *                     cand = swp_clamped / dep
  *                     if cand < dt_deposition_mass:             # <<<<<<<<<<<<<<
@@ -35988,7 +35792,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
               }
 
-              /* "cfuncs_ErosionDeposition.pyx":646
+              /* "cfuncs_ErosionDeposition.pyx":671
  *                     if cand < dt_deposition_mass:
  *                         dt_deposition_mass = cand
  *                     found_deposition_mass = True             # <<<<<<<<<<<<<<
@@ -35997,7 +35801,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
               __pyx_v_found_deposition_mass = 1;
 
-              /* "cfuncs_ErosionDeposition.pyx":642
+              /* "cfuncs_ErosionDeposition.pyx":667
  * 
  *                 dep = deposited_weight[node, gs]
  *                 if dep > 1e-10:             # <<<<<<<<<<<<<<
@@ -36006,7 +35810,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
             }
 
-            /* "cfuncs_ErosionDeposition.pyx":648
+            /* "cfuncs_ErosionDeposition.pyx":673
  *                     found_deposition_mass = True
  * 
  *                 if nodes_losing_mass:             # <<<<<<<<<<<<<<
@@ -36015,7 +35819,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
             if (__pyx_v_nodes_losing_mass) {
 
-              /* "cfuncs_ErosionDeposition.pyx":649
+              /* "cfuncs_ErosionDeposition.pyx":674
  * 
  *                 if nodes_losing_mass:
  *                     outflux = outflux_weights_at_node[node, gs]             # <<<<<<<<<<<<<<
@@ -36026,7 +35830,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
               __pyx_t_6 = __pyx_v_gs;
               __pyx_v_outflux = (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_outflux_weights_at_node.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_outflux_weights_at_node.diminfo[0].strides, __pyx_t_6, __pyx_pybuffernd_outflux_weights_at_node.diminfo[1].strides));
 
-              /* "cfuncs_ErosionDeposition.pyx":650
+              /* "cfuncs_ErosionDeposition.pyx":675
  *                 if nodes_losing_mass:
  *                     outflux = outflux_weights_at_node[node, gs]
  *                     if outflux < 0:             # <<<<<<<<<<<<<<
@@ -36036,7 +35840,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
               __pyx_t_7 = (__pyx_v_outflux < 0.0);
               if (__pyx_t_7) {
 
-                /* "cfuncs_ErosionDeposition.pyx":651
+                /* "cfuncs_ErosionDeposition.pyx":676
  *                     outflux = outflux_weights_at_node[node, gs]
  *                     if outflux < 0:
  *                         outflux = -outflux             # <<<<<<<<<<<<<<
@@ -36045,7 +35849,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
                 __pyx_v_outflux = (-__pyx_v_outflux);
 
-                /* "cfuncs_ErosionDeposition.pyx":650
+                /* "cfuncs_ErosionDeposition.pyx":675
  *                 if nodes_losing_mass:
  *                     outflux = outflux_weights_at_node[node, gs]
  *                     if outflux < 0:             # <<<<<<<<<<<<<<
@@ -36054,7 +35858,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
               }
 
-              /* "cfuncs_ErosionDeposition.pyx":652
+              /* "cfuncs_ErosionDeposition.pyx":677
  *                     if outflux < 0:
  *                         outflux = -outflux
  *                     if outflux > min_suspended_mass:             # <<<<<<<<<<<<<<
@@ -36064,7 +35868,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
               __pyx_t_7 = (__pyx_v_outflux > __pyx_v_min_suspended_mass);
               if (__pyx_t_7) {
 
-                /* "cfuncs_ErosionDeposition.pyx":653
+                /* "cfuncs_ErosionDeposition.pyx":678
  *                         outflux = -outflux
  *                     if outflux > min_suspended_mass:
  *                         cand = swp_raw / outflux             # <<<<<<<<<<<<<<
@@ -36075,11 +35879,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
                   PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                   PyErr_SetString(PyExc_ZeroDivisionError, "float division");
                   __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                  __PYX_ERR(0, 653, __pyx_L4_error)
+                  __PYX_ERR(0, 678, __pyx_L4_error)
                 }
                 __pyx_v_cand = (__pyx_v_swp_raw / __pyx_v_outflux);
 
-                /* "cfuncs_ErosionDeposition.pyx":654
+                /* "cfuncs_ErosionDeposition.pyx":679
  *                     if outflux > min_suspended_mass:
  *                         cand = swp_raw / outflux
  *                         if cand < dt_mass:             # <<<<<<<<<<<<<<
@@ -36089,16 +35893,16 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
                 __pyx_t_7 = (__pyx_v_cand < __pyx_v_dt_mass);
                 if (__pyx_t_7) {
 
-                  /* "cfuncs_ErosionDeposition.pyx":655
+                  /* "cfuncs_ErosionDeposition.pyx":680
  *                         cand = swp_raw / outflux
  *                         if cand < dt_mass:
  *                             dt_mass = cand             # <<<<<<<<<<<<<<
  * 
- *     if found_deposition_mass:
+ *                 # Condition 5: don't erode more soil mass, for this grain
 */
                   __pyx_v_dt_mass = __pyx_v_cand;
 
-                  /* "cfuncs_ErosionDeposition.pyx":654
+                  /* "cfuncs_ErosionDeposition.pyx":679
  *                     if outflux > min_suspended_mass:
  *                         cand = swp_raw / outflux
  *                         if cand < dt_mass:             # <<<<<<<<<<<<<<
@@ -36107,7 +35911,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
                 }
 
-                /* "cfuncs_ErosionDeposition.pyx":652
+                /* "cfuncs_ErosionDeposition.pyx":677
  *                     if outflux < 0:
  *                         outflux = -outflux
  *                     if outflux > min_suspended_mass:             # <<<<<<<<<<<<<<
@@ -36116,7 +35920,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
               }
 
-              /* "cfuncs_ErosionDeposition.pyx":648
+              /* "cfuncs_ErosionDeposition.pyx":673
  *                     found_deposition_mass = True
  * 
  *                 if nodes_losing_mass:             # <<<<<<<<<<<<<<
@@ -36124,11 +35928,87 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
  *                     if outflux < 0:
 */
             }
+
+            /* "cfuncs_ErosionDeposition.pyx":689
+ *                 # the areal stock by dx_squared puts both sides of the
+ *                 # comparison on the same "total kg" basis before dividing.
+ *                 det = detached_soil_mass_at_node[node, gs]             # <<<<<<<<<<<<<<
+ *                 if det > 1e-10:
+ *                     cand = (grain_mass_at_node[node, gs] * dx_squared) / det
+*/
+            __pyx_t_6 = __pyx_v_node;
+            __pyx_t_8 = __pyx_v_gs;
+            __pyx_v_det = (*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_detached_soil_mass_at_node.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_detached_soil_mass_at_node.diminfo[0].strides, __pyx_t_8, __pyx_pybuffernd_detached_soil_mass_at_node.diminfo[1].strides));
+
+            /* "cfuncs_ErosionDeposition.pyx":690
+ *                 # comparison on the same "total kg" basis before dividing.
+ *                 det = detached_soil_mass_at_node[node, gs]
+ *                 if det > 1e-10:             # <<<<<<<<<<<<<<
+ *                     cand = (grain_mass_at_node[node, gs] * dx_squared) / det
+ *                     if cand < dt_erosion_mass:
+*/
+            __pyx_t_7 = (__pyx_v_det > 1e-10);
+            if (__pyx_t_7) {
+
+              /* "cfuncs_ErosionDeposition.pyx":691
+ *                 det = detached_soil_mass_at_node[node, gs]
+ *                 if det > 1e-10:
+ *                     cand = (grain_mass_at_node[node, gs] * dx_squared) / det             # <<<<<<<<<<<<<<
+ *                     if cand < dt_erosion_mass:
+ *                         dt_erosion_mass = cand
+*/
+              __pyx_t_8 = __pyx_v_node;
+              __pyx_t_6 = __pyx_v_gs;
+              __pyx_t_13 = ((*__Pyx_BufPtrStrided2d(__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t *, __pyx_pybuffernd_grain_mass_at_node.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_grain_mass_at_node.diminfo[0].strides, __pyx_t_6, __pyx_pybuffernd_grain_mass_at_node.diminfo[1].strides)) * __pyx_v_dx_squared);
+              if (unlikely(__pyx_v_det == 0)) {
+                PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
+                PyErr_SetString(PyExc_ZeroDivisionError, "float division");
+                __Pyx_PyGILState_Release(__pyx_gilstate_save);
+                __PYX_ERR(0, 691, __pyx_L4_error)
+              }
+              __pyx_v_cand = (__pyx_t_13 / ((__pyx_t_24cfuncs_ErosionDeposition_DTYPE_FLOAT_t)__pyx_v_det));
+
+              /* "cfuncs_ErosionDeposition.pyx":692
+ *                 if det > 1e-10:
+ *                     cand = (grain_mass_at_node[node, gs] * dx_squared) / det
+ *                     if cand < dt_erosion_mass:             # <<<<<<<<<<<<<<
+ *                         dt_erosion_mass = cand
+ * 
+*/
+              __pyx_t_7 = (__pyx_v_cand < __pyx_v_dt_erosion_mass);
+              if (__pyx_t_7) {
+
+                /* "cfuncs_ErosionDeposition.pyx":693
+ *                     cand = (grain_mass_at_node[node, gs] * dx_squared) / det
+ *                     if cand < dt_erosion_mass:
+ *                         dt_erosion_mass = cand             # <<<<<<<<<<<<<<
+ * 
+ *     if found_deposition_mass:
+*/
+                __pyx_v_dt_erosion_mass = __pyx_v_cand;
+
+                /* "cfuncs_ErosionDeposition.pyx":692
+ *                 if det > 1e-10:
+ *                     cand = (grain_mass_at_node[node, gs] * dx_squared) / det
+ *                     if cand < dt_erosion_mass:             # <<<<<<<<<<<<<<
+ *                         dt_erosion_mass = cand
+ * 
+*/
+              }
+
+              /* "cfuncs_ErosionDeposition.pyx":690
+ *                 # comparison on the same "total kg" basis before dividing.
+ *                 det = detached_soil_mass_at_node[node, gs]
+ *                 if det > 1e-10:             # <<<<<<<<<<<<<<
+ *                     cand = (grain_mass_at_node[node, gs] * dx_squared) / det
+ *                     if cand < dt_erosion_mass:
+*/
+            }
           }
         }
       }
 
-      /* "cfuncs_ErosionDeposition.pyx":603
+      /* "cfuncs_ErosionDeposition.pyx":628
  *     cdef bint found_mass_loss = False
  * 
  *     with nogil:             # <<<<<<<<<<<<<<
@@ -36150,8 +36030,8 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
       }
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":657
- *                             dt_mass = cand
+  /* "cfuncs_ErosionDeposition.pyx":695
+ *                         dt_erosion_mass = cand
  * 
  *     if found_deposition_mass:             # <<<<<<<<<<<<<<
  *         if dt_deposition_mass < 1.0:
@@ -36159,7 +36039,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
   if (__pyx_v_found_deposition_mass) {
 
-    /* "cfuncs_ErosionDeposition.pyx":658
+    /* "cfuncs_ErosionDeposition.pyx":696
  * 
  *     if found_deposition_mass:
  *         if dt_deposition_mass < 1.0:             # <<<<<<<<<<<<<<
@@ -36169,7 +36049,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
     __pyx_t_7 = (__pyx_v_dt_deposition_mass < 1.0);
     if (__pyx_t_7) {
 
-      /* "cfuncs_ErosionDeposition.pyx":659
+      /* "cfuncs_ErosionDeposition.pyx":697
  *     if found_deposition_mass:
  *         if dt_deposition_mass < 1.0:
  *             dt_deposition_mass = 1.0             # <<<<<<<<<<<<<<
@@ -36178,7 +36058,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
       __pyx_v_dt_deposition_mass = 1.0;
 
-      /* "cfuncs_ErosionDeposition.pyx":658
+      /* "cfuncs_ErosionDeposition.pyx":696
  * 
  *     if found_deposition_mass:
  *         if dt_deposition_mass < 1.0:             # <<<<<<<<<<<<<<
@@ -36187,8 +36067,8 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
     }
 
-    /* "cfuncs_ErosionDeposition.pyx":657
- *                             dt_mass = cand
+    /* "cfuncs_ErosionDeposition.pyx":695
+ *                         dt_erosion_mass = cand
  * 
  *     if found_deposition_mass:             # <<<<<<<<<<<<<<
  *         if dt_deposition_mass < 1.0:
@@ -36196,7 +36076,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":661
+  /* "cfuncs_ErosionDeposition.pyx":699
  *             dt_deposition_mass = 1.0
  * 
  *     if found_mass_loss:             # <<<<<<<<<<<<<<
@@ -36205,7 +36085,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
   if (__pyx_v_found_mass_loss) {
 
-    /* "cfuncs_ErosionDeposition.pyx":662
+    /* "cfuncs_ErosionDeposition.pyx":700
  * 
  *     if found_mass_loss:
  *         if dt_mass == 0.0:             # <<<<<<<<<<<<<<
@@ -36215,7 +36095,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
     __pyx_t_7 = (__pyx_v_dt_mass == 0.0);
     if (__pyx_t_7) {
 
-      /* "cfuncs_ErosionDeposition.pyx":663
+      /* "cfuncs_ErosionDeposition.pyx":701
  *     if found_mass_loss:
  *         if dt_mass == 0.0:
  *             dt_mass = INFINITY             # <<<<<<<<<<<<<<
@@ -36224,7 +36104,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
       __pyx_v_dt_mass = INFINITY;
 
-      /* "cfuncs_ErosionDeposition.pyx":662
+      /* "cfuncs_ErosionDeposition.pyx":700
  * 
  *     if found_mass_loss:
  *         if dt_mass == 0.0:             # <<<<<<<<<<<<<<
@@ -36233,7 +36113,7 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
     }
 
-    /* "cfuncs_ErosionDeposition.pyx":661
+    /* "cfuncs_ErosionDeposition.pyx":699
  *             dt_deposition_mass = 1.0
  * 
  *     if found_mass_loss:             # <<<<<<<<<<<<<<
@@ -36242,41 +36122,46 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
 */
   }
 
-  /* "cfuncs_ErosionDeposition.pyx":667
+  /* "cfuncs_ErosionDeposition.pyx":705
  *     # `else: dt_mass = np.inf` branch of the original NumPy implementation.
  * 
- *     return dt_erosion, dt_deposition_mass, dt_deposition_topo, dt_mass             # <<<<<<<<<<<<<<
+ *     return dt_erosion, dt_deposition_mass, dt_deposition_topo, dt_mass, dt_erosion_mass             # <<<<<<<<<<<<<<
  * 
  *     return out
 */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyFloat_FromDouble(__pyx_v_dt_erosion); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 667, __pyx_L1_error)
+  __pyx_t_1 = PyFloat_FromDouble(__pyx_v_dt_erosion); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 705, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_13 = PyFloat_FromDouble(__pyx_v_dt_deposition_mass); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 667, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_13);
-  __pyx_t_14 = PyFloat_FromDouble(__pyx_v_dt_deposition_topo); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 667, __pyx_L1_error)
+  __pyx_t_14 = PyFloat_FromDouble(__pyx_v_dt_deposition_mass); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 705, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_14);
-  __pyx_t_15 = PyFloat_FromDouble(__pyx_v_dt_mass); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 667, __pyx_L1_error)
+  __pyx_t_15 = PyFloat_FromDouble(__pyx_v_dt_deposition_topo); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 705, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_15);
-  __pyx_t_16 = PyTuple_New(4); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 667, __pyx_L1_error)
+  __pyx_t_16 = PyFloat_FromDouble(__pyx_v_dt_mass); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 705, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_16);
+  __pyx_t_17 = PyFloat_FromDouble(__pyx_v_dt_erosion_mass); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 705, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_17);
+  __pyx_t_18 = PyTuple_New(5); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 705, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_18);
   __Pyx_GIVEREF(__pyx_t_1);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_16, 0, __pyx_t_1) != (0)) __PYX_ERR(0, 667, __pyx_L1_error);
-  __Pyx_GIVEREF(__pyx_t_13);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_16, 1, __pyx_t_13) != (0)) __PYX_ERR(0, 667, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_18, 0, __pyx_t_1) != (0)) __PYX_ERR(0, 705, __pyx_L1_error);
   __Pyx_GIVEREF(__pyx_t_14);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_16, 2, __pyx_t_14) != (0)) __PYX_ERR(0, 667, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_18, 1, __pyx_t_14) != (0)) __PYX_ERR(0, 705, __pyx_L1_error);
   __Pyx_GIVEREF(__pyx_t_15);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_16, 3, __pyx_t_15) != (0)) __PYX_ERR(0, 667, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_18, 2, __pyx_t_15) != (0)) __PYX_ERR(0, 705, __pyx_L1_error);
+  __Pyx_GIVEREF(__pyx_t_16);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_18, 3, __pyx_t_16) != (0)) __PYX_ERR(0, 705, __pyx_L1_error);
+  __Pyx_GIVEREF(__pyx_t_17);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_18, 4, __pyx_t_17) != (0)) __PYX_ERR(0, 705, __pyx_L1_error);
   __pyx_t_1 = 0;
-  __pyx_t_13 = 0;
   __pyx_t_14 = 0;
   __pyx_t_15 = 0;
-  __pyx_r = __pyx_t_16;
   __pyx_t_16 = 0;
+  __pyx_t_17 = 0;
+  __pyx_r = __pyx_t_18;
+  __pyx_t_18 = 0;
   goto __pyx_L0;
 
-  /* "cfuncs_ErosionDeposition.pyx":546
+  /* "cfuncs_ErosionDeposition.pyx":568
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
@@ -36287,10 +36172,11 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_XDECREF(__pyx_t_13);
   __Pyx_XDECREF(__pyx_t_14);
   __Pyx_XDECREF(__pyx_t_15);
   __Pyx_XDECREF(__pyx_t_16);
+  __Pyx_XDECREF(__pyx_t_17);
+  __Pyx_XDECREF(__pyx_t_18);
   { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -36299,6 +36185,8 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_deposited_weight.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_detached_bedrock_dz.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_detached_soil_dz.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_detached_soil_mass_at_node.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_grain_mass_at_node.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_max_downwind_gradient.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_max_upwind_gradient.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_outflux_weights_at_node.rcbuffer->pybuffer);
@@ -36313,6 +36201,8 @@ static PyObject *__pyx_pf_24cfuncs_ErosionDeposition_28calc_stable_dt(CYTHON_UNU
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_deposited_weight.rcbuffer->pybuffer);
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_detached_bedrock_dz.rcbuffer->pybuffer);
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_detached_soil_dz.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_detached_soil_mass_at_node.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_grain_mass_at_node.rcbuffer->pybuffer);
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_max_downwind_gradient.rcbuffer->pybuffer);
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_max_upwind_gradient.rcbuffer->pybuffer);
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_outflux_weights_at_node.rcbuffer->pybuffer);
@@ -38722,38 +38612,38 @@ __Pyx_RefNannySetupContext("PyInit_cfuncs_ErosionDeposition", 0);
   if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_sum_out_discharge, __pyx_t_5) < (0)) __PYX_ERR(0, 96, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "cfuncs_ErosionDeposition.pyx":115
+  /* "cfuncs_ErosionDeposition.pyx":131
  * 
  * 
  * def calc_flux_at_link(             # <<<<<<<<<<<<<<
  *         const double dx,
  *         const double sigma,
 */
-  __pyx_t_5 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 115, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 131, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_11 = __pyx_FusedFunction_New(&__pyx_fuse_0__pyx_mdef_24cfuncs_ErosionDeposition_43calc_flux_at_link, 0, __pyx_mstate_global->__pyx_n_u_calc_flux_at_link_float_float_fl, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[7])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 115, __pyx_L1_error)
+  __pyx_t_11 = __pyx_FusedFunction_New(&__pyx_fuse_0__pyx_mdef_24cfuncs_ErosionDeposition_43calc_flux_at_link, 0, __pyx_mstate_global->__pyx_n_u_calc_flux_at_link_float_float_fl, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[7])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 131, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_11);
   #endif
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_11, __pyx_mstate_global->__pyx_empty_tuple);
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_float, __pyx_t_11) < (0)) __PYX_ERR(0, 115, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_float, __pyx_t_11) < (0)) __PYX_ERR(0, 131, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-  __pyx_t_11 = __pyx_FusedFunction_New(&__pyx_fuse_1__pyx_mdef_24cfuncs_ErosionDeposition_45calc_flux_at_link, 0, __pyx_mstate_global->__pyx_n_u_calc_flux_at_link_double_double, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[8])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 115, __pyx_L1_error)
+  __pyx_t_11 = __pyx_FusedFunction_New(&__pyx_fuse_1__pyx_mdef_24cfuncs_ErosionDeposition_45calc_flux_at_link, 0, __pyx_mstate_global->__pyx_n_u_calc_flux_at_link_double_double, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[8])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 131, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_11);
   #endif
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_11, __pyx_mstate_global->__pyx_empty_tuple);
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_double, __pyx_t_11) < (0)) __PYX_ERR(0, 115, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_double, __pyx_t_11) < (0)) __PYX_ERR(0, 131, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-  __pyx_t_11 = __pyx_FusedFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_7calc_flux_at_link, 0, __pyx_mstate_global->__pyx_n_u_calc_flux_at_link, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[9])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 115, __pyx_L1_error)
+  __pyx_t_11 = __pyx_FusedFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_7calc_flux_at_link, 0, __pyx_mstate_global->__pyx_n_u_calc_flux_at_link, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[9])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 131, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_11);
   #endif
-  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_11, __pyx_mstate_global->__pyx_ptype_24cfuncs_ErosionDeposition___pyx_defaults)) __PYX_ERR(0, 115, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 115, __pyx_L1_error)
+  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_11, __pyx_mstate_global->__pyx_ptype_24cfuncs_ErosionDeposition___pyx_defaults)) __PYX_ERR(0, 131, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 131, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_CyFunction_Defaults(struct __pyx_defaults, __pyx_t_11)->arg0 = __pyx_t_4;
   __Pyx_GIVEREF(__pyx_t_4);
@@ -38762,146 +38652,146 @@ __Pyx_RefNannySetupContext("PyInit_cfuncs_ErosionDeposition", 0);
   ((__pyx_FusedFunctionObject *) __pyx_t_11)->__signatures__ = __pyx_t_5;
   __Pyx_GIVEREF(__pyx_t_5);
   __pyx_t_5 = 0;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_flux_at_link, __pyx_t_11) < (0)) __PYX_ERR(0, 115, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_flux_at_link, __pyx_t_11) < (0)) __PYX_ERR(0, 131, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-  /* "cfuncs_ErosionDeposition.pyx":138
+  /* "cfuncs_ErosionDeposition.pyx":154
  * 
  * 
  * def get_outin_fluxes(             # <<<<<<<<<<<<<<
  *         cnp.ndarray[DTYPE_INT_t, ndim=1] upwind_node_at_link,
  *         cnp.ndarray[DTYPE_INT_t, ndim=1] downwind_node_at_link,
 */
-  __pyx_t_11 = __Pyx_CyFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_9get_outin_fluxes, 0, __pyx_mstate_global->__pyx_n_u_get_outin_fluxes, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[10])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 138, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_CyFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_9get_outin_fluxes, 0, __pyx_mstate_global->__pyx_n_u_get_outin_fluxes, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[10])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 154, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_11);
   #endif
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_get_outin_fluxes, __pyx_t_11) < (0)) __PYX_ERR(0, 138, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_get_outin_fluxes, __pyx_t_11) < (0)) __PYX_ERR(0, 154, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-  /* "cfuncs_ErosionDeposition.pyx":170
+  /* "cfuncs_ErosionDeposition.pyx":192
  * 
  * 
  * def calc_CQ(             # <<<<<<<<<<<<<<
  *         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] c_kg,
  *         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] CQ,
 */
-  __pyx_t_11 = __Pyx_CyFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_11calc_CQ, 0, __pyx_mstate_global->__pyx_n_u_calc_CQ, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[11])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 170, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_CyFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_11calc_CQ, 0, __pyx_mstate_global->__pyx_n_u_calc_CQ, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[11])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 192, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_11);
   #endif
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_CQ, __pyx_t_11) < (0)) __PYX_ERR(0, 170, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_CQ, __pyx_t_11) < (0)) __PYX_ERR(0, 192, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-  /* "cfuncs_ErosionDeposition.pyx":194
+  /* "cfuncs_ErosionDeposition.pyx":216
  * 
  * 
  * def calc_flux_at_link_per_size(             # <<<<<<<<<<<<<<
  *         cnp.ndarray[DTYPE_FLOAT_t, ndim=1] q_water_at_link,
  *         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] suspended__sediments_concentration_at_link,
 */
-  __pyx_t_11 = __Pyx_CyFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_13calc_flux_at_link_per_size, 0, __pyx_mstate_global->__pyx_n_u_calc_flux_at_link_per_size, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[12])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 194, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_CyFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_13calc_flux_at_link_per_size, 0, __pyx_mstate_global->__pyx_n_u_calc_flux_at_link_per_size, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[12])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 216, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_11);
   #endif
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_flux_at_link_per_size, __pyx_t_11) < (0)) __PYX_ERR(0, 194, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_flux_at_link_per_size, __pyx_t_11) < (0)) __PYX_ERR(0, 216, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-  /* "cfuncs_ErosionDeposition.pyx":216
+  /* "cfuncs_ErosionDeposition.pyx":238
  * 
  * 
  * def calc_DR(             # <<<<<<<<<<<<<<
  *         cnp.ndarray[DTYPE_FLOAT_t, ndim=1] flow_width,
  *         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] CQ,
 */
-  __pyx_t_11 = __Pyx_CyFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_15calc_DR, 0, __pyx_mstate_global->__pyx_n_u_calc_DR, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[13])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 216, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_CyFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_15calc_DR, 0, __pyx_mstate_global->__pyx_n_u_calc_DR, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[13])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 238, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_11);
   #endif
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_DR, __pyx_t_11) < (0)) __PYX_ERR(0, 216, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_DR, __pyx_t_11) < (0)) __PYX_ERR(0, 238, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-  /* "cfuncs_ErosionDeposition.pyx":253
+  /* "cfuncs_ErosionDeposition.pyx":275
  * 
  * 
  * def calc_Dc(             # <<<<<<<<<<<<<<
  *         cnp.ndarray[DTYPE_FLOAT_t, ndim=1] tau_s,
  *         cnp.ndarray[DTYPE_FLOAT_t, ndim=2] tau_c,
 */
-  __pyx_t_11 = __Pyx_CyFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_17calc_Dc, 0, __pyx_mstate_global->__pyx_n_u_calc_Dc, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[14])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 253, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_CyFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_17calc_Dc, 0, __pyx_mstate_global->__pyx_n_u_calc_Dc, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[14])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 275, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_11);
   #endif
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_Dc, __pyx_t_11) < (0)) __PYX_ERR(0, 253, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_Dc, __pyx_t_11) < (0)) __PYX_ERR(0, 275, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-  /* "cfuncs_ErosionDeposition.pyx":282
+  /* "cfuncs_ErosionDeposition.pyx":304
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
  * def calc_Dc_stream_power(
 */
-  __pyx_t_11 = __Pyx_CyFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_19calc_Dc_stream_power, 0, __pyx_mstate_global->__pyx_n_u_calc_Dc_stream_power, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[15])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 282, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_CyFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_19calc_Dc_stream_power, 0, __pyx_mstate_global->__pyx_n_u_calc_Dc_stream_power, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[15])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 304, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_11);
   #endif
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_Dc_stream_power, __pyx_t_11) < (0)) __PYX_ERR(0, 282, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_Dc_stream_power, __pyx_t_11) < (0)) __PYX_ERR(0, 304, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-  /* "cfuncs_ErosionDeposition.pyx":321
+  /* "cfuncs_ErosionDeposition.pyx":343
  * 
  * 
  * def calc_detached_deposited(             # <<<<<<<<<<<<<<
  *     cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] DR,
  *     cnp.ndarray[DTYPE_FLOAT_t, ndim = 2] DR_abs,
 */
-  __pyx_t_11 = __Pyx_CyFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_21calc_detached_deposited, 0, __pyx_mstate_global->__pyx_n_u_calc_detached_deposited, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[16])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 321, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_CyFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_21calc_detached_deposited, 0, __pyx_mstate_global->__pyx_n_u_calc_detached_deposited, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[16])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 343, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_11);
   #endif
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_detached_deposited, __pyx_t_11) < (0)) __PYX_ERR(0, 321, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_detached_deposited, __pyx_t_11) < (0)) __PYX_ERR(0, 343, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-  /* "cfuncs_ErosionDeposition.pyx":415
+  /* "cfuncs_ErosionDeposition.pyx":437
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
  * def calc_TC(
 */
-  __pyx_t_11 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 415, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 437, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
-  __pyx_t_5 = __pyx_FusedFunction_New(&__pyx_fuse_0__pyx_mdef_24cfuncs_ErosionDeposition_49calc_TC, 0, __pyx_mstate_global->__pyx_n_u_calc_TC_float_float_float_float, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[17])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 415, __pyx_L1_error)
+  __pyx_t_5 = __pyx_FusedFunction_New(&__pyx_fuse_0__pyx_mdef_24cfuncs_ErosionDeposition_49calc_TC, 0, __pyx_mstate_global->__pyx_n_u_calc_TC_float_float_float_float, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[17])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 437, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_5);
   #endif
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_5, __pyx_mstate_global->__pyx_empty_tuple);
-  if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_float, __pyx_t_5) < (0)) __PYX_ERR(0, 415, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_float, __pyx_t_5) < (0)) __PYX_ERR(0, 437, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __pyx_FusedFunction_New(&__pyx_fuse_1__pyx_mdef_24cfuncs_ErosionDeposition_51calc_TC, 0, __pyx_mstate_global->__pyx_n_u_calc_TC_double_double_double_dou, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[18])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 415, __pyx_L1_error)
+  __pyx_t_5 = __pyx_FusedFunction_New(&__pyx_fuse_1__pyx_mdef_24cfuncs_ErosionDeposition_51calc_TC, 0, __pyx_mstate_global->__pyx_n_u_calc_TC_double_double_double_dou, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[18])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 437, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_5);
   #endif
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_5, __pyx_mstate_global->__pyx_empty_tuple);
-  if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_double, __pyx_t_5) < (0)) __PYX_ERR(0, 415, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_double, __pyx_t_5) < (0)) __PYX_ERR(0, 437, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __pyx_FusedFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_23calc_TC, 0, __pyx_mstate_global->__pyx_n_u_calc_TC, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[19])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 415, __pyx_L1_error)
+  __pyx_t_5 = __pyx_FusedFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_23calc_TC, 0, __pyx_mstate_global->__pyx_n_u_calc_TC, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[19])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 437, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_5);
   #endif
-  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_5, __pyx_mstate_global->__pyx_ptype_24cfuncs_ErosionDeposition___pyx_defaults)) __PYX_ERR(0, 415, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 415, __pyx_L1_error)
+  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_5, __pyx_mstate_global->__pyx_ptype_24cfuncs_ErosionDeposition___pyx_defaults)) __PYX_ERR(0, 437, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 437, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_CyFunction_Defaults(struct __pyx_defaults, __pyx_t_5)->arg0 = __pyx_t_4;
   __Pyx_GIVEREF(__pyx_t_4);
@@ -38910,41 +38800,41 @@ __Pyx_RefNannySetupContext("PyInit_cfuncs_ErosionDeposition", 0);
   ((__pyx_FusedFunctionObject *) __pyx_t_5)->__signatures__ = __pyx_t_11;
   __Pyx_GIVEREF(__pyx_t_11);
   __pyx_t_11 = 0;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_TC, __pyx_t_5) < (0)) __PYX_ERR(0, 415, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_TC, __pyx_t_5) < (0)) __PYX_ERR(0, 437, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "cfuncs_ErosionDeposition.pyx":459
+  /* "cfuncs_ErosionDeposition.pyx":481
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
  * def calc_TC_EH_with_discharge(
 */
-  __pyx_t_5 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 459, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 481, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_11 = __pyx_FusedFunction_New(&__pyx_fuse_0__pyx_mdef_24cfuncs_ErosionDeposition_55calc_TC_EH_with_discharge, 0, __pyx_mstate_global->__pyx_n_u_calc_TC_EH_with_discharge_float, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[20])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 459, __pyx_L1_error)
+  __pyx_t_11 = __pyx_FusedFunction_New(&__pyx_fuse_0__pyx_mdef_24cfuncs_ErosionDeposition_55calc_TC_EH_with_discharge, 0, __pyx_mstate_global->__pyx_n_u_calc_TC_EH_with_discharge_float, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[20])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 481, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_11);
   #endif
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_11, __pyx_mstate_global->__pyx_empty_tuple);
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_float, __pyx_t_11) < (0)) __PYX_ERR(0, 459, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_float, __pyx_t_11) < (0)) __PYX_ERR(0, 481, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-  __pyx_t_11 = __pyx_FusedFunction_New(&__pyx_fuse_1__pyx_mdef_24cfuncs_ErosionDeposition_57calc_TC_EH_with_discharge, 0, __pyx_mstate_global->__pyx_n_u_calc_TC_EH_with_discharge_double, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[21])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 459, __pyx_L1_error)
+  __pyx_t_11 = __pyx_FusedFunction_New(&__pyx_fuse_1__pyx_mdef_24cfuncs_ErosionDeposition_57calc_TC_EH_with_discharge, 0, __pyx_mstate_global->__pyx_n_u_calc_TC_EH_with_discharge_double, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[21])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 481, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_11);
   #endif
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_11, __pyx_mstate_global->__pyx_empty_tuple);
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_double, __pyx_t_11) < (0)) __PYX_ERR(0, 459, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_double, __pyx_t_11) < (0)) __PYX_ERR(0, 481, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-  __pyx_t_11 = __pyx_FusedFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_25calc_TC_EH_with_discharge, 0, __pyx_mstate_global->__pyx_n_u_calc_TC_EH_with_discharge, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[22])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 459, __pyx_L1_error)
+  __pyx_t_11 = __pyx_FusedFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_25calc_TC_EH_with_discharge, 0, __pyx_mstate_global->__pyx_n_u_calc_TC_EH_with_discharge, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[22])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 481, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_11);
   #endif
-  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_11, __pyx_mstate_global->__pyx_ptype_24cfuncs_ErosionDeposition___pyx_defaults)) __PYX_ERR(0, 459, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 459, __pyx_L1_error)
+  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_11, __pyx_mstate_global->__pyx_ptype_24cfuncs_ErosionDeposition___pyx_defaults)) __PYX_ERR(0, 481, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 481, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_CyFunction_Defaults(struct __pyx_defaults, __pyx_t_11)->arg0 = __pyx_t_4;
   __Pyx_GIVEREF(__pyx_t_4);
@@ -38953,65 +38843,65 @@ __Pyx_RefNannySetupContext("PyInit_cfuncs_ErosionDeposition", 0);
   ((__pyx_FusedFunctionObject *) __pyx_t_11)->__signatures__ = __pyx_t_5;
   __Pyx_GIVEREF(__pyx_t_5);
   __pyx_t_5 = 0;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_TC_EH_with_discharge, __pyx_t_11) < (0)) __PYX_ERR(0, 459, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_TC_EH_with_discharge, __pyx_t_11) < (0)) __PYX_ERR(0, 481, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-  /* "cfuncs_ErosionDeposition.pyx":512
+  /* "cfuncs_ErosionDeposition.pyx":534
  *     return TC.base
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
  * def calc_flux_div_at_node(
 */
-  __pyx_t_11 = __Pyx_PyDict_NewPresized(5); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 512, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_PyDict_NewPresized(5); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 534, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
-  __pyx_t_5 = __pyx_FusedFunction_New(&__pyx_fuse_0__pyx_mdef_24cfuncs_ErosionDeposition_61calc_flux_div_at_node, 0, __pyx_mstate_global->__pyx_n_u_calc_flux_div_at_node_const_shor, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[23])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 512, __pyx_L1_error)
+  __pyx_t_5 = __pyx_FusedFunction_New(&__pyx_fuse_0__pyx_mdef_24cfuncs_ErosionDeposition_61calc_flux_div_at_node, 0, __pyx_mstate_global->__pyx_n_u_calc_flux_div_at_node_const_shor, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[23])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 534, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_5);
   #endif
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_5, __pyx_mstate_global->__pyx_empty_tuple);
-  if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_short, __pyx_t_5) < (0)) __PYX_ERR(0, 512, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_short, __pyx_t_5) < (0)) __PYX_ERR(0, 534, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __pyx_FusedFunction_New(&__pyx_fuse_1__pyx_mdef_24cfuncs_ErosionDeposition_63calc_flux_div_at_node, 0, __pyx_mstate_global->__pyx_n_u_calc_flux_div_at_node_const_int, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[24])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 512, __pyx_L1_error)
+  __pyx_t_5 = __pyx_FusedFunction_New(&__pyx_fuse_1__pyx_mdef_24cfuncs_ErosionDeposition_63calc_flux_div_at_node, 0, __pyx_mstate_global->__pyx_n_u_calc_flux_div_at_node_const_int, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[24])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 534, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_5);
   #endif
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_5, __pyx_mstate_global->__pyx_empty_tuple);
-  if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_int, __pyx_t_5) < (0)) __PYX_ERR(0, 512, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_int, __pyx_t_5) < (0)) __PYX_ERR(0, 534, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __pyx_FusedFunction_New(&__pyx_fuse_2__pyx_mdef_24cfuncs_ErosionDeposition_65calc_flux_div_at_node, 0, __pyx_mstate_global->__pyx_n_u_calc_flux_div_at_node_const_long, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[25])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 512, __pyx_L1_error)
+  __pyx_t_5 = __pyx_FusedFunction_New(&__pyx_fuse_2__pyx_mdef_24cfuncs_ErosionDeposition_65calc_flux_div_at_node, 0, __pyx_mstate_global->__pyx_n_u_calc_flux_div_at_node_const_long, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[25])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 534, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_5);
   #endif
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_5, __pyx_mstate_global->__pyx_empty_tuple);
-  if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_long, __pyx_t_5) < (0)) __PYX_ERR(0, 512, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_long, __pyx_t_5) < (0)) __PYX_ERR(0, 534, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __pyx_FusedFunction_New(&__pyx_fuse_3__pyx_mdef_24cfuncs_ErosionDeposition_67calc_flux_div_at_node, 0, __pyx_mstate_global->__pyx_n_u_calc_flux_div_at_node_const_floa, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[26])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 512, __pyx_L1_error)
+  __pyx_t_5 = __pyx_FusedFunction_New(&__pyx_fuse_3__pyx_mdef_24cfuncs_ErosionDeposition_67calc_flux_div_at_node, 0, __pyx_mstate_global->__pyx_n_u_calc_flux_div_at_node_const_floa, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[26])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 534, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_5);
   #endif
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_5, __pyx_mstate_global->__pyx_empty_tuple);
-  if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_float, __pyx_t_5) < (0)) __PYX_ERR(0, 512, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_float, __pyx_t_5) < (0)) __PYX_ERR(0, 534, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __pyx_FusedFunction_New(&__pyx_fuse_4__pyx_mdef_24cfuncs_ErosionDeposition_69calc_flux_div_at_node, 0, __pyx_mstate_global->__pyx_n_u_calc_flux_div_at_node_const_doub, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[27])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 512, __pyx_L1_error)
+  __pyx_t_5 = __pyx_FusedFunction_New(&__pyx_fuse_4__pyx_mdef_24cfuncs_ErosionDeposition_69calc_flux_div_at_node, 0, __pyx_mstate_global->__pyx_n_u_calc_flux_div_at_node_const_doub, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[27])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 534, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_5);
   #endif
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_5, __pyx_mstate_global->__pyx_empty_tuple);
-  if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_double, __pyx_t_5) < (0)) __PYX_ERR(0, 512, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_double, __pyx_t_5) < (0)) __PYX_ERR(0, 534, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __pyx_FusedFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_27calc_flux_div_at_node, 0, __pyx_mstate_global->__pyx_n_u_calc_flux_div_at_node, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[28])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 512, __pyx_L1_error)
+  __pyx_t_5 = __pyx_FusedFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_27calc_flux_div_at_node, 0, __pyx_mstate_global->__pyx_n_u_calc_flux_div_at_node, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[28])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 534, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_5);
   #endif
-  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_5, __pyx_mstate_global->__pyx_ptype_24cfuncs_ErosionDeposition___pyx_defaults)) __PYX_ERR(0, 512, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 512, __pyx_L1_error)
+  if (!__Pyx_CyFunction_InitDefaults(__pyx_t_5, __pyx_mstate_global->__pyx_ptype_24cfuncs_ErosionDeposition___pyx_defaults)) __PYX_ERR(0, 534, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 534, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_CyFunction_Defaults(struct __pyx_defaults, __pyx_t_5)->arg0 = __pyx_t_4;
   __Pyx_GIVEREF(__pyx_t_4);
@@ -39020,22 +38910,22 @@ __Pyx_RefNannySetupContext("PyInit_cfuncs_ErosionDeposition", 0);
   ((__pyx_FusedFunctionObject *) __pyx_t_5)->__signatures__ = __pyx_t_11;
   __Pyx_GIVEREF(__pyx_t_11);
   __pyx_t_11 = 0;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_flux_div_at_node, __pyx_t_5) < (0)) __PYX_ERR(0, 512, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_flux_div_at_node, __pyx_t_5) < (0)) __PYX_ERR(0, 534, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "cfuncs_ErosionDeposition.pyx":546
+  /* "cfuncs_ErosionDeposition.pyx":568
  * 
  * 
  * @cython.boundscheck(False)             # <<<<<<<<<<<<<<
  * @cython.wraparound(False)
  * def calc_stable_dt(
 */
-  __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_29calc_stable_dt, 0, __pyx_mstate_global->__pyx_n_u_calc_stable_dt, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[29])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 546, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_24cfuncs_ErosionDeposition_29calc_stable_dt, 0, __pyx_mstate_global->__pyx_n_u_calc_stable_dt, NULL, __pyx_mstate_global->__pyx_n_u_cfuncs_ErosionDeposition, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[29])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 568, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_5);
   #endif
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_stable_dt, __pyx_t_5) < (0)) __PYX_ERR(0, 546, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_calc_stable_dt, __pyx_t_5) < (0)) __PYX_ERR(0, 568, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
   /* "cfuncs_ErosionDeposition.pyx":1
@@ -39185,31 +39075,31 @@ static int __Pyx_InitCachedConstants(__pyx_mstatetype *__pyx_mstate) {
 static int __Pyx_InitConstants(__pyx_mstatetype *__pyx_mstate) {
   CYTHON_UNUSED_VAR(__pyx_mstate);
   {
-    const struct { const unsigned int length: 10; } index[] = {{2},{35},{54},{37},{60},{24},{52},{26},{34},{18},{33},{45},{22},{15},{27},{179},{37},{32},{1},{1},{1},{1},{1},{1},{8},{5},{16},{6},{28},{15},{23},{25},{7},{6},{2},{6},{35},{9},{30},{50},{38},{33},{8},{20},{32},{22},{30},{37},{5},{2},{2},{6},{11},{9},{13},{2},{8},{20},{1},{8},{2},{15},{3},{13},{12},{12},{15},{5},{4},{18},{1},{4},{23},{4},{1},{4},{7},{7},{7},{20},{7},{25},{82},{77},{54},{50},{18},{67},{64},{23},{17},{54},{51},{26},{21},{38},{37},{35},{36},{37},{14},{4},{24},{9},{17},{18},{3},{15},{9},{5},{7},{7},{14},{10},{5},{9},{1},{7},{23},{31},{20},{8},{16},{3},{12},{45},{16},{5},{19},{16},{28},{8},{6},{13},{21},{14},{18},{18},{10},{7},{5},{15},{2},{4},{7},{10},{12},{2},{6},{27},{24},{9},{5},{13},{27},{37},{35},{29},{5},{5},{10},{6},{7},{21},{15},{14},{8},{15},{1},{3},{16},{12},{23},{22},{46},{44},{20},{7},{2},{2},{10},{5},{12},{13},{22},{3},{4},{16},{13},{5},{8},{7},{9},{4},{2},{4},{6},{1},{8},{9},{4},{9},{13},{19},{4},{8},{16},{20},{22},{21},{19},{12},{7},{18},{20},{4},{10},{6},{4},{7},{7},{6},{4},{8},{4},{14},{11},{7},{4},{17},{2},{16},{5},{3},{2},{3},{3},{21},{8},{7},{23},{23},{4},{3},{3},{8},{10},{14},{11},{10},{19},{14},{1},{9},{6},{15},{12},{10},{17},{13},{8},{3},{5},{5},{3},{16},{18},{22},{12},{10},{12},{19},{2},{4},{5},{5},{5},{10},{4},{11},{23},{20},{5},{4},{4},{12},{6},{17},{24},{38},{35},{42},{22},{26},{24},{11},{7},{5},{5},{47},{8},{36},{20},{21},{17},{6},{6},{11},{19},{13},{13},{22},{6},{8},{2},{26},{19},{1},{10},{1},{2},{58},{108},{87},{103},{165},{581},{92},{206},{467},{286},{270},{76},{78},{128},{204},{1}};
-    #if (CYTHON_COMPRESS_STRINGS) == 2 /* compression: bz2 (3888 bytes) */
-const char* const cstring = "BZh91AY&SY\344[\334\022\000\002\244\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\300@@@@@@@@@@@@\000@\000`\017=\337\006\361\331\357{mF\275y\255\010{^\335\000\355\252\333l\3044m\225\3504\354\313\326\322\000\371\276P\3214Q5=2O$\031=O\324yS\315\014\223M\212\236\324\324hi\211\264M\001\240\032\006\215\000\003\023C\324\000\031\003OPJ \232d\0014\323S*~\210b\230\2324i\351\032\000\036\240\03224\000\320\000\323@\000d\001\240\0004&\021$\31241\003@\037\252\000d\000\000\006\200\000h\006#@\000\006\232\000\320b\001\" \202hM&'\241S\364\310\232\236\2322\004h\031\006\206\206\200\000\032\r\000\000\r\001\246 \0322\003R\231\004\311\2402b\006\232\032\003M1\r46\246\215\000\000\3654\321\2020\231\r04 \006!\210z\232\004\212FMM\242\000\250\365\037\2454l\233H\311\r\000z\232z\206\203C@\r\0004\032\000\000\003@\000\032z\237\371,L\037\r{\375\035/\206\274X\034\0031\201\235y&\274\376\024v/f3\221\303\332\217@\201\213\357\217\317\033\360E\371\"\375\017\336?\037#$<\030C9\312D\246\246S\310\"._6\327G\247P&\211\205\345)\207\316\272\353\256\273\233|\370\000\340\023\032Ia\320\200\312I\0312\030\365\002\210\021\215\206S\214FB-(\301\261\241\211\214\006\306\313!D\004b\211\361\370\014\010\327\034m\026\006\206\323\030\333C\020\333c\006\233O\217c\220\024\305r8Q\226+\362E\027]\014*\344@Ll\030E\220\214@\275\241\264\332\020\333\325\020*\2700\365\265\344\275+\3563X*\314\314\255i;\251.{\221*\264\033\231\215\201U\326yT\261s\034\267_\307ih\223\324U\006\306\253A'\302\300\230\215UA\350\365\037\\\241L\365\313<K\025\021m(\240\242T\310I\004\270\230\252E#|\345w\334\024*\205\t@\026[PSeK3\211JA?\016\246%\010\305\006A\326W\0221\003\002\213\004\335\245\364\214U\272.\253\260\262\333-\371\372\237\207\324K\357\215\211\327\213[\020@M\372\255\366\346 \305\262\377U\235\231\204\264\346g\177+\343\204ZTx\251:c\341\231\023J]\230'\363=h^\347tz\236\256r\266\375W\205\312hSBp\327\241&\270p\257yy\225\377U\305;\346\344\303d\324\377\030W(\312\333\"i\211]R\342d(<#\n\256bI\274\275\375\310\236\343\256;`\261kSXvF)T(\003\342""\302m\240R\004\220h\265\243\0140\324\353rpeq\201w\026\033\267R\226\251\330Nr\307\214l\204\325\366\327Y\314\215-5R\204'Kl\264\236\020<y\374\030\024\224\335\301\343\3646n\r\355\212L\313\202\3623\020\035\314o\023\r\032\226/\033\316l\270\201\000\333\322\344\227\320\000M\313\225/]\361\272\306-\276\033Sk\033\317OIAb\272\320\342\300\237\237\205\2336\275c\362!\300qC\000\006\330g\246s\215\267!rl\203uB3\203uWih\361\243\316)\246\277>O\211\022#I\3176b\235\256\207\257(\305\222h\205h\234\356\033^\212\025\310\275n_g;[=\261\347o\341\364\310\341'\364~B\r``\333lhchj\252*#\222-&\336\336\007\346\243\341\231\324o\361\201\312{X\177\2317\\\333\376\207\213\351Q\215\300\222\326i\215c\237r\246\240\301\210\233\255\236.C\237\260\304ht(\232y\355\267\245\364r\372bvy\371Gp\353\260\277=\275.\2354\304\361\032v\247n\366\247t\034=\306\243\353\n\265s5w\332vc\237jA#9\263\265\253\2511\311DT\026\223f\373\n\234\231\216v'\317\031\207}.]\377\247$&\262\264\263\200\326\337\277\177\253>rm\347_\372k\373&\225\032#\370\243\321\n\016\177\206&\303\201t\231\032\321-7\003\205\302M\247q&H\n#B\"\032#\3048'\0228\223*)\300\304\277\266\0105\n\034\204\024\312\255(\260W\203\016\204\344J\302\004\270\323\363q\022_m\trU\276\320\323O+\262[\237\310\322\254\3076\304\377r<1\313\243\334\362_\323\270z\234\307\301\335\272\212\352\307\252\236\207\223\354\216\221\203C\033lLM\266}g\016\244#\313\365\240\3373$\366j\267\371\337\325\371\351 \363\322_\330\266\336\340\274\300\315j\367\342\360[\360\"\001\031\007t h2\306\265\313\rf\360r\332\255\314(\007\303Z\250\300\316\352\306\254\246\227\306#i\317\353\340}\346\255vc5Ff%f6Q\303\243={\321`\375\214HI\316\231\212\214Wu\256\231\334\233 \354=i\177\215(\256\255\031\306\254\001\235\037f\355\206\304\274\256\377}iH\241\006\204\352z\377!]\".*<,\355\242\236\034\342\245'\tl\310\273%\2139&\362diX\275H\313e\365R\3179d\347\232QhF\031\030dV\2563\240Q\214\t3\205\213%\205\030b^\020Q\272a\273\"\016=W\3222\253\263\275\314\022\245\270d\327\257M(\306\264t\227D\330\335\234\325\247\273Y\267ln\213\256J$QE4\203\230""\262\\X\213c\355z\266\n\340k\033D5|\311\345\367\237\306\312W\324s8\025\345\2035w\36572(-\253\035\016\226\326M\023/\351F\205R\230\0307\367S'\033-\002\357\356\200\251\001/\333,*\331\2175\341a\230,\217W\n\250\002\226\270<\346L\031\352\030\211\271\242$\262/\310\317\225\254UE\026\n_\235\264\213\266 X\210!\301\231 \270\016\345\007\2241\222\235\203\255E\350l\201\323*\242\212oT\034\265\310\356V\366\377,\345.\363y\026\265\345\307\2570]\226\255\260p\212Z8\271\2717\364\035\202|\026Y\243\245\333x\\,\02046hc\"\347h\257\274\303\225c\354sj\331\315\337l\010\341c\200\227\017\252\204ey\225\";B\201\325nb\024F&HP\006n\264[\333\343\234R\232\001\002 \023b@r\360\301M\262m\203:\"g\014\300\243\247L\353r\276\207\031\n\374\032I\310\303\223\313<\2460\2567\313\226n\021\0169{\031\203\"\361\220\024\275\020\3141\210\314\303\024U\021q\230\251\356;\235\303\267\331\335\253$4}\235!\271Z\016&%\240\226KP6\330s\302F\2364\315-\266xRQ\004`\252\004#\n\220\020\367p\0207x\311\371S\000]\225\304b<y,9FH\274\346f\022\225\024&\231\360**R\004\342\233\337,&\233D\016\245\016\206\005\236[\014\351m-V\030\333\243\237w\217\273\"\215#\276u\272\333,K\351\355\314l\243~\322Wb\264\322\3275\\ADv[q>C\275\033\245\t\302g:\231\030;\337\010\300\230\"u\276*\350j\311f\2436\030\321A\206\225\245\265\331{\014l\036F3:]:\034Q.\341\215\366\313)T7\235\002e\225\202\216\260\226\024\244{ 3(\033)\\<(]\314\212\336\213\332\210\036\023\266re\215\025\326\235\021\252\201\343\307\227F\251\201q`1\243\\\226\034!H\242\251$u\202\2429C\300\324\325\026H+!\241pn\224}.\301\rw\222\244\257Z0\305\\\346>\003\220\325\315Tq\274\261\0357\024\024\311\n!\305\236<I]\223\277t\031\314\035\003\271l\342\242'\003\222\216\3019\3312\212\360\333\276\222\tf\2241\013\347\335\206\353\021QU\006\013\036^N!rD\t\264\337j\347g\310\254\333\013\266K\314{\373\334\274\275\357lG\223\311\251\032\207\223S&\351CR\333\265\003>H\201\025\014\311\332=\007o*\254[\307\256.r\305*\317\233\225`\266\247\013Q\254(\003\020\307^\222\212\2648\2202\210-\346OoT\266i\273]+3\201wh`y\315\261\270\343\020Y\031.Q""r\035\275WH\346\3530\275\233G\030s\031P\217\323\257\0308\033|G_\271\205\317\316A\021\010\023\326Jl\320'\032\242\243i\264\r\266\331\255Kr\010\304`V\\V\225X\245\247\035\202\215/\235y\020\300\207v\032\344VXQ#O\rc\260\216\252x\231\206i\356\302$\033o\202!\215\217=%\022\333\033;w:G\270|R\241\367n\211@\271\272\374\002E\371\2404JCBb{T\225\241%J\361V\261\2125\022K\214\365\357\3114\"\334\010N\223es\"\222&\201+\322\365h\\\360A\366$x\\\201\357q8\223\222\324\250\225d\366\315\325c\236!\255\031A$/\274.QV\225\005\033\232f\243\263\302\212\353\002\251\310'\036*\253\311}\256\316\365\2068\303c\213qL\320D0\315\220\266\2202\024Q\2206\336gk\003\033\340[\022\370]\207\217\021&@2\303a\024\002\021\177\026\002\316\321\034\016\037\037\025\347\026\2520\273\020\2411\3122\252B\311\211<p\030\333'\003V\010\260\260\204.\266TC\261E\022%\302\371\361\344\351\266\323\004k,\222\014L\3440\263f\000\364\0023\027g\2505\300\215\266\200\330\215,\005\266v\344\262\307\214X'\225\014hi|\342\220B\033\033\005@m\327\002\337|\240\252\204Qk\321\333\240p*\254\362\255\212\016Z\2225\245\330\241\215\321\t&j\231\3455\215\215\254\301\233\267\360\360\244\032\327gi\312\261\323{\351\356G\000\312u\357\274}H\246\215\202\030\316\3142\261\271\265\242\352\026\342,l@\265\006\315n\335.\242$\035\0342\311!\272]zI\340'n\010\324\325\231\342\240\244\215\216\366]%e\n\267\316\261\213h\333\017\024<\032\256\365C\305\265\277\2311\337\245^4\255\351n\034\332`\367\260\216\303\206\033{!\333A\004\265\270\202\001\307PG%\327c\244\271\312s\010\242\307\312N\326\303\007d\020\234\255\225\032)\261\014S\304\006)\356\223Q\013t\273\302\265\251\3050h\252\220\227\\\336\034a\275\034\234\374\353\227\315\331\314o\031\244F\317\001\361\326\323\014\243\356G1{TvD9\"\272\014\320V6\246]\225\332O\234:($eq\002\273\232\216\273\274\331e\016\332\207D\256\304\352c\222\212\321\032\351:\355\\\365\354\032\031\354\340]\266\"[\214\020\331w\213YO\0057Smm-\030\275\300e\n\232\220\3307W\rQ\00454\360\215\204:Dn6K{|\264\316\317T\033j\260\324\2511G\000\316\353\337\263\016\243\253\250\352""\352\352\341\333\305\221\311\034\255s\216Si\216\225q\033\3535\332\344\016\355\320\030\341\024#~X\362\213\205\306\r\222g\250qS Q0\222N\326\265\2021\013[\034\363U%xA\017M\367L-\223)6J3c`@\245\005P\311\265\256+B8\340\326\236N\350\353\256fk\354\"M\333S\305a8@\336\250M\250\031\013&\252\265X\327\250F\210\2467\0078,1\234LL`1A\336q\223\340\024)\205\010\257\236\223Mu\016\252\321\214jn\032p\265g\221\305G\016D\t\005Kb=\354\235\006W3e\340\314\303w\211QRk\223^\342\302\031\265\334\t\256&\325\261\351\312\212\244\262`\250\016]hU\2025\010\325\271\217H\231}\315\324\255\255\020\3276\026\212C\037Qv\336\255f\200m{0\330\322\206\"\203\331\320\333{\tT\273W)\006\376\234\370\356m~\000\034\363u\"sA\224R\351OBkEB\035H\231\3570\215\274\374[\316\321\327\310e\357d\320x\321\250\211\203\026-\022\236\213\000\345j\013UT\220\270})\273M\253\300\341\244`\3006n\t\371\302\274\256\243\004\031\014e&\023\274l\n\347\273P\032z\354M\036_\340{.\02039&\223|\363\236t>\264,-\007\253\357\027\265\211\2507\304=\312\377Dsa\365\005O\212|\260:)5\373\017\366\241(_\r\357m?K\371?H\344\034\277G\342\301\372\025\207\313\035,\237\356\224 \212R\373,\325\006zX\376\\t\274\014\000S\222M\221~[b\021\220\270\232p\213`\317\311H\007F<\275I\231\241\342\273z>\237\202A\016!\214}\330~\365\313\2179\177\026\013\326^\210\333~\265 \2267\341\307\310\003\363\267\337\357\000M\275_\247^\361\372\223<O\334\007\2522\034x\313\205\026p@4\214\207\320]-\216\343\004l\270;\361\001\223j\320EG\374\265\031\017\216\214c\200\357H\270\014b\006Ia\261\213d\201\031\010\314\302\205\236\014h\213eK&`\316\023\356\345\324!+\215\227\316\363\261f\300\177\322\337\201\017&\306\030\020\003\261\231\2045\315\370\021p\t4\326\003\246\373\3134\267X\274S*[\252\233\010\260\361\373^\252Nf)O\016\353\026\366\323\375\223R\224\207o4\352\346\276+ \347\334\020\236\316%\275B\207\023A1V\024\245\361~\364\253\204\200\354\300\243\205\214<\201yc\021*\370\361\024x\325\035U7\270J\033[\247O_\344\362\327Sv\352\252\032\224\350\242w\303%\271Ts\373\034I\227\356Qs=\231\334M\366\370\264C\226\275t\246""\321\266\355\233'\261E?\315\3507\274\273\311\316\r\\h\237\217\265>,\360\326\020\3615\262b\203\347(\360un\320\307\302\204B\325\334\246\307\007\")\302\364\257|\371\003C\004`\225kG\310\034\252\037\033\023\232\rh\224\352\037.-\320\326\027\360\0169\305\225\265\017\331\261\227\245\026l\177W\034?@\262U\354\365\250\211%N\220\036\020?\275\354\000^\334\3557\"\021r\3606G:\223\235=E\216\355r\3548X\310)\273\243\033\r\350\367\227h\265\214,\274_B\020\3344k\367l\217Z\3353\225\202J;\215\0209\302\220\025\201\370$K\373\352!\365\001\344V\037\303\2648S\2029Huj\306\276\023\336@\036&/@\200h\025\314Y\nh\363e\301\355\335iI\241O\016[\232IB\324\217\304\355@\363\002\355\227\255\347\356\203\322s\006\347\223\n\304\246`\245$\244\226\210\215]\004C\262\310*\254*Q\247(3FHa\\\251[\264\352\235\273\250\261DG$\205\273\272R\243\204D\212\322\306\335\031\352\225[\016\036\374c\2660\325\246r\362u\210\316\330J\246xF\035\255\021\247s<-ym\301\252\363\225\256\0143\255\303\213.\232H\"/\370\273\222)\302\204\207\"\336\340\220";
-    PyObject *data = __Pyx_DecompressString(cstring, 3888, 2);
+    const struct { const unsigned int length: 10; } index[] = {{2},{35},{54},{37},{60},{24},{52},{26},{34},{18},{33},{45},{22},{15},{27},{179},{37},{32},{1},{1},{1},{1},{1},{1},{8},{5},{16},{6},{28},{15},{23},{25},{7},{6},{2},{6},{35},{9},{30},{50},{38},{33},{8},{20},{32},{22},{30},{37},{5},{2},{2},{6},{11},{9},{13},{2},{8},{20},{1},{8},{2},{15},{3},{13},{12},{12},{15},{5},{4},{18},{1},{4},{23},{4},{1},{4},{7},{7},{7},{20},{7},{25},{82},{77},{54},{50},{18},{67},{64},{23},{17},{54},{51},{26},{21},{38},{37},{35},{36},{37},{14},{4},{24},{9},{17},{18},{3},{15},{9},{5},{7},{7},{14},{10},{5},{9},{1},{7},{23},{31},{20},{8},{16},{3},{12},{45},{16},{5},{3},{19},{16},{26},{28},{8},{6},{13},{21},{14},{18},{18},{10},{15},{7},{5},{15},{2},{4},{7},{10},{12},{2},{6},{27},{24},{9},{5},{13},{27},{37},{35},{29},{5},{5},{10},{6},{7},{21},{15},{14},{8},{15},{1},{3},{16},{12},{23},{18},{22},{46},{44},{20},{7},{2},{2},{10},{5},{12},{13},{22},{3},{4},{16},{13},{5},{8},{7},{9},{4},{2},{4},{6},{1},{8},{9},{4},{9},{13},{19},{4},{8},{16},{20},{22},{21},{19},{12},{7},{18},{20},{4},{10},{6},{4},{7},{7},{6},{4},{8},{4},{14},{11},{7},{4},{17},{2},{16},{5},{3},{2},{3},{3},{21},{8},{7},{23},{23},{4},{3},{3},{8},{10},{14},{11},{10},{19},{14},{1},{9},{6},{15},{12},{10},{17},{13},{8},{3},{5},{5},{3},{16},{18},{22},{12},{10},{12},{19},{2},{4},{5},{5},{5},{10},{4},{11},{23},{20},{5},{4},{4},{12},{6},{17},{24},{38},{35},{42},{22},{26},{24},{11},{7},{5},{5},{47},{8},{36},{20},{21},{17},{6},{6},{11},{19},{13},{13},{22},{6},{8},{2},{26},{19},{1},{10},{1},{2},{58},{108},{87},{103},{167},{645},{92},{206},{467},{286},{270},{76},{78},{128},{204},{1}};
+    #if (CYTHON_COMPRESS_STRINGS) == 2 /* compression: bz2 (3940 bytes) */
+const char* const cstring = "BZh91AY&SY\210\221\274l\000\002\263\177\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\300@@@@@@@@@@@@\000@\000`\017\177[xc\307\273\263\333\256;9\346\305+\327\245\000\007m\242\326\322\214\332{\006\235\261z\263`\001\343\006\210$\rA<)\344i\202i\352a\032f\246\246\365M\241\242a\224\310\365O'\245=G\251\231\0315\033P\315F\332\231O\004'\241<S\315)\352\tD#L\010)\264F\221\2502z\2154h\323C@\320= \000\001\2404\r\032d\000\000\000\003M\006\246\002\"\247\205=C!\240\003\324\000\000\006\200\000\000\000\000h\000\00044\032\003\324\002DD\320  \000\t=\023!\036\232\236\2106\2404\r4\000\001\220\000\000\000\0004d4\020i\211\201\006\000&\232i\246\000#\001\030\2310\t\200\000\214#\000\000\214\000\2312a1\002SI2hT\364\36455'\350\312\236\247\246\364\247\224\236\023S@\r444\000\0004\0004\000\000\032\000\r\000\377\231\252&\256\217\006\326\332\2729&b\020\365@FZ\010u\235>\364\366\347J\021\226\207\202\304\303l\201\213\037/\356\337GI\027Q\027\372:\307e\213n\303\016\214 \315\332RJ5\031;\354\"-K:\336~\021\013\220\270(JU\345Ns\234\374\332]\321\003\242\"\212\000W4\003\"\3241b0\352\006\210\021\215&3t\214\206+,@\220\206C!\000\220\331h\310AZ\242\377+\377\030#\224u\304X46\230\306\332\030\206\333\030\323i\371Vw \313Vh\350\255\306\255\033*\214\363\215+4@\230\3300\253\"\245@\320\304\332m\010m\367*\004\346\215=\372l\320\226\214\315\313\n\206\343+ZN\332M\321C\307\212+\25073\032\202\253u\343R\342\306\030\343\266\377\002\201DE\240\367\266\024\300D\273E\341i\nQ\366%\212YX\276wT\216p/TE\300\224\211JS\220\222\tp\264\250E#\22600\313 \232\212\023I\201\216U\ncU\265\304c\020\270\352h\302H\305\030\367aX\020\202&\202W\211\273t\355\230\305+\225-\215E\253t\267\350\305\304\365\204\372\342\373zQgX$\004\337\240\337N9\214;\017\363Y\330\230;.D\\\344\337\224\032\322\242\3039\323\365:\301\242\254\020\234\213\221\3719l.\036'\312\264\225\276\211N\002\330\013`$\354\330\010,\231\034\242\020\253\r\370jH\242\262A;H\303\3556\250\352{F\213@\314\244\320\224\200\240n\320\355j\270K\247l\365\260\376SR\232l\261\013\013\005A""\2461\na6'\212)z\333\211\"\3474\244\325\225\254K\253\271\303+s\214\374x\3623\313Vy,o0\302\332\357\032\214\271)\0278\361,\224M\331H}\311\205\370\027=\347\217w\200\362d\361\351\270\234\335\314C\215\2652\001\3016\340\007AZ\211\233\006\034Sx\205\213\3373\354P@I\234\371\321s\200\nK/\031\340\236;\356\025\334\210\3278G:s\364\274\n\024\024\223\305\210\365\374\030\360 _(\033Z\251\356\023@|\000\023@e\230Bw\"A\313\245\322\203\306\004\340\223\321\306\260\260\221\022F\351\237\017>\310\324TT@\231\346H\247M\315\366c\002\014\213D*\211\346uM\261\024\035iD\341\321\374\275y\306\316_\"\276\261eK\276\177\310A\302\014\033m\215\014m\r\2664\250\260\222\357\017\204+\271\315\237\342\265g\275\326\203\224\346g\320\332n\345\273\336\217\207\352KV@\221\3346\341Q\326b\251\276\r\014D\315\267A\310=7\210\001 l\276a\333\273\273\276^\037/0,xU\006Z\273\320_\302\273\345\346e\227\203I#$UZK\304\004\314\004\222\356@\270\213\247\026\3623\2701\336\000\360A\021\243\357\373\331\222\360\212\365I\271\271\342&\235\\I\331~\374V6\005\326K,\301\370f\204\332G\253D\013T\347\301\337\203\001/\340B\370\\\3620\365\364G\234\344\262\001\360\331\321\002-\000\263\031M\246l&\200\276\366\333\243\221&\244C@wt\357*i\220H\202\246\021s\034\257>\276T\306\034'\026\240\364\271#\272I:\363\231$\342\306\361\344xwy:D\217\335$\305/\256\363\203]\345x\375\222\345o\027Z\263N{W}\351`J\376w#S\377\007\207\343\266rr\311\310\364\264\376\211\350<\336c\244`\320\306\333\023\023m\236\233\207R\021\342\365\240\342\231\222z\352\270\275\017\354\375$\220zI/\356]\257\270/v\031,\375\341\3376y\366\260\232.\272\020F.\022\335L%\233\301&\275o\241@-\342\325F\004W\365\343*E\212\031\333\031K\323\030E'\202\024F\220\254P2\035\251)\031)\013\320\262\231\177(\"\245W2\221\222\350\325\327W{\335\243\330\217A\244\253MY\215W\2039\336\336;M\201\221\\\271\352\3471\303\n\r\232\327\236Y\242\"\302\243\276\347v\205;\231EJM\362\306bY\222\305\224\223i14V-R1\325l\351s\312Y9d\224]\010\277\022\373W\021\2278\312\241F0$\312\026-KE\030bZ\020Q\272a\267\"\r\374\355\2421\253\271\332\305\351R""\355\306\225\255(\345\025(\256j\271\025E[U\245\212\213\225L0fL\307\024\224IJs\nC\305\357\302z\253\256\256l\350\023\023\225\271?:\371~\353\326\347Z}JGN\236\035\330\344\367\272'q0z\336\034\024\307\243\206R\341\377l\220\321\215\301\004\372\254\341\241\317(6\177\314\203B\005\227\000\274\246\344<\213\002\363`/\206\353\351 &\327\007\240\313C:\014D\340\352\201\035\223.\023{\207\\&\301\216\314\333\2759\217\264 \324\204\216\253\225\236\350\363P\366\206\260\303\267@\324K8Fa\002\360\222\262\017\252$\n\345K0\252\n\265\306ig\324 \303\016\222h\2670Y\227T\276\320\212]\023\275\311\301\305\316t\023\343\262\346\216\227w\020X, hH\310\204EN\301\254\300kcl=m\332o\273\235\2701\265\205\306n6\333\306S\346\313\256\354\014\317\307\351\321+\300\315\027@7\331\314\271u=\213\016`\222d4\370$yt\nn\305\266\206s\304\315\371\001GN\231\322\345|\315\362\025\266h\223\201\207\007\210\363\230\303N\033q\364M\005A\3111\273\353\275Q\036\221\030\331\213\207v{\207BC.,\210\235\216\255G\037\257nx\241\243\352h\206\345h\034LKA,\226\240m\260\345\200Z;\3634\273\\\356$\242\010\275T\010\025\365!\020\366\354 n\321\213\363\246\000\263+\200\304L\225+\036]Q\212)L\214\202R\242\204\323<\372\212\224\2018\247\023\343\204\323h\201\324\241\316\300\271\345\250\234\242\3557K\014+\317\313\267\313\333\211F\221\345\033\273\272\256%\364\366Lj\243~\312WEi\242\353\031\330ADu\266\342|\016\324n\224&\371\234\252b^\355k\342\362`\211\322\367\253\240\317\025\222\214\230aE\005\372+K\264\334\275v6\017\023\t\235\026N\206\364K\260amr\312U\r\345DL\262\260Q\225\204\257\245#\230\014\212\006\252V\376\364.\346%m@\360\210\035\363\256vm\256K<O\\jA\353\327\267{\267x\031\226\0064r\227i\322\031U\023rGxiQ\207\276\344\226<P\342\334\017vx\302\271\323u\034\333Ls4\363(7\335)\017a\300g\311To\274p\0356\224J\\\215D8\271\341\274\225\231<[`\312`\347)\350\307u%\323\341T\335_'\2062\323\273\332\333\231e\253\215\033\341\266\376\313vBi\264@\360\343\340\336\027\004@\233M\366\254u\370+7_f\311y\017\213\311\343\343\362|\322<\316\014\321\230\361jl\267Z\033k\207H\363=\224@""\202\206\302v\226 \343\214\252\260o\022\260s\226\tL\3668\367\215\307\233\326\306Q\234\0230\205Fb\306\241\205\021\314c\005}\374\365i\225\366oQe\014\240]\332\027\236\203ln7\304\027#\025\306\227\001\331\235\22297XZ\346\304\341\216c(%\232\367\372^\340nP\035\227\007F6f=\021\007\227T\215\273\017.\032\242\246\323m\200\333m\2349c\260F\243\005l\312%:\256\344\327aW-\027\323b\030\020\354\303L\212\345}\0224y\013\rDuS\330d\031'\266\370\220m\275\221\014lyh\224Kll\354\261\322=\244F\364(}\333\"P.N\035\202C\366\330\032\243\021\241iv\nG\000\212\245t\253X\305\032\211\025\323uw\242\232\221q\006&\322\313\211\352j\311RW\215\261\250\006(\203\021\265\252\334\345\021\215\004\306\231^d!M\233\033n\373Np\r\3722DP\313 \305EY\250(\335\213Z\216\315\362\255@\321ye\277\202\252\363\037k\257\211_\206\020\330\342\355\351\232\010\206\0312\026\261\302\202\031\350C\211%a|\312\251\231*\212gJ\016S\274\n\300D\204\201\350\002\021oc\001s\272#c\207\277\275i\301\252\214,\304(Lr\214j\204\261bO\013\3066\311\274\316\364\\+\341\013w\032!\334QD\211n>\\86\345\204\233\031[\024\202\324uH)\275\301d\006.8\232\360\014\340F\272\300I#\221\240Z\347^+\0347\322\275<haCE\262\212A\010lm\n\200\333\255\345\337l\240\252\204Qi\320\356\347\034\n\253,kqA\313RF\224\272(aaBI\231\314\361\232F\306\326@\315\274[\233\211\006\225\327\254\343Xh\342}=\310\304Q\3339dYDSV\320\37573F\315\355\330\337\242\355\213\211\0066\000`\203m\303\2017J\003\335\n\333\215\242\254\247DDX\027F\0265Q\372,F%\250t\374\233t\270\220\336@\032\r!\302\032\270[~!\303)}\304\037\202\210\315\352\214\247Ln\2612\005\260\201\372\204\3545\365\207`\210%\255\244\020\016:\2028,\272:K\034g \212,<\344\356\224\346\244\300\363\225r\2611f\343\333;@\266{\304\302!^e\200(m*,\2011\013\035\233)\262\306@\330c\246\331\316\333':\334\306\300\214\016\366\350\\X\312\016\212\026\243\300\020\354\034\330\221\010\315\\\306H+\023S\034\312\354\217\200TQ#ey@\273}S\355\363q\255O<\016y]\023\233\034\224WDi\244\351\272\271i\32413\267\002\354b%\270\275\r\226x5\214\354\246\332k\255\322\305\203\332\0060\251""\232M\241\272\270j\210!\251\247x\324C\244F\323T\267\257\304\231\327\325\006\272\253\363T\230\243\200gu\361j\277\250\352\352:\272\272\2675\357bpG\033\\\243\224\332c\245\\G\025f\272\334\201\335\262\003\013\342\204qc\207\030\267\034^\331&Y\216\n\230\202\211\204\000\356\272R\007\250%*\265\346\320\003\000;\0136\016$\302\271\"\311\241J3B@A\226B\221\227\265\246+B7\340\322\236\016\310\341\\\214\323\320\2116\353O\005|\337\003y\302m@\310X\265U\235\306\234\304hE0\2609\275_\204\340`a\001\004\016\261Y\025\304P\233\344\213e\3235\326\203\251\200\30658&\275\030-\3218H\342\206`\2540+Z*\363\242\212&^\252\271\006\366\210\020d\334\2727[X.\316\234\232\361\2731\257\031$\334\266a {\372!P\021\333H\355\367\265\362\t\2323nV4Dr\235k{(\327\315\237p\355\3514\001\255\352\277SJ\030\212\017W;m\352%R\315X\244\034]9o\330\326\374`9f\312D\346\203(\245\322\237VkEB\035H\231\337@\370s\344\330/2\326#\002\274\310x\221\201\022\253m\311)\344\244\016n\220\255\241d\202\225\014aDe\253\220\004\242#\006\001\261\010\247\277\024\036\353\254R\313Z\360\026Mg\336P3\3331\353\341\2149\371\374?\324\372~\246\022SL\311\013\240t\016\217\326\303Z\230=_t\326M\2053\245\244~\257\251\rdq\000\223\234- \273H\214\270\007Y \211\005\343;\3232>^c\370\210`\322|:\207\243'\344V\037$u\262}D\241\023\021ON\277\224o\351\370\277\001\342\233\312\201\334\260u%\352\365VSG\354\237\255\340>\000\337\337\354\016\332c\307\371\314\315\016\373\273\351\037\247\371\035\342\010q\014Ky\3275A?\202\337b\006\351|\342K|~\224\\\241\tP\376(\037\n\\<\220\002C\034\376\205\342\013Db\227\020\003\234\030A\243\025T\322\243m\261\266\014\2078\356.\217\321a\305\361\217\326\230\031\330\370\341(s\263\035\302\037-\207\005F\265\312\242\326\220\267K5\255K`8A\3030\201\215\220\342R\245\314\360\031\203\006\331\3734&\020y[C\357\376\026\243X;eL\006\354Q\220\005 tkG\034\023\321I*\244\035`\250\006\216|\345\032k\341\027\265\231\225\346\247\241*\023\217\222t\322\225Y\010\2347V\251\335\263\366\215\001\010I\326\256sk\317\030I\032\334a\263\351\303\255h\233\303\262\234E\004!Y\222\376\307@""&\221\370) \333Z\317,;\243\206\0237xa\240\334\230\3220gd\240/\267\276\321\377_9\312T\310m\"a\241\r\tgv<R^K\322\365\"\255\304\031R\345i/\307\177V\\\262\364\013\377\017\033W_L\032\355cc\037CI\377\245\313\263.7u\215\021'\232I9\270\376G\220G\220(\373\244t\230\276\3037\247{\303\335}\223#\024G\215\335\235$df7\336\014\223;\371\202\315\355\223\212W\264*\035\201\247\033v3pd\004\371\312\004m\314\336\341\"O`\036C\247\237\333\213\366\277\032\033T\364\\\372\337\337\237\2748T\\\277\230a\321`\340\001\373\001o\330\"\001\315\243\271*\230\247\247\023\250j\340J\327\337\211\370\335\323w\346\241\274\214\255j\276\021c\333}\025u\262\222\231\2772\032\270,`yn,\307\311{\235\020o1\n\250\036\221\004\010`v\017w\363\327\272V\372\005\262\2066=wV\207\323hk\225\256\256\253;\003\203\317\371\016L\254\0031\220\215t\222\014\205d\241\007\256&U4Pz$\"E@\241\324\373\304\352\006\334\010\"\020\320\235\240\036\223\230'+\320\255%&\006\002\251\321\032\206mv\202!\331P)*\302\034\332i\004F\307\014.\245.\273N\251\343]e]\014\033\310\341r\267\353*\007\006B.\235{\023w\252\026\253E\334\017^\027\252x,\202\255E\336\304\317d\236W\340c\006\252\247*`\222r\272a\\\262\"2\243$\213d\372)(M$1\377\213\271\"\234(HDH\3366\000";
+    PyObject *data = __Pyx_DecompressString(cstring, 3940, 2);
     if (unlikely(!data)) __PYX_ERR(0, 1, __pyx_L1_error)
     const char* const bytes = __Pyx_PyBytes_AsString(data);
     #if !CYTHON_ASSUME_SAFE_MACROS
     if (likely(bytes)); else { Py_DECREF(data); __PYX_ERR(0, 1, __pyx_L1_error) }
     #endif
-    #elif (CYTHON_COMPRESS_STRINGS) != 0 /* compression: zlib (3804 bytes) */
-const char* const cstring = "x\332\215WK[\334V\322\246\031\360\340\004b\032s\213\215=\302\004\260\277`b\300&\227\317q\002\030bg\022\333\\b;q2\032\265\244\356VPK\335\272@\267\307\363\315,Yj\251\245\226Z\366\262\227\275\354\345Y\366\222\237\340\237\360\275u$\365\205[\362<\320::\247NU\235\252\267\336:\372JXw\263Y\325\022\0164\365PPL\325\026\014\323\021\324r\321\264U\301v,MQ\355\r\311\020LC\257\010\262\245J\216*HB&\332\344\344%G\320lA6\rG\313\271\246k\013\232!\024\324\202iU\026\261\213TI\266\255\345\014\3011\005lV\356r=\221\004\231\214\205b\305\207\226\346H\031]\215\005\"\247\262\226Y\270h\257f(jY8\324\234\274\340T\212\2520\037\317;\226d\330\374\030\355-\221\030vh\226*;\202\242\025T\303\326L\303~\234\214\204Y\205ND\n\"\241\315B\321\251\010v^\202j\307-\302\271\254i\tr\305\311\233\306\242dYRe\263\\\204\234\252\010\010\206\256J\266#<=m\200k\264\335b\321\264 \372\3248\220tM\021\n\246\242.P\264#\005\363\362\274\000\345\363\260@\336\317/\0109\223\264E\302\221\017\010\260T\206\207\017\177\344\247zI\2472\263\3023S(H\216\234\327\214\234@\001\227\034\327\"W]Cyf\"\264<U\033\334k:\237\242\352ZF\265\020t\204\224\322\014\373<\237\206\360b\363\305\335\373_\334\027$CA\330\177\207g6\034\317\310:2\tx\300V\306\325t\007~P\270\355E\341iV\250\230\256`\2508\001\322\\\204\\\347\006'\257\032\202\255:4\020\346yn$\007!\021\261\035\336\316\307q\326\016T\332\275%\351\266\272\370\334u\270!r\037&\215\004p\222,\253\320~\233G\340'\203c\005\233\200\277\003\325\002\024\034\265@\357f\206\334^|4\177\347\3357\222\242\210\006E\200\316#HV\316EJ\034;\n-\245\354^Y\316\272\206l\213\233\226I\251z\254\0024\032y\270X\254\224eS\327\311;\244pQ\312\310\017;\240N\n#\337\037\235\234N\020\366H\321lrR\345\256\346d\3416Y\315qp\321\201([j\331!\207(\261-\270 E\321\026\205\216dkoU\341\341\327\302\275S\3203Ld2+\271\272#\210\242\245*\256\254\212\242\240\270<*\206i\334Ef\0174I\307\252\254\031\232#\212\206[(V\026e\323R\027\013\330\246q5BV\322\364({Z\201\020\332!\345\002V\371S\002q\210\037=\214(B\351\n\306\3519Bu+&]\353\255Y\267\225MI\327M\231\363\014\367M""\221\034i\361\214\325\250\034HGLS\213k\273\033O\237nl?\336y\274#J\031\373\361\336\317/6\305\255\037\236\257\355E\303\247\317\342\201l\026P\310\345\307\362\246\256kE[\263E\361E\245\214\377\307\250\003\361\0312\262\243fwv\325\222\253\032\262\272\267AE\266\330\2567\340\000\352E\344V\316\003P\252\304\321+\352\232\261o\307c\003\205m'\256\212\021z%\275\230\227 oKv\305\2205\223\342k\272($\325\316d$[\315\250\212e\312\373b\316\2224C\314ZR\004\273\214\352\000\366\342~N\226tY\334\330\346\217\307;\321C\216\037\"b\240J\005\261h\036\252\026\237\333\333\210\037\342\346\023\221h\257\355\357\271\013o\024\323E\230\337|\265 |\365\333B\362r\361\210D\177;_cV7%'V\030\217/\030t*{s\266\255?p\341\315Y*/\260\203\302\225Q~\026\247\244\3233\335\021\301\022\330\375\202\251\263\224v\205 \022?w&\336\257P\312\363\252\202\001\347\"U\341\323Y\335-\213\222\303\201vj\342\315\237\016R\327\256?\027\245\316-bQ\265D\242\244\366\212\242\035\320*\201\376\314\3117gF\351\034\251\356P\234#\244\031\177(\242\233F\356\217d\354<\270\254%d\363\313\207\25082X\345\274\246\000&\245\306&\212\311 \247:D\322\364\212R\026Q\272H\274\254f$y\037\315#\246\032~(\260=\314*\\\r\267\317\177\304L\364\220\243\207\235\023s\242\2257\211|#\032\221\321\005\035\271\350\212|\240(2\237VTj\367\300HB\033\207\252\226\313;\347L'\347n-\333\246\246\267\266\360\016b+\252a\0264\334\034LK$>\002\370Z\370\023\225\267\355\261\355\332E\025\267.\214T\336\262\034;Ve\267\355$\302\211\215\242\223o\301:\361\215\224\306S\334\237\223\357\335\276\213H \350Y\214`\244\230\207\306!\272Gd\256\363%\001\252bE\257\204\327\234\2558I5Q\022\013\310\\\367\214c\026M\314\250Q\2761\212Dp\305\341?\"\232D\324\363\224\262R\026e\374\347%=\213\207]r%\264\336\366\010\213\025\364\r\230\346\034\240\031\024\241\326\231\351\316\205\203v.\361\263\266\346q?\241\261jY@@\231\356;\234\334m;\213\206\200\324\304\227\235$8\216\211]\027,\265\014\313\177B\350\"\0219\253K9\233\003\031?\207 z\305\311\343B\202\373A|_\345\267\315\223Q\216&i$\352&^\343\266\306\031\004UDU&\322\303\246\244k9~\233""\317\241\246\360'\362\356\310k\227D1\203\nE\224Nv\310\004 \3214)\006D\013\027\317\236C\227\277\235#}\026M\306\262\335 \315\341*\"*\345\234\215\207\030\335\225\360\244C\361\037\014\t\232\321\030\307\213^\370\315!9g\254\010\014\207?\334\332\300Yh\355\242\231\025eU\327\t\207\255{Ct9\214o\210\373\242YPsR\374\020e2\262o\355#\233\373\207t\353\240\275\334\222\236\030N\376Q-\266\023\371@\265b\231\207\272\231\343e\352HbQw\201|C%:\025\221G\234\030\277eJ\263h\353&*C)\307\357I\332\371\364Ys\242\314g\223bE\374\024\r\005@\223n\261{\n\304\"\305 \301\347\033}\273\025(/-\346!@\235\236\201\001N\024\370u\301\344\242\201X\351\266\201\3627\242\353\231\021Q\252A\207\264\r\251@2\321/\210\314P;\031\201\336b6\300\262z(\362\255|;!\031d\316M\032\305\270bQ7\270\222\242\376\371\345\031\\a\"n6B\215\277\366\205(I/M\332\246~\200'\345=~\234\244\3218Q'\261QDo)\346\265\242I\237\223\344n%y\212(&|\265\210\340Py\237\000\314\337\342\262\241!\3472>r\215\242&\357#J\233F\"w\0205@\261TJ,\225 \2469%\361\020\n\254\326\r@\004\321\351Q\334\332\237\035\255Q\364\201\3221\001\250c\230\003\310@j\350\270yS\224\351\307\246$\304\035\004\2017\350\000'\337E\271\335c\272n!\350=N\234;\214\342\036\306\307\361i;\306\211Gv\016\335U\346\037\016\274\363\203o\220\302\344k\331\346h#.&\227\001\203\370:\320\0061\357b\361t\002\215d\016\332\034\265h\243\215t^\3051v\361\001\215\000w\241\000\023\205\316\353]\022\356\326\374\211F\331\3151'\245\316\350\225\355\262\350\350\321]\327\322$\220mIt\3373\366\267\010\373\324\312\t\213\207E\272\020\025\320/ihI\207\216\204+\013\375 0\205\342\031\267\206\223\375=\271X\212\242\243\342&\204\276\343HzG\220\332'A;\2127E2\232\221`\243=\227\224T\327dl\221\026\200\177\224\221[\304\367\245\032\263\017\311u\014\223\020\035H\272{\372\205$\272^Z\376\363Y\373\000\224)\003\301\007vT<\266k\241\275\252\234\342\022e\035\356$S\345rE\264\341\031\370\245R\221\377\233z?\322sy\312_:\036\274\356/\261\251\027\354\305vs\360\252\367\245\277\346cp\215]\273\033n\207Rsp:H\263[\313\325\273\265R=u<p\345\250\204\235\223\264\363A""\220\n\322\315\201I\277\337\337\366\245\346\300\307~\372\375@\317\320T\247\266\257h\351xp\330\273\344\251\376\222\277\326\034\026\202\376`;\310\206\353\241Z]\252n\325\246\233\303W\275\257\271\252\321\t\257\344_\362\263\301\263\352\255\352Zbk\344\264\255\023.?\364KA\252\313\310L\260\024l\205s\325+p\372R=\303\236X\314\262\231]a\225\267\211\332\333g\035\341\246/\235w\204q/\357g\202\301p-\304\354\225\243\262g\371\351\346\3605\177\272\313\360Uo\311\333\362\347\202V\244\256u\230\371\330\037\363%\277tV\300\217;\002>\305\246\226\252\351j\267\342\271@\n\376S\315\261\257i\033\333~\305^\275n\016\317\007\245p\250\372\212=|\336(\261\027/\331\313W\315\341\331`\233\315\255\262\325\247\215tc\216L\014\177\022\254\261\331\317\331\347\3377\246\033\253l{\007\256\261+\267\331\355o\331\267\244\006Nn\245z\372'=\227g\276o\324\333\364\3238V\337\230\207\267\0334\205p6\373\340t\263\017\026\233}0\321\354\273\346\317\370;>\336f\330\314\027\265^\3441\222\345\213\261\304\364\373\017z\372\347\003\251\331' \"\227?h\016\014\036=\211\325\017\362}\251\332x\315\252\247\021Qv\345\223`\003\332\351P-\370e\253\353lu\253.\325\017\032;\215w\354\315\257\354\327\337(\372\357\374e\330\032\236`\023\013\000\222Dq\177\340\367\372\323\315Q\240\365\375\245\236\241\371@\t\247\331\247\217jR\355\260\236i\244\270\201\371\300\n\221\263\377\t\247\233\2037\374_\3034\020\362\027\266\022\353g\317E&\376\223\375S\"\003\377A\256S\334\300g\241UMw\030\270\023r\003\323X\356\314\017\320\013\275\341ju\264\272S\375W\035\202\263\301n\330G\336\035\017\nLX&HW9tp\306[\3014)I\267\367\343\300\313\325\351\352j\r\266n\372\373\341du\244\372ym\372xx\234\215S\356\017\000;8q\237\303n\364\272\377\220\237\005\025\343\372\353@\356$\242\325\034]\010\327\216\t\202\315\321\233\354\346\203\352v5[[#\231\262o\001\177\223\260\212D\266\337\377\346\227\271\226\311\353@ho0\335\234\202\245\343\276\277\376\267\324\034\370\220}x\223\307\200\352?\231;\372\302[\361\020\237q\217\312\244\177\360\350!\233\370\224}\372M\215\220>\332sy\002\213\003\327/.\326\323\2140""\342M{\253\376\270\357\360\242\375$\314TS\200\377\034a\252\315\001\375\023\261x\337x2\030\363~\241\302\357\030\334\000\"\255`\"\354E\206\001\332\373\201\035\316\204;a\t0\274<\356m{\262?\301\317\t\255\216\267\014x'\003$\343\362\320\321w\310q\312\277\352\177\027,\007Q\246\274~o\307+Q\340W\274\002\334\333\014G\302\02588T\333\256I\344\371\214\267\353\017\201\317\324p9|\215\314\377\273\276V\377\251q\253\361\035\333\375\211\375\364\262\371\321\260\227\242Ss\360\034\367}x\264\204\323,\234\2566*\224\317\000\344\276\325\252\304+\217<\232\364Jl\362\207\306\032\271\371\226\244\232\003T\211\003\213\020\034\000E\034\243\234\266\274Y\220f\212\000\215j\014.!\201\t|\241\"\275\304\356}[\357\255\177\332\330n\300\337\317\330g?4\326\3313\225\251Y\226\325\231^\000\\\330\325{\325^\266LU\340\302\326\350\n[\371\256^j\3647\"\352\010^\002\324\351\343aP\312/\354\027*@\244>\275\302\226\327\3533\365\235\272\325\270\316\366\370Q9\033]\n\263\354\376\036\333\003\027\025X\301`\006X\327i\016\177\311\276DeeX\206\030\370}O\317\277Rk\275x\254\365\256\367\222\227\337\2468O\347\330\217\277\263\337\271[\355\022\234\016\306\271^\211X\375\033T\321F\325\252]\255\255\263G\257\331\353\237\331\317T\264\357\007{\322\243\336\0036y'\274\312\026\336p\236\2001\2719\006\232#\216c\257\377\301\376!\036\017\177\215\274e\353[\r4\235\005\266\260\t\377K\307\003\340\246`\222\335\371\021\024S\342\021\016\236\260\205\335(\201\307\003\250\251\3605{\360\254\221\001\200\341l\377\320\321Zsp\250\363\017)\235\352Hi\014P\252\220q\217\277#\257\223\376_8g!\341k\364\263A\205L\352\246\210V9\301\316\004+(t7\334D\351\257T\245\252]\233\0057^\005\242v\033\350'\023'\321@\020\031<z\340\245\274q\317\366g};\230\013S\341xhW?\251\312\2651P\337\001\355$\232\372k\354[\\k\023T\327Cp\360\362(\336\322\350W\275\301,\242\234\242\251)N\006s(\242\0310\360\357\265\376\332N\315\256O\327\0374R\215\t\304\200P\027UJ\372x\360\243#\351\350\300{\305\246\356\206\273\354\336Z}\244\376\010\035\206\355Pn\010\356\313G\333\210\316\3153\242\203\243\177\014\334R\227hF""\255\206\307\351Zt\2563\240\337au\030u\271\355e\375\rN`7\253%8\211\202M\363@,\"\010c\270\\\254Tux\275\332\030i,\021\234,o\004\3048<\206\202\266\374Q\336\272\206G\321\253o\201?e`\314\342\245\255V\227A\322\200\262\r2_&\356h\307l\200\207d'\374?\016\242\315\306hc\217m\003'\021\016\201o\231\311y\226\217!\334\234\244\223]\233\342\352G\202\245v4>:\023+D\236l\002=\272\343\244\021\007]\006%\255\371/\203e6\373\277\265\245\332V\235\023\311\312\221\004]\303g\350\372\340\002]\227\274\034\273\261\302/^\004\256\033\r\251Qjk\033\271\300\263\2777\226\272\264Q3Y\r'\331\022\026\032[l\007\325\202\303kL3\231\3510\347\220\035\276eo\337\241\310\377\235\332\240Z\337\350\335\242\307V\357\023z<\351\375\236\036\337\367\376\275\027\346\331\207h2gWQ\263\017\341\247#u\"\342\035_\351\364f\222\370\325_\r\306\202L\370\001\372\350R\223\247<\355\315\241\t\361\\G7\263;\240\366]\352\017 \265\261j\2466X_\247\353Ac\254\221e{\374R\225\216\004gy\213\004B\276\007\r\365\362\263\246#%\233\376$\362\271\202\013\306-\352\356\341\001h\277RO\325'\032\275\215\351\250-.=\377\177b\033>f";
-    PyObject *data = __Pyx_DecompressString(cstring, 3804, 1);
+    #elif (CYTHON_COMPRESS_STRINGS) != 0 /* compression: zlib (3865 bytes) */
+const char* const cstring = "x\332\215WK{\324V\322v{l\306$&\270\215o\001\303\310\020c\370b\034l\203s\371\010\2111v\200I\000\033sIHF\243\226\324\335\212\325R\267.v7\303|3K/\265\324RK-\265\354e/{y\226\275\364O\340'|o\035I}\361-y\036\273ut.Uu\252\336z\253\364\215\360\300\315\347UK\330\325\324=A1U[0LGP\253e\323V\005\333\2614E\265\327$C0\r\275&\310\226*9\252 \t\271\370\220S\224\034A\263\005\3314\034\255\340\232\256-h\206PRK\246U[\300)\022%\331\266V0\004\307\024pX\271\305\345\304;He\262)\021\274gi\216\224\323\325dClT\3362K\247\235\325\014E\255\n{\232S\024\234ZY\025\346\222y\307\222\014\233_\243s$\336\206\023\232\245\312\216\240h%\325\2605\323\260\037\246#aV\241\033\221\200x\323z\251\354\324\004\273(A\264\343\226a\\\336\264\004\271\346\024McA\262,\251\266^-c\237\252\010p\206\256J\266#<>\252\200K\264\335r\331\264\260\365\261\261+\351\232\"\224LE\235'o\307\002\346\3449\001\302\347\240\201\254\237\233\027\n&I\2137\3076\300\301R\025\026\336\373\211\337\352\025\335\312\314\013OM\241$9rQ3\n\0029\\r\\\213Lu\r\345\251\t\327\362P\255q\253\351~\212\252k9\325\202\323\341R\n3\364\363x\032\302\363\365\347\267\356|uG\220\014\005n\377\035\226\3310<'\353\210$\340\001]9W\323\035\330A\356\266\027\204\307y\241f\272\202\241\342\006\010s\031\373\272\0178E\325\020l\325\241\2010\307c#9p\211\210\343\260v.\361\263\266\253\322\351\rI\267\325\205g\256\303\025\221\371Pi\244\200\223dY\205\364\033\334\003/\r\216\025\034\002\376vU\013Pp\324\022\275\23392{\341\376\334\315\367\337I\212\"\032\344\001\272\217 Y\005\027!q\354\330\265\024\262\333U9\357\032\262-\256[&\205\352\241\n\320hd\341B\271V\225M]'\353\020\302\005)'\337\353\202:\t\214m\277\177x:E\330}E\263\311H\225\233Z\220\205\033\244\265\300\301E\027\242h\251U\207\014\242\300\266\341\202\020\305G\024\272\222\255\275S\205{\337\n\267\217@\3170\021\311\274\344\352\216 \212\226\252\270\262*\212\202\342r\257\030\246q\013\221\335\325$\035\253\262fh\216(\032n\251\\[\220MK](\341\230\306\305\010yI\323\343\350i%Bh\327.\027\260*\036\331\220\270\370\376\275\230\"\224\036g\034\235#T\267}\322""\263\336\236u\333\321\224t\335\2249\317p\333\024\311\221\026\216Y\215\323\201d$4\265\260\372b\355\361\343\265\315\207[\017\267D)g?\334\376\371\371\272\270\361\343\263\325\355x\370\370i2\220\315\022\022\271\372P^\327u\255lk\266(>\257U\361\377\020y >ED\266\324\374\326\013\265\342\252\206\254n\257Q\222-t\362\r8\200x\021\261\225\213\000\224*q\364\212\272f\354\330\311\330@b\333\251\251b\214^I/\027%\354\267%\273f\310\232I\3765]$\222j\347r\222\255\346T\3052\345\035\261`I\232!\346-)\206]Nu\000{q\247 K\272,\256m\362\307\303\255\370!'\017\021>P\245\222X6\367T\213\317m\257%\017q\375\221H\264\327\261\367\304\205\267\212\351\302\315o\277\231\027\276\371m>}9}D[\177;Yb^7%'\021\230\214O\031t\013{{\274\256?0\341\355q\"O\321\203\304\225\221~\026\247\244\2433\275\036\301\022\330\375\224\251\343\204\366\270 \336~\342Lr^\241\220\027U\005\003\316E\252\302\247\363\272[\025%\207\003\355\310\304\333?\355\244\236S\177\316K\335G\304\262j\211DI\235\025E\333\245U\002\375\261\223o\217\365\322\t\273z]q\302&\315\370\303-\272i\024\376h\217]\004\227\2657\331\274\371\020\025G\006\253\234T\024\300\244T\330D1\035\024T\207H\232^\221\312\"R\027\201\227\325\234$\357\240x$T\303/\005\266\207Z\205\213\341\372\371\217\230\213\037r\374\260\013bA\264\212&\221oL#2\252\240#\227]\221\017\024E\346\323\212J\345\036\030IicO\325\nE\347\204\351\364\336\355e\333\324\364\366\021^AlE5\314\222\206\316\301\264D\342#\200\257\215?Qy\327\031\333\256]V\321ua\244\362\222\345\330\211(\273\243'\335\234\352(;E\300\272\215\354\324<\222\233Lq\223\016\277\227\310\305m\241\335+\275\027\023\021]p\267\030cL1\367\214=\224\226\370X\367K\212b\305\212_\t\314\005[q\322T\243\010\223\316\336\031\307,\233\230Qc0tF\351\326\370\201v\210\377\210((q}T\252JU\224\361_\224\364<\036v\305\225P\246;#,\326Pc`\t\347\013\315 o\266\235C\375\031<\322\275\304\257\336\236G/Cc\325\262\200\226*\365F\274\020\330v\036\305\003aL\032\243\324W\216\211S\247,\265\025\313\177b\323i[\344\274.\025l\016z\374\354\241((N\021\315\013z\211\244\267\345\235\351a\247\307\223<\344""\272\211\327\244\004r\266A\306QF\212\364\260\t\003Z\201w\376\005\344\037\376D^Iy\236\323V\314 \233\341\245\303\3254\305K<\335\215\256x\206T\001\340\245\323gO \333\337N\330}\034\311&{{Q\\@##*\325\202\215\207\030wZx\3225\371\017\206\204\335x\214\013\307/\274\357Ho\236\010\002?\342\017=\037\030\017\215\201h\346EY\325uBf\273\353\210[\313\244\277\334\021\315\222Z\220\222\207(\223\222\035k\007\361\335\331\243\236\205\316rMz\2528\375G:\331Nl\003%\223e\356\351f\201g\270#\211e\335E.\030*\221\261\010w\343\306\370\255R\340E[7\221+J5yO\201\300\247\217\233\023e>\233f3\374\247hH\t\232t\313\275S\240%)\201\r>\376\350\313\257Dqi\363\026\305\375\350\014\024p&\301\257\213: \032\360\225n\033\340\007#n\356\214\230\220\r\272\244mH%\332\023\377\202\006\r\265\2332\350-%\t\321P\367D~\224\037'l\243\024p\225F9\311ad\022\032Z0\002o\275\301\036&\374f\303\325\370\353\264Sixi\3226\365]<)\356\311\3430\t'\201:\214\2152*S\271\250\225M\372\030%sk\351SDz\341\233G\004\311\312;\004`\376\226$\022\r9\273\361\221k\2245y\007^Z7\322}\273q\371\024+\225TS\005\3334\247\"\356A\200\325\356\037DP\237\036\373\255\363\321\322\036\305\2377]\023\200:\206\005\200\0144\207z]4E\231~l\nBR\177\340x\203.p\370]\224;\025\252\247\207A\345r\222\330\331jZ\001\3718\271m\3278\265\310.\2406\313\374\263\203\367\r` \2040\375\326\2669\332\210\235\311d\300 i&: \34650\231N\241\221\316A\232\243\226m\324\231\356F\036c\027\237\337pp\017\n0Q\352n\016Sw\267\347\017\325\330^\2169\274\353\230b\332I\213\256\n\337\323\324\246\216\354\354D\341>\346|\233\302\217\254\034\322\270W\246v\252\204\nJCK\332s$4<\364\003\307\224\312\307\364\034\207\033\200\264-\025EGE\037\205J\344Hz\227\223:7A\201J\016\305{4#\305Fg.M\251\236\311D#-\000\377H#\267\214\257S5a\037\332\3275L]\264+\351\356\321\027\332\321\363\322\266\237\317\332\273\240L\031\010\336\265\343\344\261]\013\005W\345\024\227\n\3532'\235\252Vk\242\r\313\300/\265\232\374\337\314\207\245\276\263\323\376\342\301\320\360\376c\357\245?\343/\266\206/x_\373\253\376fk\370\"\273x+\334\014\245\326\360L\220eW""\227\242[\365J#s0t~\277\202\223St\362n\220\t\262\255\241)\177\320\337\364\245\326\320\247~\366\303P\3379\210d\323\317\331\363M\222\366\r-\035\014\217xg<\325_\364W[#B0\030l\006\371\360A\250F\213\321F}\2465r\301\373\226\213\032\233\364*\376\031?\037<\215\256F\253\251\256\321\243\272\016\206/u+\271\347W\202L\217\222k\301b\260\021^\217\316\303\3503\215\034{d1\313fv\215\325\336\245bo\034w\205+\276t\322\025&\274\242\237\013\206\303\325\020\263\347\367\253\236\345g[#\027\375\231\036\305\027\274Eo\303\277\036\264=u\261K\315\247\376\270/\371\225\017#}g\317\035q\371A\227\313\247\331\364b\224\215zE_\017\244\340?Q\201}K\206\261\315\327\354\365\233\326\310\\P\t\317E\257\331\275g\315\n{\376\212\275z\335\032\231\r6\331\365\025\266\362\270\231m^\247K\214|\026\254\262\331/\331\227O\2323\315\025\266\271\005\343\330\371\033\354\306\367\354{\022\0033\237d\372\006\247<\227\307~`\314[\367\263\270\330\300\270\207\267\3134\005\207\266\006\340\364\326\0004\266\006\240\2425p\321\277\346o\371x\273\306\256}U\357G$\343\275|1\331\201\271\253\301\314\207\217\372\006\347\002\2515 \3001g?j\001q\217\022\035\303\374p\246>Q\267\032Y8\226\235\377,X\203\n\272Y\033\205\371\350\001[\331hH\215\335\346V\363={\373+\373\3657\n\302{\177\t\nG&\331\344<\360$\221\373\357\372\375P:\006\320~8\323wn.P\302\031\366\371\375\272T\337k\344\232\031\256`.\260B\204\356\177\302\231\326\360e\377\3270\013\240\374\205-'\362\3313\221\211\377d\377\224H\301\177\020\362\014W\360EhE\331.\0057C\256`\006\313\335A\002\210!7\\\211\306\242\255\350_\rl\234\r^\204\003d\335\301\260\300\204%Bv\304\021\204;\222k $\3339\217\013/E3\321J\035\272\256\370;\341T4\032}Y\2379\030\231`\023\004\200]\240\017F\334\341\350\033\273\344\337\343wA\342\270\376\003\000x\n\336j\215\315\207\253\007\204\304\326\330\025v\345n\264\031\345\353\253\264\247\352[\200\341\024\264\"\232\235\367\277\371U.e\352\022\200\332\037\314\264\246\241\ti\227\235d\023\267\243L4\021U\272t\002\233\013\241\024\356F\333\365\321\372\275\206\325\354V\217\273\037\014\374\365\277\225\326""\320\307\354\343+\334y\304\037\351\334\376W\336\262\007\307Nx\224f\203\303\373\367\330\344\347\354\363\357\352\265f\006 \034\353;;\211\345\241K\247\247\373QN\031\365f\274\025\177\302wx\332\177\026\346`u6\272N\230\354\260\310\340d\262}`\"\035\214{\277\020ut\r.\003\321V0\031\366\003\034\000\375\235\300\016\257\205[a\005\010>;\341mz\262?\311]\004\251\216\267\204\364H\007\210#\222\372\007\300#\343_\360\177\010\226\2028\310\336\240\267\345q\377-{%\230\267\036\216\206\3130\360\\}\263.\221\345\327\274\027\37690\242\032.\205o\000\232\1777V\033/\233W\233?\260\027/\331\313W\255OF\274\014\335\232\343\356`\340\343\375E\334f\376h\266R\216}\201\034\030X\211$\236\271d\321\224WaS?6W\311\314w\264\2535D\231<\204\010\266\206@1\304\375\033\336,h7C\271\200l\016\316\004\360m\202|\210\310.\262\333\3377\372\033\23777\233\260\367\013\366\305\217\315\007\354\251\312\324<\313\353L/\001i\354\302\355\250\237-Q\002\271\3205\266\314\226\177hT\232\203\315\230z\202W\310\207\354\301\010(\351\027\366\013\345.\202\237]fK\017\032\327\032[@\320%\266\315\257\312\331\354L\230gw\266\3316\270\254\304J\0063\300\333Nk\344k\3665\2222\307r\304\341\037\372\372\376\225Y\355\307c\265\377A?Y\371}\2063}\201\375\364;\373\235\233\325\311\336\231`\202\313\225\250.|\207\004\\\213\254\372\205\372\003v\377\r{\3633\373\231\362\375\303p_v\314\273\313\246n\206\027\330\374[N1P&\267\306A\223\304\221\354\315?\330?\304\203\221o\021\267|c\243\211\2625\317\346\327a\177\345`\010\264\026L\261\233?\201\235*\334\303\301#6\377\"\016\340\301\020\3221|\303\356>m\346\000`\030;xn\177\2655|\256\373\017!\235\356\ni\002P\312\221\t\217\277#\256S\376_8\335!\340\253\364\263F\371H\342\246\211\2269A_\013\226\301\021n\270\016\326X\216\244\310\256\317\202V/\000Q/\232\250H\223\207\321@\020\031\336\277\353e\274\t\317\366g};\270\036f\302\211\320\216>\213\344\3728Xs\227N\022\303\3755\261-\311\265I\312\354s0\360\354\030\336\262\250x\375\301,\274\234\241\251i\316#\327\221D\327@\336\277\327\007\353[u\2731\323\270\333\3144'\341\003B]\234)\331\203\341O\366""\245\375]\3575\233\276\025\276`\267W\033\243\215\373\250Pl\213bCp_\332\337\204w\256\034\343\035\\\375S\3406\2562\343m?]\214\357u\014\364\273\264\216 /7\275\274\277\306\271\357JT\201\221H\330,w\304\002\2340\216\366d9\322a\365Js\264\271Hp\262\274Qp\352\3108\022\332\362\307x\351\033\031C\265\277\n\356\223\2011\213\247\266\032-\201\337\001e\033u`\211\270\243\343\263!\356\222\255\360\3778\210\326\233c\315m\266\t\234\3048\004\276e&\027Y1\201pk\212nvq\232\213\037\r\026;\336\370\344X\254\020y\262I\324\370\256\233\306\034t\026\224\264\352\277\n\226\330\354\377\326\027\353\033\rN$\313\373\022d\215\034#\353\243Sd\235\361\n\354\3622o\335\010\\\227\233R\263\322\2216z\212e\177o.\366H\243:\264\022N\261E,47\330\026\262\005\227\327\230f2\323a\316\036\333{\307\336\275G\222\377;\263F\271\276\326\277A\217\215\376G\364x\324\377\204\036O\372\377\336\017\365\354c\224\231\343\263\2505\000\367\323\225\272\021\361\236\257t[3E\374\352\257\004\343A.\374\010%x\261\305C\236\365\256\243\010\361X\307\275\335MP\373\013\252\017 \265\361(W\037n<\240\316\2429\336\314\263m\336\224e\343\215\263\274\272\002!O@C\375\374\256\331X\310\272?\205x.\2437\271J\215\001j\351VTkd\032\223\315\376\346L\\\030\027\237\375?\205<q'";
+    PyObject *data = __Pyx_DecompressString(cstring, 3865, 1);
     if (unlikely(!data)) __PYX_ERR(0, 1, __pyx_L1_error)
     const char* const bytes = __Pyx_PyBytes_AsString(data);
     #if !CYTHON_ASSUME_SAFE_MACROS
     if (likely(bytes)); else { Py_DECREF(data); __PYX_ERR(0, 1, __pyx_L1_error) }
     #endif
-    #else /* compression: none (7934 bytes) */
-const char* const bytes = ": Buffer view does not expose stridesCan only create a buffer that is contiguous in memory.Cannot assign to read-only memoryviewCannot create writable memory view from read-only memoryviewCannot index with type 'Cannot transpose memoryview with indirect dimensionsDimension %d is not directEmpty shape tuple for cython.arrayExpected at least Indirect dimensions not supportedInvalid mode, expected 'c' or 'fortran', got Invalid shape in axis <MemoryView of No matching signature foundNote that Cython is deliberately stricter than PEP-484 and rejects subclasses of builtin types. If you need to pass subclasses then set the 'annotation_typing' directive to False.Out of bounds on buffer access (axis Unable to convert item to object.>')|?add_note and  arguments, got  at 0xcfuncs_ErosionDeposition.pyxcollections.abc<contiguous and direct><contiguous and indirect>disableenablegc (got got differing extents in dimension isenableditemsize <= 0 for cython.arrayno default __reduce__ due to non-trivial __cinit__numpy.core.multiarray failed to importnumpy.core.umath failed to import object><strided and direct><strided and direct or indirect><strided and indirect>unable to allocate array data.unable to allocate shape and strides.ASCIICQDRDR_absDTYPE_FLOATDTYPE_INTDTYPE_complexDcEllipsis__Pyx_PyDict_NextRefRSequenceTCView.MemoryViewabcabs_dischargeactive_linksactive_nodesallocate_bufferalphaargsasyncio.coroutinesbbasebedrock_grain_fractionsbetacc_kgcalc_CQcalc_DRcalc_Dccalc_Dc_stream_powercalc_TCcalc_TC_EH_with_dischargecalc_TC_EH_with_discharge[double[:, :],double[:],double[:],double[:],double[:, :]]calc_TC_EH_with_discharge[float[:, :],float[:],float[:],float[:],float[:, :]]calc_TC[double[:],double[:, :],double[:],double[:, :]]calc_TC[float[:],float[:, :],float[:],float[:, :]]calc_concentrationcalc_concentration[double[:, :],const double[:, :],const double[:]]calc_concentration[float[:, :],const float[:, :],const float[:]]calc_detached_depositedcalc_flux_at_linkcalc_flux_at_link[doubl""e[:, :],double[:],double[:, :]]calc_flux_at_link[float[:, :],float[:],float[:, :]]calc_flux_at_link_per_sizecalc_flux_div_at_nodecalc_flux_div_at_node[const double[:]]calc_flux_div_at_node[const float[:]]calc_flux_div_at_node[const int[:]]calc_flux_div_at_node[const long[:]]calc_flux_div_at_node[const short[:]]calc_stable_dtcandcfuncs_ErosionDeposition__class____class_getitem__cline_in_tracebackcolcomplexfloatingconditionconstconst_bconst_cconst_sg_g_rhocore_nodescountcpu_countddc_nodedeatched_bedrock_weightdeatched_bedrock_weight_at_nodedeatched_soil_weightdefaultsdenominator_basedepdeposited_dzdeposited_suspended_sediments_weights_at_nodedeposited_weightdepthdetached_bedrock_dzdetached_soil_dzdetached_soil_weight_at_node__dict__doubledownwind_nodedownwind_node_at_linkdr_node_per_gsdt_deposition_massdt_deposition_topodt_erosiondt_massdtypedtype_is_objectdxdx_cdx_halfdx_squareddx_squared_cdyencodeentrainment_bedrock_rate_dzentrainment_soil_rate_dzenumerateerrorexcess_stressfactor_convert_weight_to_dzfactor_convert_weight_to_dz_bedrock_cfactor_convert_weight_to_dz_bedrockfactor_convert_weight_to_dz_cflagsfloatflow_widthformatfortranfound_deposition_massfound_mass_lossfraction_sizes__func___fused_sigindexggetget_outin_fluxes__getstate__grain_fractions_at_nodegrain_size_sum_at_nodegrain_size_sum_at_node[double[:, :],double[:]]grain_size_sum_at_node[float[:, :],float[:]]grain_weight_at_nodegrid_dxgsid__import__indexindex_inlinkindex_outlinkinlinks_fluxes_at_nodeintintcinv_area_of_cell_is_coroutineitemsitemsizek_omegak_omega_ckindkrkr_ckwargsll_inlinkl_outlinklinklink_listlinks_per_rowloged_beta_plus_onelong__main__max_dep_slope_dxmax_deposition_slopemax_deposition_slope_cmax_downwind_gradientmax_upwind_gradientmedian_sizesmemviewmin_suspended_massmin_suspended_mass_cmode__module__n_colsn_gsn_linksn_nodesn_rowsname__name__ndimnet_depositionnet_erosion__new__nodenodes_losing_massnpnumerator_sharednumpyobjos_osoutout_discharge_at_nodeout_solvoutfluxoutflux_weights_at_nodeo""utlinks_fluxes_at_nodepackphipopporosityporosity_c__pyx_checksum__pyx_state__pyx_type__pyx_unpickle_Enum__pyx_vtable__qq_at_nodeq_unitq_water_at_link__qualname____reduce____reduce_cython____reduce_ex__registerrhorho_crho_srowsediment_densitysediment_density_csediments_flux_at_link__set_name__setdefault__setstate____setstate_cython__sgsg_cshapeshortsigmasignaturessizesoil_e_expostable_deposition_depthstable_erosion_depthstartstepstopstream_powerstructsum_out_dischargesummed_deposited_at_nodesummed_detached_bedrock_weight_at_nodesummed_detached_soil_weight_at_nodesuspended__sediments_concentration_at_linksuspended_dzdt_at_nodesuspended_fraction_at_nodesuspended_weight_at_nodeswp_clampedswp_rawtau_ctau_stemp_suspended_sediment_weight_at_node_per_size__test__total_deposited_sediments_dz_at_nodetotal_influx_at_nodetotal_outflux_at_nodetotal_weight_fluxunpackupdateupwind_nodeupwind_node_at_linkvalue_at_linkvalue_at_nodevalue_at_node_per_sizevaluesvelocityvswater_surface_grad_at_linkweight_flux_at_linkxxy_spacingyyc\200\001\360\022\000\t\034\2301\340\014\033\2301\320\034P\320PQ\330\014\023\2209\230A\230Q\330\014\032\320\032-\250Q\250a\330\014!\240\021\320\"2\260-\270q\300\001\340\010\017\210q\200\001\360\030\000\t\034\2305\240\001\240\021\330\010\030\230\005\230Q\230a\330\010\031\230\021\360\010\000\r\034\2301\320\034P\320PQ\330\014\023\220:\230Q\230a\340\014\020\220\006\220e\2301\230A\330\020 \240\005\240Q\240f\250B\250e\2601\260F\270!\330\020\023\220=\240\001\240\021\330\024\027\220q\230\006\230f\240N\260\"\260A\340\010\017\210q\200\001\360\022\000\t\034\2305\240\001\240\021\330\010\030\230\005\230Q\230a\340\014\033\2301\320\034P\320PQ\330\014\023\220<\230q\240\001\340\014\020\220\006\220e\2301\230A\330\020#\2401\240F\250&\260\017\270q\300\006\300b\320Hr\320rs\320sy\320yz\340\010\017\210q\200\001\360(\000\t\034\2305\240\001\240\021\330\010\030\230\005\230Q\230a\330\010\036\230a\360\010\000\r\034\2301\320\034P\320PQ\330\014\023\220:\230Q\230a\340\014\026\220h\230b\240""\014\250A\250Q\330\014\017\210x\220r\230\021\330\020\032\230!\340\014\020\220\006\220e\2301\230A\330\020\023\2201\220F\230&\240\001\340\010\017\210q\200\001\360\032\000\t\034\2305\240\001\240\021\330\010\031\230\025\230a\230q\340\014\033\2301\320\034P\320PQ\330\014\023\2209\230A\230Q\340\014\032\320\032-\250Q\250a\330\014\034\320\0341\260\021\260!\340\014\020\220\006\220e\2301\230A\330\020&\240a\240\177\260g\320=P\320PQ\320QW\320WX\330\020'\240q\250\r\260W\320<O\310q\320PV\320VW\330\020%\240Q\320&6\3206I\310\021\310&\320PQ\330\020$\240A\320%7\3207J\310!\3106\320QR\340\010\017\320\017(\320(@\320@W\320WX\200\001\360F\001\000\005\030\220u\230A\230Q\330\004\024\220E\230\021\230!\340\004\025\220Q\330\004\035\230Q\330\004#\2401\330\004\033\2301\330\004'\240q\330\004%\240Q\330\004\032\230#\230R\230q\330\004#\320#8\270\002\270!\330\004\035\230Q\330\004%\240Q\330\004%\240Q\330\004\032\230!\360\n\000\005'\240a\330\004 \240\001\340\t\n\330\010\014\210H\220E\230\021\230!\340\014#\320#8\270\001\270\026\270r\300\021\330\014\017\320\017$\240C\240q\330\020'\240q\330\014\032\320\032-\250Q\250f\260B\3206F\300a\300v\310R\310|\320[\\\320\\]\330\014\017\210|\2302\230Q\330\020\027\320\027,\250B\250a\330\020\023\2205\230\002\230!\330\024!\240\021\360\006\000\r'\240d\250!\320+>\270a\270w\300b\310\001\330\014\017\320\017'\240r\250\021\330\020*\250!\330\014\035\230\\\250\021\250&\260\003\3203F\300a\300v\310R\320O_\320_`\320`a\330\014\017\210\177\230b\240\001\330\020\027\320\027/\250r\260\021\330\020\023\2205\230\002\230!\330\024)\250\021\360\006\000\r!\240\001\330\014\020\220\006\220e\2301\230A\330\020\021\330\024*\250!\2506\260\024\260R\260{\300!\330\024%\240S\250\004\250B\250a\340\014 \320 2\260\"\260A\260Q\330\014\017\210q\330\020\"\240!\360\006\000\r\021\220\006\220e\2301\230A\330\020\032\320\0322\260!\2606\270\021\330\020\036\230k\250\030\260\022\2607\270!\340\020\026\320\026&\240a\240v\250Q\330\020\023\2204\220r\230\021\330\024\033\230<\240r\250\021\330\024\027\220u\230B\230a\330\030-""\250Q\330\024,\250A\340\020\023\2201\330\024\036\320\0365\260Q\260f\270A\330\024\027\220x\230r\240\021\330\030\"\240!\2401\330\024\027\220x\230r\240\021\330\030\037\230x\240r\250\021\330\030\033\2305\240\002\240!\330\034&\240a\340\004\007\200q\330\010\013\320\013\036\230b\240\001\330\014!\240\021\340\004\007\200q\330\010\013\2108\2203\220a\330\014\026\220a\360\010\000\005\014\210<\320\027+\320+?\270q\200\001\360\024\000\t\027\220a\330\010\033\2305\240\001\240\021\330\010\030\230\005\230Q\230a\340\014\033\2301\320\034P\320PQ\330\014\023\220:\230Q\230a\340\014\020\220\006\220e\2301\230A\330\020\022\220!\2206\230\026\230t\2401\240F\250$\250b\260\001\260\021\260&\270\002\270!\340\010\017\210q\200\001\360\022\000\005\027\220e\2301\230A\330\004\026\220e\2301\230A\330\004\025\220Z\230q\240\001\330\004\025\220Z\230q\240\001\330\004\035\230R\230r\240\027\250\002\250!\330\004#\2404\240s\250#\250R\250q\360\n\000\t\026\220Q\220c\230\027\240\002\240!\330\010\017\210t\2202\220Q\330\010\017\210t\2202\220Q\360\006\000\t\r\210G\2205\230\001\230\023\230G\2402\240Q\330\014\017\210q\220\005\220R\220q\330\020\023\2203\220m\2401\240E\250\022\2503\250b\260\r\270Q\270a\330\020\022\220#\220S\230\r\240Q\240e\2502\250X\260R\260}\300A\300U\310\"\310G\320SU\320UV\330\016\020\220\001\330\014\023\2205\230\002\230!\340\004\013\2101\200\001\360,\000\005\030\220u\230A\230Q\330\004\024\220E\230\021\230!\360\n\000\005/\250a\330\0046\260a\340\004\025\220Q\360\006\000\t\030\220q\320\030L\310A\330\010\017\210z\230\021\230!\330\010#\2401\330\010.\250a\330\0101\260\021\340\010\014\210F\220%\220q\230\001\330\014\035\230R\230q\240\006\240a\340\014\017\210\177\230b\240\001\360\006\000\0211\3200@\300\002\300+\310Q\310a\330\020/\320/L\310B\320Ne\320ef\320fl\320lm\340\020\023\320\0230\260\002\3202F\300a\300u\310A\330\0243\3203G\300q\310\005\310Q\330\020$\240A\240V\2506\260\021\340\0206\3206Z\320Z\\\320\\]\360\010\000\0213\3202B\300#\300R\300r\310\033\320TU\320UV\330\020'\240q\250\006\250f\3204T\320TV\320Vm\320mn""\320ns\320st\330\0209\3209`\320`b\320by\320yz\360\000\000{\001A\002\360\000\000A\002B\002\360\006\000\021@\001\270q\300\006\300g\320Mj\320jl\320lm\340\014\017\210\177\230b\240\001\330\020!\240\026\240q\250\006\250a\330\020#\240?\260\"\260C\260r\270\023\270B\320>X\320XY\320Y_\320_`\360\014\000\021\024\2205\320\030)\250\023\320,[\320[\\\320\\b\320bc\330\025(\320(W\320WX\320X^\320^_\340\020=\270Q\270f\300F\310!\330\020,\320,E\300R\300q\340\010 \240\001\240\030\320)M\310R\310q\330\010#\2401\240H\320,S\320SU\320UV\340\010,\250A\250X\3205N\310b\320PQ\360\006\000\005\r\210A\330\014\r\330\014\r\330\014\r\330\014\r\330\014\r\200\001\360\034\000\005\030\220u\230A\230Q\330\004\026\220e\2301\230A\360\010\000\005\026\220Q\330\004\026\220a\330\004\030\230\003\2302\230Q\330\004\024\220A\330\004\024\220C\220r\230\021\360\006\000\005\034\2301\330\004#\2401\330\004#\2403\240a\240u\250E\260\022\2603\260a\260s\270%\270r\300\023\300A\300S\310\001\340\010\027\220q\320\030L\310A\330\010\017\210z\230\021\230!\360\006\000\t\014\2105\220\001\220\026\220s\230%\230s\240&\250\001\250\026\250s\260$\260c\270\025\270a\270v\300S\310\001\330\014\020\220\007\220u\230A\230Q\330\020\022\220!\2206\230\027\240\001\330\014\r\360\010\000\t\024\2206\230\021\230&\240\002\240%\240q\250\001\360\010\000\t\034\2305\240\002\240&\250\002\250#\250Q\250j\270\005\270R\270s\300!\3005\310\001\310\027\320PQ\340\010\014\210G\2205\230\001\230\021\340\014\016\210a\210v\220W\320\034-\250S\3200A\300\022\300>\320QR\320RX\320XY\340\004\013\2102\210Q\200\001\360\036\000\005\030\220u\230A\230Q\330\004\026\220e\2301\230A\360\006\000\005\031\230\001\330\004\032\230!\330\004\025\220Q\330\004\026\220a\330\004\032\230!\360\006\000\t\030\220q\320\030L\310A\330\010\017\210z\230\021\230!\330\010\014\210G\2205\230\001\230\021\340\014\020\220\005\220Q\220f\230C\230x\240r\250\036\260q\270\005\270Q\330\014\021\220\026\220s\230.\250\001\250\025\250e\2603\260l\300!\3006\310\022\3101\340\014\017\210r\220\022\2201\330\020\025\220R\220r\230\024""\230R\230q\330\020\024\220F\230\"\230B\230c\240\026\240r\250\022\2503\250e\2602\260Q\330\020'\240s\250!\2502\250R\250q\330\020\022\220!\2206\230\027\240\010\250\002\250#\250R\250~\270Q\270f\300E\310\024\310T\320QS\320SX\320XY\320Y`\320`c\320ch\320hj\320jl\320lm\330\030\032\230!\330\032\034\230B\230c\240\022\2401\340\004\013\2102\210Q\200\001\360\016\000\005\030\220u\230A\230Q\330\004\026\220e\2301\230A\360\010\000\t\027\220a\320\027J\310!\330\010\014\210G\2205\230\001\230\021\330\014\017\210q\220\t\230\023\230A\230V\2402\320%;\2701\270F\300!\340\004\013\2103\210a\200\001\360\020\000\005\030\220u\230A\230Q\330\004\026\220e\2301\230A\360\n\000\t\027\220a\320\027J\310!\330\010\014\210G\2205\230\001\230\021\330\014\017\210q\220\006\220g\320\0353\2601\260F\270%\270r\300\035\310a\310q\340\004\013\2103\210a\200\001\360\022\000\005\030\220u\230A\230Q\330\004\026\220e\2301\230A\360\010\000\t\027\220a\320\027K\3101\330\010\014\210G\2205\230\001\230\021\330\014\"\240!\2406\250\030\3201K\3101\310F\320RU\320Uh\320hi\320io\320ot\320tw\320wz\320z|\360\000\000}\001C\002\360\000\000C\002F\002\360\000\000F\002H\002\360\000\000H\002J\002\360\000\000J\002K\002\340\004\013\320\013!\240\021\200\001\360\034\000\005\030\220u\230A\230Q\330\004\026\220e\2301\230A\330\004\022\220!\360\n\000\t\030\220q\320\030L\310A\330\010\017\210|\2301\230A\330\010\014\210G\2205\230\001\230\021\330\014\030\230\002\230!\2306\240\025\240b\250\n\260!\2601\330\014\017\210r\220\021\220&\230\005\230R\230q\330\020\023\2201\220F\230)\2402\240S\250\002\250!\2506\260\025\260b\270\014\300B\300b\310\001\310\025\310f\320TW\320WX\330\021\023\2201\220F\230%\230r\240\021\330\020\024\220J\230b\240\002\240!\2406\250\021\330\020\023\2201\220E\230\030\240\022\2403\240d\250\"\250B\250a\250v\260R\260y\300\001\300\027\310\002\310!\360\010\000\005\014\2101O";
+    #else /* compression: none (8062 bytes) */
+const char* const bytes = ": Buffer view does not expose stridesCan only create a buffer that is contiguous in memory.Cannot assign to read-only memoryviewCannot create writable memory view from read-only memoryviewCannot index with type 'Cannot transpose memoryview with indirect dimensionsDimension %d is not directEmpty shape tuple for cython.arrayExpected at least Indirect dimensions not supportedInvalid mode, expected 'c' or 'fortran', got Invalid shape in axis <MemoryView of No matching signature foundNote that Cython is deliberately stricter than PEP-484 and rejects subclasses of builtin types. If you need to pass subclasses then set the 'annotation_typing' directive to False.Out of bounds on buffer access (axis Unable to convert item to object.>')|?add_note and  arguments, got  at 0xcfuncs_ErosionDeposition.pyxcollections.abc<contiguous and direct><contiguous and indirect>disableenablegc (got got differing extents in dimension isenableditemsize <= 0 for cython.arrayno default __reduce__ due to non-trivial __cinit__numpy.core.multiarray failed to importnumpy.core.umath failed to import object><strided and direct><strided and direct or indirect><strided and indirect>unable to allocate array data.unable to allocate shape and strides.ASCIICQDRDR_absDTYPE_FLOATDTYPE_INTDTYPE_complexDcEllipsis__Pyx_PyDict_NextRefRSequenceTCView.MemoryViewabcabs_dischargeactive_linksactive_nodesallocate_bufferalphaargsasyncio.coroutinesbbasebedrock_grain_fractionsbetacc_kgcalc_CQcalc_DRcalc_Dccalc_Dc_stream_powercalc_TCcalc_TC_EH_with_dischargecalc_TC_EH_with_discharge[double[:, :],double[:],double[:],double[:],double[:, :]]calc_TC_EH_with_discharge[float[:, :],float[:],float[:],float[:],float[:, :]]calc_TC[double[:],double[:, :],double[:],double[:, :]]calc_TC[float[:],float[:, :],float[:],float[:, :]]calc_concentrationcalc_concentration[double[:, :],const double[:, :],const double[:]]calc_concentration[float[:, :],const float[:, :],const float[:]]calc_detached_depositedcalc_flux_at_linkcalc_flux_at_link[doubl""e[:, :],double[:],double[:, :]]calc_flux_at_link[float[:, :],float[:],float[:, :]]calc_flux_at_link_per_sizecalc_flux_div_at_nodecalc_flux_div_at_node[const double[:]]calc_flux_div_at_node[const float[:]]calc_flux_div_at_node[const int[:]]calc_flux_div_at_node[const long[:]]calc_flux_div_at_node[const short[:]]calc_stable_dtcandcfuncs_ErosionDeposition__class____class_getitem__cline_in_tracebackcolcomplexfloatingconditionconstconst_bconst_cconst_sg_g_rhocore_nodescountcpu_countddc_nodedeatched_bedrock_weightdeatched_bedrock_weight_at_nodedeatched_soil_weightdefaultsdenominator_basedepdeposited_dzdeposited_suspended_sediments_weights_at_nodedeposited_weightdepthdetdetached_bedrock_dzdetached_soil_dzdetached_soil_mass_at_nodedetached_soil_weight_at_node__dict__doubledownwind_nodedownwind_node_at_linkdr_node_per_gsdt_deposition_massdt_deposition_topodt_erosiondt_erosion_massdt_massdtypedtype_is_objectdxdx_cdx_halfdx_squareddx_squared_cdyencodeentrainment_bedrock_rate_dzentrainment_soil_rate_dzenumerateerrorexcess_stressfactor_convert_weight_to_dzfactor_convert_weight_to_dz_bedrock_cfactor_convert_weight_to_dz_bedrockfactor_convert_weight_to_dz_cflagsfloatflow_widthformatfortranfound_deposition_massfound_mass_lossfraction_sizes__func___fused_sigindexggetget_outin_fluxes__getstate__grain_fractions_at_nodegrain_mass_at_nodegrain_size_sum_at_nodegrain_size_sum_at_node[double[:, :],double[:]]grain_size_sum_at_node[float[:, :],float[:]]grain_weight_at_nodegrid_dxgsid__import__indexindex_inlinkindex_outlinkinlinks_fluxes_at_nodeintintcinv_area_of_cell_is_coroutineitemsitemsizek_omegak_omega_ckindkrkr_ckwargsll_inlinkl_outlinklinklink_listlinks_per_rowloged_beta_plus_onelong__main__max_dep_slope_dxmax_deposition_slopemax_deposition_slope_cmax_downwind_gradientmax_upwind_gradientmedian_sizesmemviewmin_suspended_massmin_suspended_mass_cmode__module__n_colsn_gsn_linksn_nodesn_rowsname__name__ndimnet_depositionnet_erosion__new__nodenodes_losing_massnpnumerator_sharednumpyobjos_oso""utout_discharge_at_nodeout_solvoutfluxoutflux_weights_at_nodeoutlinks_fluxes_at_nodepackphipopporosityporosity_c__pyx_checksum__pyx_state__pyx_type__pyx_unpickle_Enum__pyx_vtable__qq_at_nodeq_unitq_water_at_link__qualname____reduce____reduce_cython____reduce_ex__registerrhorho_crho_srowsediment_densitysediment_density_csediments_flux_at_link__set_name__setdefault__setstate____setstate_cython__sgsg_cshapeshortsigmasignaturessizesoil_e_expostable_deposition_depthstable_erosion_depthstartstepstopstream_powerstructsum_out_dischargesummed_deposited_at_nodesummed_detached_bedrock_weight_at_nodesummed_detached_soil_weight_at_nodesuspended__sediments_concentration_at_linksuspended_dzdt_at_nodesuspended_fraction_at_nodesuspended_weight_at_nodeswp_clampedswp_rawtau_ctau_stemp_suspended_sediment_weight_at_node_per_size__test__total_deposited_sediments_dz_at_nodetotal_influx_at_nodetotal_outflux_at_nodetotal_weight_fluxunpackupdateupwind_nodeupwind_node_at_linkvalue_at_linkvalue_at_nodevalue_at_node_per_sizevaluesvelocityvswater_surface_grad_at_linkweight_flux_at_linkxxy_spacingyyc\200\001\3602\000\t\034\2301\340\010\014\210I\220U\230!\2301\330\014\023\2209\230A\230Q\330\014\032\320\032-\250Q\250a\330\014!\240\021\320\"2\260-\270q\300\001\340\010\017\210q\200\001\360\030\000\t\034\2305\240\001\240\021\330\010\030\230\005\230Q\230a\330\010\031\230\021\360\010\000\r\034\2301\320\034P\320PQ\330\014\023\220:\230Q\230a\340\014\020\220\006\220e\2301\230A\330\020 \240\005\240Q\240f\250B\250e\2601\260F\270!\330\020\023\220=\240\001\240\021\330\024\027\220q\230\006\230f\240N\260\"\260A\340\010\017\210q\200\001\360\022\000\t\034\2305\240\001\240\021\330\010\030\230\005\230Q\230a\340\014\033\2301\320\034P\320PQ\330\014\023\220<\230q\240\001\340\014\020\220\006\220e\2301\230A\330\020#\2401\240F\250&\260\017\270q\300\006\300b\320Hr\320rs\320sy\320yz\340\010\017\210q\200\001\360(\000\t\034\2305\240\001\240\021\330\010\030\230\005\230Q\230a\330\010\036\230a\360\010\000\r\034\2301\320\034P""\320PQ\330\014\023\220:\230Q\230a\340\014\026\220h\230b\240\014\250A\250Q\330\014\017\210x\220r\230\021\330\020\032\230!\340\014\020\220\006\220e\2301\230A\330\020\023\2201\220F\230&\240\001\340\010\017\210q\200\001\360\032\000\t\034\2305\240\001\240\021\330\010\031\230\025\230a\230q\360\020\000\t\r\210I\220U\230!\2301\330\014\023\2209\230A\230Q\340\014\032\320\032-\250Q\250a\330\014\034\320\0341\260\021\260!\340\014\020\220\006\220e\2301\230A\330\020&\240a\240\177\260g\320=P\320PQ\320QW\320WX\330\020'\240q\250\r\260W\320<O\310q\320PV\320VW\330\020%\240Q\320&6\3206I\310\021\310&\320PQ\330\020$\240A\320%7\3207J\310!\3106\320QR\340\010\017\320\017(\320(@\320@W\320WX\200\001\360J\001\000\005\030\220u\230A\230Q\330\004\024\220E\230\021\230!\340\004\025\220Q\330\004\035\230Q\330\004#\2401\330\004\033\2301\330\004'\240q\330\004%\240Q\330\004\032\230#\230R\230q\330\004#\320#8\270\002\270!\330\004\035\230Q\330\004%\240Q\330\004%\240Q\330\004\032\230!\330\004\"\240!\360\n\000\005'\240a\330\004 \240\001\340\t\n\330\010\014\210H\220E\230\021\230!\340\014#\320#8\270\001\270\026\270r\300\021\330\014\017\320\017$\240C\240q\330\020'\240q\330\014\032\320\032-\250Q\250f\260B\3206F\300a\300v\310R\310|\320[\\\320\\]\330\014\017\210|\2302\230Q\330\020\027\320\027,\250B\250a\330\020\023\2205\230\002\230!\330\024!\240\021\360\006\000\r'\240d\250!\320+>\270a\270w\300b\310\001\330\014\017\320\017'\240r\250\021\330\020*\250!\330\014\035\230\\\250\021\250&\260\003\3203F\300a\300v\310R\320O_\320_`\320`a\330\014\017\210\177\230b\240\001\330\020\027\320\027/\250r\260\021\330\020\023\2205\230\002\230!\330\024)\250\021\360\006\000\r!\240\001\330\014\020\220\006\220e\2301\230A\330\020\021\330\024*\250!\2506\260\024\260R\260{\300!\330\024%\240S\250\004\250B\250a\340\014 \320 2\260\"\260A\260Q\330\014\017\210q\330\020\"\240!\360\006\000\r\021\220\006\220e\2301\230A\330\020\032\320\0322\260!\2606\270\021\330\020\036\230k\250\030\260\022\2607\270!\340\020\026\320\026&\240a\240v\250Q\330\020\023\2204""\220r\230\021\330\024\033\230<\240r\250\021\330\024\027\220u\230B\230a\330\030-\250Q\330\024,\250A\340\020\023\2201\330\024\036\320\0365\260Q\260f\270A\330\024\027\220x\230r\240\021\330\030\"\240!\2401\330\024\027\220x\230r\240\021\330\030\037\230x\240r\250\021\330\030\033\2305\240\002\240!\330\034&\240a\360\022\000\021\027\320\0260\260\001\260\026\260q\330\020\023\2204\220r\230\021\330\024\034\320\034.\250a\250v\260T\270\022\270<\300r\310\021\330\024\027\220u\230B\230a\330\030*\250!\340\004\007\200q\330\010\013\320\013\036\230b\240\001\330\014!\240\021\340\004\007\200q\330\010\013\2108\2203\220a\330\014\026\220a\360\010\000\005\014\210<\320\027+\320+?\270y\310\001\200\001\360\024\000\t\027\220a\330\010\033\2305\240\001\240\021\330\010\030\230\005\230Q\230a\340\014\033\2301\320\034P\320PQ\330\014\023\220:\230Q\230a\340\014\020\220\006\220e\2301\230A\330\020\022\220!\2206\230\026\230t\2401\240F\250$\250b\260\001\260\021\260&\270\002\270!\340\010\017\210q\200\001\360\022\000\005\027\220e\2301\230A\330\004\026\220e\2301\230A\330\004\025\220Z\230q\240\001\330\004\025\220Z\230q\240\001\330\004\035\230R\230r\240\027\250\002\250!\330\004#\2404\240s\250#\250R\250q\360\n\000\t\026\220Q\220c\230\027\240\002\240!\330\010\017\210t\2202\220Q\330\010\017\210t\2202\220Q\360\006\000\t\r\210G\2205\230\001\230\023\230G\2402\240Q\330\014\017\210q\220\005\220R\220q\330\020\023\2203\220m\2401\240E\250\022\2503\250b\260\r\270Q\270a\330\020\022\220#\220S\230\r\240Q\240e\2502\250X\260R\260}\300A\300U\310\"\310G\320SU\320UV\330\016\020\220\001\330\014\023\2205\230\002\230!\340\004\013\2101\200\001\360,\000\005\030\220u\230A\230Q\330\004\024\220E\230\021\230!\360\n\000\005/\250a\330\0046\260a\340\004\025\220Q\360\006\000\t\030\220q\320\030L\310A\330\010\017\210z\230\021\230!\330\010#\2401\330\010.\250a\330\0101\260\021\340\010\014\210F\220%\220q\230\001\330\014\035\230R\230q\240\006\240a\340\014\017\210\177\230b\240\001\360\006\000\0211\3200@\300\002\300+\310Q\310a\330\020/\320/L\310B\320Ne""\320ef\320fl\320lm\340\020\023\320\0230\260\002\3202F\300a\300u\310A\330\0243\3203G\300q\310\005\310Q\330\020$\240A\240V\2506\260\021\340\0206\3206Z\320Z\\\320\\]\360\010\000\0213\3202B\300#\300R\300r\310\033\320TU\320UV\330\020'\240q\250\006\250f\3204T\320TV\320Vm\320mn\320ns\320st\330\0209\3209`\320`b\320by\320yz\360\000\000{\001A\002\360\000\000A\002B\002\360\006\000\021@\001\270q\300\006\300g\320Mj\320jl\320lm\340\014\017\210\177\230b\240\001\330\020!\240\026\240q\250\006\250a\330\020#\240?\260\"\260C\260r\270\023\270B\320>X\320XY\320Y_\320_`\360\014\000\021\024\2205\320\030)\250\023\320,[\320[\\\320\\b\320bc\330\025(\320(W\320WX\320X^\320^_\340\020=\270Q\270f\300F\310!\330\020,\320,E\300R\300q\340\010 \240\001\240\030\320)M\310R\310q\330\010#\2401\240H\320,S\320SU\320UV\340\010,\250A\250X\3205N\310b\320PQ\360\006\000\005\r\210A\330\014\r\330\014\r\330\014\r\330\014\r\330\014\r\200\001\360\034\000\005\030\220u\230A\230Q\330\004\026\220e\2301\230A\360\010\000\005\026\220Q\330\004\026\220a\330\004\030\230\003\2302\230Q\330\004\024\220A\330\004\024\220C\220r\230\021\360\006\000\005\034\2301\330\004#\2401\330\004#\2403\240a\240u\250E\260\022\2603\260a\260s\270%\270r\300\023\300A\300S\310\001\340\010\027\220q\320\030L\310A\330\010\017\210z\230\021\230!\360\006\000\t\014\2105\220\001\220\026\220s\230%\230s\240&\250\001\250\026\250s\260$\260c\270\025\270a\270v\300S\310\001\330\014\020\220\007\220u\230A\230Q\330\020\022\220!\2206\230\027\240\001\330\014\r\360\010\000\t\024\2206\230\021\230&\240\002\240%\240q\250\001\360\010\000\t\034\2305\240\002\240&\250\002\250#\250Q\250j\270\005\270R\270s\300!\3005\310\001\310\027\320PQ\340\010\014\210G\2205\230\001\230\021\340\014\016\210a\210v\220W\320\034-\250S\3200A\300\022\300>\320QR\320RX\320XY\340\004\013\2102\210Q\200\001\360\036\000\005\030\220u\230A\230Q\330\004\026\220e\2301\230A\360\006\000\005\031\230\001\330\004\032\230!\330\004\025\220Q\330\004\026\220a\330\004\032\230!\360\006\000\t\030\220q\320\030L\310A\330\010\017""\210z\230\021\230!\330\010\014\210G\2205\230\001\230\021\340\014\020\220\005\220Q\220f\230C\230x\240r\250\036\260q\270\005\270Q\330\014\021\220\026\220s\230.\250\001\250\025\250e\2603\260l\300!\3006\310\022\3101\340\014\017\210r\220\022\2201\330\020\025\220R\220r\230\024\230R\230q\330\020\024\220F\230\"\230B\230c\240\026\240r\250\022\2503\250e\2602\260Q\330\020'\240s\250!\2502\250R\250q\330\020\022\220!\2206\230\027\240\010\250\002\250#\250R\250~\270Q\270f\300E\310\024\310T\320QS\320SX\320XY\320Y`\320`c\320ch\320hj\320jl\320lm\330\030\032\230!\330\032\034\230B\230c\240\022\2401\340\004\013\2102\210Q\200\001\360\016\000\005\030\220u\230A\230Q\330\004\026\220e\2301\230A\360\010\000\t\027\220a\320\027J\310!\330\010\014\210G\2205\230\001\230\021\330\014\017\210q\220\t\230\023\230A\230V\2402\320%;\2701\270F\300!\340\004\013\2103\210a\200\001\360\020\000\005\030\220u\230A\230Q\330\004\026\220e\2301\230A\360\n\000\t\027\220a\320\027J\310!\330\010\014\210G\2205\230\001\230\021\330\014\017\210q\220\006\220g\320\0353\2601\260F\270%\270r\300\035\310a\310q\340\004\013\2103\210a\200\001\360\022\000\005\030\220u\230A\230Q\330\004\026\220e\2301\230A\360\010\000\t\027\220a\320\027K\3101\330\010\014\210G\2205\230\001\230\021\330\014\"\240!\2406\250\030\3201K\3101\310F\320RU\320Uh\320hi\320io\320ot\320tw\320wz\320z|\360\000\000}\001C\002\360\000\000C\002F\002\360\000\000F\002H\002\360\000\000H\002J\002\360\000\000J\002K\002\340\004\013\320\013!\240\021\200\001\360\034\000\005\030\220u\230A\230Q\330\004\026\220e\2301\230A\330\004\022\220!\360\n\000\t\030\220q\320\030L\310A\330\010\017\210|\2301\230A\330\010\014\210G\2205\230\001\230\021\330\014\030\230\002\230!\2306\240\025\240b\250\n\260!\2601\330\014\017\210r\220\021\220&\230\005\230R\230q\330\020\023\2201\220F\230)\2402\240S\250\002\250!\2506\260\025\260b\270\014\300B\300b\310\001\310\025\310f\320TW\320WX\330\021\023\2201\220F\230%\230r\240\021\330\020\024\220J\230b\240\002\240!\2406\250\021\330\020\023\2201\220E\230\030\240\022""\2403\240d\250\"\250B\250a\250v\260R\260y\300\001\300\027\310\002\310!\360\010\000\005\014\2101O";
     PyObject *data = NULL;
     CYTHON_UNUSED_VAR(__Pyx_DecompressString);
     #endif
     PyObject **stringtab = __pyx_mstate->__pyx_string_tab;
     Py_ssize_t pos = 0;
-    for (int i = 0; i < 321; i++) {
+    for (int i = 0; i < 325; i++) {
       Py_ssize_t bytes_length = index[i].length;
       PyObject *string = PyUnicode_DecodeUTF8(bytes + pos, bytes_length, NULL);
       if (likely(string) && i >= 48) PyUnicode_InternInPlace(&string);
@@ -39220,7 +39110,7 @@ const char* const bytes = ": Buffer view does not expose stridesCan only create 
       stringtab[i] = string;
       pos += bytes_length;
     }
-    for (int i = 321; i < 337; i++) {
+    for (int i = 325; i < 341; i++) {
       Py_ssize_t bytes_length = index[i].length;
       PyObject *string = PyBytes_FromStringAndSize(bytes + pos, bytes_length);
       stringtab[i] = string;
@@ -39231,14 +39121,14 @@ const char* const bytes = ": Buffer view does not expose stridesCan only create 
       }
     }
     Py_XDECREF(data);
-    for (Py_ssize_t i = 0; i < 337; i++) {
+    for (Py_ssize_t i = 0; i < 341; i++) {
       if (unlikely(PyObject_Hash(stringtab[i]) == -1)) {
         __PYX_ERR(0, 1, __pyx_L1_error)
       }
     }
     #if CYTHON_IMMORTAL_CONSTANTS
     {
-      PyObject **table = stringtab + 321;
+      PyObject **table = stringtab + 325;
       for (Py_ssize_t i=0; i<16; ++i) {
         #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
         #if PY_VERSION_HEX < 0x030E0000
@@ -39344,122 +39234,122 @@ static int __Pyx_CreateCodeObjects(__pyx_mstatetype *__pyx_mstate) {
   {
     const __Pyx_PyCode_New_function_description descr = {5, 0, 0, 9, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 96};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_upwind_node_at_link, __pyx_mstate->__pyx_n_u_abs_discharge, __pyx_mstate->__pyx_n_u_link_list, __pyx_mstate->__pyx_n_u_out_discharge_at_node, __pyx_mstate->__pyx_n_u_shape, __pyx_mstate->__pyx_n_u_index, __pyx_mstate->__pyx_n_u_link, __pyx_mstate->__pyx_n_u_upwind_node, __pyx_mstate->__pyx_n_u_n_links};
-    __pyx_mstate_global->__pyx_codeobj_tab[6] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_sum_out_discharge, __pyx_mstate->__pyx_kp_b_iso88591_1_1_PPQ_9AQ_Qa_2_q_q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[6])) goto bad;
+    __pyx_mstate_global->__pyx_codeobj_tab[6] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_sum_out_discharge, __pyx_mstate->__pyx_kp_b_iso88591_2_1_IU_1_9AQ_Qa_2_q_q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[6])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {7, 0, 0, 7, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 115};
+    const __Pyx_PyCode_New_function_description descr = {7, 0, 0, 7, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 131};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_dx, __pyx_mstate->__pyx_n_u_sigma, __pyx_mstate->__pyx_n_u_phi, __pyx_mstate->__pyx_n_u_weight_flux_at_link, __pyx_mstate->__pyx_n_u_water_surface_grad_at_link, __pyx_mstate->__pyx_n_u_sediments_flux_at_link, __pyx_mstate->__pyx_n_u_shape};
     __pyx_mstate_global->__pyx_codeobj_tab[7] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_flux_at_link_float_float_fl, __pyx_mstate->__pyx_kp_b_iso88591_uAQ_e1A_a_K1_G5_6_1K1FRUUhhiioo, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[7])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {7, 0, 0, 7, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 115};
+    const __Pyx_PyCode_New_function_description descr = {7, 0, 0, 7, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 131};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_dx, __pyx_mstate->__pyx_n_u_sigma, __pyx_mstate->__pyx_n_u_phi, __pyx_mstate->__pyx_n_u_weight_flux_at_link, __pyx_mstate->__pyx_n_u_water_surface_grad_at_link, __pyx_mstate->__pyx_n_u_sediments_flux_at_link, __pyx_mstate->__pyx_n_u_shape};
     __pyx_mstate_global->__pyx_codeobj_tab[8] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_flux_at_link_double_double, __pyx_mstate->__pyx_kp_b_iso88591_uAQ_e1A_a_K1_G5_6_1K1FRUUhhiioo, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[8])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {7, 0, 0, 12, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 115};
+    const __Pyx_PyCode_New_function_description descr = {7, 0, 0, 12, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 131};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_dx, __pyx_mstate->__pyx_n_u_sigma, __pyx_mstate->__pyx_n_u_phi, __pyx_mstate->__pyx_n_u_weight_flux_at_link, __pyx_mstate->__pyx_n_u_water_surface_grad_at_link, __pyx_mstate->__pyx_n_u_sediments_flux_at_link, __pyx_mstate->__pyx_n_u_shape, __pyx_mstate->__pyx_n_u_n_links, __pyx_mstate->__pyx_n_u_n_cols, __pyx_mstate->__pyx_n_u_col, __pyx_mstate->__pyx_n_u_link, __pyx_mstate->__pyx_n_u_index};
     __pyx_mstate_global->__pyx_codeobj_tab[9] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_flux_at_link_float_float_fl, __pyx_mstate->__pyx_kp_b_iso88591_uAQ_e1A_a_K1_G5_6_1K1FRUUhhiioo, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[9])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {9, 0, 0, 21, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 138};
+    const __Pyx_PyCode_New_function_description descr = {9, 0, 0, 21, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 154};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_upwind_node_at_link, __pyx_mstate->__pyx_n_u_downwind_node_at_link, __pyx_mstate->__pyx_n_u_weight_flux_at_link, __pyx_mstate->__pyx_n_u_link_list, __pyx_mstate->__pyx_n_u_outlinks_fluxes_at_node, __pyx_mstate->__pyx_n_u_inlinks_fluxes_at_node, __pyx_mstate->__pyx_n_u_total_outflux_at_node, __pyx_mstate->__pyx_n_u_total_influx_at_node, __pyx_mstate->__pyx_n_u_shape, __pyx_mstate->__pyx_n_u_node, __pyx_mstate->__pyx_n_u_index, __pyx_mstate->__pyx_n_u_index_inlink, __pyx_mstate->__pyx_n_u_index_outlink, __pyx_mstate->__pyx_n_u_l_inlink, __pyx_mstate->__pyx_n_u_l_outlink, __pyx_mstate->__pyx_n_u_gs, __pyx_mstate->__pyx_n_u_link, __pyx_mstate->__pyx_n_u_upwind_node, __pyx_mstate->__pyx_n_u_downwind_node, __pyx_mstate->__pyx_n_u_n_links, __pyx_mstate->__pyx_n_u_n_gs};
-    __pyx_mstate_global->__pyx_codeobj_tab[10] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_get_outin_fluxes, __pyx_mstate->__pyx_kp_b_iso88591_5_aq_1_PPQ_9AQ_Qa_1_e1A_a_g_PPQ, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[10])) goto bad;
+    __pyx_mstate_global->__pyx_codeobj_tab[10] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_get_outin_fluxes, __pyx_mstate->__pyx_kp_b_iso88591_5_aq_IU_1_9AQ_Qa_1_e1A_a_g_PPQQ, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[10])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {6, 0, 0, 12, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 170};
+    const __Pyx_PyCode_New_function_description descr = {6, 0, 0, 12, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 192};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_c_kg, __pyx_mstate->__pyx_n_u_CQ, __pyx_mstate->__pyx_n_u_q, __pyx_mstate->__pyx_n_u_core_nodes, __pyx_mstate->__pyx_n_u_shape, __pyx_mstate->__pyx_n_u_grid_dx, __pyx_mstate->__pyx_n_u_node, __pyx_mstate->__pyx_n_u_index, __pyx_mstate->__pyx_n_u_gs, __pyx_mstate->__pyx_n_u_dx, __pyx_mstate->__pyx_n_u_n_nodes, __pyx_mstate->__pyx_n_u_n_gs};
     __pyx_mstate_global->__pyx_codeobj_tab[11] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_CQ, __pyx_mstate->__pyx_kp_b_iso88591_a_5_Qa_1_PPQ_Qa_e1A_6_t1F_b_q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[11])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {5, 0, 0, 10, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 194};
+    const __Pyx_PyCode_New_function_description descr = {5, 0, 0, 10, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 216};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_q_water_at_link, __pyx_mstate->__pyx_n_u_suspended__sediments_concentrati, __pyx_mstate->__pyx_n_u_active_links, __pyx_mstate->__pyx_n_u_weight_flux_at_link, __pyx_mstate->__pyx_n_u_shape, __pyx_mstate->__pyx_n_u_link, __pyx_mstate->__pyx_n_u_index, __pyx_mstate->__pyx_n_u_gs, __pyx_mstate->__pyx_n_u_n_links, __pyx_mstate->__pyx_n_u_n_gs};
     __pyx_mstate_global->__pyx_codeobj_tab[12] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_flux_at_link_per_size, __pyx_mstate->__pyx_kp_b_iso88591_5_Qa_1_PPQ_q_e1A_1F_q_bHrrssyyz, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[12])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {10, 0, 0, 18, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 216};
+    const __Pyx_PyCode_New_function_description descr = {10, 0, 0, 18, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 238};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_flow_width, __pyx_mstate->__pyx_n_u_CQ, __pyx_mstate->__pyx_n_u_TC, __pyx_mstate->__pyx_n_u_Dc, __pyx_mstate->__pyx_n_u_vs, __pyx_mstate->__pyx_n_u_active_nodes, __pyx_mstate->__pyx_n_u_q_at_node, __pyx_mstate->__pyx_n_u_out, __pyx_mstate->__pyx_n_u_dx_c, __pyx_mstate->__pyx_n_u_shape, __pyx_mstate->__pyx_n_u_n_nodes, __pyx_mstate->__pyx_n_u_n_cols, __pyx_mstate->__pyx_n_u_dx, __pyx_mstate->__pyx_n_u_col, __pyx_mstate->__pyx_n_u_node, __pyx_mstate->__pyx_n_u_index, __pyx_mstate->__pyx_n_u_b, __pyx_mstate->__pyx_n_u_condition};
     __pyx_mstate_global->__pyx_codeobj_tab[13] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_DR, __pyx_mstate->__pyx_kp_b_iso88591_uAQ_e1A_q_LA_1A_G5_6_b_1_r_Rq_1, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[13])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {6, 0, 0, 13, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 253};
+    const __Pyx_PyCode_New_function_description descr = {6, 0, 0, 13, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 275};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_tau_s, __pyx_mstate->__pyx_n_u_tau_c, __pyx_mstate->__pyx_n_u_core_nodes, __pyx_mstate->__pyx_n_u_out, __pyx_mstate->__pyx_n_u_kr_c, __pyx_mstate->__pyx_n_u_shape, __pyx_mstate->__pyx_n_u_n_nodes, __pyx_mstate->__pyx_n_u_n_gs, __pyx_mstate->__pyx_n_u_kr, __pyx_mstate->__pyx_n_u_excess_stress, __pyx_mstate->__pyx_n_u_node, __pyx_mstate->__pyx_n_u_index, __pyx_mstate->__pyx_n_u_gs};
     __pyx_mstate_global->__pyx_codeobj_tab[14] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_Dc, __pyx_mstate->__pyx_kp_b_iso88591_5_Qa_1_PPQ_Qa_e1A_QfBe1F_q_fN_A, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[14])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {5, 0, 0, 12, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 282};
+    const __Pyx_PyCode_New_function_description descr = {5, 0, 0, 12, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 304};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_stream_power, __pyx_mstate->__pyx_n_u_core_nodes, __pyx_mstate->__pyx_n_u_out, __pyx_mstate->__pyx_n_u_k_omega_c, __pyx_mstate->__pyx_n_u_shape, __pyx_mstate->__pyx_n_u_n_nodes, __pyx_mstate->__pyx_n_u_n_gs, __pyx_mstate->__pyx_n_u_k_omega, __pyx_mstate->__pyx_n_u_dc_node, __pyx_mstate->__pyx_n_u_node, __pyx_mstate->__pyx_n_u_index, __pyx_mstate->__pyx_n_u_gs};
     __pyx_mstate_global->__pyx_codeobj_tab[15] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_Dc_stream_power, __pyx_mstate->__pyx_kp_b_iso88591_5_Qa_a_1_PPQ_Qa_hb_AQ_xr_e1A_1F, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[15])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {19, 0, 0, 34, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 321};
+    const __Pyx_PyCode_New_function_description descr = {19, 0, 0, 34, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 343};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_DR, __pyx_mstate->__pyx_n_u_DR_abs, __pyx_mstate->__pyx_n_u_grain_weight_at_node, __pyx_mstate->__pyx_n_u_grain_fractions_at_node, __pyx_mstate->__pyx_n_u_deatched_soil_weight, __pyx_mstate->__pyx_n_u_deatched_bedrock_weight, __pyx_mstate->__pyx_n_u_suspended_fraction_at_node, __pyx_mstate->__pyx_n_u_bedrock_grain_fractions, __pyx_mstate->__pyx_n_u_temp_suspended_sediment_weight_a, __pyx_mstate->__pyx_n_u_deposited_suspended_sediments_we, __pyx_mstate->__pyx_n_u_total_deposited_sediments_dz_at, __pyx_mstate->__pyx_n_u_entrainment_soil_rate_dz, __pyx_mstate->__pyx_n_u_entrainment_bedrock_rate_dz, __pyx_mstate->__pyx_n_u_soil_e_expo, __pyx_mstate->__pyx_n_u_core_nodes, __pyx_mstate->__pyx_n_u_factor_convert_weight_to_dz_c, __pyx_mstate->__pyx_n_u_factor_convert_weight_to_dz_bedr, __pyx_mstate->__pyx_n_u_shape, __pyx_mstate->__pyx_n_u_dx_c, __pyx_mstate->__pyx_n_u_n_nodes, __pyx_mstate->__pyx_n_u_n_gs, __pyx_mstate->__pyx_n_u_node, __pyx_mstate->__pyx_n_u_index, __pyx_mstate->__pyx_n_u_gs, __pyx_mstate->__pyx_n_u_dr_node_per_gs, __pyx_mstate->__pyx_n_u_detached_soil_weight_at_node, __pyx_mstate->__pyx_n_u_deatched_bedrock_weight_at_node, __pyx_mstate->__pyx_n_u_deposited_weight, __pyx_mstate->__pyx_n_u_summed_deposited_at_node, __pyx_mstate->__pyx_n_u_summed_detached_soil_weight_at_n, __pyx_mstate->__pyx_n_u_summed_detached_bedrock_weight_a, __pyx_mstate->__pyx_n_u_factor_convert_weight_to_dz, __pyx_mstate->__pyx_n_u_factor_convert_weight_to_dz_bedr_2, __pyx_mstate->__pyx_n_u_dx};
     __pyx_mstate_global->__pyx_codeobj_tab[16] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_detached_deposited, __pyx_mstate->__pyx_kp_b_iso88591_uAQ_E_a_6a_Q_q_LA_z_1_a_1_F_q_R, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[16])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {11, 0, 0, 11, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 415};
+    const __Pyx_PyCode_New_function_description descr = {11, 0, 0, 11, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 437};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_alpha, __pyx_mstate->__pyx_n_u_beta, __pyx_mstate->__pyx_n_u_median_sizes, __pyx_mstate->__pyx_n_u_fraction_sizes, __pyx_mstate->__pyx_n_u_tau_s, __pyx_mstate->__pyx_n_u_TC, __pyx_mstate->__pyx_n_u_sg_c, __pyx_mstate->__pyx_n_u_rho_c, __pyx_mstate->__pyx_n_u_core_nodes, __pyx_mstate->__pyx_n_u_const_sg_g_rho, __pyx_mstate->__pyx_n_u_shape};
     __pyx_mstate_global->__pyx_codeobj_tab[17] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_TC_float_float_float_float, __pyx_mstate->__pyx_kp_b_iso88591_uAQ_e1A_Q_a_q_LA_z_G5_QfCxr_q_Q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[17])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {11, 0, 0, 11, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 415};
+    const __Pyx_PyCode_New_function_description descr = {11, 0, 0, 11, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 437};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_alpha, __pyx_mstate->__pyx_n_u_beta, __pyx_mstate->__pyx_n_u_median_sizes, __pyx_mstate->__pyx_n_u_fraction_sizes, __pyx_mstate->__pyx_n_u_tau_s, __pyx_mstate->__pyx_n_u_TC, __pyx_mstate->__pyx_n_u_sg_c, __pyx_mstate->__pyx_n_u_rho_c, __pyx_mstate->__pyx_n_u_core_nodes, __pyx_mstate->__pyx_n_u_const_sg_g_rho, __pyx_mstate->__pyx_n_u_shape};
     __pyx_mstate_global->__pyx_codeobj_tab[18] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_TC_double_double_double_dou, __pyx_mstate->__pyx_kp_b_iso88591_uAQ_e1A_Q_a_q_LA_z_G5_QfCxr_q_Q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[18])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {11, 0, 0, 27, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 415};
+    const __Pyx_PyCode_New_function_description descr = {11, 0, 0, 27, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 437};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_alpha, __pyx_mstate->__pyx_n_u_beta, __pyx_mstate->__pyx_n_u_median_sizes, __pyx_mstate->__pyx_n_u_fraction_sizes, __pyx_mstate->__pyx_n_u_tau_s, __pyx_mstate->__pyx_n_u_TC, __pyx_mstate->__pyx_n_u_sg_c, __pyx_mstate->__pyx_n_u_rho_c, __pyx_mstate->__pyx_n_u_core_nodes, __pyx_mstate->__pyx_n_u_const_sg_g_rho, __pyx_mstate->__pyx_n_u_shape, __pyx_mstate->__pyx_n_u_n_nodes, __pyx_mstate->__pyx_n_u_n_cols, __pyx_mstate->__pyx_n_u_index, __pyx_mstate->__pyx_n_u_col, __pyx_mstate->__pyx_n_u_node, __pyx_mstate->__pyx_n_u_y, __pyx_mstate->__pyx_n_u_yc, __pyx_mstate->__pyx_n_u_l, __pyx_mstate->__pyx_n_u_c, __pyx_mstate->__pyx_n_u_out_solv, __pyx_mstate->__pyx_n_u_loged_beta_plus_one, __pyx_mstate->__pyx_n_u_const, __pyx_mstate->__pyx_n_u_const_b, __pyx_mstate->__pyx_n_u_sg, __pyx_mstate->__pyx_n_u_rho, __pyx_mstate->__pyx_n_u_const_c};
     __pyx_mstate_global->__pyx_codeobj_tab[19] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_TC_float_float_float_float, __pyx_mstate->__pyx_kp_b_iso88591_uAQ_e1A_Q_a_q_LA_z_G5_QfCxr_q_Q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[19])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {10, 0, 0, 10, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 459};
+    const __Pyx_PyCode_New_function_description descr = {10, 0, 0, 10, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 481};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_fraction_sizes, __pyx_mstate->__pyx_n_u_tau_s, __pyx_mstate->__pyx_n_u_q_unit, __pyx_mstate->__pyx_n_u_depth, __pyx_mstate->__pyx_n_u_TC, __pyx_mstate->__pyx_n_u_sg_c, __pyx_mstate->__pyx_n_u_rho_c, __pyx_mstate->__pyx_n_u_core_nodes, __pyx_mstate->__pyx_n_u_const_sg_g_rho, __pyx_mstate->__pyx_n_u_shape};
     __pyx_mstate_global->__pyx_codeobj_tab[20] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_TC_EH_with_discharge_float, __pyx_mstate->__pyx_kp_b_iso88591_uAQ_e1A_Q_a_2Q_A_Cr_1_1_3auE_3a, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[20])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {10, 0, 0, 10, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 459};
+    const __Pyx_PyCode_New_function_description descr = {10, 0, 0, 10, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 481};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_fraction_sizes, __pyx_mstate->__pyx_n_u_tau_s, __pyx_mstate->__pyx_n_u_q_unit, __pyx_mstate->__pyx_n_u_depth, __pyx_mstate->__pyx_n_u_TC, __pyx_mstate->__pyx_n_u_sg_c, __pyx_mstate->__pyx_n_u_rho_c, __pyx_mstate->__pyx_n_u_core_nodes, __pyx_mstate->__pyx_n_u_const_sg_g_rho, __pyx_mstate->__pyx_n_u_shape};
     __pyx_mstate_global->__pyx_codeobj_tab[21] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_TC_EH_with_discharge_double, __pyx_mstate->__pyx_kp_b_iso88591_uAQ_e1A_Q_a_2Q_A_Cr_1_1_3auE_3a, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[21])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {10, 0, 0, 23, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 459};
+    const __Pyx_PyCode_New_function_description descr = {10, 0, 0, 23, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 481};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_fraction_sizes, __pyx_mstate->__pyx_n_u_tau_s, __pyx_mstate->__pyx_n_u_q_unit, __pyx_mstate->__pyx_n_u_depth, __pyx_mstate->__pyx_n_u_TC, __pyx_mstate->__pyx_n_u_sg_c, __pyx_mstate->__pyx_n_u_rho_c, __pyx_mstate->__pyx_n_u_core_nodes, __pyx_mstate->__pyx_n_u_const_sg_g_rho, __pyx_mstate->__pyx_n_u_shape, __pyx_mstate->__pyx_n_u_n_nodes, __pyx_mstate->__pyx_n_u_n_cols, __pyx_mstate->__pyx_n_u_index, __pyx_mstate->__pyx_n_u_col, __pyx_mstate->__pyx_n_u_node, __pyx_mstate->__pyx_n_u_sg, __pyx_mstate->__pyx_n_u_rho, __pyx_mstate->__pyx_n_u_rho_s, __pyx_mstate->__pyx_n_u_g, __pyx_mstate->__pyx_n_u_R, __pyx_mstate->__pyx_n_u_velocity, __pyx_mstate->__pyx_n_u_numerator_shared, __pyx_mstate->__pyx_n_u_denominator_base};
     __pyx_mstate_global->__pyx_codeobj_tab[22] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_TC_EH_with_discharge_float, __pyx_mstate->__pyx_kp_b_iso88591_uAQ_e1A_Q_a_2Q_A_Cr_1_1_3auE_3a, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[22])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 4, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 512};
+    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 4, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 534};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_shape, __pyx_mstate->__pyx_n_u_xy_spacing, __pyx_mstate->__pyx_n_u_value_at_link, __pyx_mstate->__pyx_n_u_out};
     __pyx_mstate_global->__pyx_codeobj_tab[23] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_flux_div_at_node_const_shor, __pyx_mstate->__pyx_kp_b_iso88591_e1A_e1A_Zq_Zq_Rr_4s_Rq_Qc_t2Q_t, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[23])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 4, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 512};
+    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 4, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 534};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_shape, __pyx_mstate->__pyx_n_u_xy_spacing, __pyx_mstate->__pyx_n_u_value_at_link, __pyx_mstate->__pyx_n_u_out};
     __pyx_mstate_global->__pyx_codeobj_tab[24] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_flux_div_at_node_const_int, __pyx_mstate->__pyx_kp_b_iso88591_e1A_e1A_Zq_Zq_Rr_4s_Rq_Qc_t2Q_t, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[24])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 4, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 512};
+    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 4, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 534};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_shape, __pyx_mstate->__pyx_n_u_xy_spacing, __pyx_mstate->__pyx_n_u_value_at_link, __pyx_mstate->__pyx_n_u_out};
     __pyx_mstate_global->__pyx_codeobj_tab[25] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_flux_div_at_node_const_long, __pyx_mstate->__pyx_kp_b_iso88591_e1A_e1A_Zq_Zq_Rr_4s_Rq_Qc_t2Q_t, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[25])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 4, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 512};
+    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 4, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 534};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_shape, __pyx_mstate->__pyx_n_u_xy_spacing, __pyx_mstate->__pyx_n_u_value_at_link, __pyx_mstate->__pyx_n_u_out};
     __pyx_mstate_global->__pyx_codeobj_tab[26] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_flux_div_at_node_const_floa, __pyx_mstate->__pyx_kp_b_iso88591_e1A_e1A_Zq_Zq_Rr_4s_Rq_Qc_t2Q_t, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[26])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 4, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 512};
+    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 4, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 534};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_shape, __pyx_mstate->__pyx_n_u_xy_spacing, __pyx_mstate->__pyx_n_u_value_at_link, __pyx_mstate->__pyx_n_u_out};
     __pyx_mstate_global->__pyx_codeobj_tab[27] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_flux_div_at_node_const_doub, __pyx_mstate->__pyx_kp_b_iso88591_e1A_e1A_Zq_Zq_Rr_4s_Rq_Qc_t2Q_t, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[27])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 14, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 512};
+    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 14, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 534};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_shape, __pyx_mstate->__pyx_n_u_xy_spacing, __pyx_mstate->__pyx_n_u_value_at_link, __pyx_mstate->__pyx_n_u_out, __pyx_mstate->__pyx_n_u_n_rows, __pyx_mstate->__pyx_n_u_n_cols, __pyx_mstate->__pyx_n_u_dx, __pyx_mstate->__pyx_n_u_dy, __pyx_mstate->__pyx_n_u_links_per_row, __pyx_mstate->__pyx_n_u_inv_area_of_cell, __pyx_mstate->__pyx_n_u_row, __pyx_mstate->__pyx_n_u_col, __pyx_mstate->__pyx_n_u_node, __pyx_mstate->__pyx_n_u_link};
     __pyx_mstate_global->__pyx_codeobj_tab[28] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_flux_div_at_node_const_shor, __pyx_mstate->__pyx_kp_b_iso88591_e1A_e1A_Zq_Zq_Rr_4s_Rq_Qc_t2Q_t, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[28])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {16, 0, 0, 45, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 546};
-    PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_max_downwind_gradient, __pyx_mstate->__pyx_n_u_max_upwind_gradient, __pyx_mstate->__pyx_n_u_detached_bedrock_dz, __pyx_mstate->__pyx_n_u_detached_soil_dz, __pyx_mstate->__pyx_n_u_deposited_dz, __pyx_mstate->__pyx_n_u_suspended_weight_at_node, __pyx_mstate->__pyx_n_u_deposited_weight, __pyx_mstate->__pyx_n_u_suspended_dzdt_at_node, __pyx_mstate->__pyx_n_u_outflux_weights_at_node, __pyx_mstate->__pyx_n_u_dx_c, __pyx_mstate->__pyx_n_u_dx_squared_c, __pyx_mstate->__pyx_n_u_sediment_density_c, __pyx_mstate->__pyx_n_u_porosity_c, __pyx_mstate->__pyx_n_u_max_deposition_slope_c, __pyx_mstate->__pyx_n_u_min_suspended_mass_c, __pyx_mstate->__pyx_n_u_shape, __pyx_mstate->__pyx_n_u_n_nodes, __pyx_mstate->__pyx_n_u_n_gs, __pyx_mstate->__pyx_n_u_node, __pyx_mstate->__pyx_n_u_gs, __pyx_mstate->__pyx_n_u_dx, __pyx_mstate->__pyx_n_u_dx_squared, __pyx_mstate->__pyx_n_u_sediment_density, __pyx_mstate->__pyx_n_u_porosity, __pyx_mstate->__pyx_n_u_max_deposition_slope, __pyx_mstate->__pyx_n_u_min_suspended_mass, __pyx_mstate->__pyx_n_u_dx_half, __pyx_mstate->__pyx_n_u_max_dep_slope_dx, __pyx_mstate->__pyx_n_u_dt_erosion, __pyx_mstate->__pyx_n_u_dt_deposition_mass, __pyx_mstate->__pyx_n_u_dt_deposition_topo, __pyx_mstate->__pyx_n_u_dt_mass, __pyx_mstate->__pyx_n_u_stable_erosion_depth, __pyx_mstate->__pyx_n_u_net_erosion, __pyx_mstate->__pyx_n_u_cand, __pyx_mstate->__pyx_n_u_stable_deposition_depth, __pyx_mstate->__pyx_n_u_net_deposition, __pyx_mstate->__pyx_n_u_total_weight_flux, __pyx_mstate->__pyx_n_u_swp_clamped, __pyx_mstate->__pyx_n_u_swp_raw, __pyx_mstate->__pyx_n_u_dep, __pyx_mstate->__pyx_n_u_outflux, __pyx_mstate->__pyx_n_u_nodes_losing_mass, __pyx_mstate->__pyx_n_u_found_deposition_mass, __pyx_mstate->__pyx_n_u_found_mass_loss};
-    __pyx_mstate_global->__pyx_codeobj_tab[29] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_stable_dt, __pyx_mstate->__pyx_kp_b_iso88591_F_uAQ_E_Q_Q_1_1_q_Q_Rq_8_Q_Q_Q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[29])) goto bad;
+    const __Pyx_PyCode_New_function_description descr = {18, 0, 0, 49, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 568};
+    PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_max_downwind_gradient, __pyx_mstate->__pyx_n_u_max_upwind_gradient, __pyx_mstate->__pyx_n_u_detached_bedrock_dz, __pyx_mstate->__pyx_n_u_detached_soil_dz, __pyx_mstate->__pyx_n_u_deposited_dz, __pyx_mstate->__pyx_n_u_suspended_weight_at_node, __pyx_mstate->__pyx_n_u_deposited_weight, __pyx_mstate->__pyx_n_u_suspended_dzdt_at_node, __pyx_mstate->__pyx_n_u_outflux_weights_at_node, __pyx_mstate->__pyx_n_u_dx_c, __pyx_mstate->__pyx_n_u_dx_squared_c, __pyx_mstate->__pyx_n_u_sediment_density_c, __pyx_mstate->__pyx_n_u_porosity_c, __pyx_mstate->__pyx_n_u_max_deposition_slope_c, __pyx_mstate->__pyx_n_u_min_suspended_mass_c, __pyx_mstate->__pyx_n_u_shape, __pyx_mstate->__pyx_n_u_grain_mass_at_node, __pyx_mstate->__pyx_n_u_detached_soil_mass_at_node, __pyx_mstate->__pyx_n_u_n_nodes, __pyx_mstate->__pyx_n_u_n_gs, __pyx_mstate->__pyx_n_u_node, __pyx_mstate->__pyx_n_u_gs, __pyx_mstate->__pyx_n_u_dx, __pyx_mstate->__pyx_n_u_dx_squared, __pyx_mstate->__pyx_n_u_sediment_density, __pyx_mstate->__pyx_n_u_porosity, __pyx_mstate->__pyx_n_u_max_deposition_slope, __pyx_mstate->__pyx_n_u_min_suspended_mass, __pyx_mstate->__pyx_n_u_dx_half, __pyx_mstate->__pyx_n_u_max_dep_slope_dx, __pyx_mstate->__pyx_n_u_dt_erosion, __pyx_mstate->__pyx_n_u_dt_deposition_mass, __pyx_mstate->__pyx_n_u_dt_deposition_topo, __pyx_mstate->__pyx_n_u_dt_mass, __pyx_mstate->__pyx_n_u_dt_erosion_mass, __pyx_mstate->__pyx_n_u_stable_erosion_depth, __pyx_mstate->__pyx_n_u_net_erosion, __pyx_mstate->__pyx_n_u_cand, __pyx_mstate->__pyx_n_u_stable_deposition_depth, __pyx_mstate->__pyx_n_u_net_deposition, __pyx_mstate->__pyx_n_u_total_weight_flux, __pyx_mstate->__pyx_n_u_swp_clamped, __pyx_mstate->__pyx_n_u_swp_raw, __pyx_mstate->__pyx_n_u_dep, __pyx_mstate->__pyx_n_u_outflux, __pyx_mstate->__pyx_n_u_det, __pyx_mstate->__pyx_n_u_nodes_losing_mass, __pyx_mstate->__pyx_n_u_found_deposition_mass, __pyx_mstate->__pyx_n_u_found_mass_loss};
+    __pyx_mstate_global->__pyx_codeobj_tab[29] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_cfuncs_ErosionDeposition_pyx, __pyx_mstate->__pyx_n_u_calc_stable_dt, __pyx_mstate->__pyx_kp_b_iso88591_J_uAQ_E_Q_Q_1_1_q_Q_Rq_8_Q_Q_Q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[29])) goto bad;
   }
   Py_DECREF(tuple_dedup_map);
   return 0;
@@ -43133,7 +43023,7 @@ static const char* __Pyx_BufFmt_CheckString(__Pyx_BufFmt_Context* ctx, const cha
     return -1;
   }
   
-/* BufferIndexError (used by BufferIndexErrorNogil) */
+/* BufferIndexError */
   static void __Pyx_RaiseBufferIndexError(int axis) {
     PyErr_Format(PyExc_IndexError,
        "Out of bounds on buffer access (axis %d)", axis);
